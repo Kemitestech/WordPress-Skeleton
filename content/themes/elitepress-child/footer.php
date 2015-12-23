@@ -9,7 +9,7 @@
 			if ( is_active_sidebar( 'footer_widget_area' ) )
 			{ dynamic_sidebar( 'footer_widget_area' );	}
 			?>
-			</div>
+		</div>
 		<!-- /Footer Widget -->	
 		</div>
 
@@ -25,6 +25,8 @@ if($current_options['webrit_custom_css']!='') {  ?>
 <!-- Footer Copyright Section -->
 <div class="footer-copyright-section">
 	<div class="container">
+		<div>
+		</div>
 		<div class="row">
 			<div class="col-md-7">
 				<div class="footer-copyright">

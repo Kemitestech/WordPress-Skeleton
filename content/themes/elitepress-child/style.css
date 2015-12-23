@@ -99,5 +99,11 @@
 	margin: 0 0 50px;
 }
 	
-
+.footer-widget-column > ul > li > a:before{
+	font-family: FontAwesome;
+    margin-right: 9px;
+    content: none !important;
+	font-size: 6px;
+	color:hsl(5, 87%, 65%);
+}
 
