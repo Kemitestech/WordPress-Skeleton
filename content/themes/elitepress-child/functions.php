@@ -8,6 +8,7 @@ define('WEBRITI_TEMPLATE_DIR',get_template_directory());
 define('WEBRITI_THEME_FUNCTIONS_PATH',WEBRITI_TEMPLATE_DIR.'/functions');
 
 require_once( WEBRITI_THEME_FUNCTIONS_PATH . '/scripts/scripts.php');
+require( WEBRITI_THEME_FUNCTIONS_PATH . '/widget/custom-sidebar.php');
 
 add_action ('wp_enqueue_scripts','theme_enqueue_style');
 function theme_enqueue_style() {
