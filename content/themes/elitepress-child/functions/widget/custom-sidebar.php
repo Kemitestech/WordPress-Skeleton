@@ -18,7 +18,7 @@ register_sidebar( array(
 		'before_widget' => '<div class="col-md-4 col-sm-6 footer-widget-column">',
 		'after_widget' => '</div>',
 		'before_title' => '<h3 class="footer-widget-title">',
-		'after_title' => '<i class="fa fa-circle"></i></h3>',
+		'after_title' => '</h3>',
 ) );
 }                     
 ?>
