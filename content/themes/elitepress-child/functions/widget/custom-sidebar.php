@@ -1,6 +1,6 @@
 <?php	
-add_action( 'widgets_init', 'elitepress_widgets_init');
-function elitepress_widgets_init() {
+add_action( 'widgets_init', 'my_widgets_init');
+function my_widgets_init() {
 /*sidebar*/
 register_sidebar( array(
 		'name' => __( 'Sidebar Widget Area', 'elitepress' ),
