@@ -19,7 +19,9 @@ function theme_enqueue_style() {
 
 function my_bp_core_activated_user(  $user_id, $key, $user ) {
 	$user = get_user_by('id', $user_id);
-	$user->add_role('vendor');
+	if (in_array('s2member_level1', $user->roles)){
+				$user->add_role('vendor');
+	}
 };
 add_action( 'bp_core_activated_user', 'my_bp_core_activated_user', 10, 3 );
 
