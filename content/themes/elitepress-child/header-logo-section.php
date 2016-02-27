@@ -6,7 +6,7 @@
 	 if($current_options['logo_section_settings']=='on') { ?>
 			<div class="col-md-8">
 				<div class="site-logo">
-					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="The Arches Project">
+					<a style="display:block; height: 100%;" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="The Arches Project">
 					<?php
 						if($current_options['text_title'] =="on") //If the value of 'text_title' in the 'current_options' array equals 'on' then the following line of code within the if statement block will be output to the DOM
 						{ echo "<div class=elitepress_title_head>" . get_bloginfo( ). "</div>"; }//Since there is no text_title selected in the options panel then nothing will be displayed
@@ -26,7 +26,7 @@
 							<a class="my-btn my-btn-default btn-apply my-btn-lg" href="<?php echo wp_login_url(); ?>" role="button">Login</a>
 						<?php } ?>
 
-						<a class="my-btn my-btn-default btn-apply my-btn-lg" href="<?php echo home_url();?>/donate" 
+						<a class="my-btn my-btn-default btn-apply my-btn-lg" href="<?php echo home_url();?>/donate"
 role="button">Donate</a>
 
 
