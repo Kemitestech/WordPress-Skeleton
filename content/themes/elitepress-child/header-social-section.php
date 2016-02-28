@@ -32,11 +32,11 @@
 					if($current_options['social_media_pagelines_link']!='') { ?>
 					<li class="pagelines"><a href="<?php echo esc_url($current_options['social_media_pagelines_link']); ?>" <?php if($current_options['pagelines_media_enabled']=='on'){ echo "target='_blank'"; } ?> ><i class="fa fa-pagelines"></i></a></li>
 					<?php } ?>
-				</ul>				
+				</ul>
 			</div>
 			<?php } ?>
 			<div class="col-md-6">
-				<div class="clear"></div>
+				
 			<?php if($current_options['contact_address_settings']=='on') { ?>
 				<ul class="head-contact-info">
 					<?php if($current_options['contact_email']){ ?>
@@ -50,8 +50,8 @@
 					<?php } ?>
 				</ul>
 			</div>
-			<?php } ?>	
-		</div>		
+			<?php } ?>
+		</div>
 	</div>
 	<!-- /Header social & Contact Info -->
-<div class="head-topbar"></div>	
+<div class="head-topbar"></div>
