@@ -99,34 +99,45 @@ function mpp_custom_restrict( $enabled, $component, $component_id ) {
 }
 add_filter( 'mpp_is_enabled', 'mpp_custom_restrict', 10, 3);
 
-//function filter_send_message_btn() {//Hides private message from customers and subscribers
-//  if ( ! current_user_can('access_s2member_level1' ) ) {
-//      	$args = array(
-//      		'id'                => '',
-//      		'component'         => 'messages',
-//      		'must_be_logged_in' => true,
-//      		'block_self'        => false,
-//      		'wrapper_id'        => '',
-//      		'link_href'         => '',
-//      		'link_title'        => __( '', 'buddypress' ),
-//      		'link_text'         => __( '', 'buddypress' ),
-//      		'link_class'        => '',
-//      	);
+function filter_send_message_btn() {//Hides private message from customers and subscribers
+  if ( ! current_user_can('access_s2member_level1' ) ) {
+      	$args = array(
+      		'id'                => '',
+      		'component'         => 'messages',
+      		'must_be_logged_in' => true,
+      		'block_self'        => false,
+      		'wrapper_id'        => '',
+      		'link_href'         => '',
+      		'link_title'        => __( '', 'buddypress' ),
+      		'link_text'         => __( '', 'buddypress' ),
+      		'link_class'        => '',
+      	);
 
-//   }else{
-//       $args = array(
-//  			'id'                => 'private_message',
-//  			'component'         => 'messages',
-//  			'must_be_logged_in' => true,
-//  			'block_self'        => true,
-//  			'wrapper_id'        => 'send-private-message',
-//  			'link_href'         => bp_get_send_private_message_link(),
-//  			'link_title'        => __( 'Send a private message to this user.', 'buddypress' ),
-//  			'link_text'         => __( 'Private Message', 'buddypress' ),
-//  			'link_class'        => 'send-message',
-//		);
-//  }
-//   return $args;
- //}
-//add_filter('bp_get_send_message_button_args', 'filter_send_message_btn');
+   }else{
+       $args = array(
+  			'id'                => 'private_message',
+  			'component'         => 'messages',
+  			'must_be_logged_in' => true,
+  			'block_self'        => true,
+  			'wrapper_id'        => 'send-private-message',
+  			'link_href'         => bp_get_send_private_message_link(),
+  			'link_title'        => __( 'Send a private message to this user.', 'buddypress' ),
+   			'link_text'         => __( 'Private Message', 'buddypress' ),
+   			'link_class'        => 'send-message',
+ 		);
+  }
+    return $args;
+ }
+add_filter('bp_get_send_message_button_args', 'filter_send_message_btn');
+
+function bp_remove_nav_tabs() {//removes the following tabs for non-members: activity, friends, groups, products 
+global $bp;
+if(!current_user_can('access_s2member_level1')){
+bp_core_remove_nav_item( 'activity' );
+bp_core_remove_nav_item( 'friends' );
+bp_core_remove_nav_item( 'groups' );
+bp_core_remove_nav_item( 'products' );
+}
+}
+add_action( 'bp_setup_nav', 'bp_remove_nav_tabs', 15 );
 ?>
