@@ -130,14 +130,17 @@ function filter_send_message_btn() {//Hides private message from customers and s
  }
 add_filter('bp_get_send_message_button_args', 'filter_send_message_btn');
 
-function bp_remove_nav_tabs() {//removes the following tabs for non-members: activity, friends, groups, products 
-global $bp;
-if(!current_user_can('access_s2member_level1')){
-bp_core_remove_nav_item( 'activity' );
-bp_core_remove_nav_item( 'friends' );
-bp_core_remove_nav_item( 'groups' );
-bp_core_remove_nav_item( 'products' );
-}
+function bp_remove_nav_tabs() {//removes the following tabs for non-members: activity, friends, groups, products
+  global $bp;
+  if(!current_user_can('access_s2member_level1')){
+    bp_core_remove_nav_item( 'activity' );
+    bp_core_remove_nav_item( 'friends' );
+    bp_core_remove_nav_item( 'groups' );
+    bp_core_remove_nav_item( 'products' );
+    if(isset($bp->groups->current_group->slug) && $bp->groups->current_group->slug == $bp->current_item) {
+        $bp->bp_options_nav[$bp->groups->current_group->slug]['home'] = false;
+    }
+  }
 }
 add_action( 'bp_setup_nav', 'bp_remove_nav_tabs', 15 );
 ?>
