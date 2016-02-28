@@ -79,6 +79,7 @@ h1, h2, h3, h4, h5 {
 
  .site-logo {
   margin: 5px 14px;
+  text-align: center;
 }
 
 .site-logo img{
@@ -86,7 +87,6 @@ h1, h2, h3, h4, h5 {
 	margin-bottom: 10px;
   float: left;
 }
-
 /*header button Css---------------------------------------------------------------------------------------------------*/
 #header-btn-container {
 	margin-right: 56px;
@@ -309,16 +309,28 @@ p {
 #header-btn-container {
 	float: none;
 	display: block;
-	margin: 25px auto;
+	margin: 0px 0px 25px 25px;
+}
+
+.site-logo a {
+  display:inline-block;
+  height: 100%;
 }
 
 #header-btn-container a:first-child {
-    margin-right: 0px;
+  margin-right: 0px;
 	margin-left: 10px;
 }
 #header-btn-container a {
     margin-top: 10px;
 }
+}
+
+@media (min-width : 640px) and (max-width : 768px){
+  #header-btn-container {
+  	float: none;
+  	margin-right: 16px;
+  }
 }
 
 #about-text a:hover{
@@ -703,5 +715,10 @@ visibility: visible !important;
 }
 
 #product_images_container > label.error {
-  color: red;
+  color: blue;
+}
+
+#gall-link{
+  cursor: default;
+  color: #333;
 }
