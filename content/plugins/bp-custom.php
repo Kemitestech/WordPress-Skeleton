@@ -99,28 +99,6 @@ function mpp_custom_restrict( $enabled, $component, $component_id ) {
 }
 add_filter( 'mpp_is_enabled', 'mpp_custom_restrict', 10, 3);
 
-
-function buddydev_friends_only_activity_args( $args ) {//Makes activity friend only
-
-    if( ! bp_is_activity_directory() || !  is_user_logged_in() ) {
-        return $args;
-    }
-
-    $user_id = get_current_user_id();
-
-    $user_ids = friends_get_friend_user_ids( $user_id );
-
-    //include users own too?
-    array_push( $user_ids, $user_id );
-
-    $args['user_id'] = $user_ids;
-
-    //print_r($args);
-    return $args;
-
-}
-add_filter( 'bp_after_has_activities_parse_args', 'buddydev_friends_only_activity_args' );
-
 //function filter_send_message_btn() {//Hides private message from customers and subscribers
 //  if ( ! current_user_can('access_s2member_level1' ) ) {
 //      	$args = array(
