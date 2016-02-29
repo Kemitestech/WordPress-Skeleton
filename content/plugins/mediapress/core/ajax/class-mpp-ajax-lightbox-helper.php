@@ -59,8 +59,8 @@ class MPP_Ajax_Lightbox_Helper {
 		if ( $gallery->component == 'groups' && function_exists( 'bp_is_active' ) && bp_is_active( 'groups' ) ) {
 			//if( empty( buddypress()->groups))
 		}
-		
-		$media_query = new MPP_Media_Query( array( 'in' => $media_ids ) );
+
+		$media_query = new MPP_Media_Query( array( 'in' => $media_ids,'per_page'=> 0 ) );
 		
 		if ( $media_query->have_media() ):
 			?>
@@ -94,7 +94,7 @@ class MPP_Ajax_Lightbox_Helper {
 		
 		$statuses = mpp_get_accessible_statuses( $gallery->component, $gallery->component_id, get_current_user_id() );
 		
-		$media_query = new MPP_Media_Query( array( 'gallery_id' => $gallery_id, 'posts_per_page' => -1, 'status' => $statuses ) );
+		$media_query = new MPP_Media_Query( array( 'gallery_id' => $gallery_id, 'per_page' => 0, 'status' => $statuses ) );
 		
 		if ( $media_query->have_media() ):
 			?>
