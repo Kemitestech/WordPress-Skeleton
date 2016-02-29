@@ -1,0 +1,1473 @@
+/* 
+
+    Stylesheet for event pages, list 1
+
+*/
+
+#event_list_wrapper{
+
+    border: 0px solid #e8e8e8;
+    display: block;
+    padding:5px;
+    width: auto;
+
+}
+.event_wrapper{
+
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    padding: 5px;
+    /*box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);*/
+
+
+}
+.event_wrapper .event_thumbnail{
+    float: left;
+    width: 160px;
+    padding: 0;
+    margin: 5px;
+
+}
+.event_wrapper .event_thumbnail img{
+    -moz-box-shadow: 5px 5px 5px #ccc;
+    -webkit-box-shadow: 5px 5px 5px #ccc;
+    box-shadow: 5px 5px 5px #ccc;
+}
+.event_wrapper .col_left{
+    width: 65%;
+    float: left;
+
+}
+
+.event_wrapper .col_right{
+    width: 30%;
+    float: right;
+    background-color:  #fff;
+    font-size: 1em;
+}
+
+
+.event_wrapper .event_title a{
+    font-size: 18px;
+    text-decoration: none;
+    display: block;
+}
+
+.event_wrapper .event_description{
+    margin: 3px 10px;
+    font-size: 12px;
+
+
+}
+
+.event_wrapper .event_description p{
+    /*margin: 0*/
+}
+
+.event_wrapper .event_dates,
+.event_wrapper .event_times,
+.event_wrapper .event_prices{
+
+    float: left;
+    margin: 5px;
+}
+
+.event_wrapper .event_location, .event_wrapper .event_organization{
+
+    margin: 10px 20px;
+}
+
+.event_wrapper .event_location .heading, .event_wrapper .event_organization .heading{
+
+    display: block;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: -5px;
+}
+
+
+.event_wrapper .event_dates span,
+.event_wrapper .event_times span,
+.event_wrapper .event_prices span{
+
+    margin: 3px;
+    font-size: 11px;
+}
+
+.event_wrapper table{
+    border: 1px solid #ccc;
+}
+.event_wrapper table th,
+.event_wrapper table td {
+    padding: 5px;
+    text-transform: none;
+}
+
+
+
+.event_wrapper .register_button_wrapper {
+    clear: both;
+    bottom:10px;
+    right:10px;
+}
+.event_wrapper .register_button_wrapper a
+{
+    float: right;
+    margin: 10px;
+}
+#event_list_wrapper table {
+    margin: 0;
+    font-size: 11px;
+    margin: 3px;
+}
+
+.epl_button_wrapper {
+    text-align: right;
+}
+
+.regis_form{
+    margin:0 auto;
+
+}
+.epl_show_gmap {
+    border:none;
+    cursor: pointer;
+    display: inline;
+}
+
+/*
+* Event list 2
+*/
+
+#event_list2_wrapper table td {
+    vertical-align: top;
+}
+/*************************
+    cart secton
+    @ since 1.0
+**************************/
+.epl_cart_wrapper {
+    color:#000;
+
+}
+.epl_cart_wrapper .epl_section_header {
+    font-weight: bold;
+    display: block;
+
+    padding: 0 5px;
+    font-size: 1.1em;
+    text-shadow: 0px 1px 0px #fff;
+}
+
+
+
+.epl_cart_wrapper .epl_individual_event_wrapper,
+.epl_cart_wrapper #epl_discount_wrapper,
+.epl_cart_wrapper #epl_donation_wrapper {
+    padding:5px;
+    margin-bottom:10px;
+    overflow: hidden;
+    /*border:1px solid #d5d5d5;*/
+    box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+    font-size: 0.9em;
+}
+
+.epl_cart_wrapper .epl_individual_event_wrapper table,
+.epl_cart_wrapper .epl_individual_event_wrapper table td{
+    border-top: none;
+    border-bottom: none;
+    margin: 0;
+
+}
+
+.epl_cart_wrapper .epl_individual_event_wrapper .epl_event_title{
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.epl_cart_wrapper .epl_individual_event_wrapper:hover ,
+.epl_cart_wrapper #epl_cart_totals_wrapper:hover ,
+.epl_cart_wrapper #epl_payment_choices_wrapper:hover ,
+.epl_cart_wrapper #epl_discount_wrapper:hover ,
+.epl_cart_wrapper #epl_donation_wrapper:hover {
+    box-shadow: 0 1px 4px rgba(0,0,0,0.3);
+}
+
+
+.epl_cart_wrapper .epl_individual_event_wrapper .epl_cart_controls {text-align: right; float: right;}
+.epl_cart_controls a{
+    opacity: 0.5;
+    margin: 0 1px; 
+    padding: 2px;
+    font-size: 0.8em;
+}
+
+.epl_cart_wrapper .epl_individual_event_wrapper:hover .epl_cart_controls a{
+    opacity:1;
+    background-color: #dededd;
+}
+
+.epl_cart_wrapper .epl_cart_dates_body {
+    max-height: 250px;
+    overflow: auto;
+}
+
+.epl_cart_wrapper .epl_section {
+
+    clear: both;
+    overflow: auto;
+    -moz-border-radius: 3px;
+    -webkit-border-radius:3px;
+    border-radius: 0;
+    margin-bottom: 3px;
+    cursor: auto;
+    padding: 0;
+    float: none !important;
+    width: auto !important;
+    margin-bottom: 5px;
+
+}
+
+.epl_cart_wrapper select {
+    width: auto;
+}
+
+.epl_times_wrapper{
+    padding: 3px;
+    margin:5px 0;
+    width: 98%;
+}
+
+.epl_ind_time_wrapper, .epl_ind_price_wrapper {
+    padding: 3px;
+
+    margin:0 0 10px 20px;
+}
+
+
+.epl_cart_section {
+    padding:5px;
+    border: 0px solid #ddd;
+    margin-bottom: 10px;
+
+
+}
+.epl_cart_wrapper .event_name {
+
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+.epl_cart_wrapper .epl_date_extra {
+    margin: 0;
+    padding: 2px 25px;
+    font-style: italic;
+    font-size: 13px;
+}
+
+.epl_regis_attendee_wrapper {
+
+    margin-bottom: 10px;
+    padding: 3px 10px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+
+}
+.epl_regis_attendee_wrapper fieldset {
+    border:none;
+    clear: both;
+}
+.epl_regis_attendee_wrapper legend
+{
+
+    font-size:1.2em;
+    margin:0px;
+    padding:1px 0 1px;
+    color:#333;
+    font-weight:bold;
+    display: block;
+
+}
+
+.epl_totals_table, .epl_avail_spaces_table {
+    float: left;
+    width: 100%;
+    border: none !important;
+    margin: 0 !important;
+
+}
+
+.epl_totals_table {
+    width: 50% !important;
+    float: right !important;
+    clear: both;
+    border-top: 1px solid #e7e7e7 !important;
+}
+.epl_totals_table td{
+    border: none;
+}
+
+.epl_totals_table span.discount_description{
+    font-size: 0.8em;
+
+}
+.epl_prices_table {
+    border: none;
+    width: 100%;
+    margin: 10px auto !important;
+}
+.epl_prices_table th, .epl_prices_table td, .epl_avail_spaces_table td{
+    /*border-bottom: 1px solid #ccc;*/
+    padding: 1px 5px;
+    text-align: left;
+    border: none !important;
+}
+
+.epl_prices_table th, .epl_avail_spaces_table th{
+    color: #333;
+    background-color: #f5f5f5;
+    text-shadow: 0px 1px 0px #fff;
+    padding: 2px;
+    text-transform: none;
+    line-height: inherit;
+}
+
+.epl_prices_table tr:last-child td{
+    /*border-bottom:none !important;*/
+}
+
+.epl_prices_table td {
+    font-size: 0.9em;
+    border: none;
+
+}
+.epl_payment_options .pay_choice_field em {
+    display: none;
+}
+
+.event_wrapper .epl_instructor_dl {
+    margin: 0;
+    width: 95% !important;
+
+}
+.event_wrapper .epl_instructor_dl dt{
+    padding: 1px 10px;
+}
+.event_wrapper .epl_instructor_dl dd {
+    margin: 0;
+    padding:1px 15px;
+}
+.epl_total_price {
+    font-weight: bold;
+}
+
+#epl_cart_totals_wrapper, .epl_totals_wrapper {
+
+    box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+    padding: 20px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+#epl_cart_totals_wrapper table{
+
+    width: 100%;
+}
+
+#epl_cart_totals_wrapper table, #epl_cart_totals_wrapper td{
+
+    border-bottom: none !important;
+    border-top: none !important;
+    margin: 0;
+    padding: 0;
+
+}
+
+#epl_cart_totals_wrapper tr td{
+    border-bottom: 1px solid #eee !important;
+}
+#epl_cart_totals_wrapper #epl_cart_totals_table {
+    margin-top: 20px;
+
+}
+
+.epl_totals_wrapper table td{
+    padding:4px 10px;
+    border:none;
+    font-size: 0.9em;
+}
+.epl_grand_total td {
+    /*    font-size: 1.4em;*/
+    border: none;
+}
+
+#epl_payment_choices_wrapper {
+    box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+#epl_payment_choices_wrapper .individual_pay_choice{
+    background-color: #ccc;
+    margin-bottom: 5px;
+    display: block;
+    padding:10px;
+    width: 100%;
+
+}
+
+.epl_payment_options {
+    border: none !important;
+    margin: 5px !important;
+}
+.epl_payment_options tr:hover{
+    background-color: #f9f9f9;
+}
+.epl_payment_options td{
+    border: none;
+    vertical-align: middle;
+    padding: 2px;
+    height: 35px;
+}
+
+.epl_date_individual_date_wrapper {
+    padding: 3px 0 0 1px;
+    margin: 0;
+}
+
+.epl_date_individual_date_wrapper:hover {
+    /*background-color: #eee;*/
+}
+/******************
+end cart section
+*******************/
+/*
+* Upcoming Events widget
+    @since 1.0
+*/
+
+.epl_upcoming_event_list{
+    list-style: none;
+    width: 230px;
+    margin: 0 !important;
+
+}
+
+.epl_upcoming_event_list li{
+
+    border-bottom: 1px solid #eee;
+    color: #000;
+    margin: 3px 0;
+    padding:0;
+    overflow: hidden;
+}
+
+.epl_upcoming_event_list li:hover{
+    background-color: #f1f1f1;
+
+
+}
+
+.epl_upcoming_event_list .epl_event_date{
+
+    font-size: 9px;
+}
+
+.epl_upcoming_event_list .event_details{
+    font-size: 1.1em;
+    padding: 3px;
+}
+.epl_upcoming_event_list .event_details a{
+    font-weight: normal;
+}
+
+.arrow-left {
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+
+    border-left:10px solid blue;
+}
+
+
+/*
+http://blog.krazyyak.com/a-fancy-calendar-icon-with-just-css-html
+*/
+
+.epl-ue-widget-calendar { width: 40px; font-size: 1em;
+                          -webkit-border-radius: 1px; -moz-border-radius: 1px; border-radius: 1px;
+                          box-shadow: 0 0 2px #05587e; -moz-box-shadow: 0 0 2px #05587e; -webkit-box-shadow: 0 0 2px #05587e;
+                          float: left;
+                          margin: 5px;
+}
+
+.epl-ue-widget-calendar > span { display: block; }
+
+.epl-ue-widget-calendar > .month { text-align: center; padding: 1px; font-size: 0.8em;
+                                   background: #6086a6; color: #fff; font-weight: bold;
+                                   -webkit-border-top-left-radius: 1px; -moz-border-radius-topleft: 1px;
+                                   -webkit-border-top-right-radius: 1px; -moz-border-radius-topright: 1px;
+                                   text-shadow: 0 1px #000;
+                                   background: -webkit-gradient(linear, left top, left bottom, from(#acc0d1), to(#6086a6));
+                                   background: -moz-linear-gradient(top, #acc0d1, #6086a6);
+                                   line-height: 16px;
+}
+
+.epl-ue-widget-calendar > .day { text-align: center; font-weight: bold; font-size: 1em;
+                                 background: #fff;
+                                 -webkit-border-bottom-left-radius:  1px;
+                                 -moz-border-radius-bottomleft:      1px;
+                                 -webkit-border-bottom-right-radius: 1px;
+                                 -moz-border-radius-bottomright:     1px;
+                                 background: -webkit-gradient(linear, left top, left bottom, from(#405b72), to(#e6e6e6), color-stop(.08,#f9f9f9));
+                                 background: -moz-linear-gradient(top, #f9f9f9, #e6e6e6);
+}
+
+/*
+* End Upcoming Events widget
+*/
+
+/* Start Registration Form Style
+    @since 1.0
+    http://woork.blogspot.com/2008/06/clean-and-pure-css-form-design.html
+*/
+.epl_regis_field_wrapper{
+    /*    border:solid 1px #ccc;*/
+
+    margin-bottom: 15px;
+}
+/*
+.epl_regis_field_wrapper .row_wrapper{
+    margin: 0;
+    border-bottom: 1px solid #ccc;
+    padding: 3px 0;
+    display: block;
+    clear: both;
+}
+.epl_regis_field_wrapper .row_wrapper:last-child{
+    border-bottom: 0;
+}
+.epl_regis_field_wrapper .epl_header{
+    background-color: #eee;
+    text-shadow: 0px 1px 0px #fff;
+}
+.epl_regis_field_wrapper h1, 
+.epl_regis_field_wrapper h2 {
+
+    font-size:14px;
+    font-weight:bold;
+    padding: 2px;
+    clear:  none;
+    margin: 0;
+
+}
+.epl_regis_field_wrapper h2 {
+    margin-left: 5px;
+
+}
+
+.epl_regis_field_wrapper .field_wrapper{
+    float: left;
+}
+.epl_regis_field_wrapper p{
+    font-size:11px;
+    color:#666666;
+    border-bottom:solid 1px #ccc;
+    margin: 0;
+
+}
+.epl_regis_field_wrapper label{
+    color: #555;
+    display:block;
+    text-align:right;
+    width:150px;
+    float:left;
+    margin-right: 10px;
+}
+
+.epl_regis_field_wrapper label.error {
+    float: right;
+    color: red;
+    background: transparent url('../images/error.png') no-repeat left center;
+    margin-left: 10px;
+    padding-left: 18px;
+    text-align: left;
+
+}
+
+.epl_regis_field_wrapper small{
+    color:#666666;
+    display:block;
+    font-size:11px;
+    font-weight:normal;
+    margin:2px 0 2px 160px;
+    text-align:left;
+    width:auto;
+    clear: both;
+
+}
+
+
+
+.epl_regis_field_wrapper div.value{
+    border-bottom: none;
+    color:  #333;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.epl_regis_field_wrapper input[type="text"], 
+.epl_regis_field_wrapper select, 
+.epl_regis_field_wrapper textarea{
+    float:left;
+    font-size:12px;
+    padding:4px 2px;
+    border:solid 1px #aacfe4;
+    width:200px;
+    margin:2px 0 5px 0;
+}
+.epl_regis_field_wrapper submit{
+    clear:both;
+    margin-left:150px;
+    width:125px;
+    height:31px;
+    background-color: #666666 ;
+    text-align:center;
+    line-height:31px;
+    color:#FFFFFF;
+    font-size:11px;
+    font-weight:bold;
+}
+*/
+
+/*
+http://codepen.io/chriscoyier/pen/DmnlJ 
+*/
+
+
+.epl_regis_field_wrapper header {
+    margin: 0 0 20px 0; 
+}
+.epl_regis_field_wrapper header div {
+    font-size: 90%;
+    color: #999;
+}
+.epl_regis_field_wrapper header h2 {
+    margin: 0 0 5px 0;
+    font-size: 12px;
+}
+.epl_regis_field_wrapper > div {
+    clear: both;
+    overflow: hidden;
+    padding: 1px;
+    margin: 0 0 5px 0;
+}
+.epl_regis_field_wrapper > div > fieldset > div > div {
+    margin: 0 0 5px 0;
+}
+.epl_regis_field_wrapper > div > label,
+.epl_regis_field_wrapper legend {
+    width: 25%;
+    float: left;
+    padding-right: 10px;
+}
+.epl_regis_field_wrapper > div > div,
+.epl_regis_field_wrapper > div > fieldset > div {
+    width: 70%;
+    float: right;
+}
+.epl_regis_field_wrapper > div > fieldset label {
+    font-size: 90%;
+}
+.epl_regis_field_wrapper fieldset {
+    border: 0;
+    padding: 0;
+}
+
+.epl_regis_field_wrapper input[type=text],
+.epl_regis_field_wrapper input[type=email],
+.epl_regis_field_wrapper input[type=url],
+.epl_regis_field_wrapper input[type=password],
+.epl_regis_field_wrapper textarea,
+.epl_regis_field_wrapper select
+{
+    width: 100%;
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+
+    border-radius: 0;
+    font-family: inherit;
+    padding: 6px;
+
+}
+
+.epl_regis_field_wrapper input[type=text],
+.epl_regis_field_wrapper input[type=email],
+.epl_regis_field_wrapper input[type=url],
+.epl_regis_field_wrapper input[type=password], 
+.epl_regis_field_wrapper select {
+    width: 50%;
+}
+
+.epl_regis_field_wrapper input[type=text]:focus,
+.epl_regis_field_wrapper input[type=email]:focus,
+.epl_regis_field_wrapper input[type=url]:focus,
+.epl_regis_field_wrapper input[type=password]:focus,
+.epl_regis_field_wrapper textarea:focus,
+.epl_regis_field_wrapper select:focus{
+    outline: 0;
+    border-color: #4697e4;
+}
+
+.epl_regis_field_wrapper label.error {
+    float: right;
+    color: red;
+    background: transparent url('../images/error.png') no-repeat left center;
+    margin-left: 10px;
+    padding-left: 18px;
+    text-align: left;
+    font-size: 12px;
+
+}
+.epl_regis_field_wrapper small {
+    display: block;
+}
+
+@media (max-width: 600px) {
+    .epl_regis_field_wrapper > div {
+        margin: 0 0 5px 0; 
+    }
+    .epl_regis_field_wrapper > div > label,
+    .epl_regis_field_wrapper legend {
+        width: 100%;
+        float: none;
+        margin: 0 0 5px 0;
+    }
+    .epl_regis_field_wrapper > div > div,
+    .epl_regis_field_wrapper > div > fieldset > div {
+        width: 100%;
+        float: none;
+    }
+    .epl_regis_field_wrapper input[type=text],
+    .epl_regis_field_wrapper input[type=email],
+    .epl_regis_field_wrapper input[type=url],
+    .epl_regis_field_wrapper input[type=password],
+    .epl_regis_field_wrapper textarea,
+    .epl_regis_field_wrapper select {
+        width: 95%; 
+    }
+}
+@media (min-width: 1200px) {
+    .epl_regis_field_wrapper > div > label,
+    .epl_regis_field_wrapper legend {
+        text-align: right;
+    }
+}
+
+/*
+* End Registration Page Style
+*/
+
+/* Thank you page */
+
+.epl_thank_you_page .thank_you_message{
+
+    background-color:  #cbe883;
+    font-size: 16px;
+    padding: 7px;
+    text-shadow: 0px 1px 0px #fff;
+}
+
+.epl_thank_you_page .event_name{
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+    width: 100%;
+}
+.epl_thank_you_page .address_section{
+    float: left;
+}
+
+.epl_thank_you_page .date_section{
+    float: right;
+    padding: 10px;
+
+    width: auto;
+    margin-right: 10px;
+}
+
+.epl_thank_you_page .time_section{
+    float: right;
+    padding: 10px;
+
+    margin-right: 10px;
+}
+
+/* End Thank you Page */
+
+.epl_rounded_corners_5{
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.epl_rounded_corners_10{
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+/* http://johnsardine.com/freebies/dl-html-css/pretty-little-calendar-css3/ */
+
+
+.epl-adv-calendar {
+    color: #666;
+    font-size: 12px;
+    -webkit-box-shadow: 0 1px 5px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0 1px 5px rgba(0,0,0,0.3);
+    box-shadow: 0 1px 5px rgba(0,0,0,0.3);
+    width: 230px;
+}
+
+.epl-adv-calendar a {    color: #467b89 }
+
+.epl-adv-calendar caption {
+    background: #383838;
+    color: #e0e0e0;
+    font-size: 14px;
+    padding: 10px 0;
+    text-align: center;
+    text-shadow: 0 -1px 0 #000;
+    -webkit-box-shadow: inset 0 1px 0 #484848, 0 -1px 5px rgba(0,0,0,0.3);
+    -moz-box-shadow: inset 0 1px 0 #484848, 0 -1px 5px rgba(0,0,0,0.3);
+    box-shadow: inset 0 1px 0 #484848, 0 -1px 5px rgba(0,0,0,0.3);
+    border: 1px solid #373737;
+    z-index: -99;
+}
+
+.epl-adv-calendar th {
+    font-size: 11px;
+    font-weight: bold;
+    padding: 5px 0;
+    color: #666;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+    border-bottom: 1px solid #bbbbbb;
+    background: #f7f7f7;
+    background: -webkit-gradient(linear, left top, left bottom, from(#f7f7f7), to(#f1f1f1));
+    background: -moz-linear-gradient(top,  #f7f7f7,  #f1f1f1);
+}
+
+.epl-adv-calendar tbody td {
+    color: #666;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid;
+    border-color: #fff #bbbbbb #bbbbbb #fff;
+    background: #ededed;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ededed), to(#dedede));
+    background: -moz-linear-gradient(top,  #ededed,  #dedede);
+}
+
+.epl-adv-calendar tbody td:hover {
+    background: #ededed;
+    background: -webkit-gradient(linear, left top, left bottom, from(#dedede), to(#ededed));
+    background: -moz-linear-gradient(top, #dedede, #ededed);
+}
+
+.epl-adv-calendar tbody td.pad {
+    background: #f5f5f5;
+    background: -webkit-gradient(linear, left top, left bottom, from(#f5f5f5), to(#ececec));
+    background: -moz-linear-gradient(top,  #f5f5f5,  #ececec);
+}
+
+.epl-adv-calendar tfoot {
+    color: #e0e0e0;
+    font-size: 12px;
+    text-align: center;
+}
+
+.epl-adv-calendar tfoot tr {
+    background: #f5f5f5;
+    background: -webkit-gradient(linear, left top, left bottom, from(#f5f5f5), to(#ececec));
+    background: -moz-linear-gradient(top,  #f5f5f5,  #ececec);
+}
+
+.epl-adv-calendar tfoot td {    padding: 10px 10px }
+
+.epl-adv-calendar tfoot a {
+    color: #666;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+}
+
+.epl-adv-calendar tfoot td#prev {    text-align: left }
+
+.epl-adv-calendar tfoot td#next {    text-align: right }
+
+.epl-adv-calendar .today {
+    color: #fff;
+    /*border: 1px solid #b4f7ff;*/
+    text-shadow: 0 1px 0 rgba(0,0,0,0.3);
+    background: #fff;
+    background: -moz-radial-gradient(50% 50% 0deg,ellipse cover, #6eafbf, #569EB1);
+    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 20, from(#6eafbf), to(#569EB1));
+}
+
+.epl-adv-calendar .day_listing, .epl-adv-calendar .day_listing_content {
+
+    background: none;
+    padding-top: 2px;
+    text-align: center;
+    width:100%;
+    height:100%;
+    color:#333;
+    text-decoration:none;
+    text-align: center;
+}
+
+.epl-adv-calendar .day_listing_content, .epl-adv-calendar .today{
+
+    cursor: pointer;
+    font-size: 16px;
+    color: blue;
+
+}
+
+.epl-adv-calendar #today, .epl-adv-calendar .today{
+    border: none;
+    background-color: #fff;
+    color: blue;
+}
+
+
+/* the box that slides down under the calendar */
+.calendar_slide {
+    min-height:10px;
+    background-color:#f2f2f2;
+    position:absolute;
+    z-index:3;
+    width:220px;
+    -webkit-box-shadow: 0 1px 5px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0 1px 5px rgba(0,0,0,0.3);
+    box-shadow: 0 1px 5px rgba(0,0,0,0.3);
+    display: none;
+    padding: 5px;
+    font-size: 1.1em;
+    text-align: center;
+}
+
+.calendar_slide .epl_date {
+    font-weight: bold;
+}
+
+.calendar_slide .event_name {
+    font-weight: bold;
+    font-size: 1.4em;
+
+}
+.calendar_slide dl {
+    margin: 0 ;
+}
+.calendar_slide dt {
+    text-align: left;
+}
+.calendar_slide dd {
+    margin-bottom: 5px !important;
+    border-bottom: 1px solid #ddd;
+    text-align: right;
+}
+.calendar_slide dl:hover {
+    background-color: #eee;
+}
+.close_calendar_slide {
+    bottom:0;
+    font-size: 0.8em;
+    display: block;
+    cursor: pointer;
+}
+
+/* End Advanced cal widget style */
+
+/*
+Available Spaces Table
+@since 1.0
+*/
+
+.epl_avail_spaces_table {
+    padding: 2px;
+    font-size: 0.8em;
+    /*width: 300px !important;*/
+    margin:10px auto !important;
+}
+.epl_avail_spaces_table tr:hover{
+    background-color: #f7f7f7;
+}
+.epl_avail_spaces_table td {
+    padding: 2px;
+}
+
+.epl_avail_spaces_table tr.epl_date td {
+    /*background-color:  #e0f585;*/
+    font-weight: bold;
+}
+
+.epl_avail_spaces_table tr.epl_time {
+    /*background-color:  #e7f7a1;*/
+}
+.epl_dates_times_prices_table {
+    border: 1px solid #d5d5d5;
+    width: 100%;
+}
+
+.epl_dates_times_prices_table h2 {
+    margin: 5px;
+}
+
+.epl_dates_times_prices_table td {
+    vertical-align: top;
+    padding-left: 5px;
+    text-align: left;
+    border-top: 1px solid #d5d5d5
+}
+.epl_dates_times_prices_table tr.epl_time :first-child,
+.epl_avail_spaces_table tr.epl_time :first-child{
+    padding-left: 25px;
+}
+
+.epl_avail_spaces_table tr.epl_price {
+    /*background-color:   #f2ffbb;*/
+}
+.epl_dates_times_prices_table tr.epl_price :first-child,
+.epl_avail_spaces_table tr.epl_price :first-child{
+    padding-left: 45px;
+}
+
+/*
+Payment Details Table - on the thank you page
+*/
+
+.epl_payment_details_table {
+
+    font-size: 1em;
+    border: 1px solid #d5d5d5;
+    margin:10px auto !important;
+    width: 100%;
+
+}
+.epl_payment_details_table td {
+    padding: 2px 5px;
+    border-bottom: 1px solid #d5d5d5;
+}
+
+.epl_payment_details_table tr.total {
+    font-weight: bold;
+    font-size: 1.1em;
+    /*background-color:  #e0f585;*/
+}
+
+.epl_payment_details_table tr.amount_paid {
+    /*background-color:  #e7f7a1;*/
+}
+.epl_payment_details_table tr.balance td{
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+/*
+* Message Wrappers
+* in v2.0+ from Twitter bootstrap
+*/
+
+.epl_regis_message_warn {
+    padding: 10px;
+    background-color:  #ff6666;
+    margin: 5px auto;
+    color: white;
+}
+
+.epl_info_message, .epl_success_message, .epl_warning_message, .epl_error_message {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    font-weight: bold;;
+}
+.epl_info_message {
+    color: #3a87ad;
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+}
+.epl_success_message {
+    color: #468847;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+.epl_warning_message {
+    color: #c09853;
+    background-color: #fcf8e3;
+    border-color: #fbeed5;
+}
+.epl_error_message {
+    color: #b94a48;
+    background-color: #f2dede;
+    border-color: #eed3d7;
+}
+
+
+/*
+ Attendee list table
+*/
+
+#epl_attendee_list_table {
+    border:1px solid #eee;
+    font-size: 11px;
+}
+
+#epl_attendee_list_table th{
+    background-color: #eee;
+    color: #333;
+    text-transform:  none;
+    padding: 3px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#epl_attendee_list_table tbody .att_count{
+    padding-left: 10px;
+
+}
+
+#epl_attendee_list_table tbody .att_info td:first-child{
+    padding-left: 20px;
+
+}
+
+a.attendee_list_link {
+    margin: 5px 15px;
+    display: block;
+}
+/*
+ End Attendee list table
+*/
+
+
+
+
+/*
+* Upcoming events widget template 1
+*/
+
+.ue_template1 {
+    /*background-color: #e8e8e8;*/
+}
+
+.ue_template1 h3, .ue_template1 h3 a {
+    display: block;
+    padding: 0 10px;
+    background-color: #e8e8e8;
+}
+
+.ue_template1 .details {
+    padding: 4px 8px;
+    border: 1px solid #ccc;
+    margin-bottom: 8px;
+}
+
+.ue_template1 .details .title a{
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.ue_template1 .banner {
+    background-color: #fff;
+
+
+}
+
+.ue_template1 .banner .image{
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+
+.ue_template1 .date {
+    font-weight: bold;
+}
+
+.ue_template1 .time {
+    font-style:  italic;
+}
+
+/*
+* End Upcoming events widget template 1
+*/
+
+
+/*
+* fullcalendar tooltip template 1
+*/
+
+.fc_template1 {
+    /*background-color: #e8e8e8;*/
+    margin: 3px;
+}
+
+.fc_template1 div {
+    /*background-color: #e8e8e8;*/
+    margin-bottom: 3px;
+}
+
+.fc_template1 div img{
+    /*background-color: #e8e8e8;*/
+    max-width:95%;
+}
+
+.fc_template1 .event_title {
+    font-size: 1.3em;
+    font-weight: bold;
+    display: block;
+    background-color: #eee;
+    padding: 1px;
+}
+
+.fc_template1 .event_details .event_date {
+    font-weight: bold;
+}
+
+.fc_template1 .event_details .event_time {
+    font-style:  italic;
+}
+
+/*
+* End fullcalendar tooltip template 1
+*/
+/* on the front, in some browsers and themes, the calendar icon is pushed down for datepicker */
+img.ui-datepicker-trigger {
+    margin: 5px;
+    /*float:left;*/
+}
+
+a.epl_copy_from {
+
+    background-color: #0575F4;
+    color: white;
+    float: right;
+    margin: 3px;
+    padding: 1px 3px;
+    font-size: 10px;
+
+}
+
+a.epl_copy_from_source {
+    font-size: 12px;
+}
+
+/* Fullcalendar legend */
+.epl_fc_legend {
+    margin: 2px 0;
+    overflow: hidden;
+    padding: 1px 0;
+}
+
+.epl_fc_legend .epl_fc_legend_cat {
+    float: left;
+    margin-left: 10px;
+    padding: 1px 8px;
+    font-size: 0.8em;
+    border-radius: 3px;
+}
+
+.epl_fc_title_time {
+    background-color:#fff;
+    font-size:0.8em;
+    color:#333;
+    padding:0 3px;
+    margin-right:3px;
+    border-radius:1px;
+    box-shadow:1px 1px #333;
+    white-space: nowrap;
+
+}
+
+table.epl_class {
+    font-size: 11px;
+}
+
+
+.event_filter_wrapper {
+    display: block;
+    padding:10px;
+    border:1px solid #eee;
+    margin-bottom: 10px;
+
+}
+#event_filter_wrapper label {
+    font-size: 10px;
+    display: block;
+}
+#event_filter_wrapper input,
+#event_filter_wrapper select
+{
+    margin: 0 3px;
+    font-size: 10px;
+    line-height: 1.1em;
+    padding:2px;
+}
+#event_filter_wrapper .ui-datepicker-trigger {
+    margin: 0 4px;
+}
+
+#event_filter_wrapper .event_list_search_button_wrapper {
+    clear:both;
+    padding:4px 0;
+    text-align: right;
+    width:100%;
+}
+
+
+
+
+.epl_absent, .epl_check_in {
+
+    height:16px;
+    margin-left: 10px;
+    width:16px;
+    cursor:pointer;
+    background:transparent url('../images/accept.png') no-repeat;
+}
+
+
+.epl_absent{
+    background:transparent url('../images/delete.png') no-repeat;
+
+}
+
+.epl_status_10, .epl_status_15, .epl_status_1 {
+    background: transparent url('../images/cross_octagon.png') no-repeat right center;
+}
+
+.epl_status_2, .epl_status_20 {
+    background: transparent url('../images/exclamation-octagon.png') no-repeat right center;
+}
+.epl_status_5 {
+    background: transparent url('../images/accept.png') no-repeat right center;
+}
+
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+
+    #event_list_wrapper{
+        padding: 0;
+    }
+    .event_wrapper{
+        padding:0;
+
+    }
+    .event_wrapper .event_thumbnail{
+
+    }
+    .event_wrapper .event_thumbnail img{
+    }
+    .event_wrapper .col_left{
+        width: 100% !important;
+    }
+
+    .event_wrapper .col_right{
+        width: 100%;
+    }
+
+    .event_wrapper h2 {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        text-align: center;
+    }
+    .event_wrapper h2 span {
+        padding: 0 5px;
+    }
+    .event_wrapper h2 a{
+
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .event_wrapper .event_description{
+
+    }
+
+    .event_wrapper .event_description p{
+        /*margin: 0*/
+    }
+
+    .event_wrapper .event_dates,
+    .event_wrapper .event_times,
+    .event_wrapper .event_prices{
+
+    }
+
+    .event_wrapper .event_location, .event_wrapper .event_organization{
+    }
+
+    .event_wrapper .event_location .heading, .event_wrapper .event_organization .heading{
+    }
+
+
+    .event_wrapper .event_dates span,
+    .event_wrapper .event_times span,
+    .event_wrapper .event_prices span{
+    }
+
+    .event_wrapper table{
+    }
+    .event_wrapper table th,
+    .event_wrapper table td {
+    }
+
+    .event_wrapper .register_button_wrapper {
+    }
+    .event_wrapper .register_button_wrapper a
+    {
+    }
+
+    .event_wrapper h2 a.arrow
+    {
+
+        border-left: 0;
+
+    }
+    .event_wrapper h2 a.arrow:hover {
+
+        color: #fff;
+
+    }
+
+    .event_wrapper h2 a.arrow:before,
+    event_wrapper h2 a.arrow:after
+    {
+
+    }
+    .event_wrapper h2 a.arrow:before {
+        left: 0px;
+        border-top: 0px;
+        border-bottom: 0px;
+        border-right: 0px;
+        margin-top: 0px;
+    }
+    .event_wrapper h2 a.arrow:after {
+        left: 0px;
+        border-top: 0px;
+        border-bottom: 0px;
+        border-right: 0px;
+        margin-top: 0px;
+    }
+
+}

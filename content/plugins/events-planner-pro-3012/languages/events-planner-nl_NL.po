@@ -1,0 +1,5212 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Events Planner v1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-04-09 19:24-0700\n"
+"PO-Revision-Date: 2014-04-09 19:28-0700\n"
+"Last-Translator: abel <abel@galaxyweb.us>\n"
+"Language-Team: \n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: epl_e;epl__\n"
+"X-Poedit-Basepath: ../\n"
+"X-Generator: Poedit 1.6.3\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: application/config/event-fields.php:20
+#, php-format
+msgid "User can only register for %s one day %s."
+msgstr "Deelnemer kan slechts voor %s Ã©Ã©n dag%s registreren."
+
+#: application/config/event-fields.php:36
+#, fuzzy
+msgid "Price Label"
+msgstr "Prijstype"
+
+#: application/config/event-fields.php:44
+#: application/views/admin/cart/cart-prices.php:14
+#: application/views/admin/reports/regis-invoice-1.php:131
+#: application/views/front/cart/cart-prices.php:15
+msgid "Price"
+msgstr "Prijs"
+
+#: application/config/event-fields.php:51
+msgid "Member Price"
+msgstr ""
+
+#: application/config/event-fields.php:57
+#: application/config/event-fields.php:693
+msgid "Min."
+msgstr "Min."
+
+#: application/config/event-fields.php:65
+msgid "Max."
+msgstr "Max."
+
+#: application/config/event-fields.php:72
+msgid "Show 0?"
+msgstr ""
+
+#: application/config/event-fields.php:79
+#: application/controllers/epl-pay-profile-manager.php:154
+#: application/views/admin/cart/cart-prices.php:7
+#: application/views/admin/events/message-meta-box.php:8
+#: application/views/admin/global-discounts/discount-usage-table.php:49
+#: application/views/admin/reports/regis-invoice-1.php:129
+#: application/views/front/cart/cart-prices.php:8
+msgid "Type"
+msgstr "Type"
+
+#: application/config/event-fields.php:80
+#: application/config/event-fields.php:477
+#: application/config/event-fields.php:485
+#: application/models/epl-common-model.php:2493
+#: application/models/epl-registration-model.php:2202
+#: application/models/epl-report-model.php:955
+msgid "Attendee"
+msgstr "Deelnemer"
+
+#: application/config/event-fields.php:80
+#, fuzzy
+msgid "Non-attendee"
+msgstr "Deelnemer"
+
+#: application/config/event-fields.php:86
+msgid "Discountable?"
+msgstr ""
+
+#: application/config/event-fields.php:93
+#: application/config/event-fields.php:288
+#: application/views/admin/registration/regis-payment-meta-box.php:22
+msgid "Note"
+msgstr "Notitie"
+
+#: application/config/event-fields.php:94
+msgid "Note to Customer (Optional)"
+msgstr ""
+
+#: application/config/event-fields.php:101
+#: application/config/event-fields.php:214
+msgid "Hide"
+msgstr "Verberg"
+
+#: application/config/event-fields.php:117
+msgid "Is this a free event? "
+msgstr "Is de toegang vrij?"
+
+#: application/config/event-fields.php:124
+msgid "Apply prices to"
+msgstr ""
+
+#: application/config/event-fields.php:125
+msgid ""
+"If you are offering multiple days, this will determine if the user pays per "
+"day or for the whole event."
+msgstr ""
+"Als u meer dan Ã©Ã©n dag aanbiedt, dan bepaalt dit of de deelnemer per dag "
+"betaald of voor het hele programma."
+
+#: application/config/event-fields.php:126
+msgid "The Whole Event"
+msgstr "Het Gehele Programma"
+
+#: application/config/event-fields.php:126
+msgid "Each Event Date"
+msgstr "Elke Programma datum"
+
+#: application/config/event-fields.php:138
+msgid "Surcharge Label"
+msgstr ""
+
+#: application/config/event-fields.php:139
+#, fuzzy
+msgid "Label that will be displayed to the user"
+msgstr "Zo ja, dan wordt het map link icoon getond op het programmaoverzicht."
+
+#: application/config/event-fields.php:153
+#: application/helpers/date-helper.php:1036
+#, fuzzy
+msgid "Surcharge Method"
+msgstr "Betaalwijze"
+
+#: application/config/event-fields.php:155
+#: application/helpers/date-helper.php:1038
+#, fuzzy
+msgid "Add"
+msgstr "Adres"
+
+#: application/config/event-fields.php:164
+#: application/config/event-fields.php:774
+#: application/config/event-fields.php:863
+#: application/config/global-discount-fields.php:40
+#: application/config/global-discount-fields.php:137
+#: application/config/global-discount-fields.php:183
+#: application/helpers/date-helper.php:1047
+#: application/views/admin/global-discounts/discount-social-discount-fields.php:33
+#: application/views/admin/global-discounts/discount-usage-table.php:48
+#: application/views/admin/registration/regis-payment-meta-box.php:20
+#: application/views/admin/reports/view-full-data.php:189
+#: application/views/admin/reports/view-names.php:195
+#, fuzzy
+msgid "Amount"
+msgstr "Betaald"
+
+#: application/config/event-fields.php:173
+#: application/helpers/date-helper.php:1055
+#, fuzzy
+msgid "Surcharge Type"
+msgstr "Prijstype"
+
+#: application/config/event-fields.php:174
+#: application/config/event-fields.php:780
+#: application/config/event-fields.php:869
+#: application/config/global-discount-fields.php:46
+#: application/config/global-discount-fields.php:143
+#: application/config/global-discount-fields.php:189
+#: application/config/settings-fields.php:188
+#: application/helpers/date-helper.php:1056
+#: application/helpers/date-helper.php:1247
+#: application/views/admin/global-discounts/discount-social-discount-fields.php:61
+msgid "Fixed"
+msgstr ""
+
+#: application/config/event-fields.php:174
+#: application/config/event-fields.php:780
+#: application/config/event-fields.php:869
+#: application/config/global-discount-fields.php:46
+#: application/config/global-discount-fields.php:143
+#: application/config/global-discount-fields.php:189
+#: application/config/settings-fields.php:188
+#: application/helpers/date-helper.php:1056
+#: application/helpers/date-helper.php:1247
+#: application/views/admin/global-discounts/discount-social-discount-fields.php:62
+msgid "Percent"
+msgstr ""
+
+#: application/config/event-fields.php:181
+msgid "Apply surcharge before discount"
+msgstr ""
+
+#: application/config/event-fields.php:200
+#: application/views/admin/event-snapshot_1.php:26
+msgid "Start Time"
+msgstr "Aanvangstijd"
+
+#: application/config/event-fields.php:207
+#: application/views/admin/event-snapshot_1.php:27
+msgid "End Time"
+msgstr "Eindtijd"
+
+#: application/config/event-fields.php:221
+msgid "Note (optional)"
+msgstr ""
+
+#: application/config/event-fields.php:235
+#: application/views/front/event-list-class.php:191
+msgid "Start Date"
+msgstr "Aanvangsdatum"
+
+#: application/config/event-fields.php:245
+msgid "End Date"
+msgstr "Einddatum"
+
+#: application/config/event-fields.php:254
+msgid "Regis. Starts On"
+msgstr "Registr. mogelijk vanaf"
+
+#: application/config/event-fields.php:263
+msgid "Regis. Ends On"
+msgstr "Registr. mogelijk tot"
+
+#: application/config/event-fields.php:272
+#: application/helpers/date-helper.php:956
+#: application/helpers/date-helper.php:1147
+#: application/views/admin/events/recurrence-fields.php:49
+msgid "Capacity"
+msgstr "Aantal plaatsen"
+
+#: application/config/event-fields.php:312
+#: application/views/admin/user-regis-manager/daily-checkin-class-list.php:27
+msgid "Session Date"
+msgstr "Sessiedatum"
+
+#: application/config/event-fields.php:323
+msgid "Session Name"
+msgstr "Sessienaam"
+
+#: application/config/event-fields.php:330
+msgid "Session Note"
+msgstr "Sessie-aantekening"
+
+#: application/config/event-fields.php:405
+msgid "Sun"
+msgstr "zon"
+
+#: application/config/event-fields.php:406
+msgid "Mon"
+msgstr "ma"
+
+#: application/config/event-fields.php:407
+msgid "Tue"
+msgstr "di"
+
+#: application/config/event-fields.php:408
+msgid "Wed"
+msgstr "wo"
+
+#: application/config/event-fields.php:409
+msgid "Thu"
+msgstr "do"
+
+#: application/config/event-fields.php:410
+msgid "Fri"
+msgstr "vr"
+
+#: application/config/event-fields.php:411
+msgid "Sat"
+msgstr "za"
+
+#: application/config/event-fields.php:421
+msgid "Day of Month"
+msgstr "Dag"
+
+#: application/config/event-fields.php:424
+msgid ""
+"Coming soon, ability to select per week of the month (i.e. first, second, "
+"last week)."
+msgstr ""
+"Verwacht: mogelijkheid om per week in de maand te kiezen (bijv, 1e,2e, "
+"laatste week)"
+
+#: application/config/event-fields.php:452
+#, fuzzy
+msgid "Primary registrant forms"
+msgstr "Registratieformulieren"
+
+#: application/config/event-fields.php:455
+#: application/helpers/date-helper.php:2781
+msgid ""
+"AT LEAST ONE FORM IS REQUIRED.  This is the form that you will use for "
+"collecting information from the person that is doing the registration."
+msgstr ""
+"TEN MINSTE Ã‰Ã‰N GEDEELTE MOET WORDEN INGEVULD. Dit is het gedeelte dat u "
+"gebruikt om informatie te verzamelen voor degenene die de registratie doet."
+
+#: application/config/event-fields.php:460
+#: application/helpers/date-helper.php:2787
+msgid "Forms for all attendees"
+msgstr "Formulieren voor alle deelnemers"
+
+#: application/config/event-fields.php:463
+msgid ""
+"This information will be collected from all the attendees.  If you do not "
+"need to collect individual information and only need the quantity, do not "
+"select any of these forms."
+msgstr ""
+"Deze gegevens worden verzameld voor alle deelnemers. Als u geen behoefte "
+"heeft aan individuele informatie en alleen de hoeveelheid wilt weten, "
+"selecteer dan geen van deze formulieren."
+
+#: application/config/event-fields.php:476
+msgid "Form Section Counter Label"
+msgstr ""
+
+#: application/config/event-fields.php:478
+msgid ""
+"When additional forms are presented besides the Ticket Buyer form, this "
+"value will be presented before the counter.  For example, Attendee #1, "
+"Attendee #2..."
+msgstr ""
+
+#: application/config/event-fields.php:484
+msgid "Enable form to form copy?"
+msgstr ""
+
+#: application/config/event-fields.php:486
+msgid ""
+"This will give your users the ability to copy data from form to form during "
+"the registration."
+msgstr ""
+
+#: application/config/event-fields.php:498
+msgid "No Locations found. Please go to Events Planner > Event Locations."
+msgstr ""
+
+#: application/config/event-fields.php:499
+msgid "Event Location"
+msgstr "Programmalocatie"
+
+#: application/config/event-fields.php:504
+msgid "Room, suite..."
+msgstr ""
+
+#: application/config/event-fields.php:505
+msgid "Enter more specific information about the location."
+msgstr "Geef meer specifieke informatie over de locatie"
+
+#: application/config/event-fields.php:512
+#: application/helpers/date-helper.php:2798
+msgid "Payment Choices"
+msgstr "Keuze van betaalwijze"
+
+#: application/config/event-fields.php:513
+#: application/config/event-fields.php:525
+#: application/helpers/date-helper.php:2799
+#: application/helpers/date-helper.php:2811
+msgid "No Payment Profiles. Please go to Events Planner > Payment Profiles."
+msgstr ""
+
+#: application/config/event-fields.php:523
+#: application/helpers/date-helper.php:2809
+msgid "Default Selected Payment"
+msgstr ""
+
+#: application/config/event-fields.php:524
+#: application/helpers/date-helper.php:2810
+msgid ""
+"This determines which payment method is automatically selected when the user "
+"visits the regsitration cart for the first time."
+msgstr ""
+
+#: application/config/event-fields.php:533
+msgid "No Organizations found. Please go to Events Planner > Organizations."
+msgstr ""
+
+#: application/config/event-fields.php:535
+msgid "Organization hosting the event"
+msgstr "Organisatie die het programma verzorgt"
+
+#: application/config/event-fields.php:548
+#: application/config/global-discount-fields.php:200
+#: application/controllers/epl-event-manager.php:866
+#: application/models/epl-common-model.php:1501
+#: application/models/epl-common-model.php:1973
+#: application/models/epl-common-model.php:2413
+#: application/models/epl-report-model.php:802
+#: application/views/admin/event-snapshot.php:35
+#: application/views/admin/event-snapshot_1.php:28
+#: application/views/admin/reports/full-report.php:162
+#: application/views/admin/reports/view-full-data.php:187
+#: application/views/admin/reports/view-names.php:193
+#: application/views/admin/user-regis-manager/daily-checkin-registrants.php:33
+#: application/views/admin/user-regis-manager/user-regis-all.php:22
+#: application/views/front/user-regis-manager/user-regis-dates.php:26
+#: application/views/user-regis-manager/user-bookings.php:27
+msgid "Status"
+msgstr "Status"
+
+#: application/config/event-fields.php:550
+msgid "Inactive"
+msgstr "In-actief"
+
+#: application/config/event-fields.php:551
+#: application/config/event-fields.php:803
+#: application/config/global-discount-fields.php:69
+#: application/config/global-discount-fields.php:218
+msgid "Active"
+msgstr "Actief"
+
+#: application/config/event-fields.php:552
+msgid "Active (hidden)"
+msgstr ""
+
+#: application/config/event-fields.php:553
+msgid "Ongoing"
+msgstr ""
+
+#: application/config/event-fields.php:554
+msgid "Cancelled"
+msgstr "Afgelast"
+
+#: application/config/event-fields.php:561
+#, fuzzy
+msgid "Registration Availability"
+msgstr "Registratievelden"
+
+#: application/config/event-fields.php:563
+msgid "Open to public"
+msgstr ""
+
+#: application/config/event-fields.php:564
+msgid "Members Only"
+msgstr ""
+
+#: application/config/event-fields.php:577
+msgid "Show Registration Button"
+msgstr "Toon Registratie Knop"
+
+#: application/config/event-fields.php:584
+msgid "Date Display Type"
+msgstr "Wijze waarop datum wordt getoond"
+
+#: application/config/event-fields.php:585
+#: application/config/event-fields.php:593
+#: application/views/admin/events/recurrence-fields.php:38
+msgid "None"
+msgstr "Geen"
+
+#: application/config/event-fields.php:585
+msgid "Table"
+msgstr "Tabel"
+
+#: application/config/event-fields.php:585
+#: application/controllers/epl-settings-manager.php:37
+msgid "Calendar"
+msgstr "Kalender"
+
+#: application/config/event-fields.php:586
+msgid ""
+"Determines if the dates displayed on the event list are in table format or "
+"in small calendar format."
+msgstr ""
+"Bepaalt of de data in het programmaoverzicht in tabelformaat of in "
+"kalenderformaat worden getoond"
+
+#: application/config/event-fields.php:592
+#, fuzzy
+msgid "Content Display Type"
+msgstr "Wijze waarop datum wordt getoond"
+
+#: application/config/event-fields.php:593
+#: application/libraries/epl-upcoming-events-widget.php:103
+msgid "Excerpt"
+msgstr "Samenvatting"
+
+#: application/config/event-fields.php:593
+#: application/libraries/epl-upcoming-events-widget.php:103
+msgid "Content"
+msgstr "Inhoud"
+
+#: application/config/event-fields.php:594
+#, fuzzy
+msgid "Determines which content to display in the event list."
+msgstr "Deze optie bepaalt welke inoud er op de programmalijst wordt getoond."
+
+#: application/config/event-fields.php:607
+msgid "Display available spaces?"
+msgstr "Laat alle beschikbare plaatsen zien?"
+
+#: application/config/event-fields.php:614
+#, fuzzy
+msgid "Display Event Details in cart?"
+msgstr "Toon Inhoud of Samenvattig?"
+
+#: application/config/event-fields.php:629
+msgid "Alternate Notification Emails"
+msgstr "Alternatieve bevestigings e-mails"
+
+#: application/config/event-fields.php:630
+msgid ""
+"Enter a comma separated list of email addresses that you would like to send "
+"the registration confirmation emails to."
+msgstr ""
+"Geef hier een kommagescheiden lijst van e-mailadressen waarna u een "
+"bevestiging van registratie naar toe wilt sturen."
+
+#: application/config/event-fields.php:635
+#, fuzzy
+msgid "Alternate Registration URL"
+msgstr "Haal Registratieformulieren op"
+
+#: application/config/event-fields.php:636
+msgid ""
+"If you would like to have the register button point to an alternate "
+"registration page or form."
+msgstr ""
+
+#: application/config/event-fields.php:641
+msgid "Calendar/Widget link destination"
+msgstr ""
+
+#: application/config/event-fields.php:642
+#: application/config/event-fields.php:648
+#, fuzzy
+msgid "Registration Page"
+msgstr "Registratie"
+
+#: application/config/event-fields.php:642
+#: application/config/event-fields.php:648
+#: application/views/admin/cart/cart.php:28
+#: application/views/front/cart/cart.php:46
+#, fuzzy
+msgid "Event Details"
+msgstr "Betaalgegevens"
+
+#: application/config/event-fields.php:647
+msgid "Event Title link destination"
+msgstr ""
+
+#: application/config/event-fields.php:662
+#, fuzzy
+msgid "Message Location"
+msgstr "Programmalocatie"
+
+#: application/config/event-fields.php:665
+#, fuzzy
+msgid "All registration pages - top"
+msgstr "Beschikbaar voor registratie op"
+
+#: application/config/event-fields.php:666
+#, fuzzy
+msgid "All registration pages - bottom"
+msgstr "Begin van de registratie"
+
+#: application/config/event-fields.php:667
+msgid "Cart - top"
+msgstr ""
+
+#: application/config/event-fields.php:668
+msgid "Cart - bottom"
+msgstr ""
+
+#: application/config/event-fields.php:669
+#, fuzzy
+msgid "Registration form - top"
+msgstr "Registratiegegevens"
+
+#: application/config/event-fields.php:670
+#, fuzzy
+msgid "Registration form - bottom"
+msgstr "Registratiegegevens"
+
+#: application/config/event-fields.php:671
+#, fuzzy
+msgid "Registration complete - top"
+msgstr "Registratiegegevens"
+
+#: application/config/event-fields.php:672
+#, fuzzy
+msgid "Registration complete - bottom"
+msgstr "Registratiegegevens"
+
+#: application/config/event-fields.php:683
+msgid "Info"
+msgstr ""
+
+#: application/config/event-fields.php:684
+msgid "Success"
+msgstr ""
+
+#: application/config/event-fields.php:685
+msgid "Warning"
+msgstr ""
+
+#: application/config/event-fields.php:686
+#: application/controllers/epl-report-manager.php:48
+#: application/controllers/epl-user-regis-manager.php:49
+#: application/controllers/epl-user-self-pages-manager.php:46
+msgid "Error"
+msgstr "Fout"
+
+#: application/config/event-fields.php:724
+msgid "Show Attendee List Link?"
+msgstr ""
+
+#: application/config/event-fields.php:731
+#, fuzzy
+msgid "Link Location"
+msgstr "Locatie"
+
+#: application/config/event-fields.php:732
+#, fuzzy
+msgid "Event List"
+msgstr "Programma's"
+
+#: application/config/event-fields.php:732
+#, fuzzy
+msgid "Registration Confirmation Page"
+msgstr "Bevestiging van de registratie"
+
+#: application/config/event-fields.php:732
+msgid "Shortcode"
+msgstr ""
+
+#: application/config/event-fields.php:738
+msgid "Attendee List Template"
+msgstr ""
+
+#: application/config/event-fields.php:739
+#: application/libraries/epl-upcoming-events-widget.php:76
+msgid "Template 1"
+msgstr ""
+
+#: application/config/event-fields.php:739
+#: application/libraries/epl-upcoming-events-widget.php:77
+msgid "Template 2"
+msgstr ""
+
+#: application/config/event-fields.php:754
+msgid "Allow global discounts for this event?"
+msgstr ""
+
+#: application/config/event-fields.php:755
+msgid ""
+"This setting determines if global coupon codes or automatic discounts can be "
+"applied to this event."
+msgstr ""
+
+#: application/config/event-fields.php:762
+#: application/config/global-discount-fields.php:28
+#: application/views/admin/global-discounts/discount-social-discount-fields.php:23
+#: application/views/admin/global-discounts/discount-usage-table.php:47
+#, fuzzy
+msgid "Code"
+msgstr "Postcode"
+
+#: application/config/event-fields.php:762
+#: application/config/global-discount-fields.php:28
+#: application/helpers/date-helper.php:2316
+msgid "Automatic"
+msgstr ""
+
+#: application/config/event-fields.php:763
+#: application/config/global-discount-fields.php:29
+#, fuzzy
+msgid "Discount Method"
+msgstr "Betaalwijze"
+
+#: application/config/event-fields.php:769
+#: application/config/global-discount-fields.php:35
+#: application/config/global-discount-fields.php:171
+#: application/helpers/date-helper.php:2723
+#: application/models/epl-common-model.php:1505
+#: application/models/epl-common-model.php:1977
+#: application/models/epl-report-model.php:806
+#: application/views/admin/registration/registration-attendee-meta-box.php:47
+#: application/views/admin/reports/full-report.php:165
+#: application/views/admin/reports/view-full-data.php:191
+#: application/views/admin/reports/view-names.php:197
+#: application/views/front/cart/cart.php:110
+msgid "Discount Code"
+msgstr ""
+
+#: application/config/event-fields.php:779
+#: application/config/event-fields.php:868
+#: application/config/global-discount-fields.php:11
+#: application/config/global-discount-fields.php:45
+#: application/config/global-discount-fields.php:142
+#: application/config/global-discount-fields.php:188
+#, fuzzy
+msgid "Discount Type"
+msgstr "Prijstype"
+
+#: application/config/event-fields.php:785
+#: application/config/event-fields.php:874
+#: application/config/global-discount-fields.php:51
+#: application/config/global-discount-fields.php:148
+#: application/config/global-discount-fields.php:195
+#: application/views/admin/global-discounts/discount-social-discount-fields.php:38
+msgid "Max Use"
+msgstr ""
+
+#: application/config/event-fields.php:790
+#: application/config/event-fields.php:879
+#: application/config/event-fields.php:885
+#: application/config/global-discount-fields.php:56
+#: application/config/global-discount-fields.php:153
+#: application/config/global-discount-fields.php:159
+#: application/config/global-discount-fields.php:205
+#: application/views/admin/events/recurrence-fields.php:7
+#: application/views/admin/user-regis-manager/daily-checkin-registrants.php:74
+#: application/views/admin/user-regis-manager/user-regis-all.php:63
+msgid "Until"
+msgstr "Tot"
+
+#: application/config/event-fields.php:797
+#: application/config/global-discount-fields.php:63
+msgid "Discount Description (optional)"
+msgstr ""
+
+#: application/config/event-fields.php:799
+#: application/config/global-discount-fields.php:65
+msgid ""
+"This label will appear in the total section as the discount description."
+msgstr ""
+
+#: application/config/event-fields.php:809
+#: application/config/event-fields.php:827
+#: application/config/event-fields.php:858
+#: application/config/global-discount-fields.php:83
+#: application/config/global-discount-fields.php:101
+#: application/config/global-discount-fields.php:132
+#, fuzzy
+msgid "Total Amount"
+msgstr "Totaal verschuldigd"
+
+#: application/config/event-fields.php:809
+#: application/config/event-fields.php:858
+#: application/config/global-discount-fields.php:83
+#: application/config/global-discount-fields.php:132
+#, fuzzy
+msgid "Total Quantity"
+msgstr "Hoeveelheid"
+
+#: application/config/event-fields.php:814
+#: application/config/global-discount-fields.php:88
+msgid "Between"
+msgstr ""
+
+#: application/config/event-fields.php:838
+#: application/config/global-discount-fields.php:112
+#, fuzzy
+msgid "Discount Specific Form"
+msgstr "Sta Locatie toe die gekoppeld is aan Datum"
+
+#: application/config/event-fields.php:846
+#: application/config/global-discount-fields.php:120
+#: application/helpers/date-helper.php:996
+#, fuzzy
+msgid "Display the form "
+msgstr "Displayopties en diverse opties"
+
+#: application/config/event-fields.php:847
+#: application/config/global-discount-fields.php:121
+#: application/helpers/date-helper.php:997
+#, fuzzy
+msgid "For each Attendee"
+msgstr "Formulieren voor alle deelnemers"
+
+#: application/config/event-fields.php:847
+#: application/config/global-discount-fields.php:121
+#: application/helpers/date-helper.php:997
+msgid "Only Once"
+msgstr ""
+
+#: application/config/event-fields.php:847
+#: application/config/global-discount-fields.php:121
+msgid "Do not show any attendee forms"
+msgstr ""
+
+#: application/config/event-fields.php:895
+msgid "Enable Waitlist?"
+msgstr ""
+
+#: application/config/event-fields.php:901
+msgid "Form to display"
+msgstr ""
+
+#: application/config/event-fields.php:903
+msgid "The form that will be presented to the registrant."
+msgstr ""
+
+#: application/config/event-fields.php:908
+msgid "Max waitlist size"
+msgstr ""
+
+#: application/config/event-fields.php:909
+msgid "Leave empty if waitlist has no limit."
+msgstr ""
+
+#: application/config/event-fields.php:914
+msgid "Maximum response time"
+msgstr ""
+
+#: application/config/event-fields.php:915
+msgid ""
+"Amount of time (in hours) a user is given before the approved waitlist link "
+"expires.  Example, for 1 day, enter 24, for 3 hours and 30 minutes enter 3.5."
+msgstr ""
+
+#: application/config/event-fields.php:922
+msgid "Waitlist confirmation email"
+msgstr ""
+
+#: application/config/event-fields.php:923
+msgid ""
+"Email that is sent to the users after they are placed on a waiting list."
+msgstr ""
+
+#: application/config/event-fields.php:924
+#: application/config/event-fields.php:932
+#: application/controllers/epl-registration-manager.php:311
+#: application/controllers/epl-report-manager.php:379
+#: application/helpers/date-helper.php:1280
+#: application/helpers/date-helper.php:2822
+msgid ""
+"No email messages found.  Please go to Events Planner > Notification Manager "
+"to create notifications."
+msgstr ""
+
+#: application/config/event-fields.php:930
+msgid "Waitlist approved email"
+msgstr ""
+
+#: application/config/event-fields.php:931
+msgid "Email that is sent to the users once the waitlist is approved."
+msgstr ""
+
+#: application/config/form-fields.php:14
+#, fuzzy
+msgid "Field Label"
+msgstr "Toon Label"
+
+#: application/config/form-fields.php:15
+msgid "Will be used in the field label."
+msgstr "Wordt als veldomschrijving gebruikt."
+
+#: application/config/form-fields.php:22
+msgid "Input Slug"
+msgstr "Invoer slug"
+
+#: application/config/form-fields.php:23
+msgid ""
+"Will be used in email templates. Ex. your_city, your_weight, height...  DO "
+"NOT CHANGE for email, first_name, last_name."
+msgstr ""
+"Wordt gebruikt in e-mail templates. Bijv. your_city, your_weight, heigt. "
+"NIET WIJZIGEN voor e-mail, voornaam, achternaam."
+
+#: application/config/form-fields.php:32
+#, fuzzy
+msgid "Field Type"
+msgstr "Prijstype"
+
+#: application/config/form-fields.php:55
+#, fuzzy
+msgid "Field Description"
+msgstr "Van de veldbeschrijving is dit"
+
+#: application/config/form-fields.php:56
+msgid "Will be displayed below the field.  Can be used as help text."
+msgstr "Wordt onder het veld getoond. Kan als helptekst fungeren."
+
+#: application/config/form-fields.php:62
+#: application/views/admin/global-discounts/discount-social-discount-fields.php:18
+msgid "Required"
+msgstr ""
+
+#: application/config/form-fields.php:70
+#: application/config/settings-fields.php:346
+msgid "Admin Only"
+msgstr ""
+
+#: application/config/form-fields.php:73
+msgid "Date collection and display is only available to the admin."
+msgstr ""
+
+#: application/config/form-fields.php:86
+msgid "Default Value"
+msgstr ""
+
+#: application/config/form-fields.php:87
+msgid "Default value for the field, ONLY FOR Text, Hidden, Textarea (for now)."
+msgstr ""
+"Standaardwaarde voor het veld. Alleen voor Tekst, Verborgen, Tekstgebied "
+"(tot op heden)."
+
+#: application/config/form-fields.php:96
+#, fuzzy
+msgid "Validation"
+msgstr "Organisatie"
+
+#: application/config/form-fields.php:97
+msgid "More Coming Soon."
+msgstr "Meer Volgt nog."
+
+#: application/config/form-fields.php:138
+#, fuzzy
+msgid "Form Label"
+msgstr "Label"
+
+#: application/config/form-fields.php:139
+msgid "Displayed form identifier"
+msgstr ""
+
+#: application/config/form-fields.php:145
+msgid "Form Slug"
+msgstr ""
+
+#: application/config/form-fields.php:146
+msgid "Will be used in emails."
+msgstr "Wordt in e-mails gebruikt"
+
+#: application/config/form-fields.php:152
+msgid "Form Description"
+msgstr ""
+
+#: application/config/form-fields.php:153
+msgid ""
+"If you would like to give some form instructions, you can type them here."
+msgstr ""
+
+#: application/config/form-fields.php:158
+#, fuzzy
+msgid "On the registration form:"
+msgstr "Haal Registratieformulieren op"
+
+#: application/config/form-fields.php:160
+#, fuzzy
+msgid "Show Form Name."
+msgstr "Voornaam"
+
+#: application/config/form-fields.php:160
+msgid "Show Form Description."
+msgstr ""
+
+#: application/config/gateway-fields.php:9
+msgid "Payment Type"
+msgstr "Type Betaling"
+
+#: application/config/gateway-fields.php:13
+#: application/config/gateway-fields.php:23
+#: application/helpers/date-helper.php:811
+#: application/helpers/date-helper.php:833
+msgid "PayPal Express Checkout"
+msgstr "PayPal Express Chekout"
+
+#: application/config/gateway-fields.php:24
+#, php-format
+msgid "Visit %s for more information."
+msgstr "Bezoek %s voor meer informatie."
+
+#: application/config/gateway-fields.php:24
+msgid "here"
+msgstr "hier"
+
+#: application/config/gateway-fields.php:35
+#: application/helpers/date-helper.php:1369
+#: application/helpers/date-helper.php:1439
+#: application/helpers/date-helper.php:1514
+#: application/helpers/date-helper.php:1573
+#: application/helpers/date-helper.php:1634
+#: application/helpers/date-helper.php:1778
+#: application/helpers/date-helper.php:1840
+#: application/helpers/date-helper.php:1903
+#: application/helpers/date-helper.php:1974
+msgid "Label"
+msgstr "Label"
+
+#: application/config/gateway-fields.php:36
+#, php-format
+msgid ""
+"What the customer will see as an option.  PayPal requires you to use one of "
+"their %s"
+msgstr "Wat de klant ziet als een optie. PayPal vereist dat u Ã©Ã©n van hum %s"
+
+#: application/config/gateway-fields.php:36
+msgid "buttons"
+msgstr "knoppen"
+
+#: application/config/gateway-fields.php:41
+#, fuzzy
+msgid "Confirmation Required Message"
+msgstr "Bericht dat getoond wordt voordat de klant wordt omgeleid"
+
+#: application/config/gateway-fields.php:42
+#, fuzzy
+msgid ""
+"This will be displayed when the user returns from PayPal and needs to "
+"confirm the purchase."
+msgstr "Dit wordt getoond voordat de klant omgeleid wordt naar PayPal"
+
+#: application/config/gateway-fields.php:43
+#: application/controllers/epl-front.php:1506
+msgid "Please review and finalize your payment to complete the registration."
+msgstr ""
+
+#: application/config/gateway-fields.php:50
+#: application/config/location-fields.php:51
+#: application/config/org-fields.php:53
+#: application/helpers/date-helper.php:2309
+msgid "Email"
+msgstr "E-mail"
+
+#: application/config/gateway-fields.php:51
+msgid "Optional, will be used for parallel payments."
+msgstr ""
+
+#: application/config/gateway-fields.php:57
+#: application/helpers/date-helper.php:1377
+msgid "API Username"
+msgstr "API gebruikersnaam"
+
+#: application/config/gateway-fields.php:58
+#: application/helpers/date-helper.php:1378
+msgid "Ex: some_api1.youremailaddress.com"
+msgstr "Bijv: some_api.uwemailadres.com"
+
+#: application/config/gateway-fields.php:65
+#: application/helpers/date-helper.php:1385
+msgid "API Password"
+msgstr "API Password"
+
+#: application/config/gateway-fields.php:66
+#: application/helpers/date-helper.php:1386
+msgid "Ex: SDFE23D5SFD324"
+msgstr "Bijv: SDFE23D5SFD324"
+
+#: application/config/gateway-fields.php:73
+#: application/helpers/date-helper.php:1393
+msgid "Signature"
+msgstr "Handtekening"
+
+#: application/config/gateway-fields.php:74
+#: application/helpers/date-helper.php:1394
+msgid "Will be a very long string. Ex. SRl31AbcSd9fIqew......"
+msgstr "Is een erg lange string. Bijv: SRl31AbcSd9fIqew......"
+
+#: application/config/gateway-fields.php:81
+msgid "PayPal Landing Page"
+msgstr "Startpagina voor PayPal"
+
+#: application/config/gateway-fields.php:82
+msgid ""
+"If \"PayPal Account Optional\" is set to \"on\" inside your PayPal account, "
+"this option selects which section the users see by default when they reach "
+"PayPal."
+msgstr ""
+"Als \"PayPal Account Optional\" is gezet op \"aan\" binnen uw PayPal "
+"account, dan bepaalt deze optie de sectie de kopers standaard zien als ze "
+"het  PayPal scherm bereiken."
+
+#: application/config/gateway-fields.php:83
+msgid "PayPal account login"
+msgstr "Login voor PayPal"
+
+#: application/config/gateway-fields.php:83
+msgid "Non-PayPal account, for credit/debit cards"
+msgstr "Geen PayPal account in geval van credit- of debitcards"
+
+#: application/config/gateway-fields.php:89
+#: application/helpers/date-helper.php:1409
+#: application/helpers/date-helper.php:1483
+#: application/helpers/date-helper.php:1543
+#: application/helpers/date-helper.php:1603
+#: application/helpers/date-helper.php:1662
+#: application/helpers/date-helper.php:1862
+#: application/helpers/date-helper.php:1942
+#: application/helpers/date-helper.php:2003
+msgid "Test Mode?"
+msgstr "Testmode?"
+
+#: application/config/gateway-fields.php:91
+#: application/helpers/date-helper.php:1411
+#: application/helpers/date-helper.php:1485
+#: application/helpers/date-helper.php:1545
+#: application/helpers/date-helper.php:1605
+#: application/helpers/date-helper.php:1664
+#: application/helpers/date-helper.php:1864
+#: application/helpers/date-helper.php:1944
+#: application/helpers/date-helper.php:2005
+msgid "If yes, please make sure you use Sandbox credentials above."
+msgstr "Indien ja, zorg er dan voor dat u de Sandbox credentials gebruikt."
+
+#: application/config/gateway-fields.php:96
+#: application/helpers/date-helper.php:1416
+#: application/helpers/date-helper.php:1490
+#: application/helpers/date-helper.php:1550
+#: application/helpers/date-helper.php:1610
+#: application/helpers/date-helper.php:1669
+#: application/helpers/date-helper.php:1719
+#: application/helpers/date-helper.php:1755
+#: application/helpers/date-helper.php:1817
+#: application/helpers/date-helper.php:1875
+#: application/helpers/date-helper.php:1949
+#: application/helpers/date-helper.php:2010
+msgid "Automatically assign to all new events?"
+msgstr ""
+
+#: application/config/global-discount-fields.php:16
+msgid "Internal"
+msgstr ""
+
+#: application/config/global-discount-fields.php:75
+msgid "Include Only"
+msgstr ""
+
+#: application/config/global-discount-fields.php:83
+#, fuzzy
+msgid "Number of Events"
+msgstr "Nieuw Programma"
+
+#: application/config/global-discount-fields.php:177
+msgid "Buyer"
+msgstr ""
+
+#: application/config/location-fields.php:10
+#: application/config/org-fields.php:11
+#: application/helpers/date-helper.php:2044
+msgid "Address"
+msgstr "Adres"
+
+#: application/config/location-fields.php:16
+#: application/config/org-fields.php:17
+msgid "Address 2"
+msgstr "Adres 2"
+
+#: application/config/location-fields.php:23
+#: application/config/org-fields.php:35
+#: application/helpers/date-helper.php:2051
+msgid "City"
+msgstr "Stad"
+
+#: application/config/location-fields.php:29
+#: application/config/org-fields.php:29
+#: application/helpers/date-helper.php:2058
+msgid "State"
+msgstr "Staat"
+
+#: application/config/location-fields.php:35
+#: application/helpers/date-helper.php:2072
+msgid "Country"
+msgstr ""
+
+#: application/config/location-fields.php:41
+#: application/config/org-fields.php:23
+#: application/helpers/date-helper.php:2065
+msgid "Zip"
+msgstr "Postcode"
+
+#: application/config/location-fields.php:46
+#: application/config/org-fields.php:47
+msgid "Phone"
+msgstr "Telefoon"
+
+#: application/config/location-fields.php:57
+#: application/config/org-fields.php:59
+msgid "Website"
+msgstr "Website"
+
+#: application/config/location-fields.php:58
+msgid "Please enter http://..."
+msgstr "Voer svp http://....  in"
+
+#: application/config/location-fields.php:65
+msgid "Display map link icon?"
+msgstr "Toon map link icoon?"
+
+#: application/config/location-fields.php:66
+msgid "If yes, a map icon will be displayed on the event list."
+msgstr "Zo ja, dan wordt het map link icoon getond op het programmaoverzicht."
+
+#: application/config/location-fields.php:73
+#, fuzzy
+msgid "Longitude"
+msgstr "lengtegraad"
+
+#: application/config/location-fields.php:74
+#: application/config/location-fields.php:83
+msgid ""
+"This information is automatically obtained from Google when this record is "
+"saved.  Address, City, State are required."
+msgstr ""
+"Deze gegevens worden automatisch bij Google opgehaald, zodra dit record "
+"wordt opgeslagen. Adres, Stad en Staat zijn vereist."
+
+#: application/config/location-fields.php:82
+msgid "Latitude"
+msgstr ""
+
+#: application/config/location-fields.php:90
+#: application/config/regis-fields.php:102
+msgid "Notes"
+msgstr "Aantekeningen"
+
+#: application/config/notification-fields.php:9
+#: application/controllers/epl-registration-manager.php:310
+#: application/controllers/epl-report-manager.php:378
+msgid "Email Template"
+msgstr ""
+
+#: application/config/notification-fields.php:13
+msgid "Many thanks to"
+msgstr ""
+
+#: application/config/notification-fields.php:18
+#: application/views/admin/registration/regis-email-form-editor.php:1
+#, fuzzy
+msgid "From Name"
+msgstr "Voornaam"
+
+#: application/config/notification-fields.php:24
+#: application/views/admin/registration/regis-email-form-editor.php:2
+#, fuzzy
+msgid "From Email"
+msgstr "E-mail"
+
+#: application/config/notification-fields.php:30
+#: application/views/admin/registration/regis-email-form-editor.php:5
+msgid "Email Subject"
+msgstr ""
+
+#: application/config/org-fields.php:41
+msgid "Zip Code"
+msgstr "Postcode"
+
+#: application/config/regis-fields.php:11
+#: application/models/epl-common-model.php:1502
+#: application/models/epl-common-model.php:1974
+#: application/models/epl-common-model.php:2414
+#: application/models/epl-report-model.php:803
+msgid "Payment Method"
+msgstr "Betaalwijze"
+
+#: application/config/regis-fields.php:22
+msgid "Regis. Status"
+msgstr "Reg status"
+
+#: application/config/regis-fields.php:24
+msgid "Incomplete"
+msgstr ""
+
+#: application/config/regis-fields.php:25
+#, fuzzy
+msgid "Pending Payment"
+msgstr "Verstuur betaling aan"
+
+#: application/config/regis-fields.php:26
+msgid "Complete"
+msgstr ""
+
+#: application/config/regis-fields.php:27
+msgid "Cancelled - pending refund"
+msgstr ""
+
+#: application/config/regis-fields.php:28
+#, fuzzy
+msgid "Cancelled - refunded"
+msgstr "Afgelast"
+
+#: application/config/regis-fields.php:29
+#: application/views/admin/events/settings-meta-box.php:11
+msgid "Waitlist"
+msgstr ""
+
+#: application/config/regis-fields.php:38
+msgid "Total Due"
+msgstr "Totaal verschuldigd"
+
+#: application/config/regis-fields.php:46
+#: application/views/admin/reports/regis-invoice-1.php:85
+#: application/views/admin/reports/view-full-data.php:203
+#: application/views/admin/reports/view-names.php:209
+msgid "Total Paid"
+msgstr "Totaal betaald"
+
+#: application/config/regis-fields.php:54
+#: application/views/admin/registration/regis-list-payment-info.php:22
+#: application/views/admin/registration/regis-payment-details.php:21
+#: application/views/admin/reports/regis-invoice-1.php:110
+#: application/views/admin/user-regis-manager/user-regis-list-page.php:36
+#: application/views/front/cart/cart-grand-totals.php:66
+#: application/views/front/registration/regis-payment-details.php:66
+msgid "Balance Due"
+msgstr "Openstaand"
+
+#: application/config/regis-fields.php:62
+#: application/views/admin/reports/regis-invoice-1.php:99
+msgid "Date Paid"
+msgstr "Betaaldatum"
+
+#: application/config/regis-fields.php:94
+msgid "Trans. ID"
+msgstr "Trans. Id"
+
+#: application/config/settings-fields.php:53
+msgid "Sort Events By"
+msgstr "Sorteer programma's op"
+
+#: application/config/settings-fields.php:54
+msgid "Date Published"
+msgstr "Publicatiedatum"
+
+#: application/config/settings-fields.php:54
+#: application/controllers/epl-event-manager.php:863
+msgid "Event Name"
+msgstr "Programmanaam"
+
+#: application/config/settings-fields.php:54
+msgid "Event Start Date"
+msgstr "Startdatum"
+
+#: application/config/settings-fields.php:59
+msgid "Sort Order"
+msgstr "Sorteervolgorde"
+
+#: application/config/settings-fields.php:60
+msgid "Ascending"
+msgstr "Oplodend"
+
+#: application/config/settings-fields.php:60
+msgid "Descending"
+msgstr "Aflopend"
+
+#: application/config/settings-fields.php:65
+msgid "Currency Code"
+msgstr "Munteenheid"
+
+#: application/config/settings-fields.php:66
+msgid "This will be used in payment gateways. "
+msgstr "Dit wordt gebruikt in de betaalservices."
+
+#: application/config/settings-fields.php:72
+msgid "Currency Symbol"
+msgstr "Muntteken"
+
+#: application/config/settings-fields.php:73
+msgid ""
+"This will appear next to all the currency figures on the website.  Ex. $, "
+"USD... "
+msgstr "Verschijnt naast alle bedragen op de website. Bijv. $, USD..."
+
+#: application/config/settings-fields.php:78
+#, fuzzy
+msgid "Currency Symbol Location"
+msgstr "Muntteken"
+
+#: application/config/settings-fields.php:79
+msgid "Before"
+msgstr ""
+
+#: application/config/settings-fields.php:79
+msgid "After"
+msgstr ""
+
+#: application/config/settings-fields.php:87
+msgid "Currency display format"
+msgstr "Waargave van bedragen"
+
+#: application/config/settings-fields.php:88
+msgid ""
+"This determines how your currency is displayed.  Ex. 1,234.56 or 1,200 or "
+"1200.  This is only used for display purposes."
+msgstr ""
+"Dit bepaalt hoe de bedragen worden getoond. Bijv. 1.2300,45 of 2.500. Wordt "
+"alleen gebruikt bij het tonen van bedragen."
+
+#: application/config/settings-fields.php:93
+msgid "Shortcode Page"
+msgstr ""
+
+#: application/config/settings-fields.php:94
+msgid ""
+"Required.  Please select the page that contains the [events_planner] "
+"shortcode. "
+msgstr ""
+
+#: application/config/settings-fields.php:102
+msgid "Admin Date Format"
+msgstr "Datumformaat voor de Admin"
+
+#: application/config/settings-fields.php:103
+msgid ""
+"This date format is used for displaying dates on the Admin screens of Events "
+"Planner.  On the front end, the WordPress General settings date is used."
+msgstr ""
+"Dit datumformaat wordt gebruikt op Admin schermen van de Event Planner. Voor "
+"de front-end zijn de algemene Wordpress instellingen van toepassing."
+
+#: application/config/settings-fields.php:110
+msgid "Disable Default CSS?"
+msgstr "Default CSS uitschakelen?"
+
+#: application/config/settings-fields.php:111
+msgid ""
+"ADVANCED: If disabled, the default css file (events-planner > css > events-"
+"planner-style1.css) will not be loaded.  <br />This way, you can copy the "
+"contents of that file into your theme's style.css and modify any way you "
+"would like."
+msgstr ""
+"GEAVANCEERD: als dit niet is aangekruisd, wordt de standaard css file "
+"(events-planner > css > events-planner-style1.css) niet geladen.<br />. U "
+"kunt dan de inhoud van deze css file copieÃ«ren in de css file van uw theme "
+"en naar behoefte aanpassen."
+
+#: application/config/settings-fields.php:119
+msgid "Custom CSS"
+msgstr ""
+
+#: application/config/settings-fields.php:120
+msgid ""
+"You can add custom CSS in this box to override front end CSS rules.  This "
+"data is stored in the database and is safe from plugin updates."
+msgstr ""
+
+#: application/config/settings-fields.php:132
+msgid "Registration ID length?"
+msgstr "Lengte van het Registraiteid"
+
+#: application/config/settings-fields.php:133
+msgid "This will be an alphanumeric string."
+msgstr "Dit is een alfanumerieke string"
+
+#: application/config/settings-fields.php:140
+msgid "Enable SSL for registrations?"
+msgstr "SSL aanzetten voor registratie?"
+
+#: application/config/settings-fields.php:141
+#, fuzzy, php-format
+msgid ""
+"%sIf you plan on accepting Credit Cards on your website, this must be set to "
+"Yes for PCI Compliance.  You need to have a SSL Certificate installed for "
+"this domain.%s"
+msgstr ""
+"%s Als u Creditcards gaat accepteren, dan moet dit op Ja staan t.b.v. de PCI "
+"Compliance.%s"
+
+#: application/config/settings-fields.php:148
+msgid "Add security token to registration confirmation url?"
+msgstr ""
+
+#: application/config/settings-fields.php:149
+msgid ""
+"This will add a token to the registration url so that others can't "
+"accidentally stumble upon the registration details.  The registration "
+"confirmation url will change from ...registration/ASDFREWTR to ..."
+"registration/ASDFREWTR?epl_token=adlkfalsdfjl0ufj0923r."
+msgstr ""
+
+#: application/config/settings-fields.php:157
+#, fuzzy
+msgid "Default Surcharge Settings"
+msgstr "Overige instellingen"
+
+#: application/config/settings-fields.php:158
+msgid "You can override these settings for each event."
+msgstr ""
+
+#: application/config/settings-fields.php:164
+msgid "Apply Surcharge To"
+msgstr ""
+
+#: application/config/settings-fields.php:165
+msgid "All current and future events"
+msgstr ""
+
+#: application/config/settings-fields.php:165
+msgid "Let me choose for each event"
+msgstr ""
+
+#: application/config/settings-fields.php:172
+msgid "Surcharge Label (default)"
+msgstr ""
+
+#: application/config/settings-fields.php:173
+#, fuzzy
+msgid "Label that will be displayed to the user."
+msgstr "Zo ja, dan wordt het map link icoon getond op het programmaoverzicht."
+
+#: application/config/settings-fields.php:174
+#: application/models/epl-gateway-model.php:186
+#: application/models/epl-gateway-model.php:479
+#: application/views/admin/events/settings-meta-box.php:12
+#: application/views/front/cart/cart-grand-totals.php:29
+#: application/views/front/cart/cart-totals.php:40
+#: application/views/front/registration/regis-payment-details.php:38
+msgid "Surcharge"
+msgstr ""
+
+#: application/config/settings-fields.php:179
+msgid "Surcharge Amount (default)"
+msgstr ""
+
+#: application/config/settings-fields.php:180
+msgid ""
+"This surcharge amount will apply by default to each event.  You will have "
+"the option to adjust this number for each event."
+msgstr ""
+
+#: application/config/settings-fields.php:187
+msgid "Surcharge Type (default)"
+msgstr ""
+
+#: application/config/settings-fields.php:195
+msgid "Apply surcharge before discount (default)"
+msgstr ""
+
+#: application/config/settings-fields.php:210
+msgid "Conversion Tracking Code"
+msgstr ""
+
+#: application/config/settings-fields.php:211
+msgid ""
+"You can paste javascript code in this box if you would like to track "
+"registration conversions (e.g. from Google Adwords).  This code will be "
+"included in the final page when the registration is succressfully completed, "
+"and only once.  The code must be wrapped in \"script\" tags."
+msgstr ""
+
+#: application/config/settings-fields.php:219
+msgid "Enable Admin Override?"
+msgstr ""
+
+#: application/config/settings-fields.php:222
+msgid ""
+"When an admin user goes through the registration on the front end of the "
+"website, the user can override the total amount."
+msgstr ""
+
+#: application/config/settings-fields.php:228
+msgid "Enable Admin Override Calendar?"
+msgstr ""
+
+#: application/config/settings-fields.php:231
+msgid ""
+"When an admin user goes through the registration on the front end of the "
+"website, a date selector calendar will be visible instead of the list of "
+"dates."
+msgstr ""
+
+#: application/config/settings-fields.php:237
+#, fuzzy
+msgid "Enable Donations?"
+msgstr "SSL aanzetten voor registratie?"
+
+#: application/config/settings-fields.php:240
+msgid ""
+"This will allow the registrants to make donations during the registration."
+msgstr ""
+
+#: application/config/settings-fields.php:255
+msgid "Registration Button Text "
+msgstr "Tekst bij de registratieknop"
+
+#: application/config/settings-fields.php:256
+msgid "Register, Sign Up, Buy Tickets..."
+msgstr "Registreer, Schrijf in, Koop Kaarten..."
+
+#: application/config/settings-fields.php:262
+msgid "Enable Date Specific Location"
+msgstr "Sta Locatie toe die gekoppeld is aan Datum"
+
+#: application/config/settings-fields.php:263
+msgid "This setting will let you indicate a specific location for each date."
+msgstr ""
+"Deze instelling maakt het mogelijk een specifieke locatie voor elke datum "
+"aan te wijzen."
+
+#: application/config/settings-fields.php:269
+#, fuzzy
+msgid "Enable Date Specific Notes"
+msgstr "Sta Locatie toe die gekoppeld is aan Datum"
+
+#: application/config/settings-fields.php:270
+#, fuzzy
+msgid "This setting will let you indicate a specific note for each date."
+msgstr ""
+"Deze instelling maakt het mogelijk een specifieke locatie voor elke datum "
+"aan te wijzen."
+
+#: application/config/settings-fields.php:275
+#, fuzzy
+msgid "Default Notification Email"
+msgstr "Alternatieve bevestigings e-mails"
+
+#: application/config/settings-fields.php:276
+msgid ""
+"Registration Notifications will be sent to this email, unless Alternate "
+"Notification Emails are indicated for the an event."
+msgstr ""
+
+#: application/config/settings-fields.php:282
+msgid "Version"
+msgstr ""
+
+#: application/config/settings-fields.php:283
+#, fuzzy
+msgid "Manage Event page version"
+msgstr "Programmanaam"
+
+#: application/config/settings-fields.php:299
+msgid "Default"
+msgstr ""
+
+#: application/config/settings-fields.php:326
+#, fuzzy
+msgid "FullCalendar Theme"
+msgstr "Kalender"
+
+#: application/config/settings-fields.php:327
+msgid "These styles are loaded from the Google CDN."
+msgstr ""
+
+#: application/config/settings-fields.php:333
+msgid "Enable Tooltip"
+msgstr ""
+
+#: application/config/settings-fields.php:339
+#: application/config/settings-fields.php:346
+#: application/helpers/common-helper.php:64
+#: application/helpers/date-helper.php:1328
+#: application/helpers/date-helper.php:2232
+#: application/helpers/date-helper.php:2299
+#: application/helpers/date-helper.php:2750
+#: application/views/admin/global-discounts/discount-social-discount-fields.php:29
+#: application/views/admin/global-discounts/discount-social-discount-fields.php:34
+#: application/views/admin/global-discounts/discount-social-discount-fields.php:39
+#: application/views/admin/global-discounts/discount-social-discount-fields.php:44
+#: application/views/front/user-regis-manager/user-regis-dates.php:68
+msgid "No"
+msgstr "Nee"
+
+#: application/config/settings-fields.php:339
+#, fuzzy
+msgid "Above Calendar"
+msgstr "Kalender"
+
+#: application/config/settings-fields.php:339
+#, fuzzy
+msgid "Below Calendar"
+msgstr "Kalender"
+
+#: application/config/settings-fields.php:340
+msgid "Display Category Legends"
+msgstr ""
+
+#: application/config/settings-fields.php:346
+msgid "Logged-in Users"
+msgstr ""
+
+#: application/config/settings-fields.php:346
+msgid "All Users"
+msgstr ""
+
+#: application/config/settings-fields.php:347
+msgid "Display Attendee Counts on Calendar?"
+msgstr ""
+
+#: application/config/settings-fields.php:354
+msgid "Enable Caching?"
+msgstr ""
+
+#: application/config/settings-fields.php:355
+msgid ""
+"When this is enabled, the calendar generation query is refreshed every 4 "
+"hours or when an event is updated.  Caching will make the calendar load much "
+"faster."
+msgstr ""
+
+#: application/config/settings-fields.php:363
+msgid "iCal Feeds"
+msgstr ""
+
+#: application/config/settings-fields.php:364
+msgid "Regular iCal Feed"
+msgstr ""
+
+#: application/config/settings-fields.php:367
+msgid "iCal Feed With Attendee Counts"
+msgstr ""
+
+#: application/config/settings-fields.php:374
+msgid "Event Taxonomy color"
+msgstr ""
+
+#: application/config/settings-fields.php:379
+msgid "Event Taxonomy font color"
+msgstr ""
+
+#: application/config/sys-messages.php:6
+msgid "Sorry but something must have gone wrong."
+msgstr "Sorry er is iets fout gegaan"
+
+#: application/config/sys-messages.php:7
+msgid "Please select a quantity"
+msgstr "Kies een hoeveelheid aub"
+
+#: application/config/sys-messages.php:8
+msgid "Please select a date"
+msgstr "Kies een datum aub"
+
+#: application/config/sys-messages.php:9
+msgid "Please select a time"
+msgstr "Kies een tijd aub"
+
+#: application/config/sys-messages.php:10
+#: application/helpers/common-helper.php:439
+#: application/views/front/event-list-class.php:175
+msgid "Sold Out"
+msgstr "Uitverkocht"
+
+#: application/config/sys-messages.php:11
+msgid "Registration Closed"
+msgstr "Registratie is gesloten"
+
+#: application/config/sys-messages.php:12
+msgid "The quantity selected exceeds the number of available spaces"
+msgstr ""
+"Het aantal gekozen plaatsen overschrijdt het aantal beschikbare plaatsen"
+
+#: application/config/sys-messages.php:13
+msgid "Please select a date."
+msgstr "Kies een datum aub."
+
+#: application/controllers/epl-event-manager.php:191
+msgid "Snapshot"
+msgstr ""
+
+#: application/controllers/epl-event-manager.php:200
+#, fuzzy
+msgid "Enter Event Name Here"
+msgstr "Programmanaam"
+
+#: application/controllers/epl-event-manager.php:269
+#: application/views/admin/events/events-main-meta-box.php:11
+#: application/views/front/cart/cart.php:71
+#: application/views/front/single-templates/single-epl_event.php:19
+msgid "Dates"
+msgstr "Data"
+
+#: application/controllers/epl-event-manager.php:271
+msgid "Times and Prices"
+msgstr "Tijden en Prijzen"
+
+#: application/controllers/epl-event-manager.php:273 system/epl-init.php:376
+msgid "Settings"
+msgstr "Instellingen"
+
+#: application/controllers/epl-event-manager.php:277
+msgid "Options"
+msgstr "Opties"
+
+#: application/controllers/epl-event-manager.php:614
+#: application/controllers/epl-event-manager.php:627
+#: application/controllers/epl-registration-manager.php:651
+#: application/controllers/epl-registration-manager.php:1115
+#: application/controllers/epl-report-manager.php:68
+#: application/models/epl-common-model.php:1259
+#: application/models/epl-report-model.php:807
+#: application/views/admin/registration/regis-cart-section.php:11
+#: application/views/admin/reports/full-report.php:163
+#: application/views/user-regis-manager/user-bookings.php:24
+#: system/epl-init.php:457
+msgid "Event"
+msgstr "Programma"
+
+#: application/controllers/epl-event-manager.php:628
+msgid "Replace"
+msgstr ""
+
+#: application/controllers/epl-event-manager.php:628
+msgid "Append"
+msgstr ""
+
+#: application/controllers/epl-event-manager.php:868
+#: application/controllers/epl-event-manager.php:944
+#: application/views/admin/event-snapshot.php:33
+#: application/views/admin/event-snapshot_1.php:25
+#: application/views/admin/dashboard/dashboard1.php:80
+#: application/views/admin/registration/regis-payment-meta-box.php:18
+#: application/views/admin/reports/full-report.php:168
+#: application/views/admin/reports/regis-invoice-1.php:127
+#: application/views/admin/reports/view-full-data.php:193
+#: application/views/admin/reports/view-names.php:199
+#: application/views/user-regis-manager/user-bookings.php:22
+#, fuzzy
+msgid "Date"
+msgstr "Data"
+
+#: application/controllers/epl-event-manager.php:945
+#: application/models/epl-common-model.php:1508
+#: application/models/epl-common-model.php:1980
+#: application/models/epl-report-model.php:810
+#: application/views/admin/event-snapshot.php:34
+#: application/views/admin/cart/cart-dates.php:64
+#: application/views/admin/cart/cart-times.php:6
+#: application/views/admin/reports/full-report.php:169
+#: application/views/admin/reports/regis-invoice-1.php:128
+#: application/views/admin/reports/view-full-data.php:194
+#: application/views/admin/reports/view-names.php:200
+#: application/views/admin/user-regis-manager/daily-checkin-class-list.php:28
+#: application/views/front/event-list-class.php:192
+#: application/views/front/cart/cart-dates.php:51
+#: application/views/front/cart/cart-times.php:6
+#: application/views/user-regis-manager/user-bookings.php:23
+msgid "Time"
+msgstr "Tijd"
+
+#: application/controllers/epl-event-manager.php:946
+#: application/controllers/epl-event-manager.php:1025
+#: application/controllers/epl-event-manager.php:1026
+#: application/controllers/epl-registration-manager.php:1113
+#: application/libraries/epl-util.php:1717
+#: application/views/admin/event-snapshot.php:36
+#: application/views/admin/event-snapshot_1.php:29
+#: application/views/front/attendee-list-1.php:24
+#, fuzzy
+msgid "Attendees"
+msgstr "Deelnemer"
+
+#: application/controllers/epl-event-manager.php:988
+#: application/views/admin/event-snapshot.php:87
+#, fuzzy
+msgid "View Attendees"
+msgstr "# Deelnemers"
+
+#: application/controllers/epl-event-manager.php:991
+#: application/views/admin/event-snapshot.php:45
+#: application/views/admin/event-snapshot.php:91
+#: application/views/admin/event-snapshot_1.php:38
+#: application/views/admin/event-snapshot_1.php:106
+msgid "View Full Data"
+msgstr ""
+
+#: application/controllers/epl-event-manager.php:992
+#: application/views/admin/event-snapshot.php:92
+#: application/views/admin/event-snapshot_1.php:107
+msgid "Export CSV"
+msgstr ""
+
+#: application/controllers/epl-front.php:94
+#: application/models/epl-registration-model.php:3120
+#, fuzzy
+msgid "Available"
+msgstr "Beschikbare plaatsen"
+
+#: application/controllers/epl-front.php:97
+#, fuzzy
+msgid "Username Taken"
+msgstr "API gebruikersnaam"
+
+#: application/controllers/epl-front.php:196
+msgid ""
+"Your name has been added to the waitlist.  You will receive an emails "
+"shortly and will be notified when any spaces open up."
+msgstr ""
+
+#: application/controllers/epl-front.php:208
+#: application/controllers/epl-front.php:225
+#: application/models/epl-common-model.php:1207
+#: application/models/epl-registration-model.php:314
+msgid "You have reached this page in error."
+msgstr ""
+
+#: application/controllers/epl-front.php:701
+#: application/libraries/epl-util.php:1623
+#: application/libraries/epl-util.php:2812
+msgid "Register"
+msgstr "Registreer"
+
+#: application/controllers/epl-front.php:985
+msgid ""
+"There seems to be something wrong with the url.  Please contact the website "
+"administrator."
+msgstr ""
+
+#: application/controllers/epl-front.php:988
+msgid "This waitlist has not been approved."
+msgstr ""
+
+#: application/controllers/epl-front.php:991
+#, fuzzy
+msgid "This link has expired."
+msgstr "Deze tijd is verstreken."
+
+#: application/controllers/epl-front.php:1603
+#: application/controllers/epl-front.php:1604
+#, fuzzy
+msgid "Attendee Information"
+msgstr "Vervolgens: Deelnemergegevens"
+
+#: application/controllers/epl-front.php:1608
+#: application/controllers/epl-front.php:1618
+msgid "Overview"
+msgstr "Overzicht"
+
+#: application/controllers/epl-front.php:1609
+#: application/controllers/epl-front.php:1610
+#: application/controllers/epl-front.php:1613
+#: application/controllers/epl-front.php:1614
+#: application/controllers/epl-front.php:1619
+#: application/controllers/epl-front.php:1620
+msgid "Confirm and Complete"
+msgstr "Bevestig en rond af"
+
+#: application/controllers/epl-front.php:1673
+msgid "Confirm and Continue to PayPal"
+msgstr "Bevestig en vervolg met PayPal"
+
+#: application/controllers/epl-front.php:1688
+#: application/controllers/epl-front.php:1692
+#: application/controllers/epl-front.php:1702
+#, fuzzy
+msgid "Continue to Pay"
+msgstr "Bevestig en vervolg met PayPal"
+
+#: application/controllers/epl-global-discount-manager.php:82
+#, fuzzy
+msgid "Discount Details"
+msgstr "Betaalgegevens"
+
+#: application/controllers/epl-global-discount-manager.php:286
+msgid "Coupon"
+msgstr ""
+
+#: application/controllers/epl-global-discount-manager.php:289
+#: application/controllers/epl-org-manager.php:106
+#: application/controllers/epl-pay-profile-manager.php:157
+msgid "Created By"
+msgstr "Aanmemaakt door"
+
+#: application/controllers/epl-global-discount-manager.php:313
+msgid "See Usage"
+msgstr ""
+
+#: application/controllers/epl-location-manager.php:53
+msgid "Location Information"
+msgstr "Informatie over de lokatie"
+
+#: application/controllers/epl-location-manager.php:105
+#, fuzzy
+msgid "Location Name"
+msgstr "Locatie"
+
+#: application/controllers/epl-notification-manager.php:53
+#, fuzzy
+msgid "Notification Options"
+msgstr "Alternatieve bevestigings e-mails"
+
+#: application/controllers/epl-notification-manager.php:54
+#, fuzzy
+msgid "Available System Tags"
+msgstr "Beschikbare plaatsen"
+
+#: application/controllers/epl-notification-manager.php:55
+msgid "Form Field Tags"
+msgstr ""
+
+#: application/controllers/epl-notification-manager.php:104
+msgid ""
+"Currently only data from the Ticket Buyer forms can be displayed using these "
+"tags."
+msgstr ""
+
+#: application/controllers/epl-notification-manager.php:115
+msgid "Please use the form manager to add a slug for this field"
+msgstr ""
+
+#: application/controllers/epl-notification-manager.php:139
+#, fuzzy
+msgid "Notification Name"
+msgstr "Locatie"
+
+#: application/controllers/epl-org-manager.php:68
+msgid "Organization Info"
+msgstr "Informatie over de organisatie"
+
+#: application/controllers/epl-org-manager.php:102 system/epl-init.php:626
+msgid "Organization"
+msgstr "Organisatie"
+
+#: application/controllers/epl-pay-profile-manager.php:104
+msgid "Payment Profile Details"
+msgstr "Detalis van het betalingsprofiel"
+
+#: application/controllers/epl-pay-profile-manager.php:153
+#, fuzzy
+msgid "Payment Profile Name"
+msgstr "Betaalprofiel"
+
+#: application/controllers/epl-registration-manager.php:86
+msgid "Request Error"
+msgstr ""
+
+#: application/controllers/epl-registration-manager.php:189
+#, fuzzy
+msgid "Please select at least one email address."
+msgstr "Geef ten minste Ã©Ã©n datum op."
+
+#: application/controllers/epl-registration-manager.php:227
+msgid "Invoice"
+msgstr ""
+
+#: application/controllers/epl-registration-manager.php:232
+#: application/controllers/epl-registration-manager.php:241
+#: application/controllers/epl-registration-manager.php:474
+#, fuzzy
+msgid "Email Sent"
+msgstr "E-mail"
+
+#: application/controllers/epl-registration-manager.php:244
+#: application/controllers/epl-registration-manager.php:474
+msgid "An error has occured"
+msgstr ""
+
+#: application/controllers/epl-registration-manager.php:339
+#, fuzzy
+msgid "Please select an email template."
+msgstr "Kies een datum aub."
+
+#: application/controllers/epl-registration-manager.php:357
+#: application/controllers/epl-report-manager.php:82
+#, fuzzy
+msgid "Show all Registrations"
+msgstr "Zoek Registratie"
+
+#: application/controllers/epl-registration-manager.php:366
+#: application/controllers/epl-report-manager.php:69
+#, fuzzy
+msgid "Show All Events"
+msgstr "Zoek Programma"
+
+#: application/controllers/epl-registration-manager.php:377
+#, fuzzy
+msgid "First/Last Name, Email"
+msgstr "Voornaam"
+
+#: application/controllers/epl-registration-manager.php:450
+msgid "This waitlist needs to be approved before the email can be sent."
+msgstr ""
+
+#: application/controllers/epl-registration-manager.php:808
+msgid "Payment Information"
+msgstr "Betalingsgegevens"
+
+#: application/controllers/epl-registration-manager.php:809
+msgid "Registration Information"
+msgstr "Registratiegegevens"
+
+#: application/controllers/epl-registration-manager.php:810
+#, fuzzy
+msgid "Other Options"
+msgstr "Overige instellingen"
+
+#: application/controllers/epl-registration-manager.php:831
+msgid "This is not a credit card gateway"
+msgstr ""
+
+#: application/controllers/epl-registration-manager.php:1035
+msgid "Send Waitlist Approval Email"
+msgstr ""
+
+#: application/controllers/epl-registration-manager.php:1040
+msgid "Email Sent on"
+msgstr ""
+
+#: application/controllers/epl-registration-manager.php:1114
+#: application/models/epl-common-model.php:2408
+#: application/views/front/registration/regis-thank-you-page.php:16
+msgid "Registration ID"
+msgstr "Registratie Id"
+
+#: application/controllers/epl-registration-manager.php:1117
+#: application/views/front/registration/regis-payment-details.php:25
+#, fuzzy
+msgid "Registration Status"
+msgstr "Begin van de registratie"
+
+#: application/controllers/epl-registration-manager.php:1125
+#: application/helpers/common-helper.php:76
+msgid "On"
+msgstr "Aan"
+
+#: application/controllers/epl-registration-manager.php:1226
+msgid "waitlist"
+msgstr ""
+
+#: application/controllers/epl-report-manager.php:118
+#: application/views/admin/event-snapshot.php:47
+#: application/views/admin/event-snapshot_1.php:40
+msgid "Export Full CSV"
+msgstr ""
+
+#: application/controllers/epl-settings-manager.php:34
+#: application/views/admin/events/settings-meta-box.php:4
+msgid "General"
+msgstr "Algemeen"
+
+#: application/controllers/epl-settings-manager.php:35
+#: application/models/epl-user-model.php:44 system/epl-init.php:493
+msgid "Registrations"
+msgstr "Registraties"
+
+#: application/controllers/epl-settings-manager.php:36
+#, fuzzy
+msgid "Event Management"
+msgstr "Programmanaam"
+
+#: application/controllers/epl-settings-manager.php:38
+msgid "Advanced"
+msgstr ""
+
+#: application/controllers/epl-settings-manager.php:69
+#, fuzzy
+msgid "Override"
+msgstr "Overzicht"
+
+#: application/controllers/epl-settings-manager.php:73
+#, fuzzy
+msgid "Event Cart"
+msgstr "Programmadatum"
+
+#: application/helpers/common-helper.php:64
+#: application/helpers/date-helper.php:2300
+#: application/views/admin/global-discounts/discount-social-discount-fields.php:24
+#: application/views/front/user-regis-manager/user-regis-dates.php:68
+msgid "Yes"
+msgstr "Ja"
+
+#: application/helpers/common-helper.php:76
+msgid "Off"
+msgstr "Uit"
+
+#: application/helpers/common-helper.php:104
+#: application/libraries/epl-calendar.php:359
+msgid "Jan"
+msgstr ""
+
+#: application/helpers/common-helper.php:105
+#: application/libraries/epl-calendar.php:360
+msgid "Feb"
+msgstr ""
+
+#: application/helpers/common-helper.php:106
+#: application/libraries/epl-calendar.php:361
+msgid "Mar"
+msgstr ""
+
+#: application/helpers/common-helper.php:107
+#: application/libraries/epl-calendar.php:362
+msgid "Apr"
+msgstr ""
+
+#: application/helpers/common-helper.php:108
+#: application/libraries/epl-calendar.php:363
+#: application/libraries/epl-calendar.php:378
+#, fuzzy
+msgid "May"
+msgstr "dag"
+
+#: application/helpers/common-helper.php:109
+#: application/libraries/epl-calendar.php:364
+#, fuzzy
+msgid "Jun"
+msgstr "zon"
+
+#: application/helpers/common-helper.php:110
+#: application/libraries/epl-calendar.php:365
+msgid "Jul"
+msgstr ""
+
+#: application/helpers/common-helper.php:111
+#: application/libraries/epl-calendar.php:366
+msgid "Aug"
+msgstr ""
+
+#: application/helpers/common-helper.php:112
+#: application/libraries/epl-calendar.php:367
+msgid "Sep"
+msgstr ""
+
+#: application/helpers/common-helper.php:113
+#: application/libraries/epl-calendar.php:368
+msgid "Oct"
+msgstr ""
+
+#: application/helpers/common-helper.php:114
+#: application/libraries/epl-calendar.php:369
+#, fuzzy
+msgid "Nov"
+msgstr "Nee"
+
+#: application/helpers/common-helper.php:115
+#: application/libraries/epl-calendar.php:370
+#, fuzzy
+msgid "Dec"
+msgstr "Gepland"
+
+#: application/helpers/common-helper.php:422
+#, fuzzy
+msgid "Available for registration on"
+msgstr "Beschikbaar voor registratie op"
+
+#: application/helpers/common-helper.php:427
+msgid " Registration Closed"
+msgstr "Registratie gesloten"
+
+#: application/helpers/common-helper.php:909
+msgid "years"
+msgstr "jaren"
+
+#: application/helpers/common-helper.php:909
+msgid "year"
+msgstr "jaar"
+
+#: application/helpers/common-helper.php:918
+msgid "months"
+msgstr "maanden"
+
+#: application/helpers/common-helper.php:918
+msgid "month"
+msgstr "maand"
+
+#: application/helpers/common-helper.php:930
+msgid "weeks"
+msgstr "weken"
+
+#: application/helpers/common-helper.php:930
+msgid "week"
+msgstr "week"
+
+#: application/helpers/common-helper.php:942
+#: application/models/epl-gateway-model.php:124
+#: application/models/epl-gateway-model.php:417
+#: application/models/epl-gateway-model.php:1530
+#: application/views/widgets/upcoming-events/form.php:6
+msgid "days"
+msgstr "dagen"
+
+#: application/helpers/common-helper.php:942
+msgid "day"
+msgstr "dag"
+
+#: application/helpers/common-helper.php:953
+#: application/helpers/pr-helper.php:29
+msgid "h"
+msgstr "u"
+
+#: application/helpers/common-helper.php:965
+#: application/helpers/pr-helper.php:31
+msgid "m"
+msgstr "min"
+
+#: application/helpers/common-helper.php:973
+msgid "s"
+msgstr "s"
+
+#: application/helpers/common-helper.php:1807
+#, fuzzy
+msgid "No Expiration"
+msgstr "Expiratiejaar"
+
+#: application/helpers/common-helper.php:1869
+#: application/views/admin/event-snapshot.php:93
+#: application/views/admin/event-snapshot_1.php:108
+#: application/views/admin/registration/regis-email-form.php:10
+#, fuzzy
+msgid "Send Email"
+msgstr "E-mail"
+
+#: application/helpers/date-helper.php:731
+msgid "QB Merch. Serv."
+msgstr ""
+
+#: application/helpers/date-helper.php:749
+msgid "Instructors"
+msgstr "Instructeurs"
+
+#: application/helpers/date-helper.php:750
+#: application/helpers/template-tags.php:339
+#: application/views/front/event-list-class.php:195
+msgid "Instructor"
+msgstr "Instructeur"
+
+#: application/helpers/date-helper.php:751
+#: application/helpers/date-helper.php:752
+msgid "Add New Instructor"
+msgstr "Voeg Nieuwe Instructeur toe"
+
+#: application/helpers/date-helper.php:753
+msgid "Edit Event Instructor"
+msgstr "Edit Programma Instructeur"
+
+#: application/helpers/date-helper.php:754
+msgid "New Instructor"
+msgstr "Nieuwe Instructeur"
+
+#: application/helpers/date-helper.php:755
+msgid "View Instructor"
+msgstr "Bekijk Instructeur"
+
+#: application/helpers/date-helper.php:756
+msgid "Search Instructors"
+msgstr "Zoek Instructeurs"
+
+#: application/helpers/date-helper.php:757
+msgid "No Instructors Found"
+msgstr "Geen Instructeurs Gevonden"
+
+#: application/helpers/date-helper.php:758
+msgid "No Instructors Found In Trash"
+msgstr "Geen Instructeurs Gevonden in de Prullenbak"
+
+#: application/helpers/date-helper.php:776
+msgid "Global Discounts"
+msgstr ""
+
+#: application/helpers/date-helper.php:777
+msgid "Global Discount"
+msgstr ""
+
+#: application/helpers/date-helper.php:778
+#: application/helpers/date-helper.php:779
+#, fuzzy
+msgid "Add New Global Discount"
+msgstr "Voeg Nieuwe Programma Locatie toe"
+
+#: application/helpers/date-helper.php:780
+msgid "Edit Global Discount"
+msgstr ""
+
+#: application/helpers/date-helper.php:781
+msgid "New Global Discount"
+msgstr ""
+
+#: application/helpers/date-helper.php:782
+msgid "View Global Discount"
+msgstr ""
+
+#: application/helpers/date-helper.php:783
+#, fuzzy
+msgid "Search Global Discounts"
+msgstr "Zoek Programma Locaties"
+
+#: application/helpers/date-helper.php:784
+#, fuzzy
+msgid "No Global Discounts Found"
+msgstr "Geen Programma Locaties gevonden"
+
+#: application/helpers/date-helper.php:785
+#, fuzzy
+msgid "No Global Discounts Found In Trash"
+msgstr "Geen Programma Locaties gevonden in de Prullenbak"
+
+#: application/helpers/date-helper.php:809
+#: application/helpers/date-helper.php:831
+#: application/helpers/date-helper.php:1730
+msgid "Cash"
+msgstr "Contant"
+
+#: application/helpers/date-helper.php:810
+#: application/helpers/date-helper.php:832
+msgid "Check"
+msgstr "Cheque"
+
+#: application/helpers/date-helper.php:812
+#: application/helpers/date-helper.php:834
+#: application/helpers/date-helper.php:1357
+msgid "PayPal PRO"
+msgstr "PayPal PRO"
+
+#: application/helpers/date-helper.php:813
+#: application/helpers/date-helper.php:835
+msgid "PayPal PayFlow Pro"
+msgstr ""
+
+#: application/helpers/date-helper.php:814
+#: application/helpers/date-helper.php:836
+#: application/helpers/date-helper.php:1501
+msgid "Authorize.net AIM"
+msgstr "Authorize.net AIM"
+
+#: application/helpers/date-helper.php:815
+#: application/helpers/date-helper.php:837
+#: application/helpers/date-helper.php:1561
+#, fuzzy
+msgid "Authorize.net SIM"
+msgstr "Authorize.net AIM"
+
+#: application/helpers/date-helper.php:816
+#: application/helpers/date-helper.php:838
+#: application/helpers/date-helper.php:1961
+msgid "USA ePay"
+msgstr ""
+
+#: application/helpers/date-helper.php:817
+#: application/helpers/date-helper.php:839
+msgid "Payson"
+msgstr ""
+
+#: application/helpers/date-helper.php:818
+#: application/helpers/date-helper.php:840
+#: application/helpers/date-helper.php:1828
+msgid "Moneris Hosted Paypage"
+msgstr ""
+
+#: application/helpers/date-helper.php:819
+#: application/helpers/date-helper.php:841
+#, fuzzy
+msgid "FirstData"
+msgstr "Voornaam"
+
+#: application/helpers/date-helper.php:852
+#, fuzzy
+msgid "Waitlist Status"
+msgstr "Reg status"
+
+#: application/helpers/date-helper.php:855
+msgid "Pending Approval"
+msgstr ""
+
+#: application/helpers/date-helper.php:856
+msgid "Approved"
+msgstr ""
+
+#: application/helpers/date-helper.php:859
+msgid ""
+"If you change the status to Approved, the waitlist approved email will be "
+"automatically sent."
+msgstr ""
+
+#: application/helpers/date-helper.php:887
+#, fuzzy
+msgid "Inline Calendar"
+msgstr "Kalender"
+
+#: application/helpers/date-helper.php:890
+msgid "Enable the date selector calendar?"
+msgstr ""
+
+#: application/helpers/date-helper.php:891
+msgid ""
+"This feature is most useful when you have many dates to choose from and do "
+"not want to display the big list of dates in the cart.\n"
+"                    The user will be able to select a date from a clickable "
+"calendar based on the available dates."
+msgstr ""
+
+#: application/helpers/date-helper.php:901
+msgid "Number of calendars to show"
+msgstr ""
+
+#: application/helpers/date-helper.php:909
+msgid "Alternate text for dates section."
+msgstr ""
+
+#: application/helpers/date-helper.php:910
+msgid ""
+"When there is text in this field, the user will see this instead of the "
+"dates in the event list and the single event page.  You can use it for TBD "
+"messages."
+msgstr ""
+
+#: application/helpers/date-helper.php:920
+msgid "Please select one or more days."
+msgstr "Kies Ã©Ã©n of meer dagen"
+
+#: application/helpers/date-helper.php:921
+#: application/helpers/date-helper.php:922
+msgid "You will register for all of the following days."
+msgstr "U registreert op alle van de volgende dagen."
+
+#: application/helpers/date-helper.php:930
+#, fuzzy, php-format
+msgid "User can register for %s one or more days %s."
+msgstr "Klant kan alleen registreren op % een of meer dagen%s"
+
+#: application/helpers/date-helper.php:931
+#, php-format
+msgid "User automatically registers for %s all days %s."
+msgstr "Klant registreert automatisch op %s alle dagen %s."
+
+#: application/helpers/date-helper.php:932
+msgid "A class/course."
+msgstr "Klas/cursus"
+
+#: application/helpers/date-helper.php:948
+msgid "Package Size"
+msgstr ""
+
+#: application/helpers/date-helper.php:962
+#: application/models/epl-common-model.php:1322
+#: application/models/epl-common-model.php:1323
+msgid "From"
+msgstr "Vanaf"
+
+#: application/helpers/date-helper.php:970
+#: application/models/epl-common-model.php:1333
+#: application/models/epl-common-model.php:1334
+msgid "To"
+msgstr "Tot"
+
+#: application/helpers/date-helper.php:978
+#, fuzzy
+msgid "Member Only Price"
+msgstr "Tijden en Prijzen"
+
+#: application/helpers/date-helper.php:987
+msgid "Price Specific Form (optional)"
+msgstr ""
+
+#: application/helpers/date-helper.php:990
+msgid ""
+"Use these forms only if you would like to collect different information if "
+"the user selects this price."
+msgstr ""
+
+#: application/helpers/date-helper.php:1003
+#: application/helpers/date-helper.php:1153
+#, fuzzy
+msgid "Date Specific?"
+msgstr "Sta Locatie toe die gekoppeld is aan Datum"
+
+#: application/helpers/date-helper.php:1012
+#, fuzzy
+msgid "Time Specific?"
+msgstr "Sta Locatie toe die gekoppeld is aan Datum"
+
+#: application/helpers/date-helper.php:1062
+msgid "for"
+msgstr ""
+
+#: application/helpers/date-helper.php:1063
+#, fuzzy
+msgid "Each quantity"
+msgstr "Hoeveelheid"
+
+#: application/helpers/date-helper.php:1063
+msgid "Only once"
+msgstr ""
+
+#: application/helpers/date-helper.php:1074
+msgid "PayPal Parallel Pay Email"
+msgstr ""
+
+#: application/helpers/date-helper.php:1091
+#, fuzzy
+msgid "Package Type"
+msgstr "Prijstype"
+
+#: application/helpers/date-helper.php:1092
+#, fuzzy
+msgid "Count Based"
+msgstr "Betaald"
+
+#: application/helpers/date-helper.php:1092
+#, fuzzy
+msgid "Time Based"
+msgstr "Tijden"
+
+#: application/helpers/date-helper.php:1100
+msgid "Time Length"
+msgstr ""
+
+#: application/helpers/date-helper.php:1109
+#: application/views/admin/event-snapshot.php:32
+#: application/views/admin/event-snapshot_1.php:24
+#: application/views/front/event-list-class.php:190
+#: application/views/user-regis-manager/user-bookings.php:21
+#, fuzzy
+msgid "Day"
+msgstr "dag"
+
+#: application/helpers/date-helper.php:1109
+#, fuzzy
+msgid "Week"
+msgstr "Weekdagen"
+
+#: application/helpers/date-helper.php:1109
+#, fuzzy
+msgid "Month"
+msgstr "maand"
+
+#: application/helpers/date-helper.php:1141
+msgid "Regis. End Time"
+msgstr "Reg Eindtijd"
+
+#: application/helpers/date-helper.php:1162
+#, fuzzy
+msgid "Weekday Specific?"
+msgstr "Sta Locatie toe die gekoppeld is aan Datum"
+
+#: application/helpers/date-helper.php:1181
+msgid "Date level price"
+msgstr ""
+
+#: application/helpers/date-helper.php:1182
+msgid ""
+"If the event happens on different days, can the user select a different "
+"price for each one of the days?"
+msgstr ""
+"Als het programma verspreid is over verschiedene dagen, heeft de klant dat "
+"de gelegenheid om voor iedere dag een andere prijs te selecteren?"
+
+#: application/helpers/date-helper.php:1201
+msgid "Date level time"
+msgstr ""
+
+#: application/helpers/date-helper.php:1202
+msgid ""
+"If the event happens on different days, can the user select a different time "
+"for each one of the days?"
+msgstr ""
+"Als het programma verspreid is over verschiedene dagen, heeft de klant dat "
+"de gelegenheid om voor iedere dag een ander tijdstip te selecteren?"
+
+#: application/helpers/date-helper.php:1210
+#, fuzzy
+msgid "Enable Rolling Registration?"
+msgstr "SSL aanzetten voor registratie?"
+
+#: application/helpers/date-helper.php:1211
+msgid ""
+"With this setting, the user will be only allowed to register for the next "
+"available open date or time slot."
+msgstr ""
+
+#: application/helpers/date-helper.php:1219
+#, fuzzy
+msgid "Enable Pack Registration?"
+msgstr "SSL aanzetten voor registratie?"
+
+#: application/helpers/date-helper.php:1221
+#, fuzzy
+msgid ""
+"This setting will let you indicate how many days a certain price will "
+"reserve if you offer a multiday / multiweek events."
+msgstr ""
+"Deze instelling maakt het mogelijk een specifieke locatie voor elke datum "
+"aan te wijzen."
+
+#: application/helpers/date-helper.php:1229
+#, fuzzy
+msgid "Consecutive?"
+msgstr "In-actief"
+
+#: application/helpers/date-helper.php:1231
+msgid "If yes, the user will register for the next X consecutive classes."
+msgstr ""
+
+#: application/helpers/date-helper.php:1238
+msgid "Enable deposit payment?"
+msgstr ""
+
+#: application/helpers/date-helper.php:1241
+msgid ""
+"If yes, the user will have the option of paying a deposit during the "
+"registration and pay the balance at a later date."
+msgstr ""
+
+#: application/helpers/date-helper.php:1248
+msgid "Deposit Type"
+msgstr ""
+
+#: application/helpers/date-helper.php:1250
+msgid ""
+"If Percent, the deposit amount will inclde any surcharges but will exclude "
+"discounts."
+msgstr ""
+
+#: application/helpers/date-helper.php:1256
+msgid "Deposit Amount"
+msgstr ""
+
+#: application/helpers/date-helper.php:1279
+#, fuzzy
+msgid "Email message to use for confirmations."
+msgstr "Bezoek %s voor meer informatie."
+
+#: application/helpers/date-helper.php:1297
+msgid "Presenter, instructor, Trainer..."
+msgstr "Presentator, Instructeur, Trainer"
+
+#: application/helpers/date-helper.php:1299
+msgid ""
+"No Presenter/instructor found.  Please go to Events Planner > Instructors to "
+"create some."
+msgstr ""
+
+#: application/helpers/date-helper.php:1328
+#: application/helpers/date-helper.php:2261
+msgid "Ask"
+msgstr ""
+
+#: application/helpers/date-helper.php:1328
+#: application/helpers/date-helper.php:2261
+msgid "Automatically add"
+msgstr ""
+
+#: application/helpers/date-helper.php:1330
+msgid "Offer to sign up to a notification list?"
+msgstr ""
+
+#: application/helpers/date-helper.php:1331
+msgid "If yes, select a notification list below."
+msgstr ""
+
+#: application/helpers/date-helper.php:1340
+#, fuzzy
+msgid "Select a notification list."
+msgstr "Zoek Programma Locaties"
+
+#: application/helpers/date-helper.php:1358
+#, php-format
+msgid ""
+"Accept Credit and Debit Cards without having the customer leave your "
+"website. Currently available for US and Canada.\n"
+"                <br />%sMUST USE SSL FOR PCI COMPLIANCE.  You can enable SSL "
+"from Events Planner > Settings > Registration tab.%s"
+msgstr ""
+"Accepteer Credit en Debit Cards zonder dat de klant uw website hoeft te "
+"verlaten. Op dit moment beschikbaar in de VS en Canada\n"
+"<br />%sSSL vereist ivm. PCI Compliance.  U kunt de SSL-optie aanzetten via "
+"from Events Planner > Settings > Registration tab.%s"
+
+#: application/helpers/date-helper.php:1370
+#: application/helpers/date-helper.php:1440
+msgid ""
+"What the customer will see as an option.  You can use text or embed and "
+"image."
+msgstr ""
+"Hetgeen de klant ziet als een optie. U kunt zowel tekst gebruiken of een "
+"image embedden."
+
+#: application/helpers/date-helper.php:1400
+#: application/helpers/date-helper.php:1474
+#: application/helpers/date-helper.php:1536
+#: application/helpers/date-helper.php:1656
+#: application/helpers/date-helper.php:1934
+msgid "Accepted Cards"
+msgstr "Geaccepteerde kaarten"
+
+#: application/helpers/date-helper.php:1403
+#: application/helpers/date-helper.php:1477
+msgid ""
+"For Canada, only MasterCard and Visa are allowable and Interac debit cards "
+"are not supported."
+msgstr ""
+"In Canada zijn alleen MasterCard en Visa mogelijk, Interac debit cards "
+"worden niet ondersteund."
+
+#: application/helpers/date-helper.php:1418
+#: application/helpers/date-helper.php:1492
+#: application/helpers/date-helper.php:1552
+#: application/helpers/date-helper.php:1612
+#: application/helpers/date-helper.php:1671
+#: application/helpers/date-helper.php:1721
+#: application/helpers/date-helper.php:1757
+#: application/helpers/date-helper.php:1819
+#: application/helpers/date-helper.php:1877
+#: application/helpers/date-helper.php:1951
+#: application/helpers/date-helper.php:1952
+#: application/helpers/date-helper.php:2012
+msgid ""
+"If this option is set to yes, all future events will have this payment "
+"profile automatically selected as a payment choice."
+msgstr ""
+
+#: application/helpers/date-helper.php:1427
+#, fuzzy
+msgid "PayPal PayFlow PRO"
+msgstr "PayPal PRO"
+
+#: application/helpers/date-helper.php:1428
+#, fuzzy, php-format
+msgid ""
+"Accept Credit and Debit Cards without having the customer leave your "
+"website.\n"
+"                <br />%sMUST USE SSL FOR PCI COMPLIANCE.  You can enable SSL "
+"from Events Planner > Settings > Registration tab.%s"
+msgstr ""
+"Accepteer Credit en Debit Cards zonder dat de klant uw website hoeft te "
+"verlaten. Op dit moment beschikbaar in de VS en Canada\n"
+"<br />%sSSL vereist ivm. PCI Compliance.  U kunt de SSL-optie aanzetten via "
+"from Events Planner > Settings > Registration tab.%s"
+
+#: application/helpers/date-helper.php:1447
+msgid "Partner"
+msgstr ""
+
+#: application/helpers/date-helper.php:1454
+msgid "Vendor"
+msgstr ""
+
+#: application/helpers/date-helper.php:1461
+#: application/models/epl-registration-model.php:4071
+msgid "User"
+msgstr ""
+
+#: application/helpers/date-helper.php:1468
+#: application/helpers/date-helper.php:2315
+#: application/helpers/date-helper.php:2848
+#, fuzzy
+msgid "Password"
+msgstr "API Password"
+
+#: application/helpers/date-helper.php:1502
+#: application/helpers/date-helper.php:1887
+#: application/helpers/date-helper.php:1962
+#, php-format
+msgid ""
+"Accept Credit and Debit Cards without having the customer leave your "
+"website. %sMUST USE SSL FOR PCI COMPLIANCE.\n"
+"                You can enable SSL from Events Planner > Settings > "
+"Registration tab.%s"
+msgstr ""
+"Accepteer Credit en Debit Cards zonder dat de klant uw website hoeft te "
+"verlaten.\n"
+"<br />%sSSL vereist ivm. PCI Compliance.  U kunt de SSL-optie aanzetten via "
+"from Events Planner > Settings > Registration tab.%s"
+
+#: application/helpers/date-helper.php:1515
+#: application/helpers/date-helper.php:1574
+#: application/helpers/date-helper.php:1635
+#: application/helpers/date-helper.php:1779
+#: application/helpers/date-helper.php:1841
+#: application/helpers/date-helper.php:1904
+#: application/helpers/date-helper.php:1975
+msgid "What the customer will see as an option.  Ex. Credit Card."
+msgstr "Hetgeen de klant ziet als een optie. Bijv. CreditCard"
+
+#: application/helpers/date-helper.php:1522
+#: application/helpers/date-helper.php:1581
+msgid "API Login ID"
+msgstr "API Login Id"
+
+#: application/helpers/date-helper.php:1523
+#: application/helpers/date-helper.php:1582
+#: application/helpers/date-helper.php:1794
+msgid ""
+"This number can be obtained by logging into Authorize.net > Account > API "
+"Login ID and Transaction Key"
+msgstr ""
+"Dit nummer is te achterhalen door in te loggen op  Authorize.net > Account > "
+"API Login ID and Transaction Key"
+
+#: application/helpers/date-helper.php:1530
+#: application/helpers/date-helper.php:1589
+msgid "API Transactioin Key"
+msgstr "API Transactiesleutel"
+
+#: application/helpers/date-helper.php:1562
+msgid "Accept credit cards on Authorize.net hosted page."
+msgstr ""
+
+#: application/helpers/date-helper.php:1621
+msgid "QuickBooks Merc. Serv."
+msgstr ""
+
+#: application/helpers/date-helper.php:1622
+#, fuzzy, php-format
+msgid ""
+"Accept Credit and Debit Cards using QuickBooks Merchant Services. %sMUST USE "
+"SSL FOR PCI COMPLIANCE.\n"
+"                You can enable SSL from Events Planner > Settings > "
+"Registration tab.%s"
+msgstr ""
+"Accepteer Credit en Debit Cards zonder dat de klant uw website hoeft te "
+"verlaten.\n"
+"<br />%sSSL vereist ivm. PCI Compliance.  U kunt de SSL-optie aanzetten via "
+"from Events Planner > Settings > Registration tab.%s"
+
+#: application/helpers/date-helper.php:1642
+#, fuzzy
+msgid "Application Login"
+msgstr "Expiratiemaand"
+
+#: application/helpers/date-helper.php:1650
+msgid "Connection Ticket"
+msgstr ""
+
+#: application/helpers/date-helper.php:1680
+msgid "Checks/Money Orders"
+msgstr "Chequess/Overboekingsopdrachten"
+
+#: application/helpers/date-helper.php:1681
+msgid ""
+"You can use this to give your customers the ability to pay using a Check."
+msgstr ""
+"U kunt dit gebruiken om uw klanten de mogelijkheid te geven per cheque te "
+"betalen."
+
+#: application/helpers/date-helper.php:1692
+#: application/helpers/date-helper.php:1742
+msgid "Display Label"
+msgstr "Toon Label"
+
+#: application/helpers/date-helper.php:1693
+#: application/helpers/date-helper.php:1743
+msgid "What the customer will see as an option."
+msgstr "Hetgeen de klant ziet als een optie"
+
+#: application/helpers/date-helper.php:1699
+msgid "Make Payable To"
+msgstr "Maak betaalbaar aan"
+
+#: application/helpers/date-helper.php:1700
+msgid "Who will get this check?"
+msgstr "Wie krijgt deze cheque?"
+
+#: application/helpers/date-helper.php:1706
+#: application/views/admin/registration/regis-payment-instr.php:14
+#: application/views/front/registration/regis-payment-instr.php:18
+msgid "Send Payment To"
+msgstr "Verstuur betaling aan"
+
+#: application/helpers/date-helper.php:1707
+msgid "The address."
+msgstr "Het adres"
+
+#: application/helpers/date-helper.php:1713
+#: application/helpers/date-helper.php:1749
+#: application/helpers/date-helper.php:2380
+msgid "Instructions"
+msgstr "Instructies"
+
+#: application/helpers/date-helper.php:1714
+#: application/helpers/date-helper.php:1750
+msgid "Special Instruction to the customer."
+msgstr "Speciale instructies voor de klant."
+
+#: application/helpers/date-helper.php:1731
+msgid "You can use this to give your customers the ability to pay using Cash."
+msgstr ""
+"U kunt dit gebruiken om de klanten de mogelijkheid te geven contant te "
+"betalen."
+
+#: application/helpers/date-helper.php:1766
+msgid "PAYSON"
+msgstr ""
+
+#: application/helpers/date-helper.php:1767
+msgid "Safely and securely accept payments on hosted Payson servers."
+msgstr ""
+
+#: application/helpers/date-helper.php:1786
+#, fuzzy
+msgid "Seller Email"
+msgstr "E-mail"
+
+#: application/helpers/date-helper.php:1793
+msgid "Agent ID"
+msgstr ""
+
+#: application/helpers/date-helper.php:1801
+msgid "MD5"
+msgstr ""
+
+#: application/helpers/date-helper.php:1808
+msgid "Assign by default to new events?"
+msgstr ""
+
+#: application/helpers/date-helper.php:1812
+msgid ""
+"When you create new events, this paymetn profile will be automatically "
+"assigned to that event."
+msgstr ""
+
+#: application/helpers/date-helper.php:1829
+msgid "Accept payments using Moneris Hosted Paypage."
+msgstr ""
+
+#: application/helpers/date-helper.php:1848
+msgid "Store ID"
+msgstr ""
+
+#: application/helpers/date-helper.php:1856
+msgid "HPP Key"
+msgstr ""
+
+#: application/helpers/date-helper.php:1868
+msgid "Your paypage urls"
+msgstr ""
+
+#: application/helpers/date-helper.php:1869
+msgid "Approved URL:"
+msgstr ""
+
+#: application/helpers/date-helper.php:1870
+msgid "Decline URL:"
+msgstr ""
+
+#: application/helpers/date-helper.php:1886
+#, fuzzy
+msgid "Firstdata"
+msgstr "Voornaam"
+
+#: application/helpers/date-helper.php:1892
+#, php-format
+msgid "Please place your .pem file in %s"
+msgstr ""
+
+#: application/helpers/date-helper.php:1911
+#, fuzzy
+msgid "Store Number"
+msgstr "Kaartnummer"
+
+#: application/helpers/date-helper.php:1990
+msgid "Merchant Key"
+msgstr ""
+
+#: application/helpers/date-helper.php:2030
+msgid "First Name"
+msgstr "Voornaam"
+
+#: application/helpers/date-helper.php:2037
+msgid "Last Name"
+msgstr "Achternaam"
+
+#: application/helpers/date-helper.php:2083
+msgid "Card Type"
+msgstr "Kaardtype"
+
+#: application/helpers/date-helper.php:2093
+msgid "Card Number"
+msgstr "Kaartnummer"
+
+#: application/helpers/date-helper.php:2099
+msgid "CVV Code"
+msgstr "CVV code"
+
+#: application/helpers/date-helper.php:2105
+msgid "Expiration Month"
+msgstr "Expiratiemaand"
+
+#: application/helpers/date-helper.php:2115
+msgid "Expiration Year"
+msgstr "Expiratiejaar"
+
+#: application/helpers/date-helper.php:2136
+msgid "Support License Key"
+msgstr "Support License Key"
+
+#: application/helpers/date-helper.php:2160
+msgid "Advanced Time/Price Settings"
+msgstr ""
+
+#: application/helpers/date-helper.php:2167
+#, fuzzy
+msgid "Enable date specific times?"
+msgstr "Sta Locatie toe die gekoppeld is aan Datum"
+
+#: application/helpers/date-helper.php:2175
+#, fuzzy
+msgid "Enable date specific price?"
+msgstr "Sta Locatie toe die gekoppeld is aan Datum"
+
+#: application/helpers/date-helper.php:2191
+#, fuzzy
+msgid "Enable price specific forms?"
+msgstr "Sta Locatie toe die gekoppeld is aan Datum"
+
+#: application/helpers/date-helper.php:2199
+msgid "Enable table price type?"
+msgstr ""
+
+#: application/helpers/date-helper.php:2214
+msgid ""
+"MailChimp Settings.  Please enter your key and hit Save Changes to begin."
+msgstr ""
+
+#: application/helpers/date-helper.php:2219
+msgid "Mailchimp API Key"
+msgstr ""
+
+#: application/helpers/date-helper.php:2232
+msgid "Enable for all current and future events"
+msgstr ""
+
+#: application/helpers/date-helper.php:2232
+msgid "I will choose for each event"
+msgstr ""
+
+#: application/helpers/date-helper.php:2233
+msgid ""
+"If you select No, this feature will be diabled at global and event level. If "
+"you select the second option, you can still override it for each event."
+msgstr ""
+
+#: application/helpers/date-helper.php:2235
+msgid "Enable MailChimp Extension"
+msgstr ""
+
+#: application/helpers/date-helper.php:2245
+msgid "Double Opt In (global)"
+msgstr ""
+
+#: application/helpers/date-helper.php:2246
+msgid ""
+"When this option is enabled, MailChimp will send a confirmation email to the "
+"user and will only add them to your MailChimp list upon confirmation."
+msgstr ""
+
+#: application/helpers/date-helper.php:2253
+msgid "Send Welcome Email (global)"
+msgstr ""
+
+#: application/helpers/date-helper.php:2254
+msgid ""
+"When this option is enabled, users will receive an automatic welcome email "
+"from MailChimp upon being added to your MailChimp list."
+msgstr ""
+
+#: application/helpers/date-helper.php:2263
+msgid "User Signup Method (default)"
+msgstr ""
+
+#: application/helpers/date-helper.php:2268
+#, fuzzy
+msgid "Permission Label"
+msgstr "Sessiedatum"
+
+#: application/helpers/date-helper.php:2269
+msgid ""
+"This label will be displayed during the registration process if you choose "
+"to ask the users for permission to sign them up."
+msgstr ""
+
+#: application/helpers/date-helper.php:2271
+msgid "Subscribe to our newsletter"
+msgstr ""
+
+#: application/helpers/date-helper.php:2280
+#, fuzzy
+msgid "Default Notification List"
+msgstr "Zoek Programma Locaties"
+
+#: application/helpers/date-helper.php:2292
+#, fuzzy
+msgid "User Manager Settings"
+msgstr "Overige instellingen"
+
+#: application/helpers/date-helper.php:2297
+#, fuzzy
+msgid "Enable User Registration?"
+msgstr "SSL aanzetten voor registratie?"
+
+#: application/helpers/date-helper.php:2308
+#: application/helpers/date-helper.php:2840
+#, fuzzy
+msgid "Username"
+msgstr "API gebruikersnaam"
+
+#: application/helpers/date-helper.php:2309
+#: application/helpers/date-helper.php:2316
+msgid "Let user choose"
+msgstr ""
+
+#: application/helpers/date-helper.php:2322
+msgid "Role to assign"
+msgstr ""
+
+#: application/helpers/date-helper.php:2334
+#, fuzzy
+msgid "Invoice Settings"
+msgstr "API instellingen"
+
+#: application/helpers/date-helper.php:2340
+msgid "Attach invoice to confirmation emails?"
+msgstr ""
+
+#: application/helpers/date-helper.php:2341
+msgid "If no, you can still attach invoices to emails that are sent manually."
+msgstr ""
+
+#: application/helpers/date-helper.php:2350
+msgid "Invoice Logo"
+msgstr ""
+
+#: application/helpers/date-helper.php:2351
+msgid "Select File"
+msgstr ""
+
+#: application/helpers/date-helper.php:2357
+msgid "Invoice Id"
+msgstr ""
+
+#: application/helpers/date-helper.php:2358
+#, fuzzy
+msgid "Registration Post ID"
+msgstr "Registratie Id"
+
+#: application/helpers/date-helper.php:2358
+#, fuzzy
+msgid "Registration Title"
+msgstr "Registratie is gesloten"
+
+#: application/helpers/date-helper.php:2358
+msgid "Incremental ID"
+msgstr ""
+
+#: application/helpers/date-helper.php:2364
+#, fuzzy
+msgid "Invoice Payment Due"
+msgstr "Bekijk Betaalprofielen"
+
+#: application/helpers/date-helper.php:2365
+msgid "Number of days after issue date when the payment is due."
+msgstr ""
+
+#: application/helpers/date-helper.php:2371
+#, fuzzy
+msgid "Invoice Company Information"
+msgstr "Informatie over de lokatie"
+
+#: application/helpers/date-helper.php:2372
+msgid ""
+"This will be posted on the top right cornerof the invoice.  Can use HTML"
+msgstr ""
+
+#: application/helpers/date-helper.php:2381
+msgid "This will be posted on the bottom of the invoice."
+msgstr ""
+
+#: application/helpers/date-helper.php:2397
+msgid "Instructor Name"
+msgstr "Naam van de instructeur"
+
+#: application/helpers/date-helper.php:2666
+msgid "User Table Slug"
+msgstr ""
+
+#: application/helpers/date-helper.php:2667
+msgid "You can map this field to a user table meta_key."
+msgstr ""
+
+#: application/helpers/date-helper.php:2675
+msgid "Membership Plugin"
+msgstr ""
+
+#: application/helpers/date-helper.php:2676
+msgid ""
+"Since different membership plugins use different meta_key names, this will "
+"let events planner know which ones to look for. For now, <u>only text fields "
+"can be used</u>"
+msgstr ""
+
+#: application/helpers/date-helper.php:2696
+#, fuzzy
+msgid "Exclude from cart process?"
+msgstr "Sluit afgesloten programma's uit?"
+
+#: application/helpers/date-helper.php:2697
+msgid ""
+"If this is set to yes and this event is added to the cart, all other events "
+"will be removed from the cart."
+msgstr ""
+
+#: application/helpers/date-helper.php:2714
+msgid "Display the discount code input box?"
+msgstr ""
+
+#: application/helpers/date-helper.php:2722
+msgid "Discount input label"
+msgstr ""
+
+#: application/helpers/date-helper.php:2730
+msgid "Enable PayPal Parallel Payments?"
+msgstr ""
+
+#: application/helpers/date-helper.php:2751
+msgid "Yes. Pop-up based"
+msgstr ""
+
+#: application/helpers/date-helper.php:2755
+msgid "Enable Shopping Cart"
+msgstr ""
+
+#: application/helpers/date-helper.php:2756
+msgid ""
+"When enabled, the user will have the ability to register for more than one "
+"event.  Pop-up based carts displays a modal box for the user to select the "
+"event.  Button based will update the button and mark it as added to the "
+"cart.  Users will have the option to update their selections in the cart "
+"regardless of which method you use."
+msgstr ""
+
+#: application/helpers/date-helper.php:2763
+msgid "Enable Footer Totals"
+msgstr ""
+
+#: application/helpers/date-helper.php:2764
+msgid ""
+"When events are added to the cart, a small box in the footer will show what "
+"the user has selected and give him the option to delete items from the cart."
+msgstr ""
+
+#: application/helpers/date-helper.php:2769
+msgid "Use the forms below"
+msgstr ""
+
+#: application/helpers/date-helper.php:2769
+msgid "Use the forms indicated for each event"
+msgstr ""
+
+#: application/helpers/date-helper.php:2771
+#, fuzzy
+msgid "Registrations forms to use"
+msgstr "Registratiegegevens"
+
+#: application/helpers/date-helper.php:2772
+msgid ""
+"When the users go through the registration and they have more than one event "
+"in the cart, the system can display the individual forms associated with "
+"each event or it can display one set of forms that you choose below. "
+msgstr ""
+
+#: application/helpers/date-helper.php:2777
+msgid "Ticket buyer form"
+msgstr "Gegevens van de koper."
+
+#: application/helpers/date-helper.php:2791
+#, fuzzy
+msgid ""
+"This information will be collected from all the attendees and will be "
+"recorded for each event.  If you do not need to collect individual "
+"information and only need the quantity, do not select any of these forms."
+msgstr ""
+"Deze gegevens worden verzameld voor alle deelnemers. Als u geen behoefte "
+"heeft aan individuele informatie en alleen de hoeveelheid wilt weten, "
+"selecteer dan geen van deze formulieren."
+
+#: application/helpers/date-helper.php:2819
+#, fuzzy
+msgid "Confirmation email"
+msgstr "Bevestig en rond af"
+
+#: application/helpers/date-helper.php:2820
+msgid "Email that is sent to the users after they register."
+msgstr ""
+
+#: application/helpers/date-helper.php:2856
+#, fuzzy
+msgid "Repeat Password"
+msgstr "API Password"
+
+#: application/helpers/date-helper.php:2869
+msgid "Social"
+msgstr ""
+
+#: application/helpers/pr-helper.php:27
+msgid "d"
+msgstr "d"
+
+#: application/helpers/pr-helper.php:46
+msgid "-"
+msgstr "-"
+
+#: application/helpers/pr-helper.php:58
+#, fuzzy
+msgid "Available on"
+msgstr "Beschikbare plaatsen"
+
+#: application/helpers/pr-helper.php:72
+msgid "Ended"
+msgstr "BeÃ«indigd"
+
+#: application/helpers/pr-helper.php:370
+#, fuzzy
+msgid "My Registrations"
+msgstr "Registraties"
+
+#: application/helpers/pr-helper.php:373
+msgid "User Check-in"
+msgstr ""
+
+#: application/helpers/template-tags.php:576
+msgid "Opens on"
+msgstr ""
+
+#: application/helpers/template-tags.php:581
+#, fuzzy
+msgid "Closed"
+msgstr "Sluit"
+
+#: application/helpers/template-tags.php:583
+msgid "Open"
+msgstr ""
+
+#: application/libraries/epl-advanced-cal-widget.php:23
+#: application/libraries/epl-upcoming-events-widget.php:23
+#: system/epl-init.php:456
+msgid "Events"
+msgstr "Programma's"
+
+#: application/libraries/epl-advanced-cal-widget.php:24
+msgid "Exclude Past Events"
+msgstr "Sluit afgelopen programma's uit"
+
+#: application/libraries/epl-calendar.php:374
+msgid "January"
+msgstr ""
+
+#: application/libraries/epl-calendar.php:375
+msgid "February"
+msgstr ""
+
+#: application/libraries/epl-calendar.php:376
+msgid "March"
+msgstr ""
+
+#: application/libraries/epl-calendar.php:377
+msgid "April"
+msgstr ""
+
+#: application/libraries/epl-calendar.php:379
+msgid "June"
+msgstr ""
+
+#: application/libraries/epl-calendar.php:380
+msgid "July"
+msgstr ""
+
+#: application/libraries/epl-calendar.php:381
+msgid "August"
+msgstr ""
+
+#: application/libraries/epl-calendar.php:382
+msgid "September"
+msgstr ""
+
+#: application/libraries/epl-calendar.php:383
+msgid "October"
+msgstr ""
+
+#: application/libraries/epl-calendar.php:384
+msgid "November"
+msgstr ""
+
+#: application/libraries/epl-calendar.php:385
+msgid "December"
+msgstr ""
+
+#: application/libraries/epl-calendar.php:412
+msgid "Sunday"
+msgstr ""
+
+#: application/libraries/epl-calendar.php:412
+msgid "Monday"
+msgstr ""
+
+#: application/libraries/epl-calendar.php:412
+msgid "Tuesday"
+msgstr ""
+
+#: application/libraries/epl-calendar.php:412
+msgid "Wednesday"
+msgstr ""
+
+#: application/libraries/epl-calendar.php:412
+msgid "Thursday"
+msgstr ""
+
+#: application/libraries/epl-calendar.php:412
+msgid "Friday"
+msgstr ""
+
+#: application/libraries/epl-calendar.php:412
+msgid "Saturday"
+msgstr ""
+
+#: application/libraries/epl-calendar.php:418
+#, fuzzy
+msgid "Su"
+msgstr "zon"
+
+#: application/libraries/epl-calendar.php:418
+#, fuzzy
+msgid "Mo"
+msgstr "ma"
+
+#: application/libraries/epl-calendar.php:418
+#, fuzzy
+msgid "Tu"
+msgstr "di"
+
+#: application/libraries/epl-calendar.php:418
+#, fuzzy
+msgid "We"
+msgstr "wo"
+
+#: application/libraries/epl-calendar.php:418
+#, fuzzy
+msgid "Th"
+msgstr "do"
+
+#: application/libraries/epl-calendar.php:418
+#, fuzzy
+msgid "Fr"
+msgstr "vr"
+
+#: application/libraries/epl-calendar.php:418
+#, fuzzy
+msgid "Sa"
+msgstr "za"
+
+#: application/libraries/epl-email.php:66
+#: application/libraries/epl-util.php:2618
+#: application/libraries/epl-util.php:2664
+#: application/views/admin/registration/regis-confirm-email.php:63
+#: application/views/front/registration/regis-confirm-email.php:63
+msgid "Registration Confirmation"
+msgstr "Bevestiging van de registratie"
+
+#: application/libraries/epl-email.php:86
+#: application/libraries/epl-util.php:2663 system/epl-init.php:498
+msgid "New Registration"
+msgstr "Nieuwe registratie"
+
+#: application/libraries/epl-upcoming-events-widget.php:69
+#, fuzzy
+msgid "First Date Only"
+msgstr "Voornaam"
+
+#: application/libraries/epl-upcoming-events-widget.php:69
+msgid "Each Date Individually"
+msgstr ""
+
+#: application/libraries/epl-upcoming-events-widget.php:78
+#, fuzzy
+msgid "Template 1 + location"
+msgstr "Verschiedene locaties"
+
+#: application/libraries/epl-upcoming-events-widget.php:79
+#, fuzzy
+msgid "Template 2 + location"
+msgstr "Verschiedene locaties"
+
+#: application/libraries/epl-util.php:822
+#: application/libraries/epl-util.php:904
+#: application/views/admin/cart/cart-dates.php:56
+#: application/views/front/cart/cart-dates.php:43
+msgid "See Map"
+msgstr ""
+
+#: application/libraries/epl-util.php:825
+msgid "to"
+msgstr "tot"
+
+#: application/libraries/epl-util.php:1674
+#, fuzzy
+msgid "Login to Register"
+msgstr "Registreer"
+
+#: application/libraries/epl-util.php:1685
+msgid "In The Cart (View)"
+msgstr ""
+
+#: application/libraries/epl-util.php:2673
+msgid "New Waitlist Addition"
+msgstr ""
+
+#: application/libraries/epl-util.php:2807
+#, fuzzy
+msgid "Registration Detail Link"
+msgstr "Registratie Id"
+
+#: application/libraries/epl-util.php:2807
+#: application/libraries/epl-util.php:2821
+msgid "Click here"
+msgstr ""
+
+#: application/models/epl-common-model.php:1298
+#: application/views/admin/settings/settings-page.php:152
+#: application/views/front/event-list-class.php:193
+#, fuzzy
+msgid "Category"
+msgstr "Programmacategorie"
+
+#: application/models/epl-common-model.php:1310
+#, fuzzy
+msgid "All Categories"
+msgstr "Alle ProgrammacategorieÃ«n"
+
+#: application/models/epl-common-model.php:1339
+#: application/models/epl-common-model.php:1347
+#, fuzzy
+msgid "All Locations"
+msgstr "Locatie"
+
+#: application/models/epl-common-model.php:1345
+#: application/views/admin/cart/cart-dates.php:57
+#: application/views/admin/events/message-meta-box.php:7
+#: application/views/admin/registration/regis-confirm-email.php:106
+#: application/views/admin/registration/regis-thank-you-page.php:16
+#: application/views/front/event-list-2.0.php:76
+#: application/views/front/event-list-class.php:194
+#: application/views/front/event-list.php:82
+#: application/views/front/cart/cart-dates.php:44
+#: application/views/front/registration/regis-confirm-email.php:106
+#: application/views/front/single-templates/single-epl_event.php:69
+#: system/epl-init.php:527
+msgid "Location"
+msgstr "Locatie"
+
+#: application/models/epl-common-model.php:1498
+#: application/models/epl-common-model.php:1970
+#: application/models/epl-report-model.php:799
+#: application/views/admin/reports/full-report.php:160
+#: application/views/admin/reports/view-full-data.php:185
+#: application/views/admin/reports/view-names.php:191
+#: application/views/admin/user-regis-manager/daily-checked-in-users.php:51
+#: application/views/admin/user-regis-manager/daily-checkin-registrants.php:32
+#: application/views/admin/user-regis-manager/user-regis-all.php:21
+msgid "Regis ID"
+msgstr "Reg Id"
+
+#: application/models/epl-common-model.php:1499
+#: application/models/epl-common-model.php:1971
+#: application/models/epl-report-model.php:800
+#: application/views/admin/reports/full-report.php:161
+#: application/views/admin/reports/view-full-data.php:186
+#: application/views/admin/reports/view-names.php:192
+msgid "Regis Date"
+msgstr "Reg Datum"
+
+#: application/models/epl-common-model.php:1503
+#: application/models/epl-common-model.php:1975
+#: application/models/epl-common-model.php:2415
+#: application/models/epl-report-model.php:804
+#: application/views/admin/cart/cart-totals.php:43
+#: application/views/admin/registration/regis-list-payment-info.php:21
+#: application/views/admin/registration/regis-payment-details.php:13
+#: application/views/admin/reports/regis-invoice-1.php:193
+#: application/views/admin/user-regis-manager/user-regis-list-page.php:28
+#: application/views/front/registration/regis-payment-details.php:61
+msgid "Total"
+msgstr "Totaal"
+
+#: application/models/epl-common-model.php:1504
+#: application/models/epl-common-model.php:1976
+#: application/models/epl-common-model.php:2416
+#: application/models/epl-report-model.php:805
+#: application/views/admin/registration/regis-payment-details.php:17
+#: application/views/admin/user-regis-manager/user-regis-list-page.php:32
+msgid "Amount Paid"
+msgstr "Betaald"
+
+#: application/models/epl-common-model.php:1507
+#: application/models/epl-common-model.php:1979
+#: application/models/epl-report-model.php:809
+msgid "Event Date"
+msgstr "Programmadatum"
+
+#: application/models/epl-common-model.php:1509
+#: application/models/epl-common-model.php:1981
+#: application/models/epl-common-model.php:2412
+#: application/models/epl-report-model.php:811
+msgid "Ticket"
+msgstr "Ticket"
+
+#: application/models/epl-common-model.php:2490
+#: application/models/epl-report-model.php:830
+msgid "Registrant"
+msgstr "Registrator"
+
+#: application/models/epl-common-model.php:2547
+#: application/views/admin/events/settings-meta-box.php:10
+#, fuzzy
+msgid "Attendee List"
+msgstr "Deelnemer"
+
+#: application/models/epl-discount-model.php:107
+#, fuzzy
+msgid "The discount code has expired"
+msgstr "Deze datum is verstreken"
+
+#: application/models/epl-discount-model.php:115
+msgid "The discount code is no longer available"
+msgstr ""
+
+#: application/models/epl-discount-model.php:158
+msgid "This discount code is invalid"
+msgstr ""
+
+#: application/models/epl-discount-model.php:378
+msgid "The discount code requires the total amount to be"
+msgstr ""
+
+#: application/models/epl-discount-model.php:378
+#: application/models/epl-discount-model.php:386
+#: application/models/epl-discount-model.php:394
+#: application/views/admin/events/discounts-meta-box.php:8
+msgid "and"
+msgstr ""
+
+#: application/models/epl-discount-model.php:386
+msgid "The discount code requires for total number of attendees to be"
+msgstr ""
+
+#: application/models/epl-discount-model.php:394
+msgid "The discount code requires for total number of events in the cart to be"
+msgstr ""
+
+#: application/models/epl-gateway-model.php:214
+#: application/models/epl-gateway-model.php:509
+msgid "Deposit Offset.  Due at a later date."
+msgstr ""
+
+#: application/models/epl-gateway-model.php:232
+msgid "Credit for payment made on:"
+msgstr ""
+
+#: application/models/epl-gateway-model.php:247
+#: application/models/epl-gateway-model.php:542
+#: application/views/admin/cart/cart-totals.php:35
+#: application/views/front/cart/cart-grand-totals.php:55
+#: application/views/front/cart/cart.php:121
+#: application/views/front/registration/regis-payment-details.php:53
+#, fuzzy
+msgid "Donation"
+msgstr "Locatie"
+
+#: application/models/epl-gateway-model.php:527
+msgid "Offset for payment made on: "
+msgstr ""
+
+#: application/models/epl-gateway-model.php:861
+#: application/models/epl-gateway-model.php:951
+#: application/views/admin/registration/regis-dates-times-prices.php:21
+#: application/views/front/registration/regis-dates-times-prices.php:47
+msgid "Qty"
+msgstr "Hoev"
+
+#: application/models/epl-registration-model.php:1455
+#, fuzzy
+msgid "until"
+msgstr "Tot"
+
+#: application/models/epl-registration-model.php:1480
+#, php-format
+msgid "Login to access %s member price"
+msgstr ""
+
+#: application/models/epl-registration-model.php:1483
+msgid "Login to access this members only price"
+msgstr ""
+
+#: application/models/epl-registration-model.php:1493
+msgid "Higher membership level required"
+msgstr ""
+
+#: application/models/epl-registration-model.php:1505
+msgid "/each"
+msgstr ""
+
+#: application/models/epl-registration-model.php:2178
+msgid ""
+"This email will be used to grant you membership access to our website.  You "
+"will receive an email with your password after completing this registration."
+msgstr ""
+
+#: application/models/epl-registration-model.php:2402
+#, fuzzy
+msgid "Copy From"
+msgstr "Vanaf"
+
+#: application/models/epl-registration-model.php:2405
+#: application/views/admin/user-regis-manager/regis-name-lookup-form.php:3
+msgid "Lookup"
+msgstr ""
+
+#: application/models/epl-registration-model.php:2409
+#, fuzzy
+msgid "Primary Registrant"
+msgstr "Registrator"
+
+#: application/models/epl-registration-model.php:2992
+msgid "Please select a quantity."
+msgstr "Geef een hoeveelheid aan"
+
+#: application/models/epl-registration-model.php:2999
+#: application/models/epl-registration-model.php:3063
+msgid "Please select at least one date."
+msgstr "Geef ten minste Ã©Ã©n datum op."
+
+#: application/models/epl-registration-model.php:3068
+msgid "Sold Out."
+msgstr "Uitverkocht"
+
+#: application/models/epl-registration-model.php:3279
+#, php-format
+msgid " Only %d spaces left."
+msgstr "Nog %d plaatsen beschikbaar."
+
+#: application/models/epl-registration-model.php:3302
+msgid "This time has passed."
+msgstr "Deze tijd is verstreken."
+
+#: application/models/epl-registration-model.php:3308
+#: application/models/epl-registration-model.php:3356
+#, php-format
+msgid "Only %d spaces left."
+msgstr "Nog %d plaatsen beschikbaar."
+
+#: application/models/epl-registration-model.php:3336
+msgid ""
+"If you would like to be added to the waiting list, please click on the "
+"button below.  You will not be charged at this time."
+msgstr ""
+
+#: application/models/epl-registration-model.php:3345
+msgid "Click here to add your name to the waitlist"
+msgstr ""
+
+#: application/models/epl-registration-model.php:3353
+msgid "This date has passed."
+msgstr "Deze datum is verstreken"
+
+#: application/models/epl-registration-model.php:4075
+msgid "You can assign this registration to a member of your website."
+msgstr ""
+
+#: application/models/epl-report-model.php:835
+#, fuzzy
+msgid "events"
+msgstr "Programma's"
+
+#: application/models/epl-user-model.php:316
+msgid "Class"
+msgstr ""
+
+#: application/views/admin/event-snapshot.php:41
+#: application/views/admin/event-snapshot_1.php:35
+msgid "Daily Schedule"
+msgstr ""
+
+#: application/views/admin/event-snapshot.php:44
+#: application/views/admin/event-snapshot_1.php:39
+#, fuzzy
+msgid "View All Attendees"
+msgstr "# Deelnemers"
+
+#: application/views/admin/event-snapshot.php:99
+#: application/views/admin/event-snapshot_1.php:76
+msgid "All Day"
+msgstr ""
+
+#: application/views/admin/event-snapshot_1.php:4
+msgid "Please add dates for the event."
+msgstr ""
+
+#: application/views/admin/event-snapshot_1.php:105
+#, fuzzy
+msgid "View Names"
+msgstr "Programmanaam"
+
+#: application/views/admin/cart/cart-available-spaces.php:3
+#: application/views/front/dates-times-prices.php:27
+#: application/views/front/event-list-class.php:196
+#: application/views/front/cart/cart-available-spaces.php:3
+msgid "Available Spaces"
+msgstr "Beschikbare plaatsen"
+
+#: application/views/admin/cart/cart-dates.php:11
+#: application/views/admin/cart/cart.php:48
+#: application/views/admin/registration/regis-cart-section.php:40
+#: application/views/front/cart/cart-dates-display.php:5
+#: application/views/front/cart/cart.php:64
+#, fuzzy
+msgid "Please click to select a date"
+msgstr "Kies een datum aub"
+
+#: application/views/admin/cart/cart-dates.php:44
+#: application/views/admin/user-regis-manager/daily-checked-in-users.php:44
+#: application/views/front/cart/cart-dates.php:31
+msgid "Delete"
+msgstr ""
+
+#: application/views/admin/cart/cart-prices.php:20
+#: application/views/admin/reports/regis-invoice-1.php:130
+#: application/views/front/cart/cart-prices.php:21
+#: application/views/user-regis-manager/user-bookings.php:25
+msgid "Quantity"
+msgstr "Hoeveelheid"
+
+#: application/views/admin/cart/cart-prices.php:27
+#: application/views/front/cart/cart-prices.php:28
+msgid "Ends"
+msgstr "Eindigt"
+
+#: application/views/admin/cart/cart-totals.php:15
+#: application/views/admin/reports/regis-invoice-1.php:181
+#: application/views/front/cart/cart-grand-totals.php:22
+#: application/views/front/cart/cart-totals.php:20
+#: application/views/front/registration/regis-payment-details.php:32
+#, fuzzy
+msgid "Subtotal"
+msgstr "Totaal"
+
+#: application/views/admin/cart/cart-totals.php:23
+#: application/views/admin/reports/regis-invoice-1.php:189
+#: application/views/front/cart/cart-grand-totals.php:37
+#: application/views/front/cart/cart-totals.php:29
+#: application/views/front/registration/regis-payment-details.php:44
+msgid "Discount"
+msgstr ""
+
+#: application/views/admin/cart/cart.php:91
+#: application/views/front/cart/cart-modal-buttons.php:3
+#: application/views/front/cart/cart-subtotals_1.php:8
+#: application/views/front/cart/cart.php:138
+#, fuzzy
+msgid "Update Total"
+msgstr "Bereken totaal"
+
+#: application/views/admin/dashboard/dashboard.php:12
+#: application/views/admin/dashboard/dashboard1.php:15
+#, fuzzy
+msgid "Events Planner Dashboard"
+msgstr "Events Planner"
+
+#: application/views/admin/dashboard/dashboard1.php:81
+msgid "# Incomplete"
+msgstr ""
+
+#: application/views/admin/dashboard/dashboard1.php:82
+#, fuzzy
+msgid "# Pending"
+msgstr "Oplodend"
+
+#: application/views/admin/dashboard/dashboard1.php:83
+#, fuzzy
+msgid "# Complete"
+msgstr "Bevestig en rond af"
+
+#: application/views/admin/dashboard/dashboard1.php:84
+msgid "Total Incomplete"
+msgstr ""
+
+#: application/views/admin/dashboard/dashboard1.php:85
+#, fuzzy
+msgid "Total Pending"
+msgstr "Totaal betaald"
+
+#: application/views/admin/dashboard/dashboard1.php:86
+#, fuzzy
+msgid "Total Complete"
+msgstr "Bevestig en rond af"
+
+#: application/views/admin/events/attendee-list-meta-box.php:12
+msgid ""
+"Select the fields below to show to the public.  Move the fields up or down "
+"to determine the column order on the display page."
+msgstr ""
+
+#: application/views/admin/events/attendee-list-meta-box.php:20
+#: application/views/admin/events/report-meta-box.php:9
+msgid "Field"
+msgstr ""
+
+#: application/views/admin/events/dates-options-section.php:7
+#, fuzzy
+msgid "Date options"
+msgstr "Opties"
+
+#: application/views/admin/events/dates-section.php:98
+#, fuzzy
+msgid "registered"
+msgstr "Registreer"
+
+#: application/views/admin/events/discounts-meta-box.php:4
+msgid ""
+"Events specific discounts are not available when event cart is enabled.  "
+"Please use global discounts instead."
+msgstr ""
+
+#: application/views/admin/events/discounts-meta-box.php:8
+msgid "Import"
+msgstr ""
+
+#: application/views/admin/events/discounts-meta-box.php:8
+#: application/views/admin/events/time-price-0.php:679
+msgid "from"
+msgstr ""
+
+#: application/views/admin/events/discounts-meta-box.php:87
+#: application/views/admin/global-discounts/discount-global-discount-fields.php:56
+msgid "Apply to"
+msgstr ""
+
+#: application/views/admin/events/discounts-meta-box.php:88
+#: application/views/admin/global-discounts/discount-global-discount-fields.php:57
+msgid "if (optional)"
+msgstr ""
+
+#: application/views/admin/events/event-table.php:411 system/epl-init.php:467
+#, fuzzy
+msgid "Manage Events"
+msgstr "Het Programma"
+
+#: application/views/admin/events/event-table.php:412 system/epl-init.php:458
+#: system/epl-init.php:459
+msgid "Add New Event"
+msgstr "Voeg nieuw programma toe"
+
+#: application/views/admin/events/event-table.php:414
+msgid "Show All"
+msgstr ""
+
+#: application/views/admin/events/event-table.php:416
+#, fuzzy
+msgid "Legacy Event List"
+msgstr "Zoek Programma Locaties"
+
+#: application/views/admin/events/events-main-meta-box.php:12
+msgid "Times/Prices"
+msgstr "Tijden/prijzen"
+
+#: application/views/admin/events/events-main-meta-box.php:13
+msgid "Location/Organization"
+msgstr "Lokatie/organisatie"
+
+#: application/views/admin/events/events-main-meta-box.php:14
+#: application/views/admin/forms/form-manager-view.php:11
+msgid "Registration Fields"
+msgstr "Registratievelden"
+
+#: application/views/admin/events/events-main-meta-box.php:15
+msgid "Other Settings"
+msgstr "Overige instellingen"
+
+#: application/views/admin/events/forms-meta-box.php:4
+#, fuzzy
+msgid ""
+"These forms will be presented during the registration process.  If you don't "
+"need to collect information from additional attendees,\n"
+"        don't select any forms in the 'Forms for all attendees' section."
+msgstr ""
+"Deze gegevens worden verzameld voor alle deelnemers. Als u geen behoefte "
+"heeft aan individuele informatie en alleen de hoeveelheid wilt weten, "
+"selecteer dan geen van deze formulieren."
+
+#: application/views/admin/events/fullcalendar.php:1
+msgid "Click on a date to add it to the section that opened this calendar."
+msgstr "Klik op een datum om deze toe te voegen."
+
+#: application/views/admin/events/message-meta-box.php:9
+msgid "Message"
+msgstr ""
+
+#: application/views/admin/events/options-meta-box.php:14
+msgid "NOTE: You must publish this post for users to be able to see it."
+msgstr ""
+
+#: application/views/admin/events/price-tax-section.php:3
+msgid "Tax"
+msgstr ""
+
+#: application/views/admin/events/recurrence-fields.php:6
+msgid "First Event Start Date"
+msgstr "Eerste begindatum"
+
+#: application/views/admin/events/recurrence-fields.php:10
+msgid "Last Event Date"
+msgstr "Laatste datum"
+
+#: application/views/admin/events/recurrence-fields.php:14
+msgid "Registrations Start"
+msgstr "Begin van de registratie"
+
+#: application/views/admin/events/recurrence-fields.php:15
+#: application/views/admin/events/recurrence-fields.php:21
+msgid "Or"
+msgstr "Of"
+
+#: application/views/admin/events/recurrence-fields.php:16
+#: application/views/admin/events/recurrence-fields.php:22
+msgid "days before the start date"
+msgstr "dagen voorafgaand aan de begindatum"
+
+#: application/views/admin/events/recurrence-fields.php:20
+msgid "Registrations End"
+msgstr "Einde van de registratie"
+
+#: application/views/admin/events/recurrence-fields.php:27
+msgid "Repeats"
+msgstr "Herhalingen"
+
+#: application/views/admin/events/recurrence-fields.php:31
+msgid "Frequency"
+msgstr "Frequentie"
+
+#: application/views/admin/events/recurrence-fields.php:36
+msgid "Weekdays"
+msgstr "Weekdagen"
+
+#: application/views/admin/events/recurrence-fields.php:38
+msgid "All"
+msgstr "Alle"
+
+#: application/views/admin/events/recurrence-fields.php:42
+msgid "Monthly Repeat By"
+msgstr "Maandelijkse herhaling per"
+
+#: application/views/admin/events/recurrence-fields.php:56
+msgid "Preview Calendar"
+msgstr "Kalender"
+
+#: application/views/admin/events/recurrence-fields.php:57
+msgid "Get Date Fields"
+msgstr "Haal Datumvelden op"
+
+#: application/views/admin/events/recurrence-meta-box.php:3
+msgid "Recurrence helper"
+msgstr "Ondersteuning bij het instellen van de herhalingen"
+
+#: application/views/admin/events/report-meta-box.php:10
+msgid "Width"
+msgstr ""
+
+#: application/views/admin/events/settings-meta-box.php:5
+#, fuzzy
+msgid "Forms"
+msgstr "Vanaf"
+
+#: application/views/admin/events/settings-meta-box.php:6
+msgid "Display & Other Options"
+msgstr "Displayopties en diverse opties"
+
+#: application/views/admin/events/settings-meta-box.php:7
+msgid "Messages"
+msgstr ""
+
+#: application/views/admin/events/settings-meta-box.php:8
+msgid "Discounts"
+msgstr ""
+
+#: application/views/admin/events/surcharge-section.php:3
+msgid ""
+"Surcharge (if any).  You can set the defaults in Events Planner > Settings > "
+"Registrations Tab"
+msgstr ""
+
+#: application/views/admin/events/time-price-0.php:413
+#: application/views/front/single-templates/single-epl_event.php:48
+msgid "Times"
+msgstr "Tijden"
+
+#: application/views/admin/events/time-price-0.php:413
+#, fuzzy
+msgid "optional"
+msgstr "Opties"
+
+#: application/views/admin/events/time-price-0.php:478
+#: application/views/admin/events/time-price-0.php:657
+msgid "Date specific?"
+msgstr ""
+
+#: application/views/admin/events/time-price-0.php:534
+msgid ""
+"At lease one price is required, even if it's a free event.  Enter price in "
+"0.00 format."
+msgstr ""
+"Tenminste Ã©Ã©n prijs is vereist, zelfs als het een kosteloos programm "
+"betreft; voer in dat geval 0.00 in bij de prijs."
+
+#: application/views/admin/events/time-price-0.php:540
+#: application/views/front/single-templates/single-epl_event.php:54
+msgid "Prices"
+msgstr "Prijzen"
+
+#: application/views/admin/events/time-price-0.php:629
+msgid "If time based, length is"
+msgstr ""
+
+#: application/views/admin/events/time-price-0.php:669
+#, fuzzy
+msgid "Time specific?"
+msgstr "Sta Locatie toe die gekoppeld is aan Datum"
+
+#: application/views/admin/events/time-price-0.php:679
+msgid "Optionally, when this price is selected, deduct"
+msgstr ""
+
+#: application/views/admin/events/time-price-10.php:1
+msgid "Add Time Block"
+msgstr "Voeg tijdvenster toe"
+
+#: application/views/admin/events/times-meta-box.php:9
+#, fuzzy
+msgid "Time and price options"
+msgstr "Tijden en Prijzen"
+
+#: application/views/admin/events/waitlist-meta-box.php:4
+msgid ""
+"Waiting list functionality is currently only available when you are keeping "
+"track of capacity at a date level."
+msgstr ""
+
+#: application/views/admin/forms/form-manager-view.php:7
+msgid "Events Planner Form Manager"
+msgstr "Formulierbeheer van de Event Planner"
+
+#: application/views/admin/forms/form-manager-view.php:12
+msgid "Registration Forms"
+msgstr "Registratieformulieren"
+
+#: application/views/admin/global-discounts/discount-social-discount-fields.php:10
+msgid ""
+"You can use this feature to track discounts from many sources.  Please see "
+"the table below on how to format the CSV file."
+msgstr ""
+
+#: application/views/admin/global-discounts/discount-social-discount-fields.php:16
+msgid "Column"
+msgstr ""
+
+#: application/views/admin/global-discounts/discount-social-discount-fields.php:17
+msgid "Expected Value"
+msgstr ""
+
+#: application/views/admin/global-discounts/discount-social-discount-fields.php:28
+#, fuzzy
+msgid "Buyer Name"
+msgstr "Voornaam"
+
+#: application/views/admin/global-discounts/discount-social-discount-fields.php:43
+#, fuzzy
+msgid "Expiration Date"
+msgstr "Expiratiejaar"
+
+#: application/views/admin/global-discounts/discount-social-discount-fields.php:53
+msgid "Please use the Upload button to upload a CSV list of codes."
+msgstr ""
+
+#: application/views/admin/global-discounts/discount-social-discount-fields.php:54
+msgid "Upload CSV File"
+msgstr ""
+
+#: application/views/admin/global-discounts/discount-social-discount-fields.php:57
+msgid "Auto-fill Amount"
+msgstr ""
+
+#: application/views/admin/global-discounts/discount-social-discount-fields.php:58
+msgid "Auto-fill Discount Type"
+msgstr ""
+
+#: application/views/admin/registration/regis-cc-form.php:2
+msgid "If a transaction is successful, this page will automatically refresh."
+msgstr ""
+
+#: application/views/admin/registration/regis-confirm-email.php:76
+#: application/views/front/registration/regis-confirm-email.php:76
+msgid "by"
+msgstr "door"
+
+#: application/views/admin/registration/regis-confirm-email.php:96
+#: application/views/email/default/template-no-custom.php:72
+#: application/views/front/registration/regis-confirm-email.php:96
+msgid "Purchase Details"
+msgstr "Details van de aannkoop"
+
+#: application/views/admin/registration/regis-confirm-email.php:99
+#: application/views/admin/registration/regis-thank-you-page.php:10
+#: application/views/front/registration/regis-confirm-email.php:99
+#: application/views/user-regis-manager/user-bookings.php:19
+msgid "Regis. ID"
+msgstr "Reg Id"
+
+#: application/views/admin/registration/regis-email-form.php:4
+#, fuzzy
+msgid ""
+"Please check the email addresses that you would like to send this email to."
+msgstr ""
+"Geef hier een kommagescheiden lijst van e-mailadressen waarna u een "
+"bevestiging van registratie naar toe wilt sturen."
+
+#: application/views/admin/registration/regis-email-form.php:15
+msgid "Attach PDF invoice"
+msgstr ""
+
+#: application/views/admin/registration/regis-email-form.php:21
+#, fuzzy
+msgid "Please select a template to begin."
+msgstr "Kies een datum aub."
+
+#: application/views/admin/registration/regis-email-form.php:25
+#, fuzzy
+msgid ""
+"Copy these email addresses if you would like to use another email client."
+msgstr ""
+"Geef hier een kommagescheiden lijst van e-mailadressen waarna u een "
+"bevestiging van registratie naar toe wilt sturen."
+
+#: application/views/admin/registration/regis-payment-details.php:4
+#: application/views/front/registration/regis-payment-details.php:10
+msgid "Payment Details"
+msgstr "Betaalgegevens"
+
+#: application/views/admin/registration/regis-payment-instr.php:3
+#: application/views/front/registration/regis-payment-instr.php:5
+msgid "Payment Instructions"
+msgstr "Betaalinstructies"
+
+#: application/views/admin/registration/regis-payment-instr.php:10
+#: application/views/front/registration/regis-payment-instr.php:14
+msgid "Payable To"
+msgstr "Betaalbaar aan"
+
+#: application/views/admin/registration/regis-payment-meta-box.php:19
+#, fuzzy
+msgid "Method"
+msgstr "Betaalwijze"
+
+#: application/views/admin/registration/regis-payment-meta-box.php:21
+#, fuzzy
+msgid "Transaction ID"
+msgstr "API Transactiesleutel"
+
+#: application/views/admin/registration/regis-payment-meta-box.php:80
+#, fuzzy
+msgid "Total Payments"
+msgstr "Totaal betaald"
+
+#: application/views/admin/registration/regis-payment-meta-box.php:85
+#: application/views/admin/reports/full-report.php:166
+#, fuzzy
+msgid "Grand Total"
+msgstr "Totaal"
+
+#: application/views/admin/registration/regis-payment-meta-box.php:90
+#, fuzzy
+msgid "Balance"
+msgstr "Openstaand"
+
+#: application/views/admin/registration/regis-payment-meta-box.php:113
+#, fuzzy
+msgid "Add Payment"
+msgstr "Verstuur betaling aan"
+
+#: application/views/admin/registration/regis-payment-meta-box.php:136
+msgid "Open Credit Card Form"
+msgstr ""
+
+#: application/views/admin/registration/regis-thank-you-page.php:24
+#: application/views/user-regis-manager/user-bookings.php:86
+#, fuzzy
+msgid "Details"
+msgstr "Betaalgegevens"
+
+#: application/views/admin/registration/registration-attendee-meta-box.php:22
+#, fuzzy
+msgid "Add this event"
+msgstr "Voeg nieuw programma toe"
+
+#: application/views/admin/registration/registration-attendee-meta-box.php:53
+msgid "Donation Amount"
+msgstr ""
+
+#: application/views/admin/registration/registration-attendee-meta-box.php:67
+msgid "Calculate Total"
+msgstr "Bereken totaal"
+
+#: application/views/admin/registration/registration-attendee-meta-box.php:85
+msgid "Get Registration Forms"
+msgstr "Haal Registratieformulieren op"
+
+#: application/views/admin/reports/daily.php:202
+#, fuzzy
+msgid "No records found."
+msgstr "Geen Instructeurs Gevonden"
+
+#: application/views/admin/reports/full-report.php:164
+#: application/views/admin/reports/view-full-data.php:188
+#: application/views/admin/reports/view-names.php:194
+#: application/views/admin/user-regis-manager/daily-checked-in-users.php:53
+#: application/views/admin/user-regis-manager/daily-checkin-registrants.php:34
+#: application/views/admin/user-regis-manager/user-regis-all.php:23
+#, fuzzy
+msgid "Purchase"
+msgstr "Details van de aannkoop"
+
+#: application/views/admin/reports/full-report.php:167
+#: application/views/admin/reports/view-full-data.php:190
+#: application/views/admin/reports/view-names.php:196
+msgid "Paid"
+msgstr "Betaald"
+
+#: application/views/admin/reports/regis-invoice-1.php:43
+#, fuzzy
+msgid "Invoice Date"
+msgstr "Programmadatum"
+
+#: application/views/admin/reports/regis-invoice-1.php:53
+msgid "Invoice #"
+msgstr ""
+
+#: application/views/admin/reports/regis-invoice-1.php:75
+#, fuzzy
+msgid "Date Due"
+msgstr "Publicatiedatum"
+
+#: application/views/admin/reports/regis-invoice-1.php:134
+#: application/views/front/cart/cart-totals.php:53
+#, fuzzy
+msgid "Event Total"
+msgstr "Betaalgegevens"
+
+#: application/views/admin/reports/reports-page.php:61
+#, fuzzy
+msgid "Events Planner Reports"
+msgstr "Events Planner"
+
+#: application/views/admin/reports/reports-page.php:109
+#: application/views/admin/user-regis-manager/regis-name-lookup-form.php:3
+#: application/views/front/event-search-box.php:18
+#, fuzzy
+msgid "Search"
+msgstr "Zoek Programma"
+
+#: application/views/admin/reports/reports-page.php:111
+msgid "Reset"
+msgstr ""
+
+#: application/views/admin/reports/view-full-data.php:192
+#: application/views/admin/reports/view-names.php:198
+msgid "Discount Amount"
+msgstr ""
+
+#: application/views/admin/settings/settings-page.php:6
+#, fuzzy
+msgid "Events Planner Settings"
+msgstr "Algemene instellingen van de Event Planner"
+
+#: application/views/admin/settings/settings-page.php:19
+#, fuzzy
+msgid "Settings updated."
+msgstr "Instellingen zijn aangepast"
+
+#: application/views/admin/settings/settings-page.php:145
+msgid ""
+"Use the setting below to assign specifc colors to each event category.  If "
+"an event has more than one category, the colors from the first category will "
+"be used."
+msgstr ""
+
+#: application/views/admin/settings/settings-page.php:153
+msgid "Background Color"
+msgstr ""
+
+#: application/views/admin/settings/settings-page.php:154
+msgid "Font Color"
+msgstr ""
+
+#: application/views/admin/settings/settings-page.php:338
+msgid "Save Changes"
+msgstr ""
+
+#: application/views/admin/user-regis-manager/daily-checked-in-users.php:4
+msgid "No attendees have checked in for this session."
+msgstr ""
+
+#: application/views/admin/user-regis-manager/daily-checked-in-users.php:52
+msgid "Check-in Time"
+msgstr ""
+
+#: application/views/admin/user-regis-manager/daily-checkin-class-list.php:29
+#, fuzzy
+msgid "Checked In"
+msgstr "Cheque"
+
+#: application/views/admin/user-regis-manager/daily-checkin-class-list.php:30
+#, fuzzy
+msgid "Registered"
+msgstr "Registreer"
+
+#: application/views/admin/user-regis-manager/daily-checkin-class-list.php:154
+#: application/views/admin/user-regis-manager/daily-checkin-class-list_1.php:124
+#: application/views/admin/user-regis-manager/daily-checkin-registrants.php:103
+#, fuzzy
+msgid "Check In"
+msgstr "Cheque"
+
+#: application/views/admin/user-regis-manager/daily-checkin-class-list.php:164
+msgid "No classes available today."
+msgstr ""
+
+#: application/views/admin/user-regis-manager/daily-checkin-class-list.php:176
+msgid "Please click on \"Check In\" above to begin."
+msgstr ""
+
+#: application/views/admin/user-regis-manager/daily-checkin-class-list_1.php:159
+msgid "Please click on \"Sign In\" above to begin."
+msgstr ""
+
+#: application/views/admin/user-regis-manager/daily-checkin-registrants.php:4
+#: application/views/admin/user-regis-manager/user-regis-all.php:4
+msgid "No registrants found for this session"
+msgstr ""
+
+#: application/views/admin/user-regis-manager/daily-checkin-registrants.php:8
+msgid "Users that have registered for this session"
+msgstr ""
+
+#: application/views/admin/user-regis-manager/daily-checkin-registrants.php:35
+#: application/views/admin/user-regis-manager/user-regis-all.php:24
+msgid "Package"
+msgstr ""
+
+#: application/views/admin/user-regis-manager/daily-checkin-registrants.php:36
+#: application/views/admin/user-regis-manager/user-regis-all.php:25
+msgid "Use Count"
+msgstr ""
+
+#: application/views/admin/user-regis-manager/daily-checkin-registrants.php:71
+#: application/views/admin/user-regis-manager/user-regis-all.php:60
+msgid "Expired"
+msgstr ""
+
+#: application/views/admin/user-regis-manager/daily-checkin-registrants.php:79
+#: application/views/admin/user-regis-manager/user-regis-all.php:68
+msgid "Credits used up"
+msgstr ""
+
+#: application/views/admin/user-regis-manager/daily-checkin-registrants.php:94
+#, fuzzy
+msgid "Checked in"
+msgstr "Cheque"
+
+#: application/views/admin/user-regis-manager/daily-checkin-registrants.php:122
+msgid "Checked-in users"
+msgstr ""
+
+#: application/views/admin/user-regis-manager/daily-checkin.php:11
+msgid "Check In Page"
+msgstr ""
+
+#: application/views/admin/user-regis-manager/event-list_1.php:218
+#: application/views/front/event-list-2.0.php:165
+#: application/views/front/event-list.php:171
+msgid "Sorry, there are no events currently available."
+msgstr "Sorry, er zijn geen programma's beschikbaar op dit moment."
+
+#: application/views/admin/user-regis-manager/regis-name-lookup-form.php:3
+msgid "First Name, Last Name, or Email"
+msgstr ""
+
+#: application/views/admin/user-regis-manager/user-list-dd.php:5
+msgid ""
+"Use this dropdown to assign this registration to a member of your website"
+msgstr ""
+
+#: application/views/admin/user-regis-manager/user-regis-all.php:8
+#, fuzzy
+msgid "All Purchases"
+msgstr "Details van de aannkoop"
+
+#: application/views/admin/user-regis-manager/user-regis-list-page-wrapper.php:35
+#, fuzzy
+msgid "Registration History"
+msgstr "Registratieformulieren"
+
+#: application/views/common/slide-down-box.php:9
+msgid "Close"
+msgstr "Sluit"
+
+#: application/views/front/attendee-list-1.php:1
+#, fuzzy
+msgid "attendees"
+msgstr "Deelnemer"
+
+#: application/views/front/attendee-list-1.php:6
+#, fuzzy
+msgid "No Attendees"
+msgstr "# Deelnemers"
+
+#: application/views/front/cart-container.php:3
+msgid "Your event cart is empty."
+msgstr ""
+
+#: application/views/front/cart-container.php:30
+msgid "Back"
+msgstr "Vorige"
+
+#: application/views/front/cart-container.php:34
+msgid "Next"
+msgstr "Volgende"
+
+#: application/views/front/event-list-2.0.php:89
+#: application/views/front/event-list.php:95
+#: application/views/front/single-templates/single-epl_event.php:82
+msgid "Multiple locations"
+msgstr "Verschiedene locaties"
+
+#: application/views/front/event-list-2.0.php:105
+#: application/views/front/event-list.php:111
+#, fuzzy
+msgid "Hosted By"
+msgstr "Aanmemaakt door"
+
+#: application/views/front/event-list-2.0.php:110
+#: application/views/front/event-list.php:116
+msgid "Visit Website"
+msgstr "Bezoek website"
+
+#: application/views/front/event-list-2.0.php:137
+#: application/views/front/event-list.php:143
+msgid "More"
+msgstr "Meer"
+
+#: application/views/front/event-list-class.php:189
+#: application/views/widgets/advanced-cal/form.php:1
+#: application/views/widgets/upcoming-events/form.php:2
+msgid "Title"
+msgstr "Titel"
+
+#: application/views/front/location-map.php:56
+msgid "Map and Driving Direction"
+msgstr "Kaart en routebeschijving"
+
+#: application/views/front/cart/cart-dates.php:7
+#, fuzzy
+msgid "Please use the calendar above to select a date."
+msgstr "Geef ten minste Ã©Ã©n datum op."
+
+#: application/views/front/cart/cart-grand-totals.php:49
+#: application/views/front/cart/cart-totals.php:47
+msgid "Original Total"
+msgstr ""
+
+#: application/views/front/cart/cart-grand-totals.php:61
+#, fuzzy
+msgid "Registration Total"
+msgstr "Begin van de registratie"
+
+#: application/views/front/cart/cart-grand-totals.php:81
+msgid "Minimum deposit"
+msgstr ""
+
+#: application/views/front/cart/cart-grand-totals.php:83
+msgid "please check if you would like to only pay the deposit now."
+msgstr ""
+
+#: application/views/front/cart/cart-grand-totals.php:85
+msgid ""
+"You have selected to pay the deposit only for now and the balance at a later "
+"date."
+msgstr ""
+
+#: application/views/front/cart/cart-grand-totals.php:101
+#: application/views/front/registration/regis-payment-details.php:93
+#, fuzzy
+msgid "Completed Payments"
+msgstr "Verstuur betaling aan"
+
+#: application/views/front/cart/cart-modal-buttons.php:2
+msgid "Add more to your cart"
+msgstr ""
+
+#: application/views/front/cart/cart-modal-buttons.php:4
+#, fuzzy
+msgid "Checkout"
+msgstr "Cheque"
+
+#: application/views/front/cart/cart.php:144
+#, fuzzy
+msgid "Alternate Total"
+msgstr "Bereken totaal"
+
+#: application/views/front/cart/cart.php:155
+#, fuzzy
+msgid "Select a payment method"
+msgstr "Betaalwijze"
+
+#: application/views/front/registration/regis-cc-form.php:9
+msgid "Billing Information"
+msgstr "Factuurgegevens"
+
+#: application/views/front/registration/regis-new-user-form.php:8
+msgid "Please fill this information to get access to our members section."
+msgstr ""
+
+#: application/views/front/registration/regis-payment-details.php:73
+msgid "Pay Now"
+msgstr ""
+
+#: application/views/front/registration/regis-thank-you-page.php:8
+msgid ""
+"Your name has been added to the waiting list.  You will receive an email "
+"once a spot opens."
+msgstr ""
+
+#: application/views/front/registration/regis-thank-you-page.php:36
+#, fuzzy
+msgid "Registration Details"
+msgstr "Registratievelden"
+
+#: application/views/front/user-regis-manager/user-regis-dates.php:19
+msgid "ID"
+msgstr ""
+
+#: application/views/front/user-regis-manager/user-regis-dates.php:33
+#, fuzzy
+msgid "Registered On"
+msgstr "Registreer"
+
+#: application/views/user-regis-manager/user-bookings.php:20
+#, fuzzy
+msgid "Regis. Date"
+msgstr "Reg Datum"
+
+#: application/views/user-regis-manager/user-bookings.php:86
+msgid "PDF"
+msgstr ""
+
+#: application/views/widgets/advanced-cal/event-list.php:6
+#, fuzzy
+msgid "No events on this day."
+msgstr "Geen Programma's gevonden"
+
+#: application/views/widgets/advanced-cal/form.php:2
+msgid "Exclude Past Events?"
+msgstr "Sluit afgesloten programma's uit?"
+
+#: application/views/widgets/upcoming-events/form.php:3
+msgid "Title URL (optional)"
+msgstr ""
+
+#: application/views/widgets/upcoming-events/form.php:4
+msgid "Set css class (optional)"
+msgstr ""
+
+#: application/views/widgets/upcoming-events/form.php:6
+msgid "Include events happening in the next"
+msgstr "Neem ook toekomstige programma's op in"
+
+#: application/views/widgets/upcoming-events/form.php:7
+msgid "Limit # events"
+msgstr ""
+
+#: application/views/widgets/upcoming-events/form.php:8
+msgid "Show only:"
+msgstr ""
+
+#: application/views/widgets/upcoming-events/form.php:16
+msgid "Exclude Event IDs (comma separated)"
+msgstr ""
+
+#: application/views/widgets/upcoming-events/form.php:19
+msgid "Enable Tooltip?"
+msgstr ""
+
+#: application/views/widgets/upcoming-events/form.php:25
+msgid "Content to show in tooltip"
+msgstr ""
+
+#: application/views/widgets/upcoming-events/form.php:30
+msgid "# of words in tooltip"
+msgstr ""
+
+#: application/views/widgets/upcoming-events/form.php:32
+msgid "Class event type display"
+msgstr ""
+
+#: application/views/widgets/upcoming-events/form.php:39
+msgid "Template"
+msgstr ""
+
+#: application/views/widgets/upcoming-events/form.php:45
+msgid "Thumbnaill Size"
+msgstr ""
+
+#: application/views/widgets/upcoming-events/front.php:29
+#: application/views/widgets/upcoming-events/front_1.php:29
+#: application/views/widgets/upcoming-events/template-1-loc.php:62
+#: application/views/widgets/upcoming-events/template-1.php:40
+#: application/views/widgets/upcoming-events/template-2-loc.php:80
+#: application/views/widgets/upcoming-events/template-2.php:61
+msgid "No Upcoming Events"
+msgstr "Op dit moment zijn er geen programma's gepland"
+
+#: system/epl-base.php:105
+msgid "Missing file"
+msgstr "Ontbrekend bestand"
+
+#: system/epl-init.php:370
+msgid "Manage Events V2"
+msgstr ""
+
+#: system/epl-init.php:372
+msgid "Reports"
+msgstr ""
+
+#: system/epl-init.php:375
+msgid "Form Manager"
+msgstr "Formuliermanager"
+
+#: system/epl-init.php:460
+msgid "Edit Event"
+msgstr "Edit Programma"
+
+#: system/epl-init.php:461
+msgid "New Event"
+msgstr "Nieuw Programma"
+
+#: system/epl-init.php:462
+msgid "View Event"
+msgstr "Bekijk Programma"
+
+#: system/epl-init.php:463
+msgid "Search Events"
+msgstr "Zoek Programma"
+
+#: system/epl-init.php:464
+msgid "No Events Found"
+msgstr "Geen Programma's gevonden"
+
+#: system/epl-init.php:465
+msgid "No Events Found In Trash"
+msgstr "Geen Programma's gevonden in de Prullenbak"
+
+#: system/epl-init.php:466
+msgid "Events Planner"
+msgstr "Events Planner"
+
+#: system/epl-init.php:494
+msgid "Registration"
+msgstr "Registratie"
+
+#: system/epl-init.php:495 system/epl-init.php:496
+msgid "Add New Registration"
+msgstr "Voeg Nieuwe Registratie toe"
+
+#: system/epl-init.php:497
+msgid "Edit Registration"
+msgstr "Edit Registratie"
+
+#: system/epl-init.php:499
+msgid "View Registration"
+msgstr "Bekijk Registratie"
+
+#: system/epl-init.php:500
+msgid "Search Registrations"
+msgstr "Zoek Registratie"
+
+#: system/epl-init.php:501
+msgid "No Registrations Found"
+msgstr "Geen Registraties gevonden"
+
+#: system/epl-init.php:502
+msgid "No Registrations Found In Trash"
+msgstr "Geen Registraties gevonden in de Prullenbak"
+
+#: system/epl-init.php:526
+#, fuzzy
+msgid "Locations"
+msgstr "Locatie"
+
+#: system/epl-init.php:528 system/epl-init.php:529
+#, fuzzy
+msgid "Add New Location"
+msgstr "Voeg Nieuwe Programma Locatie toe"
+
+#: system/epl-init.php:530
+#, fuzzy
+msgid "Edit Location"
+msgstr "Programmalocatie"
+
+#: system/epl-init.php:531
+#, fuzzy
+msgid "New Location"
+msgstr "Nieuwe Programma Locatie"
+
+#: system/epl-init.php:532
+#, fuzzy
+msgid "View Location"
+msgstr "Bekijk Programma Locatie"
+
+#: system/epl-init.php:533
+#, fuzzy
+msgid "Search Locations"
+msgstr "Zoek Programma Locaties"
+
+#: system/epl-init.php:534
+#, fuzzy
+msgid "No Locations Found"
+msgstr "Geen Programma Locaties gevonden"
+
+#: system/epl-init.php:535
+#, fuzzy
+msgid "No Locations Found In Trash"
+msgstr "Geen Programma Locaties gevonden in de Prullenbak"
+
+#: system/epl-init.php:559
+msgid "Payment Profiles"
+msgstr "Betaalprofielen"
+
+#: system/epl-init.php:560
+msgid "Payment Profile"
+msgstr "Betaalprofiel"
+
+#: system/epl-init.php:561 system/epl-init.php:562
+msgid "Add New Payment Profile"
+msgstr "Voeg Nieuw Betaalprofielen toe"
+
+#: system/epl-init.php:563
+msgid "Edit Payment Profiles"
+msgstr "Edit Betaalprofielen"
+
+#: system/epl-init.php:564
+msgid "New Payment Profile"
+msgstr "Nieuw Betaalprofiel"
+
+#: system/epl-init.php:565
+msgid "View Payment Profile"
+msgstr "Bekijk Betaalprofielen"
+
+#: system/epl-init.php:566
+msgid "Search Payment Profiles"
+msgstr "Zoek Betaalprofielen"
+
+#: system/epl-init.php:567
+msgid "No Payment Profiles Found"
+msgstr "Geen Betaalprofielen Gevonden"
+
+#: system/epl-init.php:568
+msgid "No Payment Profiles Found In Trash"
+msgstr "Geen Betaalprofielen Gevonden in Prullebak"
+
+#: system/epl-init.php:592
+msgid "Notification Manager"
+msgstr ""
+
+#: system/epl-init.php:593
+#, fuzzy
+msgid "Notification"
+msgstr "Locatie"
+
+#: system/epl-init.php:594 system/epl-init.php:595
+#, fuzzy
+msgid "Add New Notification"
+msgstr "Voeg Nieuwe Programma Locatie toe"
+
+#: system/epl-init.php:596
+#, fuzzy
+msgid "Edit Notifications"
+msgstr "Programma Locaties"
+
+#: system/epl-init.php:597
+#, fuzzy
+msgid "New Notification"
+msgstr "Nieuwe Programma Locatie"
+
+#: system/epl-init.php:598
+#, fuzzy
+msgid "View Notification"
+msgstr "Bekijk Programma Locatie"
+
+#: system/epl-init.php:599
+#, fuzzy
+msgid "Search Notifications"
+msgstr "Zoek Programma Locaties"
+
+#: system/epl-init.php:600
+#, fuzzy
+msgid "No Notifications Found"
+msgstr "Geen Programma Locaties gevonden"
+
+#: system/epl-init.php:601
+#, fuzzy
+msgid "No Notifications Found In Trash"
+msgstr "Geen Programma Locaties gevonden in de Prullenbak"
+
+#: system/epl-init.php:625
+msgid "Organizations"
+msgstr "Organisaties"
+
+#: system/epl-init.php:627 system/epl-init.php:628
+msgid "Add New Organization"
+msgstr "Voeg Nieuwe Organisatie toe"
+
+#: system/epl-init.php:629
+msgid "Edit Organization"
+msgstr "Edit Organisaties"
+
+#: system/epl-init.php:630
+msgid "New Organization"
+msgstr "Nieuwe Organisatie"
+
+#: system/epl-init.php:631
+msgid "View Organization"
+msgstr "Bekijk Organisaties"
+
+#: system/epl-init.php:632
+msgid "Search Organizations"
+msgstr "Zoek Organisaties"
+
+#: system/epl-init.php:633
+msgid "No Payment Organizations Found"
+msgstr "Geen Betaalorganisatie Gevonden"
+
+#: system/epl-init.php:634
+msgid "No Payment Organizations Found In Trash"
+msgstr "Geen Betaalorganisatie Gevonden in Prullebak"
+
+#: system/epl-init.php:673
+msgid "Event Categories"
+msgstr "ProgrammacategorieÃ«n"
+
+#: system/epl-init.php:674
+msgid "Event Category"
+msgstr "Programmacategorie"
+
+#: system/epl-init.php:675
+msgid "Edit Event Category"
+msgstr "Edit Programmacategorie"
+
+#: system/epl-init.php:676
+msgid "Update Event Category"
+msgstr "Wijzig Programmacategorie"
+
+#: system/epl-init.php:677
+msgid "Add New Event Category"
+msgstr "Voeg nieuwe Programmacategorie toe"
+
+#: system/epl-init.php:678
+msgid "New Event Category Name"
+msgstr "Nieuwe Programmacategorienaam"
+
+#: system/epl-init.php:679
+msgid "All Event Categories"
+msgstr "Alle ProgrammacategorieÃ«n"
+
+#: system/epl-init.php:680
+msgid "Search Event Categories"
+msgstr "Zoek ProgrammacategorieÃ«n"
+
+#: system/epl-init.php:681
+msgid "Parent Category"
+msgstr "Bovenliggende categorie"
+
+#: system/epl-init.php:682
+msgid "Parent Category:"
+msgstr "Bovenliggende categorie:"
+
+#: system/epl-init.php:699
+#, fuzzy
+msgid "Event Tags"
+msgstr "Programma's"
+
+#: system/epl-init.php:700
+msgid "Tag"
+msgstr ""
+
+#: system/epl-init.php:701
+msgid "Edit Tag"
+msgstr ""
+
+#: system/epl-init.php:702
+#, fuzzy
+msgid "Update Tag"
+msgstr "Bereken totaal"
+
+#: system/epl-init.php:703
+#, fuzzy
+msgid "Add New Tag"
+msgstr "Voeg nieuw programma toe"
+
+#: system/epl-init.php:704
+#, fuzzy
+msgid "New Tag Name"
+msgstr "Nieuwe Programmacategorienaam"
+
+#: system/epl-init.php:705
+#, fuzzy
+msgid "All Tag"
+msgstr "Beschikbare plaatsen"
+
+#: system/epl-init.php:706
+#, fuzzy
+msgid "Search Tag"
+msgstr "Zoek Programma"
+
+#: system/epl-init.php:707
+#, fuzzy
+msgid "Parent Tag"
+msgstr "Bovenliggende categorie"
+
+#: system/epl-init.php:708
+#, fuzzy
+msgid "Parent Tag:"
+msgstr "Bovenliggende categorie:"
+
+#~ msgid ""
+#~ "If the user can register for more than one day, do the following prices "
+#~ "apply to: "
+#~ msgstr ""
+#~ "Als de deelnemer voor meer dan Ã©Ã©n dag kan registreren, dan zijn "
+#~ "onderstaande prijzen van toepassing op:"
+
+#~ msgid "Event Status"
+#~ msgstr "Programmastatus"
+
+#, fuzzy
+#~ msgid "Display times on the event list?"
+#~ msgstr "Laat de Organisatieinformatie zien op de programmalijst."
+
+#~ msgid "Display Organization Info"
+#~ msgstr "Toon Organisatieinformatie"
+
+#~ msgid "Display the Organization info on the event list?"
+#~ msgstr "Laat de Organisatieinformatie zien op de programmalijst."
+
+#~ msgid "Event Capacity"
+#~ msgstr "Aantal plaatsen in het programma."
+
+#~ msgid "Per"
+#~ msgstr "Per"
+
+#~ msgid "Each Event Price"
+#~ msgstr "Iedere Programmaprijs"
+
+#~ msgid "Each Event Time Slot"
+#~ msgstr "Iedere tijdsperiode in een Programma"
+
+#~ msgid "Event Start Date coming soon."
+#~ msgstr "Aanvangsdatum wordt snel bekend."
+
+#~ msgid ""
+#~ "Hi there.  If you are seeing this error, you need to enter a Support "
+#~ "License Key or your key is invalid.\n"
+#~ "        If you have already purchased a Support License Key, please go %s "
+#~ "(Events Planner > Settings > API Settings tab) and enter it in the API "
+#~ "Settings tab.\n"
+#~ "        If you need to get one, please go to %s.  If at any point you are "
+#~ "having issues, please contact Events Planner Helpdesk at "
+#~ "help@wpeventsplanner.com.  Thank you. "
+#~ msgstr ""
+#~ "Hallo. Deze fout betekent dat u een Support Licence Key nodig heeft, of "
+#~ "uw Key is ongeldig.\n"
+#~ "        Mocht u een Support Licence Key gekocht hebben, ga dan naar  %s "
+#~ "(Events Planner > Settings > API Settings tab)  en voor daar de Key in.\n"
+#~ "         Heeft u een Key nodig, ga dan naar %S. Als u problemen "
+#~ "ondervindt, neem dan svp contact op met de Events Planner Helpdesk at "
+#~ "help@wpeventsplanner.com.  Bij voorbaat dank."
+
+#~ msgid "Events Planner Website"
+#~ msgstr "Events Planner Website"
+
+#~ msgid "Process Payment And Complete"
+#~ msgstr "Verwerk betaling en rond af"
+
+#, fuzzy
+#~ msgid "Ability to add attendees coming soon."
+#~ msgstr "Mogelijkheid om deelnemers toe te voegen komt snel."
+
+#~ msgid "Payment Status"
+#~ msgstr "Status van de betaling"
+
+#~ msgid " tickets"
+#~ msgstr "kaarten"
+
+#~ msgid "Section"
+#~ msgstr "Sectie"
+
+#, fuzzy
+#~ msgid ""
+#~ "Please note that once you make this selection and save the event, you "
+#~ "will NOT be able to change this."
+#~ msgstr ""
+#~ "NB: als u deze selectie gemaakt heeft en de programmagegevens heeft "
+#~ "opgeslangen, dan kunt u naderhand nog wijzigen aanbrengen."
+
+#~ msgid "Attendee #"
+#~ msgstr "Deelnemer #"
+
+#~ msgid "Help"
+#~ msgstr "Help"
+
+#~ msgid "Event Planner"
+#~ msgstr "Event Planner"
+
+#~ msgid "Event Locations"
+#~ msgstr "Programma Locaties"
+
+#~ msgid "Edit Event Location"
+#~ msgstr "Edit Programma Locatie"
+
+#~ msgid "Exp. Month/Year"
+#~ msgstr "Exp. Maand/Jaar"
+
+#~ msgid ""
+#~ "Thank you.  Your registration is complete.  Please print this page for "
+#~ "your records."
+#~ msgstr ""
+#~ "Hartelijk dank. Uw registratie is compleet. Druk aub deze pagina af  voor "
+#~ "uw eigen administratie."
+
+#~ msgid "Add To Cart"
+#~ msgstr "In winkelwagen"

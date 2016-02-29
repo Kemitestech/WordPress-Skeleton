@@ -1,0 +1,4587 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Events Planner PRO v1.3.11.9\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-10-22 20:02-0700\n"
+"PO-Revision-Date: 2014-02-13 20:35+0100\n"
+"Last-Translator: Tushita <tushita@brandquest.ch>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n>1;\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ events-planner
+#: ../application/config/event-fields.php:19
+#, php-format
+msgid "User can only register for %s one day %s."
+msgstr "Inscription pour %s un seul jour %s."
+
+# @ events-planner
+#: ../application/config/event-fields.php:35
+msgid "Price Label"
+msgstr "Type de prix"
+
+# @ events-planner
+#: ../application/config/event-fields.php:42
+#: ../application/views/admin/cart/cart-prices.php:14
+#: ../application/views/front/cart/cart-prices.php:15
+msgid "Price"
+msgstr "Prix"
+
+# @ events-planner
+#: ../application/config/event-fields.php:48
+#: ../application/config/event-fields.php:716
+msgid "Min."
+msgstr "Min."
+
+# @ events-planner
+#: ../application/config/event-fields.php:56
+msgid "Max."
+msgstr "Max."
+
+# @ events-planner
+#: ../application/config/event-fields.php:63
+msgid "Show 0?"
+msgstr "Montrer 0?"
+
+# @ events-planner
+#: ../application/config/event-fields.php:70
+#: ../application/controllers/epl-pay-profile-manager.php:146
+#: ../application/views/admin/cart/cart-prices.php:7
+#: ../application/views/admin/events/message-meta-box.php:8
+#: ../application/views/front/cart/cart-prices.php:8
+msgid "Type"
+msgstr "Type"
+
+# @ events-planner
+#: ../application/config/event-fields.php:71
+#: ../application/config/event-fields.php:446
+#: ../application/config/event-fields.php:454
+#: ../application/models/epl-common-model.php:1652
+#: ../application/models/epl-common-model.php:2342
+#: ../application/models/epl-registration-model.php:1628
+msgid "Attendee"
+msgstr "Participant"
+
+# @ events-planner
+#: ../application/config/event-fields.php:71
+msgid "Non-attendee"
+msgstr "Non-participants"
+
+# @ events-planner
+#: ../application/config/event-fields.php:77
+msgid "Discountable?"
+msgstr "Réduction?"
+
+# @ events-planner
+#: ../application/config/event-fields.php:84
+#: ../application/config/event-fields.php:265
+msgid "Note"
+msgstr "Remarque"
+
+# @ events-planner
+#: ../application/config/event-fields.php:85
+msgid "Note to Customer (Optional)"
+msgstr "Note pour le client (facultatif)"
+
+# @ events-planner
+#: ../application/config/event-fields.php:93
+#: ../application/config/event-fields.php:207
+msgid "Hide"
+msgstr "Masquer"
+
+# @ events-planner
+#: ../application/config/event-fields.php:109
+msgid "Is this a free event? "
+msgstr "Est-ce un événement gratuit?"
+
+# @ events-planner
+#: ../application/config/event-fields.php:116
+msgid "Apply prices to"
+msgstr "Appliquer le prix"
+
+# @ events-planner
+#: ../application/config/event-fields.php:117
+msgid ""
+"If you are offering multiple days, this will determine if the user pays per "
+"day or for the whole event."
+msgstr ""
+"Si vous offrez la possibilité de s'inscrire à plusieurs jours, cela "
+"determine si l&#146;utilisateur paie par jour ou pour l&#146;événement en "
+"entier."
+
+# @ events-planner
+#: ../application/config/event-fields.php:118
+msgid "The Whole Event"
+msgstr "L'événement entier"
+
+# @ events-planner
+#: ../application/config/event-fields.php:118
+#: ../application/config/event-fields.php:668
+#: ../application/config/event-fields.php:675
+msgid "Each Event Date"
+msgstr "Chaque date de l'événement"
+
+# @ events-planner
+#: ../application/config/event-fields.php:131
+msgid "Surcharge Label"
+msgstr "Libellé de la surtaxe"
+
+# @ events-planner
+#: ../application/config/event-fields.php:132
+msgid "Label that will be displayed to the user"
+msgstr "Si oui, ce libellé sera affiché pour l&#146;utilisateur"
+
+# @ events-planner
+#: ../application/config/event-fields.php:146
+msgid "Surcharge Method"
+msgstr "Méthode de surtaxe"
+
+# @ events-planner
+#: ../application/config/event-fields.php:148
+msgid "Add"
+msgstr "Ajouter"
+
+# @ events-planner
+#: ../application/config/event-fields.php:157
+msgid "Amount (must be a number, 0.00 for no surcharge)"
+msgstr "Montant (doit être un nombre, 0.00 pour aucune surtaxe)"
+
+# @ events-planner
+#: ../application/config/event-fields.php:166
+msgid "Surcharge Type"
+msgstr "Type de surtaxe"
+
+# @ events-planner
+#: ../application/config/event-fields.php:167
+#: ../application/config/event-fields.php:816
+#: ../application/config/event-fields.php:905
+#: ../application/config/global-discount-fields.php:43
+#: ../application/config/global-discount-fields.php:132
+#: ../application/config/settings-fields.php:166
+msgid "Fixed"
+msgstr "Fixe"
+
+# @ events-planner
+#: ../application/config/event-fields.php:167
+#: ../application/config/event-fields.php:816
+#: ../application/config/event-fields.php:905
+#: ../application/config/global-discount-fields.php:43
+#: ../application/config/global-discount-fields.php:132
+#: ../application/config/settings-fields.php:166
+msgid "Percent"
+msgstr "Pourcent"
+
+# @ events-planner
+#: ../application/config/event-fields.php:174
+msgid "Apply surcharge before discount"
+msgstr "Appliquer une surtaxe avant la réduction"
+
+# @ events-planner
+#: ../application/config/event-fields.php:193
+#: ../application/views/admin/event-snapshot.php:26
+msgid "Start Time"
+msgstr "Heure de début"
+
+# @ events-planner
+#: ../application/config/event-fields.php:200
+#: ../application/views/admin/event-snapshot.php:27
+msgid "End Time"
+msgstr "Heure de fin"
+
+# @ events-planner
+#: ../application/config/event-fields.php:220
+msgid "Start Date"
+msgstr "Date de début"
+
+# @ events-planner
+#: ../application/config/event-fields.php:230
+msgid "End Date"
+msgstr "Date de fin"
+
+# @ events-planner
+#: ../application/config/event-fields.php:239
+msgid "Regis. Starts On"
+msgstr "Début réserv."
+
+# @ events-planner
+#: ../application/config/event-fields.php:248
+msgid "Regis. Ends On"
+msgstr "Fin réserv."
+
+# @ events-planner
+#: ../application/config/event-fields.php:257
+#: ../application/helpers/date-helper.php:913
+#: ../application/helpers/date-helper.php:991
+#: ../application/views/admin/events/recurrence-fields.php:49
+msgid "Capacity"
+msgstr "Capacité"
+
+# @ events-planner
+#: ../application/config/event-fields.php:289
+msgid "Session Date"
+msgstr "Date de la session"
+
+# @ events-planner
+#: ../application/config/event-fields.php:300
+msgid "Session Name"
+msgstr "Nom de la session"
+
+# @ events-planner
+#: ../application/config/event-fields.php:307
+msgid "Session Note"
+msgstr "Remarque sur la session"
+
+# @ events-planner
+#: ../application/config/event-fields.php:382
+msgid "Sun"
+msgstr "Dim"
+
+# @ events-planner
+#: ../application/config/event-fields.php:383
+msgid "Mon"
+msgstr "Lun"
+
+# @ events-planner
+#: ../application/config/event-fields.php:384
+msgid "Tue"
+msgstr "Mar"
+
+# @ events-planner
+#: ../application/config/event-fields.php:385
+msgid "Wed"
+msgstr "Mer"
+
+# @ events-planner
+#: ../application/config/event-fields.php:386
+msgid "Thu"
+msgstr "Jeu"
+
+# @ events-planner
+#: ../application/config/event-fields.php:387
+msgid "Fri"
+msgstr "Ven"
+
+# @ events-planner
+#: ../application/config/event-fields.php:388
+msgid "Sat"
+msgstr "Sam"
+
+# @ events-planner
+#: ../application/config/event-fields.php:398
+msgid "Day of Month"
+msgstr "Jour du mois"
+
+# @ events-planner
+#: ../application/config/event-fields.php:401
+msgid ""
+"Coming soon, ability to select per week of the month (i.e. first, second, "
+"last week)."
+msgstr ""
+"Bientôt: la possibilité de sélectionner par semaine du mois (par ex.: 1ère, "
+"2ème, dernière)."
+
+# @ events-planner
+#: ../application/config/event-fields.php:429
+msgid "Ticket buyer form"
+msgstr "Formulaire d'inscription"
+
+# @ events-planner
+#: ../application/config/event-fields.php:432
+msgid ""
+"AT LEAST ONE FORM IS REQUIRED.  This is the form that you will use for "
+"collecting information from the person that is doing the registration."
+msgstr ""
+"AU MOINS UN FORMULAIRE EST REQUIS. Vous utiliserez ce formulaire pour la "
+"collecte d'informations auprès des personnes qui s'inscrivent."
+
+# @ events-planner
+#: ../application/config/event-fields.php:437
+msgid "Forms for all attendees"
+msgstr "Formulaires pour tous les participants"
+
+# @ events-planner
+#: ../application/config/event-fields.php:440
+msgid ""
+"This information will be collected from all the attendees.  If you do not "
+"need to collect individual information and only need the quantity, do not "
+"select any of these forms."
+msgstr ""
+"Ces informations seront recueillies auprès de tous les participants. Si vous "
+"n&#146;avez pas besoin de collecter des informations individuelles, mais "
+"vous désirez uniquement connaître la quantité des inscriptions, ne pas "
+"sélectionner un de ces formulaires."
+
+# @ events-planner
+#: ../application/config/event-fields.php:445
+msgid "Form Section Counter Label"
+msgstr "Libellé du compteur de la section de formulaire"
+
+# @ events-planner
+#: ../application/config/event-fields.php:447
+msgid ""
+"When additional forms are presented besides the Ticket Buyer form, this "
+"value will be presented before the counter.  For example, Attendee #1, "
+"Attendee #2..."
+msgstr ""
+"Lorsque des participants supplémentaires peuvent s'inscrire, les formulaires "
+"à cet effet seront présentés en plus du formulaire principal, le titre de ce "
+"formulaire sera présenté devant le chiffre. Par exemple, participant "
+"supplémentaire #1, participant supplémentaire #2…"
+
+# @ events-planner
+#: ../application/config/event-fields.php:453
+msgid "Enable form to form copy?"
+msgstr "Activer la copie du formlaire?"
+
+# @ events-planner
+#: ../application/config/event-fields.php:455
+msgid ""
+"This will give your users the ability to copy data from form to form during "
+"the registration."
+msgstr ""
+"Cela donnera à vos utilisateurs la possibilité de copier les données d&#146;"
+"un autre formulaire lors de l&#146;inscription."
+
+# @ events-planner
+#: ../application/config/event-fields.php:467
+msgid "No Locations found. Please go to Events Planner > Event Locations."
+msgstr ""
+"Aucun lieu n'a été trouvé. Merci d'aller sur Events Planner > Lieux pour les "
+"créer."
+
+# @ events-planner
+#: ../application/config/event-fields.php:468
+msgid "Event Location"
+msgstr "Lieu de l'événement"
+
+# @ events-planner
+#: ../application/config/event-fields.php:473
+msgid "Room, suite..."
+msgstr "Chambre, salle..."
+
+# @ events-planner
+#: ../application/config/event-fields.php:474
+msgid "Enter more specific information about the location."
+msgstr "Saisir d&#146;autres détails sur le lieu."
+
+# @ events-planner
+#: ../application/config/event-fields.php:481
+msgid "Payment Choices"
+msgstr "Choix du mode de paiement"
+
+# @ events-planner
+#: ../application/config/event-fields.php:482
+#: ../application/config/event-fields.php:494
+msgid "No Payment Profiles. Please go to Events Planner > Payment Profiles."
+msgstr ""
+"Aucun profil de paiement n'a été trouvé. Merci d'aller sur Events Planner > "
+"Profils de paiement."
+
+# @ events-planner
+#: ../application/config/event-fields.php:492
+msgid "Default Selected Payment"
+msgstr "Paiement par défaut sélectionné"
+
+# @ events-planner
+#: ../application/config/event-fields.php:493
+msgid ""
+"This determines which payment method is automatically selected when the user "
+"visits the regsitration cart for the first time."
+msgstr ""
+"Ceci détermine le mode de paiement automatiquement sélectionné lorsque "
+"l&#146;utilisateur visite le panier d&#146;inscription pour la première fois."
+
+# @ events-planner
+#: ../application/config/event-fields.php:502
+msgid "No Organizations found. Please go to Events Planner > Organizations."
+msgstr ""
+"Aucun organisateur n'a été trouvé. Merci d'aller sur Events Planner > "
+"Organisateur."
+
+# @ events-planner
+#: ../application/config/event-fields.php:504
+msgid "Organization hosting the event"
+msgstr "Société organisatrice de l'événement"
+
+# @ events-planner
+#: ../application/config/event-fields.php:517
+#: ../application/controllers/epl-event-manager.php:778
+#: ../application/models/epl-common-model.php:1434
+#: ../application/models/epl-common-model.php:1860
+#: ../application/models/epl-common-model.php:2262
+#: ../application/views/admin/event-snapshot.php:28
+#: ../application/views/front/user-regis-manager/user-regis-dates.php:26
+msgid "Status"
+msgstr "Statut"
+
+# @ events-planner
+#: ../application/config/event-fields.php:519
+msgid "Inactive"
+msgstr "Inactif"
+
+# @ events-planner
+#: ../application/config/event-fields.php:520
+#: ../application/config/event-fields.php:839
+#: ../application/config/global-discount-fields.php:66
+msgid "Active"
+msgstr "Actif"
+
+# @ events-planner
+#: ../application/config/event-fields.php:521
+msgid "Active (hidden)"
+msgstr "Actif (masqué)"
+
+# @ events-planner
+#: ../application/config/event-fields.php:522
+msgid "Ongoing"
+msgstr "En cours"
+
+# @ events-planner
+#: ../application/config/event-fields.php:523
+msgid "Cancelled"
+msgstr "Annulé"
+
+# @ events-planner
+#: ../application/config/event-fields.php:530
+msgid "Registration Availability"
+msgstr "Inscription disponible pour"
+
+# @ events-planner
+#: ../application/config/event-fields.php:532
+msgid "Open to public"
+msgstr "Ouvert au public"
+
+# @ events-planner
+#: ../application/config/event-fields.php:533
+msgid "Members Only"
+msgstr "Membre seulement"
+
+# @ events-planner
+#: ../application/config/event-fields.php:546
+msgid "Show Registration Button"
+msgstr "Montrer le bouton d'inscription"
+
+# @ events-planner
+#: ../application/config/event-fields.php:553
+msgid "Date Display Type"
+msgstr "Type d'affichage de date"
+
+# @ events-planner
+#: ../application/config/event-fields.php:554
+#: ../application/config/event-fields.php:562
+#: ../application/views/admin/events/recurrence-fields.php:38
+msgid "None"
+msgstr "Aucun"
+
+# @ events-planner
+#: ../application/config/event-fields.php:554
+msgid "Table"
+msgstr "Tableau"
+
+# @ events-planner
+#: ../application/config/event-fields.php:554
+msgid "Calendar"
+msgstr "Calendrier"
+
+# @ events-planner
+#: ../application/config/event-fields.php:555
+msgid ""
+"Determines if the dates displayed on the event list are in table format or "
+"in small calendar format."
+msgstr ""
+"Détermine si les dates sont affichées sur la liste d&#146;événement en "
+"format tableau ou en format petit calendrier."
+
+# @ events-planner
+#: ../application/config/event-fields.php:561
+msgid "Content Display Type"
+msgstr "Type d'affichage de contenu"
+
+# @ events-planner
+#: ../application/config/event-fields.php:562
+#: ../application/libraries/epl-upcoming-events-widget.php:95
+msgid "Excerpt"
+msgstr "Intro"
+
+# @ events-planner
+#: ../application/config/event-fields.php:562
+#: ../application/libraries/epl-upcoming-events-widget.php:95
+msgid "Content"
+msgstr "Contenu"
+
+# @ events-planner
+#: ../application/config/event-fields.php:563
+msgid "Determines which content to display in the event list."
+msgstr "Détermine quel contenu sera affiché sur la liste d&#146;événements"
+
+# @ events-planner
+#: ../application/config/event-fields.php:576
+msgid "Display available spaces?"
+msgstr "Afficher les places disponibles?"
+
+# @ events-planner
+#: ../application/config/event-fields.php:583
+msgid "Display Event Details in cart?"
+msgstr "Afficher les détails de l'événement dans le panier?"
+
+# @ events-planner
+#: ../application/config/event-fields.php:598
+msgid "Alternate Notification Emails"
+msgstr "Autres destinataires des emails de notification"
+
+# @ events-planner
+#: ../application/config/event-fields.php:599
+msgid ""
+"Enter a comma separated list of email addresses that you would like to send "
+"the registration confirmation emails to."
+msgstr ""
+"Saisir les adresses email séparées par une virgule, pour définir à qui "
+"envoyer l&#146;email de confirmation d&#146;inscription."
+
+# @ events-planner
+#: ../application/config/event-fields.php:604
+msgid "Alternate Registration URL"
+msgstr "URL alternative pour les inscriptions"
+
+# @ events-planner
+#: ../application/config/event-fields.php:605
+msgid ""
+"If you would like to have the register button point to an alternate "
+"registration page or form."
+msgstr ""
+"Si vous souhaitez que le bouton d&#146;inscription pointe sur une autre page "
+"d&#146;inscription ou un autre formulaire."
+
+# @ events-planner
+#: ../application/config/event-fields.php:610
+msgid "Calendar/Widget link destination"
+msgstr "Lien pour le Calendrier/Widget"
+
+# @ events-planner
+#: ../application/config/event-fields.php:611
+#: ../application/config/event-fields.php:617
+msgid "Registration Page"
+msgstr "Page d'inscription"
+
+# @ events-planner
+#: ../application/config/event-fields.php:611
+#: ../application/config/event-fields.php:617
+#: ../application/views/admin/cart/cart.php:27
+#: ../application/views/front/cart/cart.php:34
+msgid "Event Details"
+msgstr "Détails de l'événement"
+
+# @ events-planner
+#: ../application/config/event-fields.php:616
+msgid "Event Title link destination"
+msgstr "Lien de destination du titre de l'événement"
+
+# @ events-planner
+#: ../application/config/event-fields.php:627
+msgid "Event Capacity"
+msgstr "Capacité de l'événement"
+
+# @ events-planner
+#: ../application/config/event-fields.php:633
+msgid "Per"
+msgstr "par"
+
+# @ events-planner
+#: ../application/config/event-fields.php:636
+msgid "The Event"
+msgstr "L'événement"
+
+# @ events-planner
+#: ../application/config/event-fields.php:637
+#: ../application/controllers/epl-event-manager.php:193
+#: ../application/views/admin/cart/cart.php:54
+#: ../application/views/admin/events/events-main-meta-box.php:11
+#: ../application/views/front/event-list-2.php:58
+#: ../application/views/front/cart/cart.php:61
+#: ../application/views/front/single-templates/single-epl_event.php:19
+msgid "Dates"
+msgstr "Dates"
+
+# @ events-planner
+#: ../application/config/event-fields.php:638
+#: ../application/views/admin/events/time-price-0.php:97
+#: ../application/views/front/event-list-2.php:68
+#: ../application/views/front/single-templates/single-epl_event.php:33
+msgid "Times"
+msgstr "Heures"
+
+# @ events-planner
+#: ../application/config/event-fields.php:639
+#: ../application/views/admin/events/time-price-0.php:199
+#: ../application/views/front/single-templates/single-epl_event.php:39
+msgid "Prices"
+msgstr "Prix"
+
+# @ events-planner
+#: ../application/config/event-fields.php:661
+#: ../application/config/event-fields.php:668
+#: ../application/config/event-fields.php:675
+#: ../application/controllers/epl-event-manager.php:530
+#: ../application/controllers/epl-event-manager.php:543
+#: ../application/controllers/epl-registration-manager.php:494
+#: ../application/controllers/epl-registration-manager.php:794
+#: ../application/models/epl-common-model.php:1201 ../system/epl-init.php:342
+msgid "Event"
+msgstr "Evénement"
+
+# @ events-planner
+#: ../application/config/event-fields.php:661
+#: ../application/models/epl-common-model.php:1440
+#: ../application/models/epl-common-model.php:1866
+msgid "Event Date"
+msgstr "Date de l'événement"
+
+# @ events-planner
+#: ../application/config/event-fields.php:661
+#: ../application/config/event-fields.php:668
+#: ../application/config/event-fields.php:675
+msgid "Each Event Price"
+msgstr "Prix pour chaque événement"
+
+# @ events-planner
+#: ../application/config/event-fields.php:668
+#: ../application/config/event-fields.php:675
+msgid "Each Event Time Slot"
+msgstr "Horaire de chaque événement"
+
+# @ events-planner
+#: ../application/config/event-fields.php:685
+msgid "Message Location"
+msgstr "Lieu du message"
+
+# @ events-planner
+#: ../application/config/event-fields.php:688
+msgid "All registration pages - top"
+msgstr "Toutes les pages des inscriptions - haut"
+
+# @ events-planner
+#: ../application/config/event-fields.php:689
+msgid "All registration pages - bottom"
+msgstr "Toutes les pages des inscriptions - bas"
+
+# @ events-planner
+#: ../application/config/event-fields.php:690
+msgid "Cart - top"
+msgstr "Panier - haut"
+
+# @ events-planner
+#: ../application/config/event-fields.php:691
+msgid "Cart - bottom"
+msgstr "Panier - bas"
+
+# @ events-planner
+#: ../application/config/event-fields.php:692
+msgid "Registration form - top"
+msgstr "Formulaire d'inscription - haut"
+
+# @ events-planner
+#: ../application/config/event-fields.php:693
+msgid "Registration form - bottom"
+msgstr "Formulaire d'inscription - bas"
+
+# @ events-planner
+#: ../application/config/event-fields.php:694
+msgid "Registration complete - top"
+msgstr "Inscription achevée - haut"
+
+# @ events-planner
+#: ../application/config/event-fields.php:695
+msgid "Registration complete - bottom"
+msgstr "Inscription achevée - bas"
+
+# @ events-planner
+#: ../application/config/event-fields.php:706
+msgid "Info"
+msgstr "Info"
+
+# @ events-planner
+#: ../application/config/event-fields.php:707
+msgid "Success"
+msgstr "Bravo"
+
+# @ events-planner
+#: ../application/config/event-fields.php:708
+msgid "Warning"
+msgstr "Attention"
+
+# @ events-planner
+#: ../application/config/event-fields.php:709
+#: ../application/models/epl-registration-model.php:2152
+msgid "Error"
+msgstr "Erreur"
+
+# @ events-planner
+#: ../application/config/event-fields.php:747
+msgid "Show Attendee List Link?"
+msgstr "Afficher le lien Liste pour les participants?"
+
+# @ events-planner
+#: ../application/config/event-fields.php:754
+msgid "Link Location"
+msgstr "Lien sur le Lieu"
+
+# @ events-planner
+#: ../application/config/event-fields.php:755
+msgid "Event List"
+msgstr "Liste des événéments"
+
+# @ events-planner
+#: ../application/config/event-fields.php:755
+msgid "Registration Confirmation Page"
+msgstr "Page de confirmation de l'inscription"
+
+# @ events-planner
+#: ../application/config/event-fields.php:755
+msgid "Shortcode"
+msgstr "Page des Shortcodes."
+
+# @ events-planner
+#: ../application/config/event-fields.php:761
+msgid "Attendee List Template"
+msgstr "Template de la liste des participants"
+
+# @ events-planner
+#: ../application/config/event-fields.php:762
+#: ../application/libraries/epl-upcoming-events-widget.php:72
+msgid "Template 1"
+msgstr "Template 1"
+
+# @ events-planner
+#: ../application/config/event-fields.php:762
+msgid "Template 2"
+msgstr "Template 2"
+
+# @ events-planner
+#: ../application/config/event-fields.php:784
+msgid "Allow global discounts for this event?"
+msgstr "Autorise les reductions globales pour cet événement?"
+
+# @ events-planner
+#: ../application/config/event-fields.php:785
+msgid ""
+"This setting determines if global coupon codes or automatic discounts can be "
+"applied to this event."
+msgstr ""
+"Ce paramètre détermine si des codes promo ou des réductions automatiques "
+"peuvent être appliqués à cet événement."
+
+# @ events-planner
+#: ../application/config/event-fields.php:792
+msgid "Discount Input Label?"
+msgstr "Libellé du champ de saisie de la réduction?"
+
+# @ events-planner
+#: ../application/config/event-fields.php:793
+#: ../application/config/event-fields.php:805
+#: ../application/config/global-discount-fields.php:32
+#: ../application/models/epl-common-model.php:1438
+#: ../application/models/epl-common-model.php:1864
+#: ../application/views/admin/cart/cart.php:90
+#: ../application/views/admin/registration/regis-cart-section.php:60
+#: ../application/views/front/cart/cart.php:97
+msgid "Discount Code"
+msgstr "Code de promotion"
+
+# @ events-planner
+#: ../application/config/event-fields.php:798
+#: ../application/config/global-discount-fields.php:25
+msgid "Code"
+msgstr "Code"
+
+# @ events-planner
+#: ../application/config/event-fields.php:798
+#: ../application/config/global-discount-fields.php:25
+msgid "Automatic"
+msgstr "Automatique"
+
+# @ events-planner
+#: ../application/config/event-fields.php:799
+#: ../application/config/global-discount-fields.php:26
+msgid "Discount Method"
+msgstr "Méthode de Réduction"
+
+# @ events-planner
+#: ../application/config/event-fields.php:810
+#: ../application/config/event-fields.php:899
+#: ../application/config/global-discount-fields.php:37
+#: ../application/config/global-discount-fields.php:126
+msgid "Amount"
+msgstr "Montant"
+
+# @ events-planner
+#: ../application/config/event-fields.php:815
+#: ../application/config/event-fields.php:904
+#: ../application/config/global-discount-fields.php:42
+#: ../application/config/global-discount-fields.php:131
+msgid "Discount Type"
+msgstr "Type de réduction"
+
+# @ events-planner
+#: ../application/config/event-fields.php:821
+#: ../application/config/event-fields.php:910
+#: ../application/config/global-discount-fields.php:48
+#: ../application/config/global-discount-fields.php:137
+msgid "Max Use"
+msgstr "Max"
+
+# @ events-planner
+#: ../application/config/event-fields.php:826
+#: ../application/config/event-fields.php:915
+#: ../application/config/event-fields.php:921
+#: ../application/config/global-discount-fields.php:53
+#: ../application/config/global-discount-fields.php:142
+#: ../application/config/global-discount-fields.php:148
+#: ../application/views/admin/events/recurrence-fields.php:7
+msgid "Until"
+msgstr "Jusqu'à"
+
+# @ events-planner
+#: ../application/config/event-fields.php:833
+#: ../application/config/global-discount-fields.php:60
+msgid "Discount Description (optional)"
+msgstr "Description réduction (facultatif)"
+
+# @ events-planner
+#: ../application/config/event-fields.php:835
+#: ../application/config/global-discount-fields.php:62
+msgid ""
+"This label will appear in the total section as the discount description."
+msgstr ""
+"Ce terme décrit le type de réduction et apparaîtra dans la zone des totaux."
+
+# @ events-planner
+#: ../application/config/event-fields.php:845
+#: ../application/config/event-fields.php:863
+#: ../application/config/event-fields.php:894
+#: ../application/config/global-discount-fields.php:72
+#: ../application/config/global-discount-fields.php:90
+#: ../application/config/global-discount-fields.php:121
+msgid "Total Amount"
+msgstr "Total"
+
+# @ events-planner
+#: ../application/config/event-fields.php:845
+#: ../application/config/event-fields.php:894
+#: ../application/config/global-discount-fields.php:72
+#: ../application/config/global-discount-fields.php:121
+msgid "Total Quantity"
+msgstr "Quantité Totale"
+
+# @ events-planner
+#: ../application/config/event-fields.php:850
+#: ../application/config/global-discount-fields.php:77
+msgid "Between"
+msgstr "Entre"
+
+# @ events-planner
+#: ../application/config/event-fields.php:874
+#: ../application/config/global-discount-fields.php:101
+msgid "Discount Specific Form"
+msgstr "Formulaire spécifique pour les réductions"
+
+# @ events-planner
+#: ../application/config/event-fields.php:882
+#: ../application/config/global-discount-fields.php:109
+#: ../application/helpers/date-helper.php:953
+msgid "Display the form "
+msgstr "Afficher le formulaire"
+
+# @ events-planner
+#: ../application/config/event-fields.php:883
+#: ../application/config/global-discount-fields.php:110
+#: ../application/helpers/date-helper.php:954
+msgid "For each Attendee"
+msgstr "Pour chaque participant"
+
+# @ events-planner
+#: ../application/config/event-fields.php:883
+#: ../application/config/global-discount-fields.php:110
+#: ../application/helpers/date-helper.php:954
+msgid "Only Once"
+msgstr "Une seule fois"
+
+# @ events-planner
+#: ../application/config/event-fields.php:883
+#: ../application/config/global-discount-fields.php:110
+msgid "Do not show any attendee forms"
+msgstr "Ne pas afficher de formulaire de participant"
+
+# @ events-planner
+#: ../application/config/event-fields.php:931
+msgid "Enable Waitlist?"
+msgstr "Activer liste d'attente?"
+
+# @ events-planner
+#: ../application/config/event-fields.php:937
+msgid "Form to display"
+msgstr "Les formulaires à afficher"
+
+# @ events-planner
+#: ../application/config/event-fields.php:939
+msgid "The form that will be presented to the registrant."
+msgstr "Les formulaires présentés à la personne qui s&#146;inscrit"
+
+# @ events-planner
+#: ../application/config/event-fields.php:944
+msgid "Max waitlist size"
+msgstr "Taille maximale de la liste d'attente"
+
+# @ events-planner
+#: ../application/config/event-fields.php:945
+msgid "Leave empty if waitlist has no limit."
+msgstr "Laissez vide si la liste d&#146;attente n&#146;a pas de limite"
+
+# @ events-planner
+#: ../application/config/event-fields.php:950
+msgid "Maximum response time"
+msgstr "Temps de réponse maximum"
+
+# @ events-planner
+#: ../application/config/event-fields.php:951
+msgid ""
+"Amount of time (in hours) a user is given before the approved waitlist link "
+"expires.  Example, for 1 day, enter 24, for 3 hours and 30 minutes enter 3.5."
+msgstr ""
+"Temps (en heures) donné à un utilisateur avant l&#146;expiration du lien de "
+"la liste d&#146;attente approuvée. Par exemple, pour 1 jour, saisir 24, pour "
+"3 heures et 30 minutes saisir 3.5."
+
+# @ events-planner
+#: ../application/config/event-fields.php:958
+msgid "Waitlist confirmation email"
+msgstr "Email de confirmation de la liste d'attente"
+
+# @ events-planner
+#: ../application/config/event-fields.php:959
+msgid ""
+"Email that is sent to the users after they are placed on a waiting list."
+msgstr ""
+"Email envoyé aux utilisateurs après avoir été placés sur une liste d&#146;"
+"attente"
+
+# @ events-planner
+#: ../application/config/event-fields.php:960
+#: ../application/config/event-fields.php:968
+#: ../application/controllers/epl-registration-manager.php:198
+#: ../application/helpers/date-helper.php:1081
+msgid ""
+"No email messages found.  Please go to Events Planner > Notification Manager "
+"to create notifications."
+msgstr ""
+"Aucun message email n'a été trouvé. Merci d'aller sur Events Planner > "
+"Gestionnaire de notifications pour en créer."
+
+# @ events-planner
+#: ../application/config/event-fields.php:966
+msgid "Waitlist approved email"
+msgstr "Email de liste d'attente approuvée"
+
+# @ events-planner
+#: ../application/config/event-fields.php:967
+msgid "Email that is sent to the users once the waitlist is approved."
+msgstr ""
+"Email envoyé aux utilisateurs une fois leur inscription à une liste d&#146;"
+"attente a été approuvée."
+
+# @ events-planner
+#: ../application/config/form-fields.php:14
+msgid "Field Label"
+msgstr "Libellé du champ"
+
+# @ events-planner
+#: ../application/config/form-fields.php:15
+msgid "Will be used in the field label."
+msgstr "Sera utilisé dans le libellé du champ."
+
+# @ events-planner
+#: ../application/config/form-fields.php:22
+msgid "Input Slug"
+msgstr "Saisie de l'identifiant"
+
+# @ events-planner
+#: ../application/config/form-fields.php:23
+msgid ""
+"Will be used in email templates. Ex. your_city, your_weight, height...  DO "
+"NOT CHANGE for email, first_name, last_name."
+msgstr ""
+"Sera utilisé dans des modèles de courriels. Par ex. your_city, your_weight, "
+"hauteur ... NE PAS CHANGER par email, prenom, nom_famille."
+
+# @ events-planner
+#: ../application/config/form-fields.php:32
+msgid "Field Type"
+msgstr "Type de champ"
+
+# @ events-planner
+#: ../application/config/form-fields.php:55
+msgid "Field Description"
+msgstr "Description du champ"
+
+# @ events-planner
+#: ../application/config/form-fields.php:56
+msgid "Will be displayed below the field.  Can be used as help text."
+msgstr "Sera affiché sous le champ. Peut être utilisé comme texte d&#146;aide."
+
+# @ events-planner
+#: ../application/config/form-fields.php:62
+msgid "Required"
+msgstr "Obligatoire"
+
+# @ events-planner
+#: ../application/config/form-fields.php:70
+msgid "Admin Only"
+msgstr "Administrateur uniquement"
+
+# @ events-planner
+#: ../application/config/form-fields.php:73
+msgid "Date collection and display is only available to the admin."
+msgstr ""
+"La date de collecte et d&#146;affichage n&#146;est disponible que pour "
+"l&#146;administrateur"
+
+# @ events-planner
+#: ../application/config/form-fields.php:86
+msgid "Default Value"
+msgstr "Valeur par défaut"
+
+# @ events-planner
+#: ../application/config/form-fields.php:87
+msgid "Default value for the field, ONLY FOR Text, Hidden, Textarea (for now)."
+msgstr ""
+"Valeur par défaut pour le champ, SEULEMENT POUR les champs Text, Hidden, "
+"Textarea (pour l&#146;instant)."
+
+# @ events-planner
+#: ../application/config/form-fields.php:96
+msgid "Validation"
+msgstr "Validation"
+
+# @ events-planner
+#: ../application/config/form-fields.php:97
+msgid "More Coming Soon."
+msgstr "Plus d&#146;options seront disponibles prochainement"
+
+# @ events-planner
+#: ../application/config/form-fields.php:138
+msgid "Form Label"
+msgstr "Nom du formulaire"
+
+# @ events-planner
+#: ../application/config/form-fields.php:139
+msgid "Displayed form identifier"
+msgstr "Identifiant du formulaire affiché"
+
+# @ events-planner
+#: ../application/config/form-fields.php:145
+msgid "Form Slug"
+msgstr "Identifiant du formulaire"
+
+# @ events-planner
+#: ../application/config/form-fields.php:146
+msgid "Will be used in emails."
+msgstr "Sera utilisé dans les emails."
+
+# @ events-planner
+#: ../application/config/form-fields.php:152
+msgid "Form Description"
+msgstr "Descipriotn du formulaire"
+
+# @ events-planner
+#: ../application/config/form-fields.php:153
+msgid ""
+"If you would like to give some form instructions, you can type them here."
+msgstr ""
+"Si vous souhaitez donner des instructions pour ce formulaire, vous pouvez "
+"les saisir ici"
+
+# @ events-planner
+#: ../application/config/form-fields.php:158
+msgid "On the registration form:"
+msgstr "Sur le formulaire d'inscription:"
+
+# @ events-planner
+#: ../application/config/form-fields.php:160
+msgid "Show Form Name."
+msgstr "Afficher le nom du formulaire."
+
+# @ events-planner
+#: ../application/config/form-fields.php:160
+msgid "Show Form Description."
+msgstr "Afficher la description du formulaire"
+
+# @ events-planner
+#: ../application/config/gateway-fields.php:9
+msgid "Payment Type"
+msgstr "Type de paiment"
+
+# @ events-planner
+#: ../application/config/gateway-fields.php:14
+#: ../application/config/gateway-fields.php:25
+#: ../application/helpers/date-helper.php:797
+#: ../application/helpers/date-helper.php:816
+msgid "PayPal Express Checkout"
+msgstr "Paiement Express PayPal"
+
+# @ events-planner
+#: ../application/config/gateway-fields.php:26
+#, php-format
+msgid "Visit %s for more information."
+msgstr "Visiter %s pour plus d'informations."
+
+# @ events-planner
+#: ../application/config/gateway-fields.php:26
+msgid "here"
+msgstr "ici"
+
+# @ events-planner
+#: ../application/config/gateway-fields.php:37
+#: ../application/helpers/date-helper.php:1170
+#: ../application/helpers/date-helper.php:1234
+#: ../application/helpers/date-helper.php:1286
+#: ../application/helpers/date-helper.php:1340
+#: ../application/helpers/date-helper.php:1463
+#: ../application/helpers/date-helper.php:1518
+msgid "Label"
+msgstr "Libellé"
+
+# @ events-planner
+#: ../application/config/gateway-fields.php:38
+#, php-format
+msgid ""
+"What the customer will see as an option.  PayPal requires you to use one of "
+"their %s"
+msgstr ""
+"Ce que le client verra en option. PayPal vous oblige à utiliser un de leur %s"
+
+# @ events-planner
+#: ../application/config/gateway-fields.php:38
+msgid "buttons"
+msgstr "boutons"
+
+# @ events-planner
+#: ../application/config/gateway-fields.php:51
+#: ../application/helpers/date-helper.php:1178
+msgid "API Username"
+msgstr "Nom d'utilisateur API"
+
+# @ events-planner
+#: ../application/config/gateway-fields.php:52
+#: ../application/helpers/date-helper.php:1179
+msgid "Ex: some_api1.youremailaddress.com"
+msgstr "Par ex.: some_api1.youremailaddress.com"
+
+# @ events-planner
+#: ../application/config/gateway-fields.php:59
+#: ../application/helpers/date-helper.php:1186
+msgid "API Password"
+msgstr "Mot de passe API"
+
+# @ events-planner
+#: ../application/config/gateway-fields.php:60
+#: ../application/helpers/date-helper.php:1187
+msgid "Ex: SDFE23D5SFD324"
+msgstr "Par ex.: SDFE23D5SFD324"
+
+# @ events-planner
+#: ../application/config/gateway-fields.php:67
+#: ../application/helpers/date-helper.php:1194
+msgid "Signature"
+msgstr "Jeton"
+
+# @ events-planner
+#: ../application/config/gateway-fields.php:68
+#: ../application/helpers/date-helper.php:1195
+msgid "Will be a very long string. Ex. SRl31AbcSd9fIqew......"
+msgstr "Sera une très longue chaîne. Par ex. SRl31AbcSd9fIqew......"
+
+# @ events-planner
+#: ../application/config/gateway-fields.php:75
+msgid "PayPal Landing Page"
+msgstr "Page Paypal"
+
+# @ events-planner
+#: ../application/config/gateway-fields.php:76
+msgid ""
+"If \"PayPal Account Optional\" is set to \"on\" inside your PayPal account, "
+"this option selects which section the users see by default when they reach "
+"PayPal."
+msgstr ""
+"Si \"PayPal Account Optional\" est activé dans les paramètres de votre "
+"compte PayPal, cette option sélectionne quelle section l'utilisateur verra "
+"par défaut quand il arrivera sur la page PayPal."
+
+# @ events-planner
+#: ../application/config/gateway-fields.php:77
+msgid "PayPal account login"
+msgstr "Connexion au compte PayPal"
+
+# @ events-planner
+#: ../application/config/gateway-fields.php:77
+msgid "Non-PayPal account, for credit/debit cards"
+msgstr "Compte hors PayPal, utilisé pour les cartes de crédits"
+
+# @ events-planner
+#: ../application/config/gateway-fields.php:83
+#: ../application/helpers/date-helper.php:1210
+#: ../application/helpers/date-helper.php:1263
+#: ../application/helpers/date-helper.php:1316
+#: ../application/helpers/date-helper.php:1368
+#: ../application/helpers/date-helper.php:1540
+msgid "Test Mode?"
+msgstr "Mode test?"
+
+# @ events-planner
+#: ../application/config/gateway-fields.php:85
+#: ../application/helpers/date-helper.php:1212
+#: ../application/helpers/date-helper.php:1265
+#: ../application/helpers/date-helper.php:1318
+#: ../application/helpers/date-helper.php:1370
+#: ../application/helpers/date-helper.php:1542
+msgid "If yes, please make sure you use Sandbox credentials above."
+msgstr ""
+"Si oui, merci de vous assurer que vous utilisez les données d&#146;"
+"identification au Sandbox ci-dessus."
+
+# @ events-planner
+#: ../application/config/location-fields.php:10
+#: ../application/config/org-fields.php:11
+#: ../application/helpers/date-helper.php:1581
+msgid "Address"
+msgstr "Adresse"
+
+# @ events-planner
+#: ../application/config/location-fields.php:16
+#: ../application/config/org-fields.php:17
+msgid "Address 2"
+msgstr "Adresse 2"
+
+# @ events-planner
+#: ../application/config/location-fields.php:23
+#: ../application/config/org-fields.php:35
+#: ../application/helpers/date-helper.php:1588
+msgid "City"
+msgstr "Ville"
+
+# @ events-planner
+#: ../application/config/location-fields.php:29
+#: ../application/config/org-fields.php:29
+#: ../application/helpers/date-helper.php:1595
+msgid "State"
+msgstr "Pays"
+
+# @ events-planner
+#: ../application/config/location-fields.php:35
+#: ../application/helpers/date-helper.php:1609
+msgid "Country"
+msgstr "Pays"
+
+# @ events-planner
+#: ../application/config/location-fields.php:41
+#: ../application/config/org-fields.php:23
+#: ../application/helpers/date-helper.php:1602
+msgid "Zip"
+msgstr "Code postal"
+
+# @ events-planner
+#: ../application/config/location-fields.php:46
+#: ../application/config/org-fields.php:47
+msgid "Phone"
+msgstr "Téléphone"
+
+# @ events-planner
+#: ../application/config/location-fields.php:51
+#: ../application/config/org-fields.php:53
+msgid "Email"
+msgstr "Email"
+
+# @ events-planner
+#: ../application/config/location-fields.php:57
+#: ../application/config/org-fields.php:59
+msgid "Website"
+msgstr "Site internet"
+
+# @ events-planner
+#: ../application/config/location-fields.php:58
+msgid "Please enter http://..."
+msgstr "Merci de saisir http://..."
+
+# @ events-planner
+#: ../application/config/location-fields.php:65
+msgid "Display map link icon?"
+msgstr "Afficher l'icône de la carte?"
+
+# @ events-planner
+#: ../application/config/location-fields.php:66
+msgid "If yes, a map icon will be displayed on the event list."
+msgstr ""
+"Si oui, l&#146;icône du lien vers la carte sera affiché sur la liste d&#146;"
+"événement."
+
+# @ events-planner
+#: ../application/config/location-fields.php:73
+msgid "Longitude"
+msgstr "longitude"
+
+# @ events-planner
+#: ../application/config/location-fields.php:74
+#: ../application/config/location-fields.php:83
+msgid ""
+"This information is automatically obtained from Google when this record is "
+"saved.  Address, City, State are required."
+msgstr ""
+"Cette information est automatiquement obtenue à partir de Google lorsque "
+"l'adresse est sauvegardée. L'addresse, la ville et le pays sont nécessaires."
+
+# @ events-planner
+#: ../application/config/location-fields.php:82
+msgid "Latitude"
+msgstr "Latitude"
+
+# @ events-planner
+#: ../application/config/location-fields.php:90
+#: ../application/config/regis-fields.php:94
+msgid "Notes"
+msgstr "Remarque"
+
+# @ events-planner
+#: ../application/config/notification-fields.php:9
+#: ../application/controllers/epl-registration-manager.php:197
+msgid "Email Template"
+msgstr "Template de l'email"
+
+# @ events-planner
+#: ../application/config/notification-fields.php:13
+msgid "Many thanks to"
+msgstr "Merci à"
+
+# @ events-planner
+#: ../application/config/notification-fields.php:18
+#: ../application/views/admin/registration/regis-email-form-editor.php:2
+msgid "From Name"
+msgstr "Nom de l'expéditeur"
+
+# @ events-planner
+#: ../application/config/notification-fields.php:24
+#: ../application/views/admin/registration/regis-email-form-editor.php:3
+msgid "From Email"
+msgstr "Email de l'expéditeur"
+
+# @ events-planner
+#: ../application/config/notification-fields.php:30
+#: ../application/views/admin/registration/regis-email-form-editor.php:4
+msgid "Email Subject"
+msgstr "Sujet du email"
+
+# @ events-planner
+#: ../application/config/org-fields.php:41
+msgid "Zip Code"
+msgstr "Code postal"
+
+# @ events-planner
+#: ../application/config/regis-fields.php:11
+#: ../application/models/epl-common-model.php:1435
+#: ../application/models/epl-common-model.php:1861
+#: ../application/models/epl-common-model.php:2263
+#: ../application/views/admin/registration/regis-payment-instr.php:4
+#: ../application/views/front/registration/regis-payment-instr.php:4
+msgid "Payment Method"
+msgstr "Mode de paiement"
+
+# @ events-planner
+#: ../application/config/regis-fields.php:22
+msgid "Regis. Status"
+msgstr "Statut de l'inscription"
+
+# @ events-planner
+#: ../application/config/regis-fields.php:24
+msgid "Incomplete"
+msgstr "Incomplet"
+
+# @ events-planner
+#: ../application/config/regis-fields.php:25
+msgid "Pending Payment"
+msgstr "Paiement en attente"
+
+# @ events-planner
+#: ../application/config/regis-fields.php:26
+msgid "Complete"
+msgstr "Complet"
+
+# @ events-planner
+#: ../application/config/regis-fields.php:27
+msgid "Cancelled - pending refund"
+msgstr "Annulé - Attente de remboursement"
+
+# @ events-planner
+#: ../application/config/regis-fields.php:28
+msgid "Cancelled - refunded"
+msgstr "Annulé - Remboursé"
+
+# @ events-planner
+#: ../application/config/regis-fields.php:29
+#: ../application/views/admin/events/settings-meta-box.php:11
+msgid "Waitlist"
+msgstr "Liste d'attente"
+
+# @ events-planner
+#: ../application/config/regis-fields.php:38
+msgid "Total Due"
+msgstr "Total dû"
+
+# @ events-planner
+#: ../application/config/regis-fields.php:46
+msgid "Total Paid"
+msgstr "Total payé"
+
+# @ events-planner
+#: ../application/config/regis-fields.php:54
+msgid "Date Paid"
+msgstr "Date de paiement"
+
+# @ events-planner
+#: ../application/config/regis-fields.php:86
+msgid "Trans. ID"
+msgstr "ID de transaction"
+
+# @ events-planner
+#: ../application/config/settings-fields.php:46
+msgid "Sort Events By"
+msgstr "Trier les événements par"
+
+# @ events-planner
+#: ../application/config/settings-fields.php:47
+msgid "Date Published"
+msgstr "Date de publication"
+
+# @ events-planner
+#: ../application/config/settings-fields.php:47
+#: ../application/controllers/epl-event-manager.php:775
+msgid "Event Name"
+msgstr "Nom de l'événement"
+
+# @ events-planner
+#: ../application/config/settings-fields.php:47
+msgid "Event Start Date"
+msgstr "Date de début de l'événement"
+
+# @ events-planner
+#: ../application/config/settings-fields.php:52
+msgid "Sort Order"
+msgstr "Tri"
+
+# @ events-planner
+#: ../application/config/settings-fields.php:53
+msgid "Ascending"
+msgstr "Ascendant"
+
+# @ events-planner
+#: ../application/config/settings-fields.php:53
+msgid "Descending"
+msgstr "Descendant"
+
+# @ events-planner
+#: ../application/config/settings-fields.php:58
+msgid "Currency Code"
+msgstr "Code de monnaie"
+
+# @ events-planner
+#: ../application/config/settings-fields.php:59
+msgid "This will be used in payment gateways. "
+msgstr "Ceci sera utilisé par les passerelles de paiement."
+
+# @ events-planner
+#: ../application/config/settings-fields.php:65
+msgid "Currency Symbol"
+msgstr "Symbole de la monnaie"
+
+# @ events-planner
+#: ../application/config/settings-fields.php:66
+msgid ""
+"This will appear next to all the currency figures on the website.  Ex. $, "
+"USD... "
+msgstr ""
+"Celui-ci apparaîtra à côté de tous les montants en devises sur le site. Par "
+"ex. $, USD…"
+
+# @ events-planner
+#: ../application/config/settings-fields.php:73
+msgid "Currency display format"
+msgstr "Affichage du format de monnaie"
+
+# @ events-planner
+#: ../application/config/settings-fields.php:74
+msgid ""
+"This determines how your currency is displayed.  Ex. 1,234.56 or 1,200 or "
+"1200.  This is only used for display purposes."
+msgstr ""
+"Ceci détermine comment votre monnaie est affichée. Par ex. 1,234.56 ou 1200 "
+"ou 1200. Cette option est uniquement utilisée pour l&#146;affichage."
+
+# @ events-planner
+#: ../application/config/settings-fields.php:79
+msgid "Shortcode Page"
+msgstr "Page du Shortcode."
+
+# @ events-planner
+#: ../application/config/settings-fields.php:80
+msgid ""
+"Required.  Please select the page that contains the [events_planner] "
+"shortcode. "
+msgstr ""
+"Requis. Merci de sélectionner la page qui contient le shortcode "
+"[events_planner]."
+
+# @ events-planner
+#: ../application/config/settings-fields.php:88
+msgid "Admin Date Format"
+msgstr "Format de date (partie administration)"
+
+# @ events-planner
+#: ../application/config/settings-fields.php:89
+msgid ""
+"This date format is used for displaying dates on the Admin screens of Events "
+"Planner.  On the front end, the WordPress General settings date is used."
+msgstr ""
+"Ce format de date est utilisé pour l&#146;affichage des dates sur la partie "
+"Administration d&#146;Events Planner. Sur le frontend, le réglage global de "
+"WordPress est utilisé."
+
+# @ events-planner
+#: ../application/config/settings-fields.php:96
+msgid "Disable Default CSS?"
+msgstr "Désactiver le CSS par défaut?"
+
+# @ events-planner
+#: ../application/config/settings-fields.php:97
+msgid ""
+"ADVANCED: If disabled, the default css file (events-planner > css > events-"
+"planner-style1.css) will not be loaded.  <br />This way, you can copy the "
+"contents of that file into your theme's style.css and modify any way you "
+"would like."
+msgstr ""
+"AVANCÉ: Si désactivé, le fichier CSS par défaut (events-planner > css > "
+"events-planner-style1.css) ne sera pas chargé. <br />De cette façon, vous "
+"pouvez copier le contenu de ce fichier dans le fichier style.css de votre "
+"thème et le modifier comme vous le souhaitez."
+
+# @ events-planner
+#: ../application/config/settings-fields.php:105
+msgid "Button CSS"
+msgstr "Bouton CSS"
+
+# @ events-planner
+#: ../application/config/settings-fields.php:106
+msgid "This is the button CSS used on the front and admin."
+msgstr ""
+"Ce bouton CSS sera utilisé sur le frontend et dans la partie administration."
+
+# @ events-planner
+#: ../application/config/settings-fields.php:118
+msgid "Registration ID length?"
+msgstr "Longueur de l'ID de l'inscription?"
+
+# @ events-planner
+#: ../application/config/settings-fields.php:119
+msgid "This will be an alphanumeric string."
+msgstr "Chaîne alphanumérique."
+
+# @ events-planner
+#: ../application/config/settings-fields.php:126
+msgid "Enable SSL for registrations?"
+msgstr "Activer SSL pour les inscriptions?"
+
+# @ events-planner
+#: ../application/config/settings-fields.php:127
+#, php-format
+msgid ""
+"%sIf you plan on accepting Credit Cards on your website, this must be set to "
+"Yes for PCI Compliance.  You need to have a SSL Certificate installed for "
+"this domain.%s"
+msgstr ""
+"%sSi vous prévoyez d&#146;accepter les cartes de crédit sur ​​votre site web, "
+"vous devez régler sur Oui pour avoir la conformité PCI. Vous avez besoin "
+"d&#146;un certificat SSL installé pour ce domaine.%s"
+
+# @ events-planner
+#: ../application/config/settings-fields.php:135
+msgid "Default Surcharge Settings"
+msgstr "Paramètres de surtaxe par défault"
+
+# @ events-planner
+#: ../application/config/settings-fields.php:136
+msgid "You can override these settings for each event."
+msgstr "Vous pouvez remplacer ces paramètres pour chaque événement."
+
+# @ events-planner
+#: ../application/config/settings-fields.php:142
+msgid "Apply Surcharge To"
+msgstr "Apliquer une surtaxe"
+
+# @ events-planner
+#: ../application/config/settings-fields.php:143
+msgid "All current and future events"
+msgstr "Globalement, sur tous les événements actuels et futurs"
+
+# @ events-planner
+#: ../application/config/settings-fields.php:143
+msgid "Let me choose for each event"
+msgstr "Séparément, à choisir pour chaque événement "
+
+# @ events-planner
+#: ../application/config/settings-fields.php:150
+msgid "Surcharge Label (default)"
+msgstr "Libellé de la surtaxe"
+
+# @ events-planner
+#: ../application/config/settings-fields.php:151
+msgid "Label that will be displayed to the user."
+msgstr "Le libellé qui sera affiché pour l&#146;utilisateur."
+
+# @ events-planner
+#: ../application/config/settings-fields.php:152
+#: ../application/views/admin/events/settings-meta-box.php:12
+#: ../application/views/admin/events/surcharge-section_1.php:3
+#: ../application/views/front/cart/cart-totals.php:39
+msgid "Surcharge"
+msgstr "Surtaxe"
+
+# @ events-planner
+#: ../application/config/settings-fields.php:157
+msgid "Surcharge Amount (default)"
+msgstr "Montant de la surtaxe (par défaut)"
+
+# @ events-planner
+#: ../application/config/settings-fields.php:158
+msgid ""
+"This surcharge amount will apply by default to each event.  You will have "
+"the option to adjust this number for each event."
+msgstr ""
+"Cette surtaxe sera utilisée globalement par défaut. Vous aurez la "
+"possibilité d&#146;ajuster ce montant pour chaque événement."
+
+# @ events-planner
+#: ../application/config/settings-fields.php:165
+msgid "Surcharge Type (default)"
+msgstr "Type de surtaxe (par défaut)"
+
+# @ events-planner
+#: ../application/config/settings-fields.php:173
+msgid "Apply surcharge before discount (default)"
+msgstr "Appliquer la surtaxe avant la réduction (par défaut)"
+
+# @ events-planner
+#: ../application/config/settings-fields.php:188
+msgid "Conversion Tracking Code"
+msgstr "Code de suivi de la conversion"
+
+# @ events-planner
+#: ../application/config/settings-fields.php:189
+msgid ""
+"You can paste javascript code in this box if you would like to track "
+"registration conversions (e.g. from Google Adwords).  This code will be "
+"included in the final page when the registration is succressfully completed, "
+"and only once.  The code must be wrapped in \"script\" tags."
+msgstr ""
+"Vous pouvez coller du code javascript dans cette case si vous souhaitez "
+"avoir un suivi sur les conversions d&#146;enregistrement (par exemple Google "
+"Adwords). Ce code sera inclus dans la dernière page, lorsque l&#146;"
+"enregistrement sera terminé, et une seule fois. Le code doit être enveloppé "
+"dans des balises \"script\"."
+
+# @ events-planner
+#: ../application/config/settings-fields.php:197
+msgid "Enable Admin Override?"
+msgstr "Activer l'écrasement des réglages administrateur"
+
+# @ events-planner
+#: ../application/config/settings-fields.php:200
+msgid ""
+"When an admin user goes through the registration on the front end of the "
+"website, the user can override the total amount and will also see a date "
+"selector calendar by default."
+msgstr ""
+"Lorsqu&#146;un administrateur s&#146;inscrit sur le frontend du site, il "
+"pourra remplacer le montant total et pourra également voir par défaut le "
+"calendrier sélecteur de date."
+
+# @ events-planner
+#: ../application/config/settings-fields.php:215
+msgid "Registration Button Text "
+msgstr "Texte du bouton d'inscription"
+
+# @ events-planner
+#: ../application/config/settings-fields.php:216
+msgid "Register, Sign Up, Buy Tickets..."
+msgstr "Réserver, Vous enregistrer, Payer...."
+
+# @ events-planner
+#: ../application/config/settings-fields.php:222
+msgid "Enable Date Specific Location"
+msgstr "Activer l'option du lieu par date"
+
+# @ events-planner
+#: ../application/config/settings-fields.php:223
+msgid "This setting will let you indicate a specific location for each date."
+msgstr ""
+"Ce paramètre vous permet d&#146;indiquer un lieu spécifique pour chaque "
+"date. "
+
+# @ events-planner
+#: ../application/config/settings-fields.php:229
+msgid "Enable Date Specific Notes"
+msgstr "Activer l'option des remarques par date"
+
+# @ events-planner
+#: ../application/config/settings-fields.php:230
+msgid "This setting will let you indicate a specific note for each date."
+msgstr ""
+"Ce paramètre vous permet d&#146;insérer une remarque spécifique pour chaque "
+"date."
+
+# @ events-planner
+#: ../application/config/settings-fields.php:235
+msgid "Default Notification Email"
+msgstr "Notification par email par défault "
+
+# @ events-planner
+#: ../application/config/settings-fields.php:236
+msgid ""
+"Registration Notifications will be sent to this email, unless Alternate "
+"Notification Emails are indicated for the an event."
+msgstr ""
+"Les notices d&#146;inscription seront envoyées à cet email, sauf si une "
+"adresse email de notification est précisée pour l&#146;événement."
+
+# @ events-planner
+#: ../application/config/settings-fields.php:252
+#: ../application/libraries/epl-upcoming-events-widget.php:72
+msgid "Default"
+msgstr "Par défaut"
+
+# @ events-planner
+#: ../application/config/settings-fields.php:279
+msgid "FullCalendar Theme"
+msgstr "Thèmes du calendrier pleine page"
+
+# @ events-planner
+#: ../application/config/settings-fields.php:280
+msgid "These styles are loaded from the Google CDN."
+msgstr "Ces styles sont chargés à partir du Google CDN"
+
+# @ events-planner
+#: ../application/config/settings-fields.php:286
+msgid "Enable Tooltip"
+msgstr "Activer l'infobulle"
+
+# @ events-planner
+#: ../application/config/settings-fields.php:293
+msgid "Display Category Legends"
+msgstr "Afficher les légendes des catégories"
+
+# @ events-planner
+#: ../application/config/settings-fields.php:300
+msgid "Enable Caching?"
+msgstr "Activer le cache"
+
+# @ events-planner
+#: ../application/config/settings-fields.php:301
+msgid ""
+"When this is enabled, the calendar generation query is refreshed every 4 "
+"hours or when an event is updated.  Caching will make the calendar load much "
+"faster."
+msgstr ""
+"Lorsque cette option est activée, la requête de génération de calendrier est "
+"actualisé toutes les 4 heures ou lorsqu&#146;un événement est mis à jour. La "
+"mise en cache permettra un affichage du calendrier beaucoup plus rapide."
+
+# @ events-planner
+#: ../application/config/settings-fields.php:307
+msgid "Event Taxonomy color"
+msgstr "Couleur de la catégorie"
+
+# @ events-planner
+#: ../application/config/settings-fields.php:312
+msgid "Event Taxonomy font color"
+msgstr "Couleur de police de la classification des événements"
+
+# @ events-planner
+#: ../application/config/sys-messages.php:6
+msgid "Sorry but something must have gone wrong."
+msgstr "Désolé, il doit y avoir une erreur. "
+
+# @ events-planner
+#: ../application/config/sys-messages.php:7
+msgid "Please select a quantity"
+msgstr "Veuillez sélectionner une quantité"
+
+# @ events-planner
+#: ../application/config/sys-messages.php:8
+msgid "Please select a date"
+msgstr "Veuillez sélectionner une date"
+
+# @ events-planner
+#: ../application/config/sys-messages.php:9
+msgid "Please select a time"
+msgstr "Veuillez sélectionner une heure"
+
+# @ events-planner
+#: ../application/config/sys-messages.php:10
+#: ../application/helpers/common-helper.php:361
+#: ../application/views/front/event-grid-1.php:91
+msgid "Sold Out"
+msgstr "Epuisé"
+
+# @ events-planner
+#: ../application/config/sys-messages.php:11
+msgid "Registration Closed"
+msgstr "Inscription clôturée"
+
+# @ events-planner
+#: ../application/config/sys-messages.php:12
+msgid "The quantity selected exceeds the number of available spaces"
+msgstr "La quantité demandée dépasse le nombre de places disponibles."
+
+# @ events-planner
+#: ../application/config/sys-messages.php:13
+msgid "Please select a date."
+msgstr "Veuillez sélectionner une date."
+
+# @ events-planner
+#: ../application/controllers/epl-event-manager.php:115
+msgid "Snapshot"
+msgstr "Photo"
+
+# @ events-planner
+#: ../application/controllers/epl-event-manager.php:124
+msgid "Enter Event Name Here"
+msgstr "Saisir le nom de l'événement ici."
+
+# @ events-planner
+#: ../application/controllers/epl-event-manager.php:195
+msgid "Times and Prices"
+msgstr "Horaires et prix"
+
+# @ events-planner
+#: ../application/controllers/epl-event-manager.php:197
+#: ../system/epl-init.php:261
+msgid "Settings"
+msgstr "Paramètres"
+
+# @ events-planner
+#: ../application/controllers/epl-event-manager.php:201
+msgid "Options"
+msgstr "Options"
+
+# @ events-planner
+#: ../application/controllers/epl-event-manager.php:544
+msgid "Replace"
+msgstr "Remplacer"
+
+# @ events-planner
+#: ../application/controllers/epl-event-manager.php:544
+msgid "Append"
+msgstr "Ajouter"
+
+# @ events-planner
+#: ../application/controllers/epl-event-manager.php:779
+#: ../application/models/epl-common-model.php:1289
+#: ../application/views/admin/cart/cart-dates.php:46
+#: ../application/views/admin/events/message-meta-box.php:7
+#: ../application/views/admin/registration/regis-confirm-email.php:106
+#: ../application/views/admin/registration/regis-thank-you-page.php:16
+#: ../application/views/email/default/template-no-custom.php:96
+#: ../application/views/front/event-list-2.php:91
+#: ../application/views/front/event-list-5.php:125
+#: ../application/views/front/event-list.php:73
+#: ../application/views/front/event-some-1.php:123
+#: ../application/views/front/cart/cart-dates.php:45
+#: ../application/views/front/registration/regis-confirm-email.php:106
+#: ../application/views/front/registration/regis-thank-you-page.php:24
+#: ../application/views/front/single-templates/single-epl_event.php:54
+#: ../system/epl-init.php:388
+msgid "Location"
+msgstr "Lieu"
+
+# @ events-planner
+#: ../application/controllers/epl-event-manager.php:841
+#: ../application/controllers/epl-event-manager.php:842
+#: ../application/controllers/epl-registration-manager.php:792
+#: ../application/libraries/epl-util.php:1519
+#: ../application/views/admin/event-snapshot.php:29
+#: ../application/views/front/attendee-list-1.php:24
+#: ../application/views/front/attendee-list/attendee-list-1.php:24
+msgid "Attendees"
+msgstr "Participants"
+
+# @ events-planner
+#: ../application/controllers/epl-front.php:263
+#: ../application/libraries/epl-util.php:1442
+#: ../application/libraries/epl-util.php:2467
+msgid "Register"
+msgstr "Vous inscrire"
+
+# @ events-planner
+#: ../application/controllers/epl-front.php:538
+msgid ""
+"There seems to be something wrong with the url.  Please contact the website "
+"administrator."
+msgstr ""
+"Quelque chose n'a pas fonctionné avec l'URL. Merci de contacter "
+"l'administrateur du site."
+
+# @ events-planner
+#: ../application/controllers/epl-front.php:541
+msgid "This waitlist has not been approved."
+msgstr "Cette liste d'attente n'a pas été approuvée"
+
+# @ events-planner
+#: ../application/controllers/epl-front.php:544
+msgid "This link has expired."
+msgstr "Ce lien est expiré"
+
+# @ events-planner
+#: ../application/controllers/epl-front.php:974
+msgid "Please review and finalize your payment."
+msgstr "Merci d'examiner et de finaliser votre paiement."
+
+# @ events-planner
+#: ../application/controllers/epl-front.php:1064
+#: ../application/controllers/epl-front.php:1065
+msgid "Attendee Information"
+msgstr "Confirmer et continuer"
+
+# @ events-planner
+#: ../application/controllers/epl-front.php:1069
+msgid "Overview"
+msgstr "Confirmer et continuer"
+
+# @ events-planner
+#: ../application/controllers/epl-front.php:1070
+#: ../application/controllers/epl-front.php:1071
+#: ../application/controllers/epl-front.php:1074
+msgid "Confirm and Complete"
+msgstr "Confirmer et terminer"
+
+# @ events-planner
+#: ../application/controllers/epl-front.php:1129
+msgid "Confirm and Continue to PayPal"
+msgstr "Confirmer et continuer avec PayPal"
+
+# @ events-planner
+#: ../application/controllers/epl-front.php:1144
+#: ../application/controllers/epl-front.php:1148
+#: ../application/controllers/epl-front.php:1158
+msgid "Continue to Pay"
+msgstr "Confirmer"
+
+# @ events-planner
+#: ../application/controllers/epl-global-discount-manager.php:72
+msgid "Discount Details"
+msgstr "Détails de la réduction"
+
+# @ events-planner
+#: ../application/controllers/epl-global-discount-manager.php:129
+msgid "Coupon"
+msgstr "Coupon"
+
+# @ events-planner
+#: ../application/controllers/epl-global-discount-manager.php:131
+#: ../application/controllers/epl-org-manager.php:106
+#: ../application/controllers/epl-pay-profile-manager.php:149
+msgid "Created By"
+msgstr "Crée par"
+
+# @ events-planner
+#: ../application/controllers/epl-location-manager.php:53
+msgid "Location Information"
+msgstr "Informations sur le lieu"
+
+# @ events-planner
+#: ../application/controllers/epl-location-manager.php:105
+msgid "Location Name"
+msgstr "Nom du lieu"
+
+# @ events-planner
+#: ../application/controllers/epl-notification-manager.php:52
+msgid "Notification Options"
+msgstr "Options des notifications"
+
+# @ events-planner
+#: ../application/controllers/epl-notification-manager.php:53
+msgid "Available System Tags"
+msgstr "Mots-clés du système disponibles"
+
+# @ events-planner
+#: ../application/controllers/epl-notification-manager.php:54
+msgid "Form Field Tags"
+msgstr "Mots-clés du champ du formulaire"
+
+# @ events-planner
+#: ../application/controllers/epl-notification-manager.php:100
+msgid ""
+"Currently only data from the Ticket Buyer forms can be displayed using these "
+"tags."
+msgstr ""
+"Actuellement, seules les données des formulaires permettant d'acheter un "
+"ticket peuvent être affichées en utilisant ces mots-clés."
+
+# @ events-planner
+#: ../application/controllers/epl-notification-manager.php:111
+msgid "Please use the form manager to add a slug for this field"
+msgstr ""
+"Veuillez utiliser le gestionnaire de formulaires pour ajouter un identifiant "
+"pour ce champ. "
+
+# @ events-planner
+#: ../application/controllers/epl-notification-manager.php:135
+msgid "Notification Name"
+msgstr "Nom de la notification"
+
+# @ events-planner
+#: ../application/controllers/epl-org-manager.php:68
+msgid "Organization Info"
+msgstr "Infos sur l'organisateur"
+
+# @ events-planner
+#: ../application/controllers/epl-org-manager.php:102
+#: ../system/epl-init.php:454
+msgid "Organization"
+msgstr "Organisateur"
+
+# @ events-planner
+#: ../application/controllers/epl-pay-profile-manager.php:96
+msgid "Payment Profile Details"
+msgstr "Détails du mode de paiement"
+
+# @ events-planner
+#: ../application/controllers/epl-pay-profile-manager.php:145
+msgid "Payment Profile Name"
+msgstr "Nom du profil de paiement"
+
+# @ events-planner
+#: ../application/controllers/epl-registration-manager.php:70
+msgid "Request Error"
+msgstr "Requête d'erreur"
+
+# @ events-planner
+#: ../application/controllers/epl-registration-manager.php:90
+msgid "Please select at least one email address."
+msgstr "Veuiller sélectionner au moins une adresse email."
+
+# @ events-planner
+#: ../application/controllers/epl-registration-manager.php:129
+#: ../application/controllers/epl-registration-manager.php:384
+msgid "Email Sent"
+msgstr "Email envoyé"
+
+# @ events-planner
+#: ../application/controllers/epl-registration-manager.php:132
+#: ../application/controllers/epl-registration-manager.php:384
+msgid "An error has occured"
+msgstr "Une erreur s'est produite"
+
+# @ events-planner
+#: ../application/controllers/epl-registration-manager.php:226
+msgid "Please select an email template."
+msgstr "Veuillez sélectionner un template de email."
+
+# @ events-planner
+#: ../application/controllers/epl-registration-manager.php:244
+msgid "Show all Registrations"
+msgstr "Afficher toutes les inscriptions"
+
+# @ events-planner
+#: ../application/controllers/epl-registration-manager.php:251
+msgid "Show All Events"
+msgstr "Afficher tous les événements"
+
+# @ events-planner
+#: ../application/controllers/epl-registration-manager.php:262
+msgid "First/Last Name, Email"
+msgstr "Nom/Prénom, Email"
+
+# @ events-planner
+#: ../application/controllers/epl-registration-manager.php:360
+msgid "This waitlist needs to be approved before the email can be sent."
+msgstr ""
+"Cette liste d'attente doit être approuvée avant de pouvoir envoyer un email."
+
+# @ events-planner
+#: ../application/controllers/epl-registration-manager.php:632
+msgid "Registration Information"
+msgstr "Informations d'inscription"
+
+# @ events-planner
+#: ../application/controllers/epl-registration-manager.php:633
+msgid "Payment Information"
+msgstr "Information de paiment"
+
+# @ events-planner
+#: ../application/controllers/epl-registration-manager.php:709
+msgid "Send Waitlist Approval Email"
+msgstr "Envoyer l'email d'approbation de la liste d'attente"
+
+# @ events-planner
+#: ../application/controllers/epl-registration-manager.php:714
+msgid "Email Sent on"
+msgstr "Email envoyé le"
+
+# @ events-planner
+#: ../application/controllers/epl-registration-manager.php:793
+#: ../application/models/epl-common-model.php:2257
+msgid "Registration ID"
+msgstr "ID de l'inscription"
+
+# @ events-planner
+#: ../application/controllers/epl-registration-manager.php:795
+msgid "#"
+msgstr "#"
+
+# @ events-planner
+#: ../application/controllers/epl-registration-manager.php:796
+#: ../application/views/front/registration/regis-payment-details.php:19
+msgid "Registration Status"
+msgstr "Début de l'inscription "
+
+# @ events-planner
+#: ../application/controllers/epl-registration-manager.php:804
+#: ../application/helpers/common-helper.php:64
+msgid "On"
+msgstr "Le"
+
+# @ events-planner
+#: ../application/controllers/epl-registration-manager.php:890
+msgid "waitlist"
+msgstr "liste d'attente"
+
+# @ events-planner
+#: ../application/helpers/common-helper.php:52
+#: ../application/helpers/date-helper.php:1129
+#: ../application/helpers/date-helper.php:1707
+#: ../application/views/front/user-regis-manager/user-regis-dates.php:68
+msgid "No"
+msgstr "Non"
+
+# @ events-planner
+#: ../application/helpers/common-helper.php:52
+#: ../application/views/front/user-regis-manager/user-regis-dates.php:68
+msgid "Yes"
+msgstr "Oui"
+
+# @ events-planner
+#: ../application/helpers/common-helper.php:64
+msgid "Off"
+msgstr "Désactivé"
+
+# @ events-planner
+#: ../application/helpers/common-helper.php:87
+#: ../application/libraries/epl-calendar.php:359
+msgid "Jan"
+msgstr "Jan"
+
+# @ events-planner
+#: ../application/helpers/common-helper.php:88
+#: ../application/libraries/epl-calendar.php:360
+msgid "Feb"
+msgstr "Fev"
+
+# @ events-planner
+#: ../application/helpers/common-helper.php:89
+#: ../application/libraries/epl-calendar.php:361
+msgid "Mar"
+msgstr "Mar"
+
+# @ events-planner
+#: ../application/helpers/common-helper.php:90
+#: ../application/libraries/epl-calendar.php:362
+msgid "Apr"
+msgstr "Avr"
+
+# @ events-planner
+#: ../application/helpers/common-helper.php:91
+#: ../application/libraries/epl-calendar.php:363
+#: ../application/libraries/epl-calendar.php:378
+msgid "May"
+msgstr "Mai"
+
+# @ events-planner
+#: ../application/helpers/common-helper.php:92
+#: ../application/libraries/epl-calendar.php:364
+msgid "Jun"
+msgstr "Jui"
+
+# @ events-planner
+#: ../application/helpers/common-helper.php:93
+#: ../application/libraries/epl-calendar.php:365
+msgid "Jul"
+msgstr "Jul"
+
+# @ events-planner
+#: ../application/helpers/common-helper.php:94
+#: ../application/libraries/epl-calendar.php:366
+msgid "Aug"
+msgstr "Aou"
+
+# @ events-planner
+#: ../application/helpers/common-helper.php:95
+#: ../application/libraries/epl-calendar.php:367
+msgid "Sep"
+msgstr "Sep"
+
+# @ events-planner
+#: ../application/helpers/common-helper.php:96
+#: ../application/libraries/epl-calendar.php:368
+msgid "Oct"
+msgstr "Oct"
+
+# @ events-planner
+#: ../application/helpers/common-helper.php:97
+#: ../application/libraries/epl-calendar.php:369
+msgid "Nov"
+msgstr "Nov"
+
+# @ events-planner
+#: ../application/helpers/common-helper.php:98
+#: ../application/libraries/epl-calendar.php:370
+msgid "Dec"
+msgstr "Dec"
+
+# @ events-planner
+#: ../application/helpers/common-helper.php:344
+msgid "Available for registration on"
+msgstr "Disponible si l'inscription est activée"
+
+# @ events-planner
+#: ../application/helpers/common-helper.php:349
+msgid " Registration Closed"
+msgstr "Inscription terminée"
+
+# @ events-planner
+#: ../application/helpers/common-helper.php:792
+msgid "years"
+msgstr "années"
+
+# @ events-planner
+#: ../application/helpers/common-helper.php:792
+msgid "year"
+msgstr "année"
+
+# @ events-planner
+#: ../application/helpers/common-helper.php:801
+msgid "months"
+msgstr "mois"
+
+# @ events-planner
+#: ../application/helpers/common-helper.php:801
+msgid "month"
+msgstr "mois"
+
+# @ events-planner
+#: ../application/helpers/common-helper.php:813
+msgid "weeks"
+msgstr "semaines"
+
+# @ events-planner
+#: ../application/helpers/common-helper.php:813
+msgid "week"
+msgstr "semaine"
+
+# @ events-planner
+#: ../application/helpers/common-helper.php:825
+#: ../application/models/epl-gateway-model.php:80
+#: ../application/models/epl-gateway-model.php:234
+#: ../application/models/epl-gateway-model.php:983
+#: ../application/views/widgets/upcoming-events/form.php:6
+msgid "days"
+msgstr "jours"
+
+# @ events-planner
+#: ../application/helpers/common-helper.php:825
+msgid "day"
+msgstr "jour"
+
+# @ events-planner
+#: ../application/helpers/common-helper.php:836
+#: ../application/helpers/pr-helper.php:30
+msgid "h"
+msgstr "h"
+
+# @ events-planner
+#: ../application/helpers/common-helper.php:848
+#: ../application/helpers/pr-helper.php:32
+msgid "m"
+msgstr "m"
+
+# @ events-planner
+#: ../application/helpers/common-helper.php:856
+msgid "s"
+msgstr "s"
+
+# @ events-planner
+#: ../application/helpers/common-helper.php:1579
+msgid "No Expiration"
+msgstr "Aucune expiration"
+
+# @ events-planner
+#: ../application/helpers/common-helper.php:1641
+#: ../application/views/admin/event-snapshot.php:104
+msgid "Send Email"
+msgstr "Envoyer l'email"
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:728
+msgid "QB Merch. Serv."
+msgstr "QB Merch. Serv."
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:746
+msgid "Instructors"
+msgstr "Animateurs"
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:747
+#: ../application/helpers/template-tags.php:330
+msgid "Instructor"
+msgstr "Animateur"
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:748
+#: ../application/helpers/date-helper.php:749
+msgid "Add New Instructor"
+msgstr "Ajouter un nouvel animateur"
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:750
+msgid "Edit Event Instructor"
+msgstr "Modifier l'animateur"
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:751
+msgid "New Instructor"
+msgstr "Nouvel animateur"
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:752
+msgid "View Instructor"
+msgstr "Afficher l'animateur"
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:753
+msgid "Search Instructors"
+msgstr "Rechercher les animateurs"
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:754
+msgid "No Instructors Found"
+msgstr "Aucun animateur n'a été trouvé"
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:755
+msgid "No Instructors Found In Trash"
+msgstr "Aucun animateur n'a été trouvé dans la corbeille"
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:773
+msgid "Global Discounts"
+msgstr "Réductions globales"
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:774
+msgid "Global Discount"
+msgstr "Réduction globale"
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:775
+#: ../application/helpers/date-helper.php:776
+msgid "Add New Global Discount"
+msgstr "Ajouter une nouvelle notification globale"
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:777
+msgid "Edit Global Discount"
+msgstr "Editer la réduction globale"
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:778
+msgid "New Global Discount"
+msgstr "Nouvelle réduction globale"
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:779
+msgid "View Global Discount"
+msgstr "Afficher la réduction globale"
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:780
+msgid "Search Global Discounts"
+msgstr "Rechercher les notiifcations globales"
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:781
+msgid "No Global Discounts Found"
+msgstr "Aucune notification globale n'a été trouvée"
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:782
+msgid "No Global Discounts Found In Trash"
+msgstr "Aucune notification globale n'a été trouvée dans la corbeille"
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:795
+#: ../application/helpers/date-helper.php:814
+#: ../application/helpers/date-helper.php:1422
+msgid "Cash"
+msgstr "Espèces"
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:796
+#: ../application/helpers/date-helper.php:815
+msgid "Check"
+msgstr "Chèque"
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:798
+#: ../application/helpers/date-helper.php:817
+#: ../application/helpers/date-helper.php:1158
+msgid "PayPal PRO"
+msgstr "PayPal PRO"
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:799
+#: ../application/helpers/date-helper.php:818
+#: ../application/helpers/date-helper.php:1221
+msgid "Authorize.net AIM"
+msgstr "Authorize.net AIM"
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:800
+#: ../application/helpers/date-helper.php:819
+#: ../application/helpers/date-helper.php:1274
+msgid "Authorize.net SIM"
+msgstr "Authorize.net SIM"
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:801
+#: ../application/helpers/date-helper.php:820
+msgid "Payson"
+msgstr ""
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:802
+#: ../application/helpers/date-helper.php:821
+#: ../application/helpers/date-helper.php:1506
+msgid "Moneris Hosted Paypage"
+msgstr ""
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:832
+msgid "Waitlist Status"
+msgstr "Statut de la liste d'attente"
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:835
+msgid "Pending Approval"
+msgstr "En attente de validation"
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:836
+msgid "Approved"
+msgstr "Approuvé"
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:861
+msgid "Inline Calendar"
+msgstr "Dans le calendrier"
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:864
+msgid "Enable the date selector calendar?"
+msgstr "Activer le calendrier sélecteur de date?"
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:865
+msgid ""
+"This feature is most useful when you have many dates to choose from and do "
+"not want to display the big list of dates in the cart.\n"
+"                    The user will be able to select a date from a clickable "
+"calendar based on the available dates."
+msgstr ""
+"Cette fonction est particulièrement utile lorsque vous avez plusieurs dates "
+"au choix et ne veulez pas avoir une longue liste de dates dans le panier.\n"
+" L'utilisateur sera en mesure de choisir une date dans un calendrier "
+"cliquable, contenant les dates disponibles."
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:877
+msgid "Please select one or more days."
+msgstr "Séléctionner un ou plusieurs jours."
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:878
+#: ../application/helpers/date-helper.php:879
+msgid "You will register for all of the following days."
+msgstr "L'inscription se fera pour toutes les dates suivantes."
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:887
+#, php-format
+msgid "User can register for %s one or more days %s."
+msgstr "Inscription pour %s un ou plusieurs jours %s."
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:888
+#, php-format
+msgid "User automatically registers for %s all days %s."
+msgstr "Inscription pour %s tous les jours %s."
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:889
+msgid "A class/course."
+msgstr "Un cours/stage."
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:905
+msgid "Pack Size"
+msgstr "Taille du pack"
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:919
+#: ../application/models/epl-common-model.php:1266
+#: ../application/models/epl-common-model.php:1267
+msgid "From"
+msgstr "De"
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:927
+#: ../application/models/epl-common-model.php:1277
+#: ../application/models/epl-common-model.php:1278
+msgid "To"
+msgstr "à "
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:935
+msgid "Member Only Price"
+msgstr "Prix réservé aux membres"
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:944
+msgid "Price Specific Form"
+msgstr "Formulaire lié à un prix spécifique"
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:947
+msgid ""
+"Use these forms only if you would like to collect different information if "
+"the user selects this price."
+msgstr ""
+"Utilisez ces formulaires uniquement si vous souhaitez recueillir des "
+"informations différentes lorsque l&#146;utilisateur sélectionne ce prix."
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:960
+#: ../application/helpers/date-helper.php:997
+msgid "Date Specific?"
+msgstr "Date spécifique?"
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:985
+msgid "Regis. End Time"
+msgstr "Horaire de fin d'inscription"
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:1016
+msgid "Date level price"
+msgstr "Prix par date"
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:1017
+msgid ""
+"If the event happens on different days, can the user select a different "
+"price for each one of the days?"
+msgstr ""
+"Si l&#146;événement a lieu sur plusieurs jours, l&#146;utilisateur peut-il "
+"sélectionner un prix différent pour chacune des dates?"
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:1036
+msgid "Date level time"
+msgstr "Horaire par date"
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:1037
+msgid ""
+"If the event happens on different days, can the user select a different time "
+"for each one of the days?"
+msgstr ""
+"Si l&#146;événement a lieu sur plusieurs jours, l&#146;utilisateur peut-il "
+"sélectionner un horaire différent pour chacune des dates?"
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:1045
+msgid "Enable Rolling Registration?"
+msgstr "Activer les inscriptions automatiques?"
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:1046
+msgid ""
+"With this setting, the user will be only allowed to register for the next "
+"available open date or time slot."
+msgstr ""
+"Avec ce réglage, l&#146;utilisateur pourra uniquement s&#146;inscrire à la "
+"prochaine date ou heure mise à disposition."
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:1054
+msgid "Enable Pack Registration?"
+msgstr "Activer les packs d'inscriptions?"
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:1056
+msgid ""
+"This setting will let you indicate how many days a certain price will "
+"reserve if you offer a multiday / multiweek events."
+msgstr ""
+"Lorsque vous proposez un événement sur ​​plusieurs jours ou plusieurs "
+"semaines, ce paramètre vous permet d&#146;indiquer pour combien de jours un "
+"certain prix vous donnera le droit de vous inscrire."
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:1080
+msgid "Email message to use for confirmations."
+msgstr "Message email à utiliser pour les confirmations."
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:1098
+msgid "Presenter, instructor, Trainer..."
+msgstr "Présentateur, enseignant, animateur ..."
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:1100
+msgid ""
+"No Presenter/instructor found.  Please go to Events Planner > Instructors to "
+"create some."
+msgstr ""
+"Aucun animateur n'a été trouvé. Merci d'aller sur Events Planner > "
+"Animateurs pour en créer un."
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:1108
+msgid ""
+"Register Button > Cart > Registration Forms > Overview > Pay and/or Complete"
+msgstr ""
+"Bouton d'inscription > Panier > Formulaire > Vérification > Paiement et/ou "
+"fin"
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:1109
+msgid "Register Button > Cart > Registration Forms > Pay and/or Complete"
+msgstr "Bouton d'inscription > Panier > Formulaire > Paiement et/ou fin"
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:1110
+msgid "Register Button > Cart + Registration Forms > Pay and/or Complete"
+msgstr "Bouton d'inscription > Panier > Formulaire > Paiement et/ou fin"
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:1112
+msgid "Registration Flow"
+msgstr "Étapes du processus d'inscription"
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:1113
+msgid ""
+"EXPERIMENTAL FEATURE.  The third option will only work if you have one "
+"payment type, and no attendee information needs to be collected."
+msgstr ""
+"FONCTIONNALITé EXPERIMENTALE. La troisième option ne fonctionne que si vous "
+"n'avez qu'un type de paiement, et aucune information sur les participants "
+"n'a besoin d'être recueillie."
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:1129
+#: ../application/helpers/date-helper.php:1736
+msgid "Ask"
+msgstr "Posez votre question!"
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:1129
+#: ../application/helpers/date-helper.php:1736
+msgid "Automatically add"
+msgstr "Ajouter automatiquement"
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:1131
+msgid "Offer to sign up to a notification list?"
+msgstr "Proposer de s'inscrire à une liste de notification?"
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:1132
+msgid "If yes, select a notification list below."
+msgstr "Si oui, sélectionnez une liste de notification ci-dessous."
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:1141
+msgid "Select a notification list."
+msgstr "Sélectionner une liste de notifications."
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:1159
+#, php-format
+msgid ""
+"Accept Credit and Debit Cards without having the customer leave your "
+"website. Currently available for US and Canada.\n"
+"                <br />%sMUST USE SSL FOR PCI COMPLIANCE.  You can enable SSL "
+"from Events Planner > Settings > Registration tab.%s"
+msgstr ""
+"Accepter les cartes de crédit et de débit sans que le client quitte votre "
+"site. Actuellement disponible pour États-Unis et le Canada.\n"
+" <br />%sVOUS DEVEZ UTILISER SSL AVEC LA CONFORMITÉ PCI. Vous pouvez activer "
+"le SSL d'Events Planner > Paramètres > onglet Inscription.%s"
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:1171
+msgid ""
+"What the customer will see as an option.  You can use text or embed and "
+"image."
+msgstr ""
+"Ce que le client verra en option. Vous pouvez utiliser du texte ou "
+"incorporer une image."
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:1201
+#: ../application/helpers/date-helper.php:1256
+#: ../application/helpers/date-helper.php:1362
+msgid "Accepted Cards"
+msgstr "Cartes acceptées."
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:1204
+msgid ""
+"For Canada, only MasterCard and Visa are allowable and Interac debit cards "
+"are not supported."
+msgstr ""
+"Pour le Canada, seulement la Visa et la Mastercard sont utilisables, la "
+"carte de débit Interac n'est pas utilisable."
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:1222
+#, php-format
+msgid ""
+"Accept Credit and Debit Cards without having the customer leave your "
+"website. %sMUST USE SSL FOR PCI COMPLIANCE.\n"
+"                You can enable SSL from Events Planner > Settings > "
+"Registration tab.%s"
+msgstr ""
+"Accepter les cartes de crédit et de débit sans que le client quitte votre "
+"site. %sVOUS DEVEZ UTILISER SSL AVEC LA CONFORMITÉ PCI. Vous pouvez activer "
+"le SSL d'Events Planner > Paramètres > onglet Inscriptions.%s"
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:1235
+#: ../application/helpers/date-helper.php:1287
+#: ../application/helpers/date-helper.php:1341
+#: ../application/helpers/date-helper.php:1464
+#: ../application/helpers/date-helper.php:1519
+msgid "What the customer will see as an option.  Ex. Credit Card."
+msgstr "Ce que le client verra en option. Par ex. carte de crédit."
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:1242
+#: ../application/helpers/date-helper.php:1294
+msgid "API Login ID"
+msgstr "Login ID API"
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:1243
+#: ../application/helpers/date-helper.php:1295
+#: ../application/helpers/date-helper.php:1479
+msgid ""
+"This number can be obtained by logging into Authorize.net > Account > API "
+"Login ID and Transaction Key"
+msgstr ""
+"Ce numéro peut être obtenu en se connectant à Authorize.net > Compte > API "
+"Login ID and Transaction Key"
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:1250
+#: ../application/helpers/date-helper.php:1302
+msgid "API Transactioin Key"
+msgstr "Cré de transaction API"
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:1275
+msgid "Accept credit cards on Authorize.net hosted page."
+msgstr "Accepter les cartes de crédit sur la page de Authorize.net."
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:1327
+msgid "QuickBooks Merc. Serv."
+msgstr "QuickBooks Merc. Serv."
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:1328
+#, php-format
+msgid ""
+"Accept Credit and Debit Cards using QuickBooks Merchant Services. %sMUST USE "
+"SSL FOR PCI COMPLIANCE.\n"
+"                You can enable SSL from Events Planner > Settings > "
+"Registration tab.%s"
+msgstr ""
+"Accepter les cartes de crédit et de débit en utilisant les services "
+"marchands de QuickBooks. %sVOUS DEVEZ UTILISER SSL AVEC LA CONFORMITÉ PCI. "
+"Vous pouvez activer le SSL d'Events Planner > Paramètres > onglet "
+"Inscription.%s"
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:1348
+msgid "Application Login"
+msgstr "Login pour l'application"
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:1356
+msgid "Connection Ticket"
+msgstr "Ticket de connexion"
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:1379
+msgid "Checks/Money Orders"
+msgstr "Commande par chèque ou espèces."
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:1380
+msgid ""
+"You can use this to give your customers the ability to pay using a Check."
+msgstr ""
+"Vous pouvez utiliser cette option pour donner à vos clients la possibilité "
+"de payer en espèces."
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:1391
+#: ../application/helpers/date-helper.php:1434
+msgid "Display Label"
+msgstr "Afficher le libellé"
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:1392
+#: ../application/helpers/date-helper.php:1435
+msgid "What the customer will see as an option."
+msgstr "Ce que le client verra en option."
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:1398
+msgid "Make Payable To"
+msgstr "A l'ordre de"
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:1399
+msgid "Who will get this check?"
+msgstr "Qui recevra ce chèque?"
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:1405
+#: ../application/views/admin/registration/regis-payment-instr.php:19
+#: ../application/views/front/registration/regis-payment-instr.php:24
+msgid "Send Payment To"
+msgstr "Envoyer le paiement à"
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:1406
+msgid "The address."
+msgstr "L'adresse."
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:1412
+#: ../application/helpers/date-helper.php:1441
+msgid "Instructions"
+msgstr "Instructions"
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:1413
+#: ../application/helpers/date-helper.php:1442
+msgid "Special Instruction to the customer."
+msgstr "Instruction spéciale pour le client."
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:1423
+msgid "You can use this to give your customers the ability to pay using Cash."
+msgstr ""
+"Option utilisable pour donner au client la possiibilité de payer en espèces."
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:1451
+msgid "PAYSON"
+msgstr ""
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:1452
+msgid "Safely and securely accept payments on hosted Payson servers."
+msgstr "En toute sécurité, acceptez les paiements sur les serveurs de Payson."
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:1471
+msgid "Seller Email"
+msgstr "Email du vendeur"
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:1478
+msgid "Agent ID"
+msgstr ""
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:1486
+msgid "MD5"
+msgstr "MD5"
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:1493
+msgid "Assign by default to new events?"
+msgstr "Utiliser par défaut pour de nouveaux événements?"
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:1497
+msgid ""
+"When you create new events, this paymetn profile will be automatically "
+"assigned to that event."
+msgstr ""
+"Lorsque vous créez de nouveaux événements, ce profil de paiment sera "
+"automatiquement assigné à cet événement."
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:1507
+msgid "Accept payments using Moneris Hosted Paypage."
+msgstr "Accepter les paiements de Moneris."
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:1526
+msgid "Store ID"
+msgstr ""
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:1534
+msgid "HPP Key"
+msgstr "Clé HPP"
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:1546
+msgid "Your paypage urls"
+msgstr "Les URLs de votre page de paiement"
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:1547
+msgid "Approved URL:"
+msgstr "URL approuvé"
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:1548
+msgid "Decline URL:"
+msgstr "URL refusé"
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:1567
+msgid "First Name"
+msgstr "Prénom"
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:1574
+msgid "Last Name"
+msgstr "Nom"
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:1620
+msgid "Card Type"
+msgstr "Type de carte"
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:1630
+msgid "Card Number"
+msgstr "Numéro de carte"
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:1636
+msgid "CVV Code"
+msgstr "N° de contrôle"
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:1642
+msgid "Expiration Month"
+msgstr "Mois d'expiration"
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:1652
+msgid "Expiration Year"
+msgstr "Année d'expiration"
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:1673
+msgid "Support License Key"
+msgstr "Clé de licence d'Events Planner."
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:1688
+msgid ""
+"MailChimp Settings.  Please enter your key and hit Save Changes to begin."
+msgstr ""
+"Paramètres de MailChimp. Merci de saisir votre clé et de sauvegarder les "
+"modifications pour démarrer."
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:1693
+msgid "Mailchimp API Key"
+msgstr "Clé API de Mailchimp"
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:1707
+msgid "Enable for all current and future events"
+msgstr "Activer pour tous les événements actuels et futurs"
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:1707
+msgid "I will choose for each event"
+msgstr "Je vais choisir pour chaque événement"
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:1708
+msgid ""
+"If you select No, this feature will be diabled at global and event level. If "
+"you select the second option, you can still override it for each event."
+msgstr ""
+"Si vous sélectionnez Non, cette fonctionnalité sera désactivée au niveau "
+"global et de l'événement. Si vous choisissez la deuxième option, vous "
+"pourrez l'annuler par la suite pour chaque événement."
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:1710
+msgid "Enable MailChimp Extension"
+msgstr "Activer l'extension MailChimp"
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:1720
+msgid "Double Opt In (global)"
+msgstr "Double optin (global)"
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:1721
+msgid ""
+"When this option is enabled, MailChimp will send a confirmation email to the "
+"user and will only add them to your MailChimp list upon confirmation."
+msgstr ""
+"Lorsque cette option est activée, MailChimp enverra un email de confirmation "
+"à l'utilisateur et l&#146;ajoutera à votre liste MailChimp lors de la "
+"confirmation."
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:1728
+msgid "Send Welcome Email (global)"
+msgstr "Envoyer courriel de bienvenue (global)"
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:1729
+msgid ""
+"When this option is enabled, users will receive an automatic welcome email "
+"from MailChimp upon being added to your MailChimp list."
+msgstr ""
+"Lorsque cette option est activée, les utilisateurs recevront un courriel de "
+"bienvenue automatique de MailChimp lorsqu&#146;ils auront été ajoutés à "
+"votre liste MailChimp."
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:1738
+msgid "User Signup Method (default)"
+msgstr "Méthode d'enregistrement de l'utilisateur (par défaut)"
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:1743
+msgid "Permission Label"
+msgstr "Libellé de la permission"
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:1744
+msgid ""
+"This label will be displayed during the registration process if you choose "
+"to ask the users for permission to sign them up."
+msgstr ""
+"Ce terme sera affiché pendant le processus d&#146;inscription si vous "
+"choisissez de demander aux utilisateurs la permission de les inscrire."
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:1746
+msgid "Subscribe to our newsletter"
+msgstr "Abonnez-vous à notre newsletter!"
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:1755
+msgid "Default Notification List"
+msgstr "Liste des notifications par défaut"
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:1770
+msgid "Instructor Name"
+msgstr "Nom de l'instructeur"
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:2039
+msgid "User Table Slug"
+msgstr "Identifiant de l'utilisateur"
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:2040
+msgid "You can map this field to a user table meta_key."
+msgstr ""
+"Vous pouvez mapper ce champ avec une table d&#146;utilisateur meta_key."
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:2048
+msgid "Membership Plugin"
+msgstr "Extension d'adhésion"
+
+# @ events-planner
+#: ../application/helpers/date-helper.php:2049
+msgid ""
+"Since different membership plugins use different meta_key names, this will "
+"let events planner know which ones to look for. For now, <u>only text fields "
+"can be used</u>"
+msgstr ""
+"Dans la mesure où différentes extensions d&#146;adhésion utilisent des noms "
+"meta_key différents, cela permettra à Events Planner savoir lesquels "
+"rechercher. Pour l&#146;instant, <u>uniquement des champs de texte peuvent "
+"être utilisés</u>"
+
+# @ events-planner
+#: ../application/helpers/pr-helper.php:28
+msgid "d"
+msgstr "j"
+
+# @ events-planner
+#: ../application/helpers/pr-helper.php:47
+msgid "-"
+msgstr "-"
+
+# @ events-planner
+#: ../application/helpers/pr-helper.php:59
+msgid "Available on"
+msgstr "Disponible le"
+
+# @ events-planner
+#: ../application/helpers/pr-helper.php:73
+msgid "Ended"
+msgstr "Terminé"
+
+# @ events-planner
+#: ../application/helpers/pr-helper.php:402
+msgid "My  Registrations"
+msgstr "Mes inscriptions"
+
+# @ events-planner
+#: ../application/helpers/template-tags.php:555
+msgid "Opens on"
+msgstr "Ouvert le"
+
+# @ events-planner
+#: ../application/helpers/template-tags.php:560
+msgid "Closed"
+msgstr "Fermé"
+
+# @ events-planner
+#: ../application/helpers/template-tags.php:562
+msgid "Open"
+msgstr "Ouvert"
+
+# @ events-planner
+#: ../application/libraries/epl-advanced-cal-widget.php:23
+#: ../application/libraries/epl-upcoming-events-widget.php:23
+#: ../system/epl-init.php:341
+msgid "Events"
+msgstr "Evénéments"
+
+# @ events-planner
+#: ../application/libraries/epl-advanced-cal-widget.php:24
+msgid "Exclude Past Events"
+msgstr "Exclure les événements passés"
+
+# @ events-planner
+#: ../application/libraries/epl-calendar.php:374
+msgid "January"
+msgstr "Janvier"
+
+# @ events-planner
+#: ../application/libraries/epl-calendar.php:375
+msgid "February"
+msgstr "Février"
+
+# @ events-planner
+#: ../application/libraries/epl-calendar.php:376
+msgid "March"
+msgstr "Mars"
+
+# @ events-planner
+#: ../application/libraries/epl-calendar.php:377
+msgid "April"
+msgstr "Avril"
+
+# @ events-planner
+#: ../application/libraries/epl-calendar.php:379
+msgid "June"
+msgstr "Juin"
+
+# @ events-planner
+#: ../application/libraries/epl-calendar.php:380
+msgid "July"
+msgstr "Juillet"
+
+# @ events-planner
+#: ../application/libraries/epl-calendar.php:381
+msgid "August"
+msgstr "Août"
+
+# @ events-planner
+#: ../application/libraries/epl-calendar.php:382
+msgid "September"
+msgstr "Septembre"
+
+# @ events-planner
+#: ../application/libraries/epl-calendar.php:383
+msgid "October"
+msgstr "Octobre"
+
+# @ events-planner
+#: ../application/libraries/epl-calendar.php:384
+msgid "November"
+msgstr "Novembre"
+
+# @ events-planner
+#: ../application/libraries/epl-calendar.php:385
+msgid "December"
+msgstr "Décembre"
+
+# @ events-planner
+#: ../application/libraries/epl-email.php:66
+#: ../application/libraries/epl-util.php:2303
+#: ../application/libraries/epl-util.php:2340
+#: ../application/views/admin/registration/regis-confirm-email.php:63
+#: ../application/views/email/default/template-no-custom.php:63
+#: ../application/views/email/default/template.php:63
+#: ../application/views/front/registration/regis-confirm-email.php:63
+msgid "Registration Confirmation"
+msgstr "Confirmation de l'inscription"
+
+# @ events-planner
+#: ../application/libraries/epl-email.php:86
+#: ../application/libraries/epl-util.php:2339 ../system/epl-init.php:370
+msgid "New Registration"
+msgstr "Nouvelle inscription"
+
+# @ events-planner
+#: ../application/libraries/epl-upcoming-events-widget.php:66
+msgid "First Date Only"
+msgstr "Première date uniquement"
+
+# @ events-planner
+#: ../application/libraries/epl-upcoming-events-widget.php:66
+msgid "Each Date Individually"
+msgstr "Chaque date individuellement"
+
+# @ events-planner
+#: ../application/libraries/epl-util.php:706
+#: ../application/libraries/epl-util.php:774
+#: ../application/views/admin/cart/cart-dates.php:45
+#: ../application/views/front/cart/cart-dates.php:44
+msgid "See Map"
+msgstr "Afficher la carte"
+
+# @ events-planner
+#: ../application/libraries/epl-util.php:709
+msgid "to"
+msgstr "à "
+
+# @ events-planner
+#: ../application/libraries/epl-util.php:2349
+msgid "New Waitlist Addition"
+msgstr "Nouvelle liste d'attente"
+
+# @ events-planner
+#: ../application/libraries/epl-util.php:2462
+msgid "Registration Detail Link"
+msgstr "Lien vers les détails de l'inscription"
+
+# @ events-planner
+#: ../application/libraries/epl-util.php:2462
+msgid "Click here"
+msgstr "Cliquer ici"
+
+# @ events-planner
+#: ../application/models/epl-common-model.php:1242
+#: ../application/views/admin/settings/settings-page.php:108
+msgid "Category"
+msgstr "Catégorie d'événement"
+
+# @ events-planner
+#: ../application/models/epl-common-model.php:1254
+msgid "All Categories"
+msgstr "Toutes les catégories d'événement"
+
+# @ events-planner
+#: ../application/models/epl-common-model.php:1283
+#: ../application/models/epl-common-model.php:1291
+msgid "All Locations"
+msgstr "Lieux"
+
+# @ events-planner
+#: ../application/models/epl-common-model.php:1431
+#: ../application/models/epl-common-model.php:1857
+msgid "Regis ID"
+msgstr "ID de Rés."
+
+# @ events-planner
+#: ../application/models/epl-common-model.php:1432
+#: ../application/models/epl-common-model.php:1858
+msgid "Regis Date"
+msgstr "Date de Rés."
+
+# @ events-planner
+#: ../application/models/epl-common-model.php:1436
+#: ../application/models/epl-common-model.php:1862
+#: ../application/models/epl-common-model.php:2264
+#: ../application/views/admin/cart/cart-totals.php:34
+#: ../application/views/admin/registration/regis-list-payment-info.php:7
+#: ../application/views/admin/registration/regis-payment-details.php:13
+#: ../application/views/admin/user-regis-manager/user-regis-list-page.php:28
+#: ../application/views/front/cart/cart-totals.php:52
+#: ../application/views/front/registration/regis-payment-details.php:24
+msgid "Total"
+msgstr "Total"
+
+# @ events-planner
+#: ../application/models/epl-common-model.php:1437
+#: ../application/models/epl-common-model.php:1863
+#: ../application/models/epl-common-model.php:2265
+#: ../application/views/admin/registration/regis-payment-details.php:17
+#: ../application/views/admin/user-regis-manager/user-regis-list-page.php:32
+#: ../application/views/front/registration/regis-payment-details.php:28
+msgid "Amount Paid"
+msgstr "Montant payé"
+
+# @ events-planner
+#: ../application/models/epl-common-model.php:1441
+#: ../application/models/epl-common-model.php:1867
+#: ../application/views/admin/cart/cart-dates.php:53
+#: ../application/views/admin/cart/cart-times.php:6
+#: ../application/views/front/cart/cart-dates.php:52
+#: ../application/views/front/cart/cart-times.php:6
+msgid "Time"
+msgstr "Horaire"
+
+# @ events-planner
+#: ../application/models/epl-common-model.php:1442
+#: ../application/models/epl-common-model.php:1868
+#: ../application/models/epl-common-model.php:2261
+msgid "Ticket"
+msgstr "Ticket"
+
+# @ events-planner
+#: ../application/models/epl-common-model.php:1543
+#: ../application/models/epl-common-model.php:2339
+msgid "Registrant"
+msgstr "Participant principal"
+
+# @ events-planner
+#: ../application/models/epl-common-model.php:2396
+#: ../application/views/admin/events/settings-meta-box.php:10
+msgid "Attendee List"
+msgstr "Participants"
+
+# @ events-planner
+#: ../application/models/epl-discount-model.php:91
+msgid "The discount code has expired"
+msgstr "La code de reduction est expiré."
+
+# @ events-planner
+#: ../application/models/epl-discount-model.php:96
+msgid "The discount code is no longer available"
+msgstr "Le code de réduction n'est plus disponible"
+
+# @ events-planner
+#: ../application/models/epl-discount-model.php:128
+msgid "The discount code is invalid"
+msgstr "Le code de réduction est invalide"
+
+# @ events-planner
+#: ../application/models/epl-discount-model.php:260
+msgid "The discount code requires the total amount to be"
+msgstr "Le code de réduction exige que le montant total doit être"
+
+# @ events-planner
+#: ../application/models/epl-discount-model.php:260
+#: ../application/models/epl-discount-model.php:267
+#: ../application/views/admin/events/discounts-meta-box.php:5
+msgid "and"
+msgstr "et"
+
+# @ events-planner
+#: ../application/models/epl-discount-model.php:267
+msgid "The discount code requires for total number of attendees to be"
+msgstr "Le code de réduction nécessite un nombre total de participants de"
+
+# @ events-planner
+#: ../application/models/epl-registration-model.php:283
+msgid "You have reached this page in error."
+msgstr "Vous avez atteint cette page par erreur"
+
+# @ events-planner
+#: ../application/models/epl-registration-model.php:1766
+msgid "Copy From"
+msgstr "De"
+
+# @ events-planner
+#: ../application/models/epl-registration-model.php:1770
+msgid "Primary Registrant"
+msgstr "Participant principal"
+
+# @ events-planner
+#: ../application/models/epl-registration-model.php:2155
+msgid "Please select a quantity."
+msgstr "Veuiller sélectionner une quantité."
+
+# @ events-planner
+#: ../application/models/epl-registration-model.php:2211
+msgid "Please select at least one date."
+msgstr "Veuiller sélectionner au moins une date."
+
+# @ events-planner
+#: ../application/models/epl-registration-model.php:2268
+msgid "Available"
+msgstr "Disponible le"
+
+# @ events-planner
+#: ../application/models/epl-registration-model.php:2408
+#: ../application/models/epl-registration-model.php:2436
+#: ../application/models/epl-registration-model.php:2460
+msgid "Sold Out."
+msgstr "Complet"
+
+# @ events-planner
+#: ../application/models/epl-registration-model.php:2411
+#, php-format
+msgid " Only %d spaces left."
+msgstr "Seulement %d places restantes."
+
+# @ events-planner
+#: ../application/models/epl-registration-model.php:2433
+msgid "This time has passed."
+msgstr "L'horaire est dépassée."
+
+# @ events-planner
+#: ../application/models/epl-registration-model.php:2439
+#: ../application/models/epl-registration-model.php:2480
+#, php-format
+msgid "Only %d spaces left."
+msgstr "Seulement %d places restantes."
+
+# @ events-planner
+#: ../application/models/epl-registration-model.php:2465
+msgid ""
+"If you would like to be added to the waiting list, please continue.  You "
+"will not be charged at this time."
+msgstr ""
+"Si vous souhaitez être ajouté à la liste d'attente, merci de continuer. Vous "
+"ne serez pas facturé pour l'instant."
+
+# @ events-planner
+#: ../application/models/epl-registration-model.php:2477
+msgid "This date has passed."
+msgstr "La date est dépassée."
+
+# @ events-planner
+#: ../application/models/epl-user-model.php:113
+msgid "Class"
+msgstr "Classe"
+
+# @ events-planner
+#: ../application/views/admin/event-snapshot.php:4
+msgid "Please add dates for the event."
+msgstr "Merci d'ajouter une date pour cet événement."
+
+# @ events-planner
+#: ../application/views/admin/event-snapshot.php:24
+msgid "Day"
+msgstr "Jour"
+
+# @ events-planner
+#: ../application/views/admin/event-snapshot.php:25
+msgid "Date"
+msgstr "Date"
+
+# @ events-planner
+#: ../application/views/admin/event-snapshot.php:35
+msgid "Daily Schedule"
+msgstr "Horaire quotidien"
+
+# @ events-planner
+#: ../application/views/admin/event-snapshot.php:37
+#: ../application/views/admin/event-snapshot.php:101
+msgid "View Names"
+msgstr "Afficher les noms"
+
+# @ events-planner
+#: ../application/views/admin/event-snapshot.php:38
+#: ../application/views/admin/event-snapshot.php:102
+msgid "View Full Data"
+msgstr "Afficher toutes les données"
+
+# @ events-planner
+#: ../application/views/admin/event-snapshot.php:39
+msgid "View All Attendees"
+msgstr "Afficher tous les participants"
+
+# @ events-planner
+#: ../application/views/admin/event-snapshot.php:40
+msgid "Export Full CSV"
+msgstr "Exporter le CSV en entier"
+
+# @ events-planner
+#: ../application/views/admin/event-snapshot.php:72
+msgid "All Day"
+msgstr "Tous les jours"
+
+# @ events-planner
+#: ../application/views/admin/event-snapshot.php:103
+msgid "Export CSV"
+msgstr "Exporter en CSV"
+
+# @ events-planner
+#: ../application/views/admin/cart/cart-available-spaces.php:3
+#: ../application/views/front/cart/cart-available-spaces.php:3
+msgid "Available Spaces"
+msgstr "Places disponibles"
+
+# @ events-planner
+#: ../application/views/admin/cart/cart-dates.php:33
+#: ../application/views/front/cart/cart-dates.php:32
+msgid "Delete"
+msgstr "Supprimer"
+
+# @ events-planner
+#: ../application/views/admin/cart/cart-prices.php:20
+#: ../application/views/front/cart/cart-prices.php:21
+msgid "Quantity"
+msgstr "Quantité"
+
+# @ events-planner
+#: ../application/views/admin/cart/cart-prices.php:27
+#: ../application/views/front/cart/cart-prices.php:28
+msgid "Ends"
+msgstr "Se termine"
+
+# @ events-planner
+#: ../application/views/admin/cart/cart-totals.php:16
+#: ../application/views/front/cart/cart-totals.php:19
+msgid "Subtotal"
+msgstr "Sous-total"
+
+# @ events-planner
+#: ../application/views/admin/cart/cart-totals.php:24
+#: ../application/views/front/cart/cart-totals.php:28
+msgid "Discount"
+msgstr "Réduction"
+
+# @ events-planner
+#: ../application/views/admin/cart/cart.php:47
+#: ../application/views/admin/registration/regis-cart-section.php:24
+#: ../application/views/front/cart/cart.php:54
+msgid "Please click to select a date"
+msgstr "Merci de sélectionner une date"
+
+# @ events-planner
+#: ../application/views/admin/cart/cart.php:105
+#: ../application/views/front/cart/cart.php:112
+msgid "Update Total"
+msgstr "Mettre à jour le total"
+
+# @ events-planner
+#: ../application/views/admin/events/attendee-list-meta-box.php:12
+msgid ""
+"Select the fields below to show to the public.  Move the fields up or down "
+"to determine the column order on the display page."
+msgstr ""
+"Sélectionner ci-dessous les champs qui s'afficheront pour le public. "
+"Déplacer les champs vers le haut ou le bas pour déterminer le tri des "
+"colonnes sur la page d'affichage."
+
+# @ events-planner
+#: ../application/views/admin/events/attendee-list-meta-box.php:20
+#: ../application/views/admin/events/report-meta-box.php:9
+msgid "Field"
+msgstr "Champ"
+
+# @ events-planner
+#: ../application/views/admin/events/discounts-meta-box.php:5
+msgid "Import"
+msgstr "Importer"
+
+# @ events-planner
+#: ../application/views/admin/events/discounts-meta-box.php:5
+msgid "from"
+msgstr "de"
+
+# @ events-planner
+#: ../application/views/admin/events/discounts-meta-box.php:81
+#: ../application/views/admin/global-discounts/discounts-meta-box.php:60
+msgid "Apply to"
+msgstr "Appliquer à"
+
+# @ events-planner
+#: ../application/views/admin/events/discounts-meta-box.php:82
+#: ../application/views/admin/global-discounts/discounts-meta-box.php:61
+msgid "if (optional)"
+msgstr "si (facultatif)"
+
+# @ events-planner
+#: ../application/views/admin/events/events-main-meta-box.php:12
+msgid "Times/Prices"
+msgstr "Horaires/Prix"
+
+# @ events-planner
+#: ../application/views/admin/events/events-main-meta-box.php:13
+msgid "Location/Organization"
+msgstr "Lieu/Organisateur"
+
+# @ events-planner
+#: ../application/views/admin/events/events-main-meta-box.php:14
+#: ../application/views/admin/forms/form-manager-view.php:11
+msgid "Registration Fields"
+msgstr "Champs d'inscription"
+
+# @ events-planner
+#: ../application/views/admin/events/events-main-meta-box.php:15
+msgid "Other Settings"
+msgstr "Autres paramètres"
+
+# @ events-planner
+#: ../application/views/admin/events/forms-meta-box.php:4
+msgid ""
+"These forms will be presented during the registration process.  If you don't "
+"need to collect information from additional attendees,\n"
+"        don't select any forms in the 'Forms for all attendees' section."
+msgstr ""
+"Ces formulaires seront affichés lors de la procédure d'inscription. Si vous "
+"n'avez pas besoin de recueillir des informations pour des participants "
+"supplémentaires,\n"
+" ne pas sélectionner de formulaire dans la section 'Formulaires pour tous "
+"les participants'."
+
+# @ events-planner
+#: ../application/views/admin/events/fullcalendar.php:1
+msgid "Click on a date to add it to the section that opened this calendar."
+msgstr ""
+"Cliquer sur une date pour l'ajouter à la section qui a oouvert ce calendrier."
+
+# @ events-planner
+#: ../application/views/admin/events/message-meta-box.php:9
+msgid "Message"
+msgstr "Message"
+
+# @ events-planner
+#: ../application/views/admin/events/options-meta-box.php:14
+msgid "NOTE: You must publish this post for users to be able to see it."
+msgstr ""
+"Remarque: Vous devez publier cet événement pour que les utilisateurs "
+"puissent le voir"
+
+# @ events-planner
+#: ../application/views/admin/events/price-tax-section.php:3
+msgid "Tax"
+msgstr "Tax"
+
+# @ events-planner
+#: ../application/views/admin/events/recurrence-fields.php:6
+msgid "First Event Start Date"
+msgstr "Date de début du premier événement"
+
+# @ events-planner
+#: ../application/views/admin/events/recurrence-fields.php:10
+msgid "Last Event Date"
+msgstr "Date du dernier événement"
+
+# @ events-planner
+#: ../application/views/admin/events/recurrence-fields.php:14
+msgid "Registrations Start"
+msgstr "Début de l'inscription"
+
+# @ events-planner
+#: ../application/views/admin/events/recurrence-fields.php:15
+#: ../application/views/admin/events/recurrence-fields.php:21
+msgid "Or"
+msgstr "ou"
+
+# @ events-planner
+#: ../application/views/admin/events/recurrence-fields.php:16
+#: ../application/views/admin/events/recurrence-fields.php:22
+msgid "days before the start date"
+msgstr "jours depuis la date du début"
+
+# @ events-planner
+#: ../application/views/admin/events/recurrence-fields.php:20
+msgid "Registrations End"
+msgstr "Fin de l'inscription"
+
+# @ events-planner
+#: ../application/views/admin/events/recurrence-fields.php:27
+msgid "Repeats"
+msgstr "Se répète"
+
+# @ events-planner
+#: ../application/views/admin/events/recurrence-fields.php:31
+msgid "Frequency"
+msgstr "Fréquence"
+
+# @ events-planner
+#: ../application/views/admin/events/recurrence-fields.php:36
+msgid "Weekdays"
+msgstr "Jours de la semaine"
+
+# @ events-planner
+#: ../application/views/admin/events/recurrence-fields.php:38
+msgid "All"
+msgstr "Tout"
+
+# @ events-planner
+#: ../application/views/admin/events/recurrence-fields.php:42
+msgid "Monthly Repeat By"
+msgstr "Répéter mensuellement tous les"
+
+# @ events-planner
+#: ../application/views/admin/events/recurrence-fields.php:56
+msgid "Preview Calendar"
+msgstr "Prévisualiser le calendrier"
+
+# @ events-planner
+#: ../application/views/admin/events/recurrence-fields.php:57
+msgid "Get Date Fields"
+msgstr "Obtenir les champs de date"
+
+# @ events-planner
+#: ../application/views/admin/events/recurrence-meta-box.php:3
+msgid "Recurrence helper"
+msgstr "Aide sur la récurrence"
+
+# @ events-planner
+#: ../application/views/admin/events/report-meta-box.php:10
+msgid "Width"
+msgstr "Largeur"
+
+# @ events-planner
+#: ../application/views/admin/events/settings-meta-box.php:4
+#: ../application/views/admin/settings/settings-page.php:26
+msgid "General"
+msgstr "Général"
+
+# @ events-planner
+#: ../application/views/admin/events/settings-meta-box.php:5
+msgid "Forms"
+msgstr "Formulaires"
+
+# @ events-planner
+#: ../application/views/admin/events/settings-meta-box.php:6
+msgid "Display & Other Options"
+msgstr "Affichage et autres options"
+
+# @ events-planner
+#: ../application/views/admin/events/settings-meta-box.php:7
+msgid "Messages"
+msgstr "Messages"
+
+# @ events-planner
+#: ../application/views/admin/events/settings-meta-box.php:8
+msgid "Discounts"
+msgstr "Réductions"
+
+# @ events-planner
+#: ../application/views/admin/events/surcharge-section.php:3
+msgid ""
+"Surcharge (if any).  You can set the defaults in Events Planner > Settings > "
+"Registrations Tab"
+msgstr ""
+"Surtaxe (s'il y en a). Vous pouvez définir les valeurs par défaut dans "
+"Events Planner > Paramètres > onglet Inscriptions"
+
+# @ events-planner
+#: ../application/views/admin/events/time-price-0.php:97
+msgid "optional"
+msgstr "facultatif"
+
+# @ events-planner
+#: ../application/views/admin/events/time-price-0.php:158
+#: ../application/views/admin/events/time-price-0.php:301
+msgid "Date specific?"
+msgstr "Date spécifique?"
+
+# @ events-planner
+#: ../application/views/admin/events/time-price-0.php:193
+msgid ""
+"At lease one price is required, even if it's a free event.  Enter price in "
+"0.00 format."
+msgstr ""
+"Au moins un prix est nécssaire, même si cet événement est gratuit. Saisir le "
+"prix au format 0.00."
+
+# @ events-planner
+#: ../application/views/admin/events/time-price-10.php:1
+msgid "Add Time Block"
+msgstr "AJouter une plage horaire"
+
+# @ events-planner
+#: ../application/views/admin/events/times-meta-box.php:9
+msgid "Time and price options"
+msgstr "Options des horaires et des prix"
+
+# @ events-planner
+#: ../application/views/admin/events/waitlist-meta-box.php:4
+msgid ""
+"Waiting list functionality is currently only available when you are keeping "
+"track of capacity at a date level."
+msgstr ""
+"Cette fonctionnalité ne sera disponible que lorsque le nombre de "
+"participants sera calculé pour chaque date."
+
+# @ events-planner
+#: ../application/views/admin/forms/form-manager-view.php:7
+msgid "Events Planner Form Manager"
+msgstr "Gestionnaire des formulaires de Events Planner"
+
+# @ events-planner
+#: ../application/views/admin/forms/form-manager-view.php:12
+msgid "Registration Forms"
+msgstr "Formulaires d'inscription"
+
+# @ events-planner
+#: ../application/views/admin/registration/regis-cc-form.php:8
+#: ../application/views/front/registration/regis-cc-form.php:8
+msgid "Billing Information"
+msgstr "Information de facturation"
+
+# @ events-planner
+#: ../application/views/admin/registration/regis-confirm-email.php:76
+#: ../application/views/email/boutique/template.php:26
+#: ../application/views/email/classic/template.php:27
+#: ../application/views/email/default/template-no-custom.php:76
+#: ../application/views/email/default/template.php:76
+#: ../application/views/email/helvetica/template.php:31
+#: ../application/views/front/registration/regis-confirm-email.php:76
+msgid "by"
+msgstr "par"
+
+# @ events-planner
+#: ../application/views/admin/registration/regis-confirm-email.php:96
+#: ../application/views/email/default/template-no-custom.php:86
+#: ../application/views/front/registration/regis-confirm-email.php:96
+msgid "Purchase Details"
+msgstr "Détails de la commande"
+
+# @ events-planner
+#: ../application/views/admin/registration/regis-confirm-email.php:99
+#: ../application/views/admin/registration/regis-thank-you-page.php:10
+#: ../application/views/email/default/template-no-custom.php:89
+#: ../application/views/front/registration/regis-confirm-email.php:99
+#: ../application/views/front/registration/regis-thank-you-page.php:17
+msgid "Regis. ID"
+msgstr "ID de rés."
+
+# @ events-planner
+#: ../application/views/admin/registration/regis-dates-times-prices.php:21
+#: ../application/views/front/registration/regis-dates-times-prices.php:21
+msgid "Qty"
+msgstr "Qté"
+
+# @ events-planner
+#: ../application/views/admin/registration/regis-list-payment-info.php:8
+msgid "Paid"
+msgstr "Payé"
+
+# @ events-planner
+#: ../application/views/admin/registration/regis-payment-details.php:4
+#: ../application/views/front/registration/regis-payment-details.php:6
+msgid "Payment Details"
+msgstr "Détails du paiement"
+
+# @ events-planner
+#: ../application/views/admin/registration/regis-payment-details.php:21
+#: ../application/views/admin/user-regis-manager/user-regis-list-page.php:36
+#: ../application/views/front/registration/regis-payment-details.php:32
+msgid "Balance Due"
+msgstr "Solde dû"
+
+# @ events-planner
+#: ../application/views/admin/registration/regis-payment-instr.php:8
+#: ../application/views/front/registration/regis-payment-instr.php:11
+msgid "Payment Instructions"
+msgstr "Instructions de paiement"
+
+# @ events-planner
+#: ../application/views/admin/registration/regis-payment-instr.php:15
+#: ../application/views/front/registration/regis-payment-instr.php:20
+msgid "Payable To"
+msgstr "Payable à "
+
+# @ events-planner
+#: ../application/views/admin/registration/regis-thank-you-page.php:24
+#: ../application/views/front/registration/regis-thank-you-page.php:44
+msgid "Details"
+msgstr "Détails"
+
+# @ events-planner
+#: ../application/views/admin/registration/registration-attendee-meta-box.php:18
+msgid "Select this event"
+msgstr "Sélectionner cet événement"
+
+# @ events-planner
+#: ../application/views/admin/registration/registration-attendee-meta-box.php:38
+msgid "Calculate Total"
+msgstr "Calculer le total"
+
+# @ events-planner
+#: ../application/views/admin/registration/registration-attendee-meta-box.php:55
+msgid "Get Registration Forms"
+msgstr "Accéder aux formulaires d'inscription"
+
+# @ events-planner
+#: ../application/views/admin/settings/settings-page.php:12
+msgid "Events Planner General Settings "
+msgstr "Paramètres généraux de Events Planner"
+
+# @ events-planner
+#: ../application/views/admin/settings/settings-page.php:15
+msgid "Settings Updated"
+msgstr "Paramètres mis à jour"
+
+# @ events-planner
+#: ../application/views/admin/settings/settings-page.php:27
+#: ../system/epl-init.php:365
+msgid "Registrations"
+msgstr "Inscriptions"
+
+# @ events-planner
+#: ../application/views/admin/settings/settings-page.php:28
+msgid "Event Management"
+msgstr "Gestionnaire d'événement"
+
+# @ events-planner
+#: ../application/views/admin/settings/settings-page.php:29
+msgid "FullCalendar Settings"
+msgstr "Paramètres du calendrier pleine page"
+
+# @ events-planner
+#: ../application/views/admin/settings/settings-page.php:31
+msgid "API Settings"
+msgstr "Paramètres d'API"
+
+# @ events-planner
+#: ../application/views/admin/settings/settings-page.php:101
+msgid ""
+"Use the setting below to assign specifc colors to each event category.  If "
+"an event has more than one category, the colors from the first category will "
+"be used."
+msgstr ""
+"Utilisez les paramètres ci-dessous pour attribuer une couleur spécifque à "
+"chaque catégorie d'événements. Si un événement est lié à plus d'une "
+"catégorie, la couleur de la première catégorie sera utilisée."
+
+# @ events-planner
+#: ../application/views/admin/settings/settings-page.php:109
+msgid "Background Color"
+msgstr "Couleur de fond"
+
+# @ events-planner
+#: ../application/views/admin/settings/settings-page.php:110
+msgid "Font Color"
+msgstr "Couleur de la police"
+
+# @ events-planner
+#: ../application/views/admin/user-regis-manager/user-regis-list-page-wrapper.php:35
+msgid "Registration History"
+msgstr "Historique des inscriptions"
+
+# @ events-planner
+#: ../application/views/common/slide-down-box.php:6
+msgid "Close"
+msgstr "Fermer"
+
+# @ events-planner
+#: ../application/views/front/attendee-list-1.php:1
+#: ../application/views/front/attendee-list/attendee-list-1.php:1
+#: ../application/views/front/attendee-list/attendee-list-2.php:1
+msgid "attendees"
+msgstr "Participants"
+
+# @ events-planner
+#: ../application/views/front/attendee-list-1.php:6
+#: ../application/views/front/attendee-list/attendee-list-1.php:6
+#: ../application/views/front/attendee-list/attendee-list-2.php:6
+msgid "No Attendees"
+msgstr "# Participants"
+
+# @ events-planner
+#: ../application/views/front/cart-container.php:25
+msgid "Back"
+msgstr "Retour"
+
+# @ events-planner
+#: ../application/views/front/cart-container.php:29
+msgid "Next"
+msgstr "Suivant"
+
+# @ events-planner
+#: ../application/views/front/event-grid-1.php:92
+msgid "SOLD OUT"
+msgstr "Epuisé"
+
+# @ events-planner
+#: ../application/views/front/event-list-10.php:271
+#: ../application/views/front/event-list-11.php:189
+#: ../application/views/front/event-list-5.php:199
+#: ../application/views/front/event-list-class-2.php:171
+#: ../application/views/front/event-list.php:157
+#: ../application/views/front/event-some-1.php:200
+#: ../application/views/front/event-ui-map.php:66
+msgid "Sorry, there are no events currently available."
+msgstr "Désole, aucun événement n'est disponible."
+
+# @ events-planner
+#: ../application/views/front/event-list-2.php:111
+#: ../application/views/front/event-list-5.php:166
+#: ../application/views/front/event-list.php:102
+#: ../application/views/front/event-some-1.php:164
+msgid "Hosted By"
+msgstr "Hébergé par"
+
+# @ events-planner
+#: ../application/views/front/event-list-3.php:48
+#: ../application/views/front/event-list.php:134
+msgid "More"
+msgstr "Plus"
+
+# @ events-planner
+#: ../application/views/front/event-list-5.php:138
+#: ../application/views/front/event-list.php:86
+#: ../application/views/front/event-some-1.php:136
+#: ../application/views/front/single-templates/single-epl_event.php:67
+msgid "Multiple locations"
+msgstr "Lieux multiples"
+
+# @ events-planner
+#: ../application/views/front/event-list-5.php:171
+#: ../application/views/front/event-list.php:107
+#: ../application/views/front/event-some-1.php:169
+msgid "Visit Website"
+msgstr "Visiter le site"
+
+# @ events-planner
+#: ../application/views/front/event-search-box.php:17
+msgid "Search"
+msgstr "Rechercher"
+
+# @ events-planner
+#: ../application/views/front/location-map.php:56
+msgid "Map and Driving Direction"
+msgstr "Carte et itinéraire"
+
+# @ events-planner
+#: ../application/views/front/cart/cart-dates.php:7
+msgid "Please use the calendar above to select a date."
+msgstr "Veuiller sélectionner au moins une date."
+
+# @ events-planner
+#: ../application/views/front/cart/cart-totals.php:46
+msgid "Original Total"
+msgstr "Total d'origine"
+
+# @ events-planner
+#: ../application/views/front/cart/cart.php:34
+msgid "Show"
+msgstr "Montrer"
+
+# @ events-planner
+#: ../application/views/front/cart/cart.php:118
+msgid "Alternate Total"
+msgstr "Alterner le total"
+
+# @ events-planner
+#: ../application/views/front/cart/cart.php:129
+msgid "Select a payment method"
+msgstr "Sélectionner un mode de paiement"
+
+# @ events-planner
+#: ../application/views/front/registration/regis-thank-you-page.php:8
+msgid ""
+"Your name has been added to the waiting list.  You will receive an email "
+"once a spot opens."
+msgstr ""
+"Votre nom a été ajouté à la liste d'attente. Vous recevrez un email dès "
+"qu'une place sera disponible."
+
+# @ default
+# @ events-planner
+#: ../application/views/front/user-regis-manager/user-regis-dates.php:19
+msgid "ID"
+msgstr "Id"
+
+# @ events-planner
+#: ../application/views/front/user-regis-manager/user-regis-dates.php:33
+msgid "Registered On"
+msgstr "Inscrit sur"
+
+# @ events-planner
+#: ../application/views/widgets/advanced-cal/event-list.php:6
+msgid "No events on this day."
+msgstr "Pas d’événement aujourd'hui"
+
+# @ events-planner
+#: ../application/views/widgets/advanced-cal/form.php:1
+#: ../application/views/widgets/upcoming-events/form.php:2
+msgid "Title"
+msgstr "Titre"
+
+# @ events-planner
+#: ../application/views/widgets/advanced-cal/form.php:2
+msgid "Exclude Past Events?"
+msgstr "Exclure les événements passés"
+
+# @ events-planner
+#: ../application/views/widgets/upcoming-events/form.php:3
+msgid "Title URL (optional)"
+msgstr "Titre url (facultatif)"
+
+# @ events-planner
+#: ../application/views/widgets/upcoming-events/form.php:4
+msgid "Set css class (optional)"
+msgstr "Définir la classe css (facultatif)"
+
+# @ events-planner
+#: ../application/views/widgets/upcoming-events/form.php:6
+msgid "Include events happening in the next"
+msgstr "Inclure les prochains événements "
+
+# @ events-planner
+#: ../application/views/widgets/upcoming-events/form.php:7
+msgid "Limit # events"
+msgstr "Limité à # événements"
+
+# @ events-planner
+#: ../application/views/widgets/upcoming-events/form.php:8
+msgid "Show only:"
+msgstr "Afficher uniquement:"
+
+# @ events-planner
+#: ../application/views/widgets/upcoming-events/form.php:16
+msgid "Exclude Event IDs (comma separated)"
+msgstr "Exclure les ID d'événements (séparé par des virgules)"
+
+# @ events-planner
+#: ../application/views/widgets/upcoming-events/form.php:19
+msgid "Enable Tooltip?"
+msgstr "Activer les infobulles?"
+
+# @ events-planner
+#: ../application/views/widgets/upcoming-events/form.php:25
+msgid "Content to show in tooltip"
+msgstr "Contenu de l'infobulle"
+
+# @ events-planner
+#: ../application/views/widgets/upcoming-events/form.php:30
+msgid "# of words in tooltip"
+msgstr "# mots dans l'infobulle"
+
+# @ events-planner
+#: ../application/views/widgets/upcoming-events/form.php:32
+msgid "Class event type display"
+msgstr "Affichage la classe de l'affichage du type d'événement"
+
+# @ events-planner
+#: ../application/views/widgets/upcoming-events/form.php:39
+msgid "Template"
+msgstr "Template"
+
+# @ events-planner
+#: ../application/views/widgets/upcoming-events/form.php:45
+msgid "Thumbnaill Size"
+msgstr "Taille de la vignette"
+
+# @ events-planner
+#: ../application/views/widgets/upcoming-events/front.php:29
+#: ../application/views/widgets/upcoming-events/front_1.php:29
+#: ../application/views/widgets/upcoming-events/template-1.php:35
+#: ../application/views/widgets/upcoming-events/template-2.php:57
+msgid "No Upcoming Events"
+msgstr "Pas d'événements à venir."
+
+# @ events-planner
+#: ../system/epl-base.php:108
+msgid "Missing file"
+msgstr "Fichier manquant"
+
+# @ events-planner
+#: ../system/epl-init.php:260
+msgid "Form Manager"
+msgstr "Gestionnaire de formulaires"
+
+# @ events-planner
+#: ../system/epl-init.php:343 ../system/epl-init.php:344
+msgid "Add New Event"
+msgstr "Ajouter un événement"
+
+# @ events-planner
+#: ../system/epl-init.php:345
+msgid "Edit Event"
+msgstr "Modifier un événement"
+
+# @ events-planner
+#: ../system/epl-init.php:346
+msgid "New Event"
+msgstr "Nouvel événement"
+
+# @ events-planner
+#: ../system/epl-init.php:347
+msgid "View Event"
+msgstr "Afficher l'événement"
+
+# @ events-planner
+#: ../system/epl-init.php:348
+msgid "Search Events"
+msgstr "Rechercher des événements"
+
+# @ events-planner
+#: ../system/epl-init.php:349
+msgid "No Events Found"
+msgstr "Pas d'événements trouvés"
+
+# @ events-planner
+#: ../system/epl-init.php:350
+msgid "No Events Found In Trash"
+msgstr "Pas d'événements trouvés dans la corbeille"
+
+# @ events-planner
+#: ../system/epl-init.php:351
+msgid "Events Planner"
+msgstr "Events Planner"
+
+# @ events-planner
+#: ../system/epl-init.php:352
+msgid "Manage Events"
+msgstr "Gérer les événements"
+
+# @ events-planner
+#: ../system/epl-init.php:366
+msgid "Registration"
+msgstr "Inscription"
+
+# @ events-planner
+#: ../system/epl-init.php:367 ../system/epl-init.php:368
+msgid "Add New Registration"
+msgstr "Ajouter une nouvelle inscription"
+
+# @ events-planner
+#: ../system/epl-init.php:369
+msgid "Edit Registration"
+msgstr "Modifier l'Inscription"
+
+# @ events-planner
+#: ../system/epl-init.php:371
+msgid "View Registration"
+msgstr "Afficher l'inscription"
+
+# @ events-planner
+#: ../system/epl-init.php:372
+msgid "Search Registrations"
+msgstr "Rechercher des inscriptions"
+
+# @ events-planner
+#: ../system/epl-init.php:373
+msgid "No Registrations Found"
+msgstr "Aucune inscription n'a été trouvée"
+
+# @ events-planner
+#: ../system/epl-init.php:374
+msgid "No Registrations Found In Trash"
+msgstr "Aucune inscription n'a été trouvée dans la corbeille"
+
+# @ events-planner
+#: ../system/epl-init.php:387
+msgid "Locations"
+msgstr "Lieux"
+
+# @ events-planner
+#: ../system/epl-init.php:389 ../system/epl-init.php:390
+msgid "Add New Location"
+msgstr "Ajouter un nouveau lieu"
+
+# @ events-planner
+#: ../system/epl-init.php:391
+msgid "Edit Location"
+msgstr "Editer le lieu"
+
+# @ events-planner
+#: ../system/epl-init.php:392
+msgid "New Location"
+msgstr "Nouveau lieu"
+
+# @ events-planner
+#: ../system/epl-init.php:393
+msgid "View Location"
+msgstr "Afficher le lieu de l'événement"
+
+# @ events-planner
+#: ../system/epl-init.php:394
+msgid "Search Locations"
+msgstr "Rechercher les lieux"
+
+# @ events-planner
+#: ../system/epl-init.php:395
+msgid "No Locations Found"
+msgstr "Aucun lieu n'a été trouvé"
+
+# @ events-planner
+#: ../system/epl-init.php:396
+msgid "No Locations Found In Trash"
+msgstr "Aucun lieu n'a été trouvé dans la corbeille"
+
+# @ events-planner
+#: ../system/epl-init.php:409
+msgid "Payment Profiles"
+msgstr "Profils de paiements"
+
+# @ events-planner
+#: ../system/epl-init.php:410
+msgid "Payment Profile"
+msgstr "Profil du paiement"
+
+# @ events-planner
+#: ../system/epl-init.php:411 ../system/epl-init.php:412
+msgid "Add New Payment Profile"
+msgstr "Ajouter un nouveau profil de paiement"
+
+# @ events-planner
+#: ../system/epl-init.php:413
+msgid "Edit Payment Profiles"
+msgstr "Modifier les profils de paiements"
+
+# @ events-planner
+#: ../system/epl-init.php:414
+msgid "New Payment Profile"
+msgstr "Nouveau profil de paiement"
+
+# @ events-planner
+#: ../system/epl-init.php:415
+msgid "View Payment Profile"
+msgstr "Afficher le profil de paiement"
+
+# @ events-planner
+#: ../system/epl-init.php:416
+msgid "Search Payment Profiles"
+msgstr "Rechercher un profil de paiement"
+
+# @ events-planner
+#: ../system/epl-init.php:417
+msgid "No Payment Profiles Found"
+msgstr "Aucun profil de paiement m'a été trouvé"
+
+# @ events-planner
+#: ../system/epl-init.php:418
+msgid "No Payment Profiles Found In Trash"
+msgstr "Aucun profil de paiement m'a été trouvé dans la corbeille"
+
+# @ events-planner
+#: ../system/epl-init.php:431
+msgid "Notification Manager"
+msgstr "Gestionnaire des notifications"
+
+# @ events-planner
+#: ../system/epl-init.php:432
+msgid "Notification"
+msgstr "Notification"
+
+# @ events-planner
+#: ../system/epl-init.php:433 ../system/epl-init.php:434
+msgid "Add New Notification"
+msgstr "Ajouter une nouvelle notification"
+
+# @ events-planner
+#: ../system/epl-init.php:435
+msgid "Edit Notifications"
+msgstr "Modifier une notification"
+
+# @ events-planner
+#: ../system/epl-init.php:436
+msgid "New Notification"
+msgstr "Nouvelle notification"
+
+# @ events-planner
+#: ../system/epl-init.php:437
+msgid "View Notification"
+msgstr "Afficher la notification"
+
+# @ events-planner
+#: ../system/epl-init.php:438
+msgid "Search Notifications"
+msgstr "Chercher les notifications"
+
+# @ events-planner
+#: ../system/epl-init.php:439
+msgid "No Notifications Found"
+msgstr "Aucune notification trouvée"
+
+# @ events-planner
+#: ../system/epl-init.php:440
+msgid "No Notifications Found In Trash"
+msgstr "Aucune notification trouvée dans la corbeille"
+
+# @ events-planner
+#: ../system/epl-init.php:453
+msgid "Organizations"
+msgstr "Organisateurs"
+
+# @ events-planner
+#: ../system/epl-init.php:455 ../system/epl-init.php:456
+msgid "Add New Organization"
+msgstr "Ajouter un nouvel organisateur"
+
+# @ events-planner
+#: ../system/epl-init.php:457
+msgid "Edit Organization"
+msgstr "Modifier l'organisateur"
+
+# @ events-planner
+#: ../system/epl-init.php:458
+msgid "New Organization"
+msgstr "Nouvelle organisateur"
+
+# @ events-planner
+#: ../system/epl-init.php:459
+msgid "View Organization"
+msgstr "Afficher l'organisateur"
+
+# @ events-planner
+#: ../system/epl-init.php:460
+msgid "Search Organizations"
+msgstr "Rechercher les organisateurs"
+
+# @ events-planner
+#: ../system/epl-init.php:461
+msgid "No Payment Organizations Found"
+msgstr "Aucune société de paiement trouvée."
+
+# @ events-planner
+#: ../system/epl-init.php:462
+msgid "No Payment Organizations Found In Trash"
+msgstr "Aucune société de paiement trouvée dans la corbeille"
+
+# @ events-planner
+#: ../system/epl-init.php:490
+msgid "Event Categories"
+msgstr "Catégories d'événement"
+
+# @ events-planner
+#: ../system/epl-init.php:491
+msgid "Event Category"
+msgstr "Catégorie d'événement"
+
+# @ events-planner
+#: ../system/epl-init.php:492
+msgid "Edit Event Category"
+msgstr "Modifier la catégorie d'événement"
+
+# @ events-planner
+#: ../system/epl-init.php:493
+msgid "Update Event Category"
+msgstr "Mettre à jour la catégorie d'événement"
+
+# @ events-planner
+#: ../system/epl-init.php:494
+msgid "Add New Event Category"
+msgstr "Ajouter une catégorie d'événement"
+
+# @ events-planner
+#: ../system/epl-init.php:495
+msgid "New Event Category Name"
+msgstr "Nom de la nouvelle catégorie d'événement"
+
+# @ events-planner
+#: ../system/epl-init.php:496
+msgid "All Event Categories"
+msgstr "Toutes les catégories d'événement"
+
+# @ events-planner
+#: ../system/epl-init.php:497
+msgid "Search Event Categories"
+msgstr "Rechercher les catégoriez d'événement"
+
+# @ events-planner
+#: ../system/epl-init.php:498
+msgid "Parent Category"
+msgstr "Catégorie parente"
+
+# @ events-planner
+#: ../system/epl-init.php:499
+msgid "Parent Category:"
+msgstr "Catégorie parente:"
+
+# @ events-planner
+#: ../system/epl-init.php:516
+msgid "Event Tags"
+msgstr "Mots-clés des événéments"
+
+# @ events-planner
+#: ../system/epl-init.php:517
+msgid "Tag"
+msgstr "Mot-clé"
+
+# @ events-planner
+#: ../system/epl-init.php:518
+msgid "Edit Tag"
+msgstr "Éditer le mot-clé"
+
+# @ events-planner
+#: ../system/epl-init.php:519
+msgid "Update Tag"
+msgstr "Mettre à jour le mot-clé"
+
+# @ events-planner
+#: ../system/epl-init.php:520
+msgid "Add New Tag"
+msgstr "Ajouter un mot-clé"
+
+# @ events-planner
+#: ../system/epl-init.php:521
+msgid "New Tag Name"
+msgstr "Nom du nouveau mot-clé"
+
+# @ events-planner
+#: ../system/epl-init.php:522
+msgid "All Tag"
+msgstr "Tous les mots-clés"
+
+# @ events-planner
+#: ../system/epl-init.php:523
+msgid "Search Tag"
+msgstr "Rechercher des mots-clés"
+
+# @ events-planner
+#: ../system/epl-init.php:524
+msgid "Parent Tag"
+msgstr "Mot-clé parent"
+
+# @ events-planner
+#: ../system/epl-init.php:525
+msgid "Parent Tag:"
+msgstr "Mot-clé parent:"

@@ -1,0 +1,2 @@
+<p><?php epl_e('Title'); ?> <input class="widefat" name="<?php echo $w->get_field_name( 'title' ); ?>"  type="text" value="<?php echo esc_attr( $title ); ?>" /></p>
+<p><?php epl_e('Exclude Past Events?'); ?> <input name="<?php echo $w->get_field_name( 'exclude_past_events' ); ?>"  type="checkbox" <?php checked( $exclude_past_events, 'on' ); ?> /></p>

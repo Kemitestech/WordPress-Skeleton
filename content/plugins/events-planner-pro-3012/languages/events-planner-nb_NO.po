@@ -1,0 +1,2073 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Events Planner v1.1.12\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-02-20 22:03-0700\n"
+"PO-Revision-Date: 2014-02-14 12:07+0100\n"
+"Last-Translator: Johan <johan@wetterberg.se>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: epl__;epl_e;__;_e\n"
+"X-Poedit-Basepath: ../\n"
+"Language: nb_NO\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: application/config/event-fields.php:19
+#, php-format
+msgid "User can only register for %s one day %s."
+msgstr "Brukeren kan bare booke %s en dag %s."
+
+#: application/config/event-fields.php:35
+msgid "Price Type"
+msgstr "Pristype"
+
+#: application/config/event-fields.php:42
+msgid "Price"
+msgstr "Pris"
+
+#: application/config/event-fields.php:48
+#: application/config/event-fields.php:571
+msgid "Min."
+msgstr ""
+
+#: application/config/event-fields.php:56
+msgid "Max."
+msgstr ""
+
+#: application/config/event-fields.php:63
+msgid "Show 0?"
+msgstr "Vis 0?"
+
+#: application/config/event-fields.php:78
+#: application/config/event-fields.php:133
+msgid "Hide"
+msgstr "Skjul"
+
+#: application/config/event-fields.php:94
+msgid "Is this a free event? "
+msgstr "Er dette eventet gratis?"
+
+#: application/config/event-fields.php:101
+msgid ""
+"If the user can register for more than one day, do the following prices "
+"apply to: "
+msgstr "Om brukeren kan booke flere dager gjelder følgende priser:"
+
+#: application/config/event-fields.php:102
+msgid ""
+"If you are offering multiple days, this will determine if the user pays per "
+"day or for the whole event."
+msgstr ""
+"Om du tilbyr flere dager avgjører dette om brukeren betalar per dag eller "
+"fÃ¶r hela eventet."
+
+#: application/config/event-fields.php:103
+msgid "The Whole Event"
+msgstr "Hele eventet"
+
+#: application/config/event-fields.php:103
+#: application/config/event-fields.php:523
+#: application/config/event-fields.php:530
+msgid "Each Event Date"
+msgstr "Hver eventdato"
+
+#: application/config/event-fields.php:119
+msgid "Start Time"
+msgstr "Starttid"
+
+#: application/config/event-fields.php:126
+msgid "End Time"
+msgstr "Sluttid"
+
+#: application/config/event-fields.php:146
+msgid "Start Date"
+msgstr "Startdato"
+
+#: application/config/event-fields.php:155
+msgid "End Date"
+msgstr "Slutdatum"
+
+#: application/config/event-fields.php:163
+msgid "Regis. Starts On"
+msgstr "Reg. begynner"
+
+#: application/config/event-fields.php:171
+msgid "Regis. Ends On"
+msgstr "Reg. slutter"
+
+#: application/config/event-fields.php:179
+msgid "Capacity"
+msgstr "Kapasitet"
+
+#: application/config/event-fields.php:187
+msgid "Note"
+msgstr "Notat"
+
+#: application/config/event-fields.php:206
+msgid "Session Date"
+msgstr "Delmoment dato"
+
+#: application/config/event-fields.php:216
+msgid "Session Name"
+msgstr "Delmoment navn"
+
+#: application/config/event-fields.php:222
+msgid "Session Note"
+msgstr "Delmoment notat"
+
+#: application/config/event-fields.php:296
+msgid "Sun"
+msgstr "søn"
+
+#: application/config/event-fields.php:297
+msgid "Mon"
+msgstr "man"
+
+#: application/config/event-fields.php:298
+msgid "Tue"
+msgstr "tirs"
+
+#: application/config/event-fields.php:299
+msgid "Wed"
+msgstr "ons"
+
+#: application/config/event-fields.php:300
+msgid "Thu"
+msgstr "tors"
+
+#: application/config/event-fields.php:301
+msgid "Fri"
+msgstr "fre"
+
+#: application/config/event-fields.php:302
+msgid "Sat"
+msgstr "lør"
+
+#: application/config/event-fields.php:312
+msgid "Day of Month"
+msgstr "Dag i måneden"
+
+#: application/config/event-fields.php:315
+msgid ""
+"Coming soon, ability to select per week of the month (i.e. first, second, "
+"last week)."
+msgstr ""
+
+#: application/config/event-fields.php:343
+msgid "Ticket buyer form"
+msgstr "Billettkjøperskjema"
+
+#: application/config/event-fields.php:346
+msgid ""
+"AT LEAST ONE FORM IS REQUIRED.  This is the form that you will use for "
+"collecting information from the person that is doing the registration."
+msgstr ""
+"MINST ET SKJEMA ER PÅKREVET. Dette er skjemaet du bruker for å samle "
+"informasjon fra personen som registrer seg."
+
+#: application/config/event-fields.php:351
+msgid "Forms for all attendees"
+msgstr "Skjema for alle deltakere"
+
+#: application/config/event-fields.php:353
+msgid ""
+"This information will be collected from all the attendees.  If you do not "
+"need to collect individual information and only need the quantity, do not "
+"select any of these forms."
+msgstr ""
+"Denne informasjonen blir samlet fra alle deltakere. Dersom du ikke trenger å "
+"samle individuell informasjon og bare trenger antallet, ikke velg noen av "
+"disse skjemaene."
+
+#: application/config/event-fields.php:366
+msgid "Event Location"
+msgstr "Eventområde"
+
+#: application/config/event-fields.php:372
+msgid "Enter more specific information about the location."
+msgstr "Legg inn mer spesifikk informasjon om området."
+
+#: application/config/event-fields.php:379
+msgid "Payment Choices"
+msgstr "Betalingsalternativ"
+
+#: application/config/event-fields.php:387
+msgid "Organization hosting the event"
+msgstr "Vertsorganisasjon for eventet"
+
+#: application/config/event-fields.php:399
+msgid "Event Status"
+msgstr "Eventstatus"
+
+#: application/config/event-fields.php:401
+msgid "Inactive"
+msgstr "Inaktiv"
+
+#: application/config/event-fields.php:402
+msgid "Active"
+msgstr "Aktiv"
+
+#: application/config/event-fields.php:403
+msgid "Cancelled"
+msgstr "Avlyst"
+
+#: application/config/event-fields.php:412
+msgid "Show Registration Button"
+msgstr "Vis registeringsknapp"
+
+#: application/config/event-fields.php:427
+msgid "Date Display Type"
+msgstr "Visningsalternativ for dato"
+
+#: application/config/event-fields.php:428
+#: application/config/event-fields.php:436
+msgid "None"
+msgstr "Ingen"
+
+#: application/config/event-fields.php:428
+msgid "Table"
+msgstr "Tabell"
+
+#: application/config/event-fields.php:428
+msgid "Calendar"
+msgstr "Kalender"
+
+#: application/config/event-fields.php:429
+msgid ""
+"Determines if the dates displayed on the event list are in table format or "
+"in small calendar format."
+msgstr ""
+"Avgjlr in datoen på eventlisten vises i tabellformat eller som liten "
+"kalender."
+
+#: application/config/event-fields.php:435
+msgid "Content Display Type"
+msgstr "Innholdets fremvisningstype"
+
+#: application/config/event-fields.php:436
+msgid "Excerpt"
+msgstr "Utdrag"
+
+#: application/config/event-fields.php:436
+msgid "Content"
+msgstr "Innhold"
+
+#: application/config/event-fields.php:437
+msgid "Determines which content to display in the event list."
+msgstr "Avgjør hvilket innhold som skal vises i eventlisten."
+
+#: application/config/event-fields.php:443
+msgid "Display times on the event list?"
+msgstr "Vis tider i eventlisten?"
+
+#: application/config/event-fields.php:450
+msgid "Display available spaces?"
+msgstr "Vise plasser?"
+
+#: application/config/event-fields.php:457
+msgid "Display Organization Info"
+msgstr "Vise organisasjonsinfo."
+
+#: application/config/event-fields.php:458
+msgid "Display the Organization info on the event list?"
+msgstr "Vise organisasjonsinfo. på eventlisten?"
+
+#: application/config/event-fields.php:465
+msgid "Alternate Notification Emails"
+msgstr "Alternativ e-post for beskjeder"
+
+#: application/config/event-fields.php:466
+msgid ""
+"Enter a comma separated list of email addresses that you would like to send "
+"the registration confirmation emails to."
+msgstr ""
+"Fyll i kommaseparert e-postliste med de mottakere som skal få "
+"registreringsbekreftelse."
+
+#: application/config/event-fields.php:471
+msgid "Calendar/Widget link destination"
+msgstr "Mål for kalender/widget lenke"
+
+#: application/config/event-fields.php:472
+msgid "Registration Page"
+msgstr "Registeringsside"
+
+#: application/config/event-fields.php:472
+msgid "Event Details"
+msgstr "Eventdetaljer"
+
+#: application/config/event-fields.php:482
+msgid "Event Capacity"
+msgstr "Eventkapasitet"
+
+#: application/config/event-fields.php:488
+msgid "Per"
+msgstr "per"
+
+#: application/config/event-fields.php:491
+msgid "The Event"
+msgstr "Eventet"
+
+#: application/config/event-fields.php:492
+#: application/controllers/epl-event-manager.php:135
+msgid "Dates"
+msgstr "Dato"
+
+#: application/config/event-fields.php:493
+msgid "Times"
+msgstr "Tider"
+
+#: application/config/event-fields.php:494
+msgid "Prices"
+msgstr "Priser"
+
+#: application/config/event-fields.php:516
+#: application/config/event-fields.php:523
+#: application/config/event-fields.php:530
+msgid "Event"
+msgstr "Event"
+
+#: application/config/event-fields.php:516
+msgid "Event Date"
+msgstr "Eventdato"
+
+#: application/config/event-fields.php:516
+#: application/config/event-fields.php:523
+#: application/config/event-fields.php:530
+msgid "Each Event Price"
+msgstr "Enkelteventpris"
+
+#: application/config/event-fields.php:523
+#: application/config/event-fields.php:530
+msgid "Each Event Time Slot"
+msgstr "Enkeltevents tidsperiode"
+
+#: application/config/event-fields.php:540
+msgid "Message Location"
+msgstr "Plass til melding"
+
+#: application/config/event-fields.php:543
+msgid "All registration pages - top"
+msgstr "Alle registreringssider - topp"
+
+#: application/config/event-fields.php:544
+msgid "All registration pages - bottom"
+msgstr "Alle registeringssider - bunn"
+
+#: application/config/event-fields.php:545
+msgid "Cart - top"
+msgstr "Handlekurv - topp"
+
+#: application/config/event-fields.php:546
+msgid "Cart - bottom"
+msgstr "Handlekurv bunn"
+
+#: application/config/event-fields.php:547
+msgid "Registration form - top"
+msgstr "Registeringsskjema - topp"
+
+#: application/config/event-fields.php:548
+msgid "Registration form - bottom"
+msgstr "Registeringsskjema  - bunn"
+
+#: application/config/event-fields.php:549
+msgid "Registration complete - top"
+msgstr "Registering klar - topp"
+
+#: application/config/event-fields.php:550
+msgid "Registration complete - bottom"
+msgstr "Registering klar - botten"
+
+#: application/config/event-fields.php:561
+msgid "Info"
+msgstr "Info"
+
+#: application/config/event-fields.php:562
+msgid "Success"
+msgstr "Suksess"
+
+#: application/config/event-fields.php:563
+msgid "Warning"
+msgstr "Advarsel"
+
+#: application/config/event-fields.php:564
+msgid "Error"
+msgstr "Feil"
+
+#: application/config/form-fields.php:14
+msgid "Will be used in the field label."
+msgstr "Vil brukes som <i>field lable</i>."
+
+#: application/config/form-fields.php:20
+msgid "Input Slug"
+msgstr "<i>Input slug</i>"
+
+#: application/config/form-fields.php:21
+msgid ""
+"Will be used in email templates. Ex. your_city, your_weight, height...  DO "
+"NOT CHANGE for email, first_name, last_name."
+msgstr ""
+"Brukes i e-post. Fir eksempel din by, vekt, lengde.  IKKE ENDRE email, "
+"first_name, last_name."
+
+#: application/config/form-fields.php:52
+msgid "Will be displayed below the field.  Can be used as help text."
+msgstr "Vises under feltet. Kan brukes som hjelpetekst."
+
+#: application/config/form-fields.php:72
+msgid "Default value for the field, ONLY FOR Text, Hidden, Textarea (for now)."
+msgstr "Standardverdi for feltet. BARE FOR Text, Hidden, Textarea (foreløpig)."
+
+#: application/config/form-fields.php:81 application/config/form-fields.php:92
+msgid "More Coming Soon."
+msgstr "Mer kommer snart."
+
+#: application/config/form-fields.php:140
+msgid "Will be used in emails."
+msgstr "Brukes i e-post."
+
+#: application/config/gateway-fields.php:9
+msgid "Payment Type"
+msgstr "Betalingsmetode"
+
+#: application/config/gateway-fields.php:14
+#: application/config/gateway-fields.php:25
+msgid "PayPal Express Checkout"
+msgstr ""
+
+#: application/config/gateway-fields.php:26
+#, php-format
+msgid "Visit %s for more information."
+msgstr "Besøk %s for mer informasjon."
+
+#: application/config/gateway-fields.php:26
+#: application/config/sys-messages.php:19
+msgid "here"
+msgstr "her"
+
+#: application/config/gateway-fields.php:37
+msgid "Label"
+msgstr "Etikett"
+
+#: application/config/gateway-fields.php:38
+#, php-format
+msgid ""
+"What the customer will see as an option.  PayPal requires you to use one of "
+"their %s"
+msgstr ""
+"Det kunden vil se som alternativ. PayPal krever att du bruker en av deres %s"
+
+#: application/config/gateway-fields.php:38
+msgid "buttons"
+msgstr "knapper"
+
+#: application/config/gateway-fields.php:44
+msgid "Pre Redirect Message"
+msgstr ""
+
+#: application/config/gateway-fields.php:45
+msgid "This will be displayed before the user is redirected to PayPal"
+msgstr "Dette blir vist før brukeren blir sendt til PayPal"
+
+#: application/config/gateway-fields.php:51
+msgid "API Username"
+msgstr "API brukernavn"
+
+#: application/config/gateway-fields.php:52
+msgid "Ex: some_api1.youremailaddress.com"
+msgstr ""
+
+#: application/config/gateway-fields.php:59
+msgid "API Password"
+msgstr "API passord"
+
+#: application/config/gateway-fields.php:60
+msgid "Ex: SDFE23D5SFD324"
+msgstr ""
+
+#: application/config/gateway-fields.php:67
+msgid "Signature"
+msgstr "Signatur"
+
+#: application/config/gateway-fields.php:68
+msgid "Will be a very long string. Ex. SRl31AbcSd9fIqew......"
+msgstr "Blir en veldig lang streng. For eksempel SRl31AbcSd9fIqew......"
+
+#: application/config/gateway-fields.php:75
+msgid "PayPal Landing Page"
+msgstr "PayPal Landingsside"
+
+#: application/config/gateway-fields.php:76
+msgid ""
+"If \"PayPal Account Optional\" is set to \"on\" inside your PayPal account, "
+"this option selects which section the users see by default when they reach "
+"PayPal."
+msgstr ""
+
+#: application/config/gateway-fields.php:77
+msgid "PayPal account login"
+msgstr "PayPalkonto login"
+
+#: application/config/gateway-fields.php:77
+msgid "Non-PayPal account, for credit/debit cards"
+msgstr "Ingen PayPalkonto, for kreditt-/betalingskort"
+
+#: application/config/gateway-fields.php:83
+msgid "Test Mode?"
+msgstr "Testmodus?"
+
+#: application/config/gateway-fields.php:85
+msgid "If yes, please make sure you use Sandbox credentials above."
+msgstr "Om ja, kontroller at du bruker <i>Sandbox credentials</i> over."
+
+#: application/config/location-fields.php:9
+#: application/config/org-fields.php:11
+msgid "Address"
+msgstr "Adresse"
+
+#: application/config/location-fields.php:14
+#: application/config/org-fields.php:16
+msgid "Address 2"
+msgstr "Adresse 2"
+
+#: application/config/location-fields.php:20
+#: application/config/org-fields.php:31
+msgid "City"
+msgstr "By"
+
+#: application/config/location-fields.php:25
+#: application/config/org-fields.php:26
+msgid "State"
+msgstr "Stat"
+
+#: application/config/location-fields.php:30
+#: application/config/org-fields.php:21
+msgid "Zip"
+msgstr "Postnummer"
+
+#: application/config/location-fields.php:34
+#: application/config/org-fields.php:41
+msgid "Phone"
+msgstr "Telefon"
+
+#: application/config/location-fields.php:38
+#: application/config/org-fields.php:46
+msgid "Email"
+msgstr "E-post"
+
+#: application/config/location-fields.php:43
+#: application/config/org-fields.php:51
+msgid "Website"
+msgstr "Nettside"
+
+#: application/config/location-fields.php:44
+msgid "Please enter http://..."
+msgstr "Angi http://..."
+
+#: application/config/location-fields.php:50
+msgid "Display map link icon?"
+msgstr "Vis ikon for kartlenke?"
+
+#: application/config/location-fields.php:51
+msgid "If yes, a map icon will be displayed on the event list."
+msgstr "Om ja, kommer et kartikon vises i eventlisten."
+
+#: application/config/location-fields.php:57
+#: application/config/location-fields.php:65
+msgid "longitude"
+msgstr "lengdegrad"
+
+#: application/config/location-fields.php:58
+#: application/config/location-fields.php:66
+msgid ""
+"This information is automatically obtained from Google when this record is "
+"saved.  Address, City, State are required."
+msgstr ""
+"Denne informasjonen hentes automatisk fra Google når dette lagres. Adresse, "
+"by, (og stat) kreves."
+
+#: application/config/location-fields.php:72
+#: application/config/regis-fields.php:86
+msgid "Notes"
+msgstr "Notater"
+
+#: application/config/notification-fields.php:9
+msgid "From Name"
+msgstr "Fra, navn"
+
+#: application/config/notification-fields.php:15
+msgid "From Email"
+msgstr "Fra, e-post"
+
+#: application/config/notification-fields.php:21
+msgid "Email Subject"
+msgstr "Emne"
+
+#: application/config/org-fields.php:36
+msgid "Zip Code"
+msgstr "Postnummer"
+
+#: application/config/regis-fields.php:10
+msgid "Payment Method"
+msgstr "Betalningsmetode"
+
+#: application/config/regis-fields.php:20
+msgid "Regis. Status"
+msgstr "Reg.status"
+
+#: application/config/regis-fields.php:34
+msgid "Total Due"
+msgstr "Sum kostnad"
+
+#: application/config/regis-fields.php:41
+msgid "Total Paid"
+msgstr "Sum betalt"
+
+#: application/config/regis-fields.php:48
+msgid "Date Paid"
+msgstr "Dato betalat"
+
+#: application/config/regis-fields.php:79
+msgid "Trans. ID"
+msgstr ""
+
+#: application/config/settings-fields.php:10
+msgid "Sort Events By"
+msgstr "Sorter events etter"
+
+#: application/config/settings-fields.php:11
+msgid "Date Published"
+msgstr "Publiseringsdato"
+
+#: application/config/settings-fields.php:11
+#: application/controllers/epl-event-manager.php:529
+msgid "Event Name"
+msgstr "Eventnavn"
+
+#: application/config/settings-fields.php:11
+msgid "Event Start Date"
+msgstr "Startdato, event"
+
+#: application/config/settings-fields.php:17
+msgid "Sort Order"
+msgstr "Ordning"
+
+#: application/config/settings-fields.php:18
+msgid "Ascending"
+msgstr "Stigende"
+
+#: application/config/settings-fields.php:18
+msgid "Descending"
+msgstr "Synkende"
+
+#: application/config/settings-fields.php:23
+msgid "Currency Code"
+msgstr "Valutakode"
+
+#: application/config/settings-fields.php:24
+msgid "This will be used in payment gateways. "
+msgstr "Detta brukes i betalingsportaler."
+
+#: application/config/settings-fields.php:30
+msgid "Currency Symbol"
+msgstr "Valutasymbol"
+
+#: application/config/settings-fields.php:31
+msgid ""
+"This will appear next to all the currency figures on the website.  Ex. $, "
+"USD... "
+msgstr "Vises ved siden av valutabeløp på nettsiden. For eksempel. $, USD... "
+
+#: application/config/settings-fields.php:38
+msgid "Currency display format"
+msgstr "Visningsformat for valuta"
+
+#: application/config/settings-fields.php:39
+msgid ""
+"This determines how your currency is displayed.  Ex. 1,234.56 or 1,200 or "
+"1200.  This is only used for display purposes."
+msgstr ""
+"Avgjør hvordan priser vises.  For eksempel. 1,234.56 eller 1,200 eller "
+"1200.  Bare i visningsøyemed."
+
+#: application/config/settings-fields.php:44
+msgid "Shortcode Page"
+msgstr "Shortcode-side"
+
+#: application/config/settings-fields.php:45
+msgid ""
+"Required.  Please select the field that contains the [events_planner] "
+"shortcode. "
+msgstr "Obligatorisk. Velg feltet som inneholder [events_planner] shortcode."
+
+#: application/config/settings-fields.php:53
+msgid "Admin Date Format"
+msgstr "Admin datoformat"
+
+#: application/config/settings-fields.php:54
+msgid ""
+"This date format is used for displaying dates on the Admin screens of Events "
+"Planner.  On the front end, the WordPress General settings date is used."
+msgstr ""
+"Dette datifirmatet blir brukt for å vise datoer for visning av datoer i "
+"<i>backend</i>. I <i>frontend</i> brukes WordPress' generelle instillninger."
+
+#: application/config/settings-fields.php:61
+msgid "Disable Default CSS?"
+msgstr "Avaktiver standard-CSS?"
+
+#: application/config/settings-fields.php:62
+msgid ""
+"ADVANCED: If disabled, the default css file (events-planner > css > events-"
+"planner-style1.css) will not be loaded.  <br />This way, you can copy the "
+"contents of that file into your theme's style.css and modify any way you "
+"would like."
+msgstr ""
+"AVANSERT: Om den deaktiveres lades ikke  standard-css:en (events-planner > "
+"css > events-planner-style1.css).<br />På denne måten kan du kopiere "
+"innholdet i den til temaets style.css og modifisere etter eget ønske."
+
+#: application/config/settings-fields.php:73
+msgid "Registration ID length?"
+msgstr "Lengde på reg.ID?"
+
+#: application/config/settings-fields.php:74
+msgid "This will be an alphanumeric string."
+msgstr "Blir en alfanumerisk streng."
+
+#: application/config/settings-fields.php:80
+msgid "Enable SSL for registrations?"
+msgstr "Aktiver SSL for registrering?"
+
+#: application/config/settings-fields.php:81
+#, fuzzy, php-format
+msgid ""
+"%sIf you plan on accepting Credit Cards on your website, this must be set to "
+"Yes for PCI Compliance.  You need to have a SSL Certificate installed for "
+"this domain.%s"
+msgstr ""
+"%sOm du tÃ¤nker acceptera kreditkort pÃ¥ din webbplats mÃ¥ste detta vÃ¤rde "
+"vara JA fÃ¶r PCI kompatibilitet.%s"
+
+#: application/config/settings-fields.php:97
+msgid "Registration Button Text "
+msgstr "Registeringsknappstekst"
+
+#: application/config/settings-fields.php:98
+msgid "Register, Sign Up, Buy Tickets..."
+msgstr "Register deg,  meld deg på, kjøp billetter..."
+
+#: application/config/settings-fields.php:104
+msgid "Enable Date Specific Location"
+msgstr "Aktiver datospesifikk plass"
+
+#: application/config/settings-fields.php:105
+msgid "This setting will let you indicate a specific location for each date."
+msgstr "Innstillingen lar deg spesifisere forskjellig område for hver dato."
+
+#: application/config/sys-messages.php:6
+msgid "Sorry but something must have gone wrong."
+msgstr "Dessverre har noe gått galt."
+
+#: application/config/sys-messages.php:7
+msgid "Please select a quantity"
+msgstr "Velg antall"
+
+#: application/config/sys-messages.php:8
+msgid "Please select a date"
+msgstr "Velg en dato"
+
+#: application/config/sys-messages.php:9
+msgid "Please select a time"
+msgstr "Velg en tid"
+
+#: application/config/sys-messages.php:10
+msgid "Sold Out"
+msgstr "Utsolgt"
+
+#: application/config/sys-messages.php:11
+msgid "Registration Closed"
+msgstr "Registeringen stengt"
+
+#: application/config/sys-messages.php:12
+msgid "The quantity selected exceeds the number of available spaces"
+msgstr "Det valgte antallet overskrider antallet tillgjengelige plasser"
+
+#: application/config/sys-messages.php:13
+msgid "Please select a date."
+msgstr "Velg en dato"
+
+#: application/config/sys-messages.php:16
+#, php-format
+msgid ""
+"Hi there.  If you are seeing this error, you need to enter a Support License "
+"Key or your key is invalid.\n"
+"        If you have already purchased a Support License Key, please go %s "
+"(Events Planner > Settings > API Settings tab) and enter it in the API "
+"Settings tab.\n"
+"        If you need to get one, please go to %s.  If at any point you are "
+"having issues, please contact Events Planner Helpdesk at "
+"help@wpeventsplanner.com.  Thank you. "
+msgstr ""
+
+#: application/config/sys-messages.php:20
+msgid "Events Planner Website"
+msgstr "Events Planner webside"
+
+#: application/controllers/epl-event-manager.php:59
+msgid "Enter Event Name Here"
+msgstr "Fyll inn eventnavn"
+
+#: application/controllers/epl-event-manager.php:139
+msgid "Times and Prices"
+msgstr "Tider og priser"
+
+#: application/controllers/epl-event-manager.php:141
+msgid "Settings"
+msgstr "Instillinger"
+
+#: application/controllers/epl-event-manager.php:145
+msgid "Options"
+msgstr "Alternativ"
+
+#: application/controllers/epl-event-manager.php:530
+msgid "Status"
+msgstr "Status"
+
+#: application/controllers/epl-event-manager.php:532
+msgid "Author"
+msgstr "Forfatter"
+
+#: application/controllers/epl-front.php:141
+msgid "Register"
+msgstr "Registrer"
+
+#: application/controllers/epl-front.php:274
+#: application/controllers/epl-front.php:298
+msgid "Next"
+msgstr "Neste"
+
+#: application/controllers/epl-front.php:346
+msgid "Confirm and Complete"
+msgstr "Bekreft og sluttfør"
+
+#: application/controllers/epl-front.php:358
+msgid "Confirm and Continue to PayPal"
+msgstr "Bekreft og fortsett til PayPal"
+
+#: application/controllers/epl-front.php:370
+msgid "Process Payment And Complete"
+msgstr "Gjennomfør betalning og sluttfør"
+
+#: application/controllers/epl-front.php:644
+msgid "Registration Confirmation"
+msgstr "Registeringsbekreftelse"
+
+#: application/controllers/epl-front.php:664
+msgid "New Registration"
+msgstr "Ny registrering"
+
+#: application/controllers/epl-location-manager.php:53
+msgid "Location Information"
+msgstr "Plassinformasjon"
+
+#: application/controllers/epl-location-manager.php:104
+#: application/controllers/epl-org-manager.php:103
+msgid "ID"
+msgstr ""
+
+#: application/controllers/epl-notification-manager.php:56
+msgid "Notification Options"
+msgstr "Beskjedalternativ"
+
+#: application/controllers/epl-notification-manager.php:57
+msgid "Available Tags"
+msgstr "Tilgjengelige tags"
+
+#: application/controllers/epl-notification-manager.php:102
+msgid "Please use the form manager to add a slug for this field"
+msgstr "Bruk skjemaansvarlig for å legge til en \"slug\" for dette feltet"
+
+#: application/controllers/epl-org-manager.php:68
+msgid "Organization Info"
+msgstr "Organisasjonsinfo"
+
+#: application/controllers/epl-org-manager.php:102
+msgid "Organization"
+msgstr "Organisasjon"
+
+#: application/controllers/epl-org-manager.php:106
+#: application/controllers/epl-pay-profile-manager.php:149
+msgid "Created By"
+msgstr "Skapt av"
+
+#: application/controllers/epl-pay-profile-manager.php:96
+msgid "Payment Profile Details"
+msgstr "Detaljer for betalingsprofil"
+
+#: application/controllers/epl-pay-profile-manager.php:146
+msgid "Type"
+msgstr "Type"
+
+#: application/controllers/epl-registration-manager.php:270
+msgid "Regis ID"
+msgstr "Reg.ID"
+
+#: application/controllers/epl-registration-manager.php:271
+msgid "Regis Date"
+msgstr "Reg.dato"
+
+#: application/controllers/epl-registration-manager.php:273
+msgid "Time"
+msgstr "Tid"
+
+#: application/controllers/epl-registration-manager.php:274
+msgid "Ticket"
+msgstr "Billett"
+
+#: application/controllers/epl-registration-manager.php:277
+msgid "Total"
+msgstr "Totalt"
+
+#: application/controllers/epl-registration-manager.php:278
+msgid "Amount Paid"
+msgstr "Betalt beløp"
+
+#: application/controllers/epl-registration-manager.php:350
+msgid "Registrant"
+msgstr "Registrant"
+
+#: application/controllers/epl-registration-manager.php:353
+msgid "Attendee"
+msgstr "Deltager"
+
+#: application/controllers/epl-registration-manager.php:472
+msgid "Ability to add attendees coming soon."
+msgstr ""
+
+#: application/controllers/epl-registration-manager.php:597
+msgid "Registration Information"
+msgstr "Registreringsinformasjon"
+
+#: application/controllers/epl-registration-manager.php:598
+msgid "Payment Information"
+msgstr "Betalningsinformasjon"
+
+#: application/controllers/epl-registration-manager.php:641
+msgid "Attendees"
+msgstr "Deltager"
+
+#: application/controllers/epl-registration-manager.php:642
+msgid "Registration ID"
+msgstr "Registrerings ID"
+
+#: application/controllers/epl-registration-manager.php:644
+msgid "# Attendees"
+msgstr "# Deltagere"
+
+#: application/controllers/epl-registration-manager.php:645
+msgid "Payment Status"
+msgstr "Betalingsstatus"
+
+#: application/helpers/common-helper.php:52
+msgid "No"
+msgstr "Nei"
+
+#: application/helpers/common-helper.php:52
+msgid "Yes"
+msgstr "Ja"
+
+#: application/helpers/common-helper.php:64
+msgid "Off"
+msgstr "Av"
+
+#: application/helpers/common-helper.php:64
+msgid "On"
+msgstr "På"
+
+#: application/helpers/common-helper.php:87
+#: application/libraries/epl-calendar.php:359
+msgid "Jan"
+msgstr "Jan"
+
+#: application/helpers/common-helper.php:88
+#: application/libraries/epl-calendar.php:360
+msgid "Feb"
+msgstr "Feb"
+
+#: application/helpers/common-helper.php:89
+#: application/libraries/epl-calendar.php:361
+msgid "Mar"
+msgstr "Mar"
+
+#: application/helpers/common-helper.php:90
+#: application/libraries/epl-calendar.php:362
+msgid "Apr"
+msgstr "Apr"
+
+#: application/helpers/common-helper.php:91
+#: application/libraries/epl-calendar.php:363
+#: application/libraries/epl-calendar.php:378
+msgid "May"
+msgstr "Mai"
+
+#: application/helpers/common-helper.php:92
+#: application/libraries/epl-calendar.php:364
+msgid "Jun"
+msgstr "Jun"
+
+#: application/helpers/common-helper.php:93
+#: application/libraries/epl-calendar.php:365
+msgid "Jul"
+msgstr "Jul"
+
+#: application/helpers/common-helper.php:94
+#: application/libraries/epl-calendar.php:366
+msgid "Aug"
+msgstr "Aug"
+
+#: application/helpers/common-helper.php:95
+#: application/libraries/epl-calendar.php:367
+msgid "Sep"
+msgstr "Sep"
+
+#: application/helpers/common-helper.php:96
+#: application/libraries/epl-calendar.php:368
+msgid "Oct"
+msgstr "Okt"
+
+#: application/helpers/common-helper.php:97
+#: application/libraries/epl-calendar.php:369
+msgid "Nov"
+msgstr "Nov"
+
+#: application/helpers/common-helper.php:98
+#: application/libraries/epl-calendar.php:370
+msgid "Dec"
+msgstr "Des"
+
+#: application/helpers/common-helper.php:332
+msgid "Available for registration on "
+msgstr "Tilgjengelig for registrering den"
+
+#: application/helpers/common-helper.php:337
+msgid " Registration Closed"
+msgstr "Registrering stengt"
+
+#: application/helpers/common-helper.php:743
+msgid "years"
+msgstr "År"
+
+#: application/helpers/common-helper.php:743
+msgid "year"
+msgstr "År"
+
+#: application/helpers/common-helper.php:752
+msgid "months"
+msgstr "måneder"
+
+#: application/helpers/common-helper.php:752
+msgid "month"
+msgstr "måned"
+
+#: application/helpers/common-helper.php:764
+msgid "weeks"
+msgstr "uker"
+
+#: application/helpers/common-helper.php:764
+msgid "week"
+msgstr "uke"
+
+#: application/helpers/common-helper.php:776
+msgid "days"
+msgstr "dager"
+
+#: application/helpers/common-helper.php:776
+msgid "day"
+msgstr "dag"
+
+#: application/helpers/common-helper.php:787
+#: application/helpers/pr-helper.php:31
+msgid "h"
+msgstr "t"
+
+#: application/helpers/common-helper.php:799
+#: application/helpers/pr-helper.php:33
+msgid "m"
+msgstr "m"
+
+#: application/helpers/common-helper.php:807
+msgid "s"
+msgstr "s"
+
+#: application/helpers/date-helper.php:717
+msgid "QB Merch. Serv."
+msgstr ""
+
+#: application/helpers/date-helper.php:734
+msgid "Instructors"
+msgstr "Ledere"
+
+#: application/helpers/date-helper.php:735
+#: application/helpers/template-tags.php:305
+msgid "Instructor"
+msgstr "Leder"
+
+#: application/helpers/date-helper.php:736
+#: application/helpers/date-helper.php:737
+msgid "Add New Instructor"
+msgstr "Legg til en ny leder"
+
+#: application/helpers/date-helper.php:738
+msgid "Edit Event Instructor"
+msgstr "Rediger eventleder"
+
+#: application/helpers/date-helper.php:739
+msgid "New Instructor"
+msgstr "Ny leder"
+
+#: application/helpers/date-helper.php:740
+msgid "View Instructor"
+msgstr "Vis leder"
+
+#: application/helpers/date-helper.php:741
+msgid "Search Instructors"
+msgstr "Søk leder"
+
+#: application/helpers/date-helper.php:742
+msgid "No Instructors Found"
+msgstr "Ingen leder funnet"
+
+#: application/helpers/date-helper.php:743
+msgid "No Instructors Found In Trash"
+msgstr "Ingen leder funnet i papirkurven"
+
+#: application/helpers/date-helper.php:756
+#: application/helpers/date-helper.php:771
+#: application/helpers/date-helper.php:1181
+msgid "Cash"
+msgstr "Kontant"
+
+#: application/helpers/date-helper.php:757
+#: application/helpers/date-helper.php:772
+msgid "Check"
+msgstr ""
+
+#: application/helpers/date-helper.php:759
+#: application/helpers/date-helper.php:774
+#: application/helpers/date-helper.php:972
+msgid "PayPal PRO"
+msgstr ""
+
+#: application/helpers/date-helper.php:760
+#: application/helpers/date-helper.php:775
+#: application/helpers/date-helper.php:1034
+msgid "Authorize.net AIM"
+msgstr ""
+
+#: application/helpers/date-helper.php:796
+msgid "Please select one or more days."
+msgstr "Vennligst velg en eller flere dager"
+
+#: application/helpers/date-helper.php:797
+#: application/helpers/date-helper.php:798
+msgid "You will register for all of the following days."
+msgstr "Du registrerer deg for alle de følgende dagene."
+
+#: application/helpers/date-helper.php:806
+#, php-format
+msgid "User can register for %s one or more days %s."
+msgstr "Bruker kan registrere seg for %s en eller flere dager %s."
+
+#: application/helpers/date-helper.php:807
+#, php-format
+msgid "User automatically registers for %s all days %s."
+msgstr "Bruker registrerer seg automatisk for %s alle dager %s."
+
+#: application/helpers/date-helper.php:808
+msgid "A class/course."
+msgstr "En opplæring/kurs."
+
+#: application/helpers/date-helper.php:830
+msgid "From"
+msgstr "Fra"
+
+#: application/helpers/date-helper.php:838
+msgid "To"
+msgstr "Til"
+
+#: application/helpers/date-helper.php:849
+msgid "Merchandise"
+msgstr "Varer"
+
+#: application/helpers/date-helper.php:861
+msgid "Regis. End Time"
+msgstr "Reg. sluttid"
+
+#: application/helpers/date-helper.php:873
+msgid "Date Specific?"
+msgstr "Datospesifikk?"
+
+#: application/helpers/date-helper.php:892
+msgid ""
+"If the event happens on different days, can the user select a different "
+"price for each one of the days?"
+msgstr ""
+"Om eventet foregår på forskjellige dager, kan brukeren velge forskjellig "
+"pris for hver av dagene?"
+
+#: application/helpers/date-helper.php:910
+msgid ""
+"If the event happens on different days, can the user select a different time "
+"for each one of the days?"
+msgstr ""
+"Om eventet foregår på forskjellige dager, kan brukeren velge forskjellig "
+"tidspunkt for hver av dagene?"
+
+#: application/helpers/date-helper.php:933
+msgid "Presenter, instructor, Trainer..."
+msgstr "Programleder, instruktør, trener..."
+
+#: application/helpers/date-helper.php:942
+msgid "Email message to use for confirmations."
+msgstr "E-postbeskjed for bekreftelse."
+
+#: application/helpers/date-helper.php:951
+msgid "Replace the default email?"
+msgstr "Erstatt standard valgt e-post?"
+
+#: application/helpers/date-helper.php:952
+msgid ""
+"If no, the message in the notification will get appended to the default "
+"confirmation email."
+msgstr ""
+"Hivs ikke vil meldingen i beskjeden ble sendt til standard valgt e-post som "
+"tillegg til bekreftelses-e-postbeskjeden."
+
+#: application/helpers/date-helper.php:973
+#, php-format
+msgid ""
+"Accept Credit and Debit Cards without having the customer leave your "
+"website. Currently available for US and Canada.\n"
+"                <br />%sMUST USE SSL FOR PCI COMPLIANCE.  You can enable SSL "
+"from Events Planner > Settings > Registration tab.%s"
+msgstr ""
+
+#: application/helpers/date-helper.php:985
+msgid ""
+"What the customer will see as an option.  You can use text or embed and "
+"image."
+msgstr ""
+"Det kunden ser som alternativ. Du kan bruke tekst eller legge med et bilde."
+
+#: application/helpers/date-helper.php:1015
+#: application/helpers/date-helper.php:1069
+#: application/helpers/date-helper.php:1121
+msgid "Accepted Cards"
+msgstr "Aksepterte kort"
+
+#: application/helpers/date-helper.php:1017
+msgid ""
+"For Canada, only MasterCard and Visa are allowable and Interac debit cards "
+"are not supported."
+msgstr ""
+
+#: application/helpers/date-helper.php:1035
+#, php-format
+msgid ""
+"Accept Credit and Debit Cards without having the customer leave your "
+"website. %sMUST USE SSL FOR PCI COMPLIANCE.\n"
+"                You can enable SSL from Events Planner > Settings > "
+"Registration tab.%s"
+msgstr ""
+
+#: application/helpers/date-helper.php:1048
+#: application/helpers/date-helper.php:1100
+msgid "What the customer will see as an option.  Ex. Credit Card."
+msgstr "Det kunden ser som alternativ. For eksempel kredittkort"
+
+#: application/helpers/date-helper.php:1055
+msgid "API Login ID"
+msgstr ""
+
+#: application/helpers/date-helper.php:1056
+msgid ""
+"This number can be obtained by logging into Authorize.net > Account > API "
+"Login ID and Transaction Key"
+msgstr ""
+
+#: application/helpers/date-helper.php:1063
+msgid "API Transactioin Key"
+msgstr ""
+
+#: application/helpers/date-helper.php:1086
+msgid "QuickBooks Merc. Serv."
+msgstr ""
+
+#: application/helpers/date-helper.php:1087
+#, php-format
+msgid ""
+"Accept Credit and Debit Cards using QuickBooks Merchant Services. %sMUST USE "
+"SSL FOR PCI COMPLIANCE.\n"
+"                You can enable SSL from Events Planner > Settings > "
+"Registration tab.%s"
+msgstr ""
+
+#: application/helpers/date-helper.php:1107
+msgid "Application Login"
+msgstr "Applikasjonsinnlogging"
+
+#: application/helpers/date-helper.php:1115
+msgid "Connection Ticket"
+msgstr "Tilkoblingsbillett"
+
+#: application/helpers/date-helper.php:1138
+msgid "Checks/Money Orders"
+msgstr "Sjekk/Postanvisning"
+
+#: application/helpers/date-helper.php:1139
+msgid ""
+"You can use this to give your customers the ability to pay using a Check."
+msgstr ""
+"Kan benyttes som muliget for at kunden skal være i stand til å betale med "
+"sjekk."
+
+#: application/helpers/date-helper.php:1150
+#: application/helpers/date-helper.php:1193
+msgid "Display Label"
+msgstr "Vis etikett"
+
+#: application/helpers/date-helper.php:1151
+#: application/helpers/date-helper.php:1194
+msgid "What the customer will see as an option."
+msgstr "Det kunden ser som altenativ."
+
+#: application/helpers/date-helper.php:1157
+msgid "Make Payable To"
+msgstr "Betales av"
+
+#: application/helpers/date-helper.php:1158
+msgid "Who will get this check?"
+msgstr "Vem får denne sjekken?"
+
+#: application/helpers/date-helper.php:1164
+msgid "Send Payment To"
+msgstr "Send betaling til"
+
+#: application/helpers/date-helper.php:1165
+msgid "The address."
+msgstr "Adressen"
+
+#: application/helpers/date-helper.php:1171
+#: application/helpers/date-helper.php:1200
+msgid "Instructions"
+msgstr "Instruksjoner"
+
+#: application/helpers/date-helper.php:1172
+#: application/helpers/date-helper.php:1201
+msgid "Special Instruction to the customer."
+msgstr "Spesialinstruksjoner til kunden."
+
+#: application/helpers/date-helper.php:1182
+msgid "You can use this to give your customers the ability to pay using Cash."
+msgstr "Kan brukes som mulighet for at kunden kan betale med kontanter."
+
+#: application/helpers/date-helper.php:1220
+msgid "First Name"
+msgstr "Fornavn"
+
+#: application/helpers/date-helper.php:1225
+msgid "Last Name"
+msgstr "Etternavn"
+
+#: application/helpers/date-helper.php:1250
+msgid "Country"
+msgstr "Land"
+
+#: application/helpers/date-helper.php:1260
+msgid "Card Type"
+msgstr "Korttype"
+
+#: application/helpers/date-helper.php:1269
+msgid "Card Number"
+msgstr "Kortnummer"
+
+#: application/helpers/date-helper.php:1274
+msgid "CVV Code"
+msgstr "cvv-kode"
+
+#: application/helpers/date-helper.php:1279
+msgid "Expiration Month"
+msgstr "utgangsmåned"
+
+#: application/helpers/date-helper.php:1288
+msgid "Expiration Year"
+msgstr "utgangsår"
+
+#: application/helpers/date-helper.php:1308
+msgid "Support License Key"
+msgstr ""
+
+#: application/helpers/date-helper.php:1324
+msgid "Instructor Name"
+msgstr "Leders navn"
+
+#: application/helpers/pr-helper.php:29
+msgid "d"
+msgstr ""
+
+#: application/helpers/pr-helper.php:48
+msgid "-"
+msgstr ""
+
+#: application/helpers/pr-helper.php:60
+msgid "Available on"
+msgstr "Tilgjengelig den"
+
+#: application/helpers/pr-helper.php:74
+msgid "Ended"
+msgstr "Avsluttet den"
+
+#: application/libraries/epl-advanced-cal-widget.php:23
+#: application/libraries/epl-upcoming-events-widget.php:23
+msgid "Events"
+msgstr "Event"
+
+#: application/libraries/epl-advanced-cal-widget.php:24
+msgid "Exclude Past Events"
+msgstr "Ekskluder tidligere event"
+
+#: application/libraries/epl-calendar.php:374
+msgid "January"
+msgstr "januar"
+
+#: application/libraries/epl-calendar.php:375
+msgid "February"
+msgstr "februar"
+
+#: application/libraries/epl-calendar.php:376
+msgid "March"
+msgstr "mars"
+
+#: application/libraries/epl-calendar.php:377
+msgid "April"
+msgstr "april"
+
+#: application/libraries/epl-calendar.php:379
+msgid "June"
+msgstr "juni"
+
+#: application/libraries/epl-calendar.php:380
+msgid "July"
+msgstr "juli"
+
+#: application/libraries/epl-calendar.php:381
+msgid "August"
+msgstr "august"
+
+#: application/libraries/epl-calendar.php:382
+msgid "September"
+msgstr "september"
+
+#: application/libraries/epl-calendar.php:383
+msgid "October"
+msgstr "oktober"
+
+#: application/libraries/epl-calendar.php:384
+msgid "November"
+msgstr "november"
+
+#: application/libraries/epl-calendar.php:385
+msgid "December"
+msgstr "desember"
+
+#: application/models/epl-gateway-model.php:56
+#: application/models/epl-gateway-model.php:57
+msgid " tickets"
+msgstr "billetter"
+
+#: application/models/epl-registration-model.php:1429
+msgid "Section"
+msgstr "Seksjon"
+
+#: application/models/epl-registration-model.php:1432
+msgid "Please select a quantity."
+msgstr "Velg antall."
+
+#: application/models/epl-registration-model.php:1477
+msgid "Please select at least one date."
+msgstr "Velg minst en dato"
+
+#: application/models/epl-registration-model.php:1648
+#: application/models/epl-registration-model.php:1674
+#: application/models/epl-registration-model.php:1691
+msgid "Sold Out."
+msgstr "Utsolgt"
+
+#: application/models/epl-registration-model.php:1651
+#, php-format
+msgid " Only %d spaces left."
+msgstr "Bare %d plasser igjen."
+
+#: application/models/epl-registration-model.php:1672
+msgid "This time has passed."
+msgstr "Dette tidspunktet har passert."
+
+#: application/models/epl-registration-model.php:1677
+#: application/models/epl-registration-model.php:1698
+#, php-format
+msgid "Only %d spaces left."
+msgstr "Bare %d plasser igjen"
+
+#: application/models/epl-registration-model.php:1695
+msgid "This date has passed."
+msgstr "Denne datoen har passert."
+
+#: application/views/admin/cart/cart-available-spaces.php:3
+msgid "Available Spaces"
+msgstr "Tilgjengelige plasser"
+
+#: application/views/admin/cart/cart-prices.php:20
+msgid "Quantity"
+msgstr "Antall"
+
+#: application/views/admin/events/events-main-meta-box.php:12
+msgid "Times/Prices"
+msgstr "Tider/priser"
+
+#: application/views/admin/events/events-main-meta-box.php:13
+msgid "Location/Organization"
+msgstr "Plass/organisasjon"
+
+#: application/views/admin/events/events-main-meta-box.php:14
+msgid "Registration Fields"
+msgstr "Registeringsfelt"
+
+#: application/views/admin/events/events-main-meta-box.php:15
+msgid "Other Settings"
+msgstr "Endre instillinger"
+
+#: application/views/admin/events/fullcalendar.php:1
+msgid "Click on a date to add it to the section that opened this calendar."
+msgstr ""
+"Klikk på en dato for å legge den til den delen som åpnet denne kalenderen."
+
+#: application/views/admin/events/message-meta-box.php:8
+msgid "Location"
+msgstr "Plass"
+
+#: application/views/admin/events/message-meta-box.php:10
+msgid "Message"
+msgstr "Beskjed"
+
+#: application/views/admin/events/recurrence-fields.php:6
+msgid "First Event Start Date"
+msgstr "Første event startdato"
+
+#: application/views/admin/events/recurrence-fields.php:7
+msgid "Until"
+msgstr "Til"
+
+#: application/views/admin/events/recurrence-fields.php:10
+msgid "Last Event Date"
+msgstr "Siste eventdato"
+
+#: application/views/admin/events/recurrence-fields.php:14
+msgid "Registrations Start"
+msgstr "Registreringsstart"
+
+#: application/views/admin/events/recurrence-fields.php:15
+#: application/views/admin/events/recurrence-fields.php:21
+msgid "Or"
+msgstr "Eller"
+
+#: application/views/admin/events/recurrence-fields.php:16
+#: application/views/admin/events/recurrence-fields.php:22
+msgid "days before the start date"
+msgstr "dager til startdato"
+
+#: application/views/admin/events/recurrence-fields.php:20
+msgid "Registrations End"
+msgstr "registrering opphører"
+
+#: application/views/admin/events/recurrence-fields.php:27
+msgid "Repeats"
+msgstr "Gjentakelser"
+
+#: application/views/admin/events/recurrence-fields.php:31
+msgid "Frequency"
+msgstr "Frekvens"
+
+#: application/views/admin/events/recurrence-fields.php:36
+msgid "Weekdays"
+msgstr "Ukedager"
+
+#: application/views/admin/events/recurrence-fields.php:38
+msgid "All"
+msgstr "Alle"
+
+#: application/views/admin/events/recurrence-fields.php:42
+msgid "Monthly Repeat By"
+msgstr "Månedlige gjentakelser med"
+
+#: application/views/admin/events/recurrence-fields.php:56
+msgid "Preview Calendar"
+msgstr "Forhåndsvis kalender"
+
+#: application/views/admin/events/recurrence-fields.php:57
+msgid "Get Date Fields"
+msgstr "Hent datofelt"
+
+#: application/views/admin/events/recurrence-meta-box.php:3
+msgid "Recurrence helper"
+msgstr "Støtte for gjentagende eventer"
+
+#: application/views/admin/events/settings-meta-box.php:4
+msgid "General"
+msgstr "Hovedsakelig"
+
+#: application/views/admin/events/settings-meta-box.php:5
+msgid "Forms"
+msgstr "Skjemaer"
+
+#: application/views/admin/events/settings-meta-box.php:6
+msgid "Display & Other Options"
+msgstr "Visning og andre alternativer"
+
+#: application/views/admin/events/settings-meta-box.php:7
+msgid "Messages"
+msgstr "Beskjeder"
+
+#: application/views/admin/events/time-price-0.php:122
+msgid "Date specific?"
+msgstr "Datospesifikk?"
+
+#: application/views/admin/events/time-price-0.php:157
+msgid ""
+"At lease one price is required, even if it's a free event.  Enter price in "
+"0.00 format."
+msgstr ""
+"Minst en pris kreves, til og med om det er et gratisarrangement. Det skrives "
+"i format: 0.00"
+
+#: application/views/admin/events/time-price-10.php:1
+msgid "Add Time Block"
+msgstr "Legg til tidsblokk"
+
+#: application/views/admin/events/times-meta-box.php:49
+msgid ""
+"Please note that once you make this selection and save the event, you will "
+"NOT be able to change this."
+msgstr ""
+"Vennligst merk deg at når du gjør dette utvalget og lagrer eventen, kan "
+"dette IKKE forandres."
+
+#: application/views/admin/forms/form-manager-view.php:7
+msgid "Events Planner Form Manager"
+msgstr "Ansvarlig for eventplanleggingskjema"
+
+#: application/views/admin/forms/form-manager-view.php:12
+msgid "Registration Forms"
+msgstr "Registeringsskjema"
+
+#: application/views/admin/registrations/regis-cart-section.php:43
+msgid "Calculate Total"
+msgstr "Beregn totalt"
+
+#: application/views/admin/registrations/regis-cart-section.php:44
+msgid "Get Registration Forms"
+msgstr "Hent registeringsskjema"
+
+#: application/views/admin/registrations/regis-form-wrap.php:5
+msgid "Attendee #"
+msgstr "Deltagere #"
+
+#: application/views/admin/registrations/regis-list-attendee-info.php:4
+msgid "Due"
+msgstr "Kostnad"
+
+#: application/views/admin/registrations/regis-list-attendee-info.php:5
+#: application/views/admin/registrations/regis-list-payment-info.php:8
+msgid "Paid"
+msgstr "Betalt"
+
+#: application/views/admin/settings/settings-page.php:12
+msgid "Events Planner General Settings "
+msgstr "Events Planner hovedinnstillinger"
+
+#: application/views/admin/settings/settings-page.php:15
+msgid "Settings Updated"
+msgstr "Innstillinger oppdaterte"
+
+#: application/views/admin/settings/settings-page.php:27
+msgid "Registrations"
+msgstr "Registreringer"
+
+#: application/views/admin/settings/settings-page.php:30
+msgid "API Settings"
+msgstr "API instillinger"
+
+#: application/views/common/slide-down-box.php:6
+msgid "Close"
+msgstr "Steng"
+
+#: application/views/front/cart-container.php:18
+msgid "Back"
+msgstr "Tillbake"
+
+#: application/views/front/event-list-3.php:48
+#: application/views/front/event-list.php:124
+msgid "More"
+msgstr "Mer"
+
+#: application/views/front/event-list.php:82
+msgid "Multiple locations"
+msgstr "Flera plasser"
+
+#: application/views/front/event-list.php:103
+msgid "Visit Website"
+msgstr "Besøk webside"
+
+#: application/views/front/event-list.php:146
+msgid "Sorry, there are no events currently available."
+msgstr "Dessverre er det ingen events tilgjengelige for øyeblikket."
+
+#: application/views/front/location-map.php:56
+msgid "Map and Driving Direction"
+msgstr "Kart og veibeskrivelse"
+
+#: application/views/front/cart/cart-dates.php:23
+msgid "See Map"
+msgstr "Se kart"
+
+#: application/views/front/cart/cart-prices.php:28
+msgid "Ends"
+msgstr "Slutter"
+
+#: application/views/front/cart/cart.php:76
+msgid "Update Total"
+msgstr "Oppdater total"
+
+#: application/views/front/registration/regis-cc-form.php:8
+msgid "Billing Information"
+msgstr "Fakturainformasjon"
+
+#: application/views/front/registration/regis-confirm-email.php:76
+msgid "by"
+msgstr "av"
+
+#: application/views/front/registration/regis-confirm-email.php:96
+msgid "Purchase Details"
+msgstr "Innkjøpsdetaljer"
+
+#: application/views/front/registration/regis-confirm-email.php:99
+#: application/views/front/registration/regis-thank-you-page.php:10
+msgid "Regis. ID"
+msgstr "Reg. ID"
+
+#: application/views/front/registration/regis-dates-times-prices.php:19
+msgid "Qty"
+msgstr "Ant."
+
+#: application/views/front/registration/regis-payment-details.php:4
+msgid "Payment Details"
+msgstr "Betalingsdetaljer"
+
+#: application/views/front/registration/regis-payment-details.php:21
+msgid "Balance Due"
+msgstr "Kostnadsbalanse"
+
+#: application/views/front/registration/regis-payment-instr.php:8
+msgid "Payment Instructions"
+msgstr "Betalingsinstruksjoner"
+
+#: application/views/front/registration/regis-payment-instr.php:15
+msgid "Payable To"
+msgstr "Betalbar til"
+
+#: application/views/front/registration/regis-thank-you-page.php:24
+msgid "Details"
+msgstr "Detaljer"
+
+#: application/views/widgets/advanced-cal/event-list.php:6
+msgid "No events on this day."
+msgstr "Ingen eventer denne dagen."
+
+#: application/views/widgets/advanced-cal/form.php:1
+#: application/views/widgets/upcoming-events/form.php:2
+msgid "Title"
+msgstr "Tittel"
+
+#: application/views/widgets/advanced-cal/form.php:2
+msgid "Exclude Past Events?"
+msgstr "Ekskluder tidligere event?"
+
+#: application/views/widgets/upcoming-events/form.php:4
+msgid "Include events happening in the next"
+msgstr "Inkluder kommende event"
+
+#: application/views/widgets/upcoming-events/form.php:5
+msgid "Show only:"
+msgstr "Vis bare:"
+
+#: application/views/widgets/upcoming-events/front.php:29
+msgid "No Upcoming Events"
+msgstr "Ingen kommende event"
+
+#: system/epl-base.php:108
+msgid "Missing file"
+msgstr "Fil mangler"
+
+#: system/epl-init.php:204
+msgid "Form Manager"
+msgstr "Skjemaansvarlig"
+
+#: system/epl-init.php:270
+msgid "Events Planner"
+msgstr "Eventplanlegger"
+
+#: system/epl-init.php:271
+msgid "Event Planner"
+msgstr "Eventplanlegger"
+
+#: system/epl-init.php:272 system/epl-init.php:273
+msgid "Add New Event"
+msgstr "Legg til et nytt event"
+
+#: system/epl-init.php:274
+msgid "Edit Event"
+msgstr "Rediger event"
+
+#: system/epl-init.php:275
+msgid "New Event"
+msgstr "Nytt event"
+
+#: system/epl-init.php:276
+msgid "View Event"
+msgstr "Vis event"
+
+#: system/epl-init.php:277
+msgid "Search Events"
+msgstr "Søk event"
+
+#: system/epl-init.php:278
+msgid "No Events Found"
+msgstr "Fant ingen event"
+
+#: system/epl-init.php:279
+msgid "No Events Found In Trash"
+msgstr "Fant ingen event i papirkurven"
+
+#: system/epl-init.php:293
+msgid "Registration"
+msgstr "Registrering"
+
+#: system/epl-init.php:294 system/epl-init.php:295
+msgid "Add New Registration"
+msgstr "Legg til ny registrering"
+
+#: system/epl-init.php:296
+msgid "Edit Registration"
+msgstr "Rediger registrering"
+
+#: system/epl-init.php:298
+msgid "View Registration"
+msgstr "Vis registrering"
+
+#: system/epl-init.php:299
+msgid "Search Registrations"
+msgstr "Søk registreringer"
+
+#: system/epl-init.php:300
+msgid "No Registrations Found"
+msgstr "Fant ingen registreringer"
+
+#: system/epl-init.php:301
+msgid "No Registrations Found In Trash"
+msgstr "Fant ingen registreringer i papirkurven"
+
+#: system/epl-init.php:314
+msgid "Event Locations"
+msgstr "Eventområde"
+
+#: system/epl-init.php:316 system/epl-init.php:317
+msgid "Add New Event Location"
+msgstr "Legg til nytt område"
+
+#: system/epl-init.php:318
+msgid "Edit Event Location"
+msgstr "Rediger eventområde"
+
+#: system/epl-init.php:319
+msgid "New Event Location"
+msgstr "Nytt eventområde"
+
+#: system/epl-init.php:320
+msgid "View Event Location"
+msgstr "Vis eventområde"
+
+#: system/epl-init.php:321
+msgid "Search Event Locations"
+msgstr "Søk eventområder"
+
+#: system/epl-init.php:322
+msgid "No Event Locations Found"
+msgstr "Fant ingen eventområder"
+
+#: system/epl-init.php:323
+msgid "No Event Locations Found In Trash"
+msgstr "Fant ingen eventområder i papirkurven"
+
+#: system/epl-init.php:336
+msgid "Payment Profiles"
+msgstr "Betalingsprofiler"
+
+#: system/epl-init.php:337
+msgid "Payment Profile"
+msgstr "Betalingsprofil"
+
+#: system/epl-init.php:338 system/epl-init.php:339
+msgid "Add New Payment Profile"
+msgstr "Legg til en ny betalingsprofil"
+
+#: system/epl-init.php:340
+msgid "Edit Payment Profiles"
+msgstr "Rediger betalingsprofiler"
+
+#: system/epl-init.php:341
+msgid "New Payment Profile"
+msgstr "Ny betalingsprofil"
+
+#: system/epl-init.php:342
+msgid "View Payment Profile"
+msgstr "Vis betalingsprofil"
+
+#: system/epl-init.php:343
+msgid "Search Payment Profiles"
+msgstr "Søk betalingsprofiler"
+
+#: system/epl-init.php:344
+msgid "No Payment Profiles Found"
+msgstr "Fant ingen betalingsprofiler"
+
+#: system/epl-init.php:345
+msgid "No Payment Profiles Found In Trash"
+msgstr "Fant ingen betalingsprofiler i papirkurven"
+
+#: system/epl-init.php:358
+msgid "Notification Manager"
+msgstr "Beskjedansvarlig"
+
+#: system/epl-init.php:359
+msgid "Notification"
+msgstr "Beskjed"
+
+#: system/epl-init.php:360 system/epl-init.php:361
+msgid "Add New Notification"
+msgstr "Legg til ny beskjed"
+
+#: system/epl-init.php:362
+msgid "Edit Notifications"
+msgstr "Rediger beskjed"
+
+#: system/epl-init.php:363
+msgid "New Notification"
+msgstr "Ny beskjed"
+
+#: system/epl-init.php:364
+msgid "View Notification"
+msgstr "Vis beskjed"
+
+#: system/epl-init.php:365
+msgid "Search Notifications"
+msgstr "Søk beskjed"
+
+#: system/epl-init.php:366
+msgid "No Notifications Found"
+msgstr "Finner ingen beskjeder"
+
+#: system/epl-init.php:367
+msgid "No Notifications Found In Trash"
+msgstr "Finner ingen beskjeder i papirkurven"
+
+#: system/epl-init.php:380
+msgid "Organizations"
+msgstr "Organisasjoner"
+
+#: system/epl-init.php:382 system/epl-init.php:383
+msgid "Add New Organization"
+msgstr "Legg tll ny organisasjon"
+
+#: system/epl-init.php:384
+msgid "Edit Organization"
+msgstr "Rediger organisasjon"
+
+#: system/epl-init.php:385
+msgid "New Organization"
+msgstr "Ny organisasjon"
+
+#: system/epl-init.php:386
+msgid "View Organization"
+msgstr "Vis organisasjon"
+
+#: system/epl-init.php:387
+msgid "Search Organizations"
+msgstr "Søk organisasjon"
+
+#: system/epl-init.php:388
+msgid "No Payment Organizations Found"
+msgstr "Finner ingen betalingsorganisasjon"
+
+#: system/epl-init.php:389
+msgid "No Payment Organizations Found In Trash"
+msgstr "Finner ingen betalingsorganisasjon i papirkurven"
+
+#: system/epl-init.php:417
+msgid "Event Categories"
+msgstr "Eventkategorier"
+
+#: system/epl-init.php:418
+msgid "Event Category"
+msgstr "Eventkategori"
+
+#: system/epl-init.php:419
+msgid "Edit Event Category"
+msgstr "Rediger eventkategori"
+
+#: system/epl-init.php:420
+msgid "Update Event Category"
+msgstr "Oppdater eventkategori"
+
+#: system/epl-init.php:421
+msgid "Add New Event Category"
+msgstr "Legg til ny eventkategori"
+
+#: system/epl-init.php:422
+msgid "New Event Category Name"
+msgstr "Navn på eventkategori"
+
+#: system/epl-init.php:423
+msgid "All Event Categories"
+msgstr "Alle eventkategorier"
+
+#: system/epl-init.php:424
+msgid "Search Event Categories"
+msgstr "Søk eventkategorier"
+
+#: system/epl-init.php:425
+msgid "Parent Category"
+msgstr "Forelderkategori"
+
+#: system/epl-init.php:426
+msgid "Parent Category:"
+msgstr "Forelderkategori:"
+
+#: system/epl-util.php:629
+msgid "to"
+msgstr "til"
+
+#~ msgid "Help"
+#~ msgstr "HjÃ¤lp"
