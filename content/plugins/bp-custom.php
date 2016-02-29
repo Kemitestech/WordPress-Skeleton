@@ -5,9 +5,8 @@
 define('BP_DEFAULT_COMPONENT', 'profile' );
 
 define( 'BP_GROUPS_DEFAULT_EXTENSION', 'members' );
-
+//Stops users with subscriber and customer roles from showing up as buddypress member
 add_filter( 'bp_after_has_members_parse_args', 'buddydev_exclude_users_by_role' );
-
 function buddydev_exclude_users_by_role( $args ) {
     //do not exclude in admin
     if( is_admin() && ! defined( 'DOING_AJAX' ) ) {
@@ -30,6 +29,25 @@ function buddydev_exclude_users_by_role( $args ) {
 
     return $args;
 }
+
+function custom_comment_restrict($keys){//disables media and gallery commenting for non-artist members
+  if(!current_user_can('access_s2member_level1')){
+    $keys['enable_gallery_comment'] = false;
+    $keys['enable_media_comment'] = false;
+  }
+  return $keys;
+}
+add_filter('mpp_settings', 'custom_comment_restrict');
+
+function mpp_custom_restrict( $enabled, $component, $component_id ) {//disables gallery component for non-artist members
+
+    if ( $component == 'groups' &&  ! current_user_can('access_s2member_level1' )) {
+        $enabled = false;
+    }
+
+    return $enabled;
+}
+add_filter( 'mpp_is_enabled', 'mpp_custom_restrict', 10, 3);
 
 add_filter('bp_get_total_member_count','bpdev_members_correct_count');
 function bpdev_members_correct_count($total_count){//Get total member count minus users with subscriber and customer roles
@@ -54,7 +72,7 @@ function bpdev_members_correct_count($total_count){//Get total member count minu
 }
 
 add_filter( 'bp_get_group_join_button', 'custom_hide_joingroup_button');
-function custom_hide_joingroup_button( $btn) {//Hides join group button from customers and subscribers
+function custom_hide_joingroup_button( $btn) {//Hides join group button from users who are not artist members
 
 	if ( ! current_user_can('access_s2member_level1' ) ) {
 		unset( $btn['id'] );//unsetting id will force BP_Button to not generate any content
@@ -64,7 +82,7 @@ function custom_hide_joingroup_button( $btn) {//Hides join group button from cus
 }
 
 add_filter( 'bp_get_add_friend_button', 'custom_hide_addfriend_button' );
-function custom_hide_addfriend_button( $btn ) {//Hides add friend message from customers and subscribers
+function custom_hide_addfriend_button( $btn ) {//Hides add friend button from users who are not artist members
 	if ( ! current_user_can('access_s2member_level1' ) ) {
 		unset( $btn['id'] );//unsetting id will force BP_Button to not generate any content
 	}
@@ -73,7 +91,7 @@ function custom_hide_addfriend_button( $btn ) {//Hides add friend message from c
 }
 
 add_filter( 'bp_get_send_public_message_button', 'custom_hide_public_message_button' );
-function custom_hide_public_message_button( $btn ) {//Hides public message from customers and subscribers
+function custom_hide_public_message_button( $btn ) {//Hides public message button from users who are not artist members
 	if ( ! current_user_can('access_s2member_level1' ) ) {
 		unset( $btn['id'] );//unsetting id will force BP_Button to not generate any content
 	}
@@ -81,25 +99,7 @@ function custom_hide_public_message_button( $btn ) {//Hides public message from 
 	return $btn;
 }
 
-/**
- * Control if MediaPress is enabled for specific component
- *
- * @param boolean $enabled
- * @param string $component  possible values ( 'members', 'groups', 'sitewide')
- * @param int $component_id user_id if $component is 'members', group_id if component is groups
- * @return boolean true to enable, false to disable
- */
-function mpp_custom_restrict( $enabled, $component, $component_id ) {
-
-    if ( $component == 'groups' &&  ! current_user_can('access_s2member_level1' )) {
-        $enabled = false;
-    }
-
-    return $enabled;
-}
-add_filter( 'mpp_is_enabled', 'mpp_custom_restrict', 10, 3);
-
-function filter_send_message_btn() {//Hides private message from customers and subscribers
+function filter_send_message_btn() {//Hides private message button from users who are not artist members
   if ( ! current_user_can('access_s2member_level1' ) ) {
       	$args = array(
       		'id'                => '',
@@ -130,7 +130,7 @@ function filter_send_message_btn() {//Hides private message from customers and s
  }
 add_filter('bp_get_send_message_button_args', 'filter_send_message_btn');
 
-function bp_remove_nav_tabs() {//removes the following tabs for non-members: activity, friends, groups, products
+function bp_remove_nav_tabs() {//removes the following tabs for non-members: activity, friends, groups, products, home(in groups)
   global $bp;
   if(!current_user_can('access_s2member_level1')){
     bp_core_remove_nav_item( 'activity' );
