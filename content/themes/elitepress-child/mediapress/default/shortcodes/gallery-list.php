@@ -9,9 +9,9 @@ if ( ! defined( 'ABSPATH' ) ) {
  *
  * Single gallery entry for mpp-gallery shortcode
  */
-$query = mpp_shortcode_get_gallery_data( 'gallery_list_query' );
+//$query = mpp_shortcode_get_gallery_data( 'gallery_list_query' );
 
-if( empty( $query ) ) {
+if ( empty( $query ) ) {
 	return ;
 }
 
@@ -22,7 +22,7 @@ if( empty( $query ) ) {
 
     <?php while( $query->have_galleries() ): $query->the_gallery(); ?>
 
-		<div class="<?php mpp_gallery_class(  mpp_get_grid_column_class( mpp_shortcode_get_gallery_data( 'column' ) ) );?>" id="mpp-gallery-<?php mpp_gallery_id();?>">
+		<div class="<?php mpp_gallery_class(  mpp_get_grid_column_class( $shortcode_column ) );?>" id="mpp-gallery-<?php mpp_gallery_id();?>">
 
 
 				<?php do_action( 'mpp_before_gallery_shortcode_entry' );?>
@@ -40,7 +40,7 @@ if( empty( $query ) ) {
 
 				<?php do_action( 'mpp_before_gallery_title' ); ?>
 
-				<a <?php if(!is_admin()){echo 'id="gall-link"';}?> href="<?php if(is_admin()){ mpp_gallery_permalink();}else{echo '#';}?>" <?php mpp_gallery_html_attributes( array( 'class' => 'mpp-item-title mpp-gallery-title', 'data-mpp-context' => 'shortcode' ) ); ?> ><?php mpp_gallery_title() ;?></a>
+				<a id="gall-link" href="#" <?php mpp_gallery_html_attributes( array( 'class' => 'mpp-item-title mpp-gallery-title', 'data-mpp-context' => 'shortcode' ) ); ?> ><?php mpp_gallery_title() ;?></a>
 
 				<?php do_action( 'mpp_before_gallery_type_icon' ); ?>
 
@@ -52,10 +52,18 @@ if( empty( $query ) ) {
 
 				<?php do_action( 'mpp_after_gallery_shortcode_entry' ); ?>
 
+
 		</div>
 	<?php endwhile;?>
 
 	<?php mpp_reset_gallery_data(); ?>
   </div>
+
+	<?php if ( $show_pagination ) :?>
+		<div class="mpp-paginator">
+			<?php echo $query->paginate ( false );?>
+		</div>
+	<?php endif;?>
+
 </div>
 <?php endif;?>
