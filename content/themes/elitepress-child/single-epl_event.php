@@ -12,11 +12,18 @@ get_header();
 <div id="primary">
     <div class="container" id="content" role="main">
         <?php the_post(); ?>
+
     <div class="row">
 
-				<h1 class="entry-title"><?php the_title(); ?></h1>
-		
+				<h1 class="title-section"><?php the_title(); ?></h1>
+
 		</div>
+    <div class="row">
+      <div class="col-md-8">
+        <?php the_post_thumbnail(array(360, 370), array('class' => 'img-responsive img-event')); ?>
+        <hr>
+      </div>
+    </div>
 		<div class="row"><!-- start of row -->
 
 		<div class="event_wrapper clearfix">
@@ -26,23 +33,23 @@ get_header();
              <div>
 
                 <div class="event_description clearfix">
-
+                    <h4>Description</h4>
                     <?php the_content(); //the content from the event editor?>
 
                 </div>
 
                 <div class ="event_dates">
-                    <p class="">Dates</p>
+                    <h4>Dates</h4>
                     <?php echo get_the_event_dates( ); ?>
 
                 </div>
                 <div class ="event_times">
-                    <p class="">Times</p>
+                    <h4>Times</h4>
                     <?php echo get_the_event_times( ); ?>
                 </div>
 
                 <div class ="event_prices" style="clear:both;">
-                    <p class="">Ticket Prices</p>
+                    <h4>Ticket Prices</h4>
                     <?php echo get_the_event_prices( ); ?>
                 </div>
 				<div class ="register_button_wrapper pull-left" style="clear:both;">
@@ -61,7 +68,7 @@ get_header();
                 ?>
 					<?php if($event_details['_epl_event_location']) { ?>
                     <div class ="event_location">
-                        <p>Location</p>
+                        <h4>Location</h4>
                         <a href="<?php echo get_permalink( $event_details['_epl_event_location'] ); ?>" title="<?php echo get_the_location_name(); ?>">
                         <?php echo get_the_location_name(); ?>
                     </a><br />
@@ -78,7 +85,7 @@ get_header();
                 ?>
                         <?php if($event_details['_epl_event_organization']) { ?>
 						<div class ="event_organization">
-                            <span class="heading">Hosted By</span>
+                            <h4>Hosted by</h4>
                             <a href="<?php echo get_permalink( $event_details['_epl_event_organization'] ); ?>" title="<?php echo get_the_organization_name(); ?>"><?php echo get_the_organization_name(); ?></a><br />
                     <?php echo get_the_organization_address(); ?><br />
                     <?php echo get_the_organization_city(); ?>  <?php echo get_the_organization_state(); ?> <?php echo get_the_organization_zip(); ?><br />
@@ -91,7 +98,7 @@ get_header();
 				<?php }else { ?>
 					<div class="col-right">
 						<div class ="event_location">
-							<p class="heading">Location:</p>
+							<h4>Location</h4>
 
 							The Arches Project
 							<br />
@@ -101,7 +108,7 @@ get_header();
 							0121 772 0852<br/>
 						</div>
 						<div class ="event_organization">
-                            <p class="heading">Hosted By:</p>
+                            <h4>Hosted by</h4>
                              The Arches Project<br />
 						</div>
 					</div>
