@@ -60,7 +60,7 @@ get_header();
 
 			<div class="col-md-6 col-sm-12 col-xs-12">
 			<?php if($event_details['_epl_event_location'] || $event_details['_epl_event_organization']) { ?>
-            <div class="col_right"><!--start of col_right-->
+            <div class="col_left"><!--start of col_right-->
 
                 <?php
 
@@ -74,7 +74,7 @@ get_header();
                     </a><br />
 
                     <?php echo get_the_location_address(); ?><br />
-                    <?php echo get_the_location_city(); ?>, <?php echo get_the_location_state(); ?> <?php echo get_the_location_zip(); ?>
+                    <?php echo get_the_location_city(); ?><br> <?php echo get_the_location_state(); ?><br> <?php echo get_the_location_zip(); ?><br>
                     <?php echo get_the_location_phone(); ?><br />
                     </div>
 					<?php } ?>
@@ -88,7 +88,7 @@ get_header();
                             <h4>Hosted by</h4>
                             <a href="<?php echo get_permalink( $event_details['_epl_event_organization'] ); ?>" title="<?php echo get_the_organization_name(); ?>"><?php echo get_the_organization_name(); ?></a><br />
                     <?php echo get_the_organization_address(); ?><br />
-                    <?php echo get_the_organization_city(); ?>  <?php echo get_the_organization_state(); ?> <?php echo get_the_organization_zip(); ?><br />
+                    <?php echo get_the_organization_city(); ?><br>  <?php echo get_the_organization_state(); ?><br> <?php echo get_the_organization_zip(); ?><br />
                         <?php echo get_the_organization_phone(); ?><br />
 
                     </div>
@@ -96,7 +96,7 @@ get_header();
                 </div><!-- End of col_right-->
 
 				<?php }else { ?>
-					<div class="col-right">
+					<div class="col-left">
 						<div class ="event_location">
 							<h4>Location</h4>
 
