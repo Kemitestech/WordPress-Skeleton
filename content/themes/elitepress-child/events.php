@@ -7,14 +7,14 @@ get_header();
 		<div class="title-section">
 			<div class="row">
 				<div class="col-md-12">
-					<h1>Events</h1>
+					<h1><?php echo the_title(); ?></h1>
 				</div>
 			</div>
 			</div>
 			<div class="row">
 				<div class="col-md-8">
 					<?php get_template_part('content',''); ?>
-				</div>	
+				</div>
 					<div class="col-md-3 col-md-offset-1">
 			 <?php
 
