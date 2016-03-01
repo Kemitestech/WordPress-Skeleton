@@ -29,17 +29,36 @@ function buddydev_exclude_users_by_role( $args ) {
 
     return $args;
 }
+//Restricts group members from uploading to other group members gallery
+add_filter( 'mpp_user_can_upload', 'mpp_custom_restrict_group_upload', 11, 4 );
+function mpp_custom_restrict_group_upload( $can_do, $component, $component_id, $gallery  ) {
 
-function custom_comment_restrict($keys){//disables media and gallery commenting for non-artist members
+	if ( $component != 'groups' ) {
+		return $can_do;
+	}
+	//we only care about group upload
+	$gallery = mpp_get_gallery( $gallery );
+
+	if ( ! $gallery || $gallery->user_id != get_current_user_id() ) {
+		return false;//do not allow if gallery is not given
+	}
+
+	return true;//the user had created this gallery
+
+}
+
+//disables media and gallery commenting for non-artist members
+add_filter('mpp_settings', 'custom_comment_restrict');
+function custom_comment_restrict($keys){
   if(!current_user_can('access_s2member_level1')){
     $keys['enable_gallery_comment'] = false;
     $keys['enable_media_comment'] = false;
   }
   return $keys;
 }
-add_filter('mpp_settings', 'custom_comment_restrict');
-
-function mpp_custom_restrict( $enabled, $component, $component_id ) {//disables gallery component for non-artist members
+//disables gallery component for non-artist members
+add_filter( 'mpp_is_enabled', 'mpp_custom_restrict', 10, 3);
+function mpp_custom_restrict( $enabled, $component, $component_id ) {
 
     if ( $component == 'groups' &&  ! current_user_can('access_s2member_level1' )) {
         $enabled = false;
@@ -47,10 +66,9 @@ function mpp_custom_restrict( $enabled, $component, $component_id ) {//disables 
 
     return $enabled;
 }
-add_filter( 'mpp_is_enabled', 'mpp_custom_restrict', 10, 3);
-
+//Get total member count minus users with subscriber and customer roles
 add_filter('bp_get_total_member_count','bpdev_members_correct_count');
-function bpdev_members_correct_count($total_count){//Get total member count minus users with subscriber and customer roles
+function bpdev_members_correct_count($total_count){
 	$count_users = count_users(); //WP function returns an array of total users and user counts by roles
 	$total_users = $count_users['total_users']; //Gets the total number of users
   $subscriber_role = array('subscriber');
@@ -72,7 +90,8 @@ function bpdev_members_correct_count($total_count){//Get total member count minu
 }
 
 add_filter( 'bp_get_group_join_button', 'custom_hide_joingroup_button');
-function custom_hide_joingroup_button( $btn) {//Hides join group button from users who are not artist members
+//Hides join group button from users who are not artist members
+function custom_hide_joingroup_button( $btn) {
 
 	if ( ! current_user_can('access_s2member_level1' ) ) {
 		unset( $btn['id'] );//unsetting id will force BP_Button to not generate any content
@@ -82,7 +101,8 @@ function custom_hide_joingroup_button( $btn) {//Hides join group button from use
 }
 
 add_filter( 'bp_get_add_friend_button', 'custom_hide_addfriend_button' );
-function custom_hide_addfriend_button( $btn ) {//Hides add friend button from users who are not artist members
+//Hides add friend button from users who are not artist members
+function custom_hide_addfriend_button( $btn ) {
 	if ( ! current_user_can('access_s2member_level1' ) ) {
 		unset( $btn['id'] );//unsetting id will force BP_Button to not generate any content
 	}
@@ -91,15 +111,16 @@ function custom_hide_addfriend_button( $btn ) {//Hides add friend button from us
 }
 
 add_filter( 'bp_get_send_public_message_button', 'custom_hide_public_message_button' );
-function custom_hide_public_message_button( $btn ) {//Hides public message button from users who are not artist members
+//Hides public message button from users who are not artist members
+function custom_hide_public_message_button( $btn ) {
 	if ( ! current_user_can('access_s2member_level1' ) ) {
 		unset( $btn['id'] );//unsetting id will force BP_Button to not generate any content
 	}
-
 	return $btn;
 }
-
-function filter_send_message_btn() {//Hides private message button from users who are not artist members
+//Hides private message button from users who are not artist members
+add_filter('bp_get_send_message_button_args', 'filter_send_message_btn');
+function filter_send_message_btn() {
   if ( ! current_user_can('access_s2member_level1' ) ) {
       	$args = array(
       		'id'                => '',
@@ -128,9 +149,9 @@ function filter_send_message_btn() {//Hides private message button from users wh
   }
     return $args;
  }
-add_filter('bp_get_send_message_button_args', 'filter_send_message_btn');
-
-function bp_remove_nav_tabs() {//removes the following tabs for non-members: activity, friends, groups, products, home(in groups)
+//removes the following tabs for non-members: activity, friends, groups, products, home(in groups)
+add_action( 'bp_setup_nav', 'bp_remove_nav_tabs', 15 );
+function bp_remove_nav_tabs() {
   global $bp;
   if(!current_user_can('access_s2member_level1')){
     bp_core_remove_nav_item( 'activity' );
@@ -142,5 +163,16 @@ function bp_remove_nav_tabs() {//removes the following tabs for non-members: act
     }
   }
 }
-add_action( 'bp_setup_nav', 'bp_remove_nav_tabs', 15 );
+//shortcode for returning the url of an artist members profile
+add_shortcode('bpProfile','bpProfile');
+function bpProfile( $atts=null, $content=null ) {
+$user_ID = get_current_user_id();
+if ( is_user_logged_in() && current_user_can('access_s2member_level1' )) {
+  return '<a href='.bp_core_get_user_domain( $user_ID ).'profile/>Back to my profile</a>';
+} else {
+  return "";
+}
+}
+
+
 ?>
