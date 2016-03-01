@@ -12,16 +12,16 @@ get_header();
 <div id="primary">
     <div class="container" id="content" role="main">
         <?php the_post(); ?>
-        <div class="row">
-			<div class="col-md-12">
+    <div class="row">
+
 				<h1 class="entry-title"><?php the_title(); ?></h1>
-			</div>
+		
 		</div>
 		<div class="row"><!-- start of row -->
-			
+
 		<div class="event_wrapper clearfix">
 
-		  
+
 			<div class="col-md-6 col-sm-12 col-xs-12">
              <div>
 
@@ -50,9 +50,9 @@ get_header();
                 </div>
             </div>
 			</div>
-			
+
 			<div class="col-md-6 col-sm-12 col-xs-12">
-			<?php if($event_details['_epl_event_location'] || $event_details['_epl_event_organization']) { ?>	
+			<?php if($event_details['_epl_event_location'] || $event_details['_epl_event_organization']) { ?>
             <div class="col_right"><!--start of col_right-->
 
                 <?php
@@ -83,16 +83,16 @@ get_header();
                     <?php echo get_the_organization_address(); ?><br />
                     <?php echo get_the_organization_city(); ?>  <?php echo get_the_organization_state(); ?> <?php echo get_the_organization_zip(); ?><br />
                         <?php echo get_the_organization_phone(); ?><br />
-                        
+
                     </div>
-					<?php } ?>	
+					<?php } ?>
                 </div><!-- End of col_right-->
-				
+
 				<?php }else { ?>
 					<div class="col-right">
 						<div class ="event_location">
 							<p class="heading">Location:</p>
-							
+
 							The Arches Project
 							<br />
 							Addereley Street<br/>
@@ -102,13 +102,13 @@ get_header();
 						</div>
 						<div class ="event_organization">
                             <p class="heading">Hosted By:</p>
-                             The Arches Project<br />    
+                             The Arches Project<br />
 						</div>
-					</div>	
-					<?php } ?> 
+					</div>
+					<?php } ?>
 					</div>
                 </div><!-- End of event wrapper-->
-				</div><!-- End of row-->	
+				</div><!-- End of row-->
             </div><!-- #content -->
         </div><!-- #primary -->
 
