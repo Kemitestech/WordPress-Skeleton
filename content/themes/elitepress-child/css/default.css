@@ -661,11 +661,11 @@
 	color:#ffffff;
 }
 .project-btn:after {
-    background: none repeat scroll 0 0 #f36557;
+    background: none repeat scroll 0 0 #333;
 }
 .project-btn {
     background: none repeat scroll 0 0 transparent;
-    border: 2px solid #f36557;
+    border: 2px solid #333;
     color: #2a2e34;
     text-shadow: 0 0 1px rgba(255, 255, 255, 0.3);
 	box-shadow: 0 8px 10px -7px #777;
@@ -1221,7 +1221,7 @@ blockquote.blockquote2 {
 	color: #2a2e34;
 }
 .error_404 h4 {
-	color: #f36557;
+	color: #333;
 }
 .error_404 p {
 	color: #8f969c;

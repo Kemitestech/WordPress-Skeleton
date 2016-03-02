@@ -20,12 +20,16 @@ get_header();
 					<p>
 						We are also actively seeking musicians and performers for up and coming events and workshops to help them gain experience and excel further within their chosen field at our rehearsal space in Digbeth. We aim to hold many more events for our up and coming musicians and performers so they can excel further in their talent, we give them the ability to do this by providing a space for them to practice and develop their skills in their own time.
 					</p>
-					<button type="button" class="my-btn btn-apply" style="margin-top: 15px;" data-toggle="button" aria-pressed="false" autocomplete="off">
-					Apply
-					</button>
-					<button type="button" class="my-btn btn-apply" style="margin-left: 15px; margin-top: 15px;" data-toggle="button" aria-pressed="false" autocomplete="off">
-					View Artist Shop
-					</button>
+					<a href="<?php echo home_url();?>/apply">
+						<button type="button" class="my-btn btn-apply" style="margin-top: 15px; margin-bottom: 15px;" aria-pressed="false">
+						Apply
+						</button>
+					</a>
+					<a href="<?php echo home_url();?>/shop">
+						<button type="button" class="my-btn btn-apply" style="margin-left: 15px; margin-top: 15px; margin-bottom: 15px;" aria-pressed="false">
+						View Artist Shop
+						</button>
+					</a>	
 
 				</div>
 				<div class="col-md-6">
