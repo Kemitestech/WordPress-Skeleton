@@ -1,6 +1,6 @@
 <?php
 /** nav-menu-walker.php */
-class webriti_nav_walker extends Walker_Nav_Menu {	
+class my_nav_walker extends Walker_Nav_Menu {
 	function start_lvl( &$output, $depth = 0, $args = array() ) {
 		$indent = str_repeat("\t", $depth);
 		$output .= "\n$indent<ul class=\"dropdown-menu\">\n";
@@ -30,7 +30,7 @@ class webriti_nav_walker extends Walker_Nav_Menu {
 		$attributes .= ! empty( $item->xfn )        ? ' rel="'    . esc_attr( $item->xfn        ) .'"' : '';
 		$attributes .= ! empty( $item->url )        ? ' href="'   . esc_attr( $item->url        ) .'"' : '';
 		//$attributes .= ($args->has_children) 	    ? ' data-toggle="dropdown" data-target="#" class="dropdown-toggle"' : '';
-			
+
 		$item_output = $args->before;
 		$item_output .= '<a'. $attributes .'>';
 		$item_output .= $args->link_before . apply_filters( 'the_title', $item->title, $item->ID ) . $args->link_after;
@@ -49,8 +49,8 @@ class webriti_nav_walker extends Walker_Nav_Menu {
 		//display this element
 		if ( is_array( $args[0] ) )
 			$args[0]['has_children'] = ! empty( $children_elements[$element->$id_field] );
-		else if ( is_object( $args[0] ) ) 
-			$args[0]->has_children = ! empty( $children_elements[$element->$id_field] ); 
+		else if ( is_object( $args[0] ) )
+			$args[0]->has_children = ! empty( $children_elements[$element->$id_field] );
 		$cb_args = array_merge( array(&$output, $element, $depth), $args);
 		call_user_func_array(array($this, 'start_el'), $cb_args);
 
@@ -83,11 +83,11 @@ class webriti_nav_walker extends Walker_Nav_Menu {
 		call_user_func_array(array($this, 'end_el'), $cb_args);
 	}
 }
-function webriti_nav_menu_css_class( $classes ) {
+function my_nav_menu_css_class( $classes ) {
 	if ( in_array('current-menu-item', $classes ) OR in_array( 'current-menu-ancestor', $classes ) )
 		$classes[]	=	'active';
 
 	return $classes;
 }
-add_filter( 'nav_menu_css_class', 'webriti_nav_menu_css_class' );
+add_filter( 'nav_menu_css_class', 'my_nav_menu_css_class' );
 ?>
