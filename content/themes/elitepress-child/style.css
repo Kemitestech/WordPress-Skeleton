@@ -469,6 +469,10 @@ WooCommerce Styles
   margin-top: 10px !important;
 }
 
+.cat-item a {
+    color: #123F5A !important;
+}
+  
 .sidebar-widget > ul > li > a:before {
   content: '\f0da';
 	color: black;
