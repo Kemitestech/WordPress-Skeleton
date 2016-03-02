@@ -460,6 +460,15 @@ WooCommerce Styles
   margin: 10px 0 10px 5px !important;
 }
 
+.price_slider_wrapper{
+  width: 90%;
+  margin-left: 9px;
+}
+
+.price_slider_amount button {
+  margin-top: 10px !important;
+}
+
 .sidebar-widget > ul > li > a:before {
   content: '\f0da';
 	color: black;
