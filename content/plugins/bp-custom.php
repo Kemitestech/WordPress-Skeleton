@@ -149,7 +149,7 @@ function filter_send_message_btn() {
   }
     return $args;
  }
-//removes the following tabs for non-members: activity, friends, groups, products, home(in groups)
+//removes the following tabs for non-members: activity, friends, groups, products, home(in group section)
 add_action( 'bp_setup_nav', 'bp_remove_nav_tabs', 15 );
 function bp_remove_nav_tabs() {
   global $bp;

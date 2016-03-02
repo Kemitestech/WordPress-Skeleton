@@ -344,7 +344,9 @@ p {
 	display: block;
 	margin: 0px 0px 25px 25px;
 }
-
+#buddypress div.item-list-tabs#object-nav {
+  margin-top: 20px;
+}
 .site-logo a {
   display:inline-block;
   height: 100%;
@@ -363,6 +365,10 @@ p {
   #header-btn-container {
   	float: none;
   	margin-right: 16px;
+  }
+
+  #buddypress div.item-list-tabs#object-nav {
+    margin-top: 20px;
   }
 }
 
@@ -454,6 +460,19 @@ WooCommerce Styles
   margin: 10px 0 10px 5px !important;
 }
 
+.price_slider_wrapper{
+  width: 90%;
+  margin-left: 9px;
+}
+
+.price_slider_amount button {
+  margin-top: 10px !important;
+}
+
+.cat-item a {
+    color: #123F5A !important;
+}
+  
 .sidebar-widget > ul > li > a:before {
   content: '\f0da';
 	color: black;
@@ -727,10 +746,6 @@ display: block !important;
 visibility: visible !important;
 }
 
-.page-description .mpp-gallery-title{
-  color: #123F5A;
-}
-
 .mpp-item-actions a:nth-child(n+2){
   margin-left: 5px;
 }
@@ -740,7 +755,14 @@ visibility: visible !important;
 }
 
 .mpp-menu a.mpp-selected-item {
-    color: #123F5A;
+    color: #333;
+}
+
+label.mpp-gallery-title{
+  color: #333 !important;
+}
+#change-gallery-cover a {
+  margin-right: 5px;
 }
 
 #editpost_products a {

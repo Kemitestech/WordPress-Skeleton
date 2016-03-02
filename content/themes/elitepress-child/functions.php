@@ -6,7 +6,12 @@
 define('MY_TEMPLATE_DIR_URI', get_stylesheet_directory_uri());
 define('MY_TEMPLATE_DIR',get_stylesheet_directory());
 define('MY_THEME_FUNCTIONS_PATH',MY_TEMPLATE_DIR.'/functions');
-
+/*define('MY_THEME_FUNCTIONS_PATH', MY_TEMPLATE_DIR_URI.'/functions/theme_options');
+require( MY_THEME_FUNCTIONS_PATH . '/menu/default_menu_walker.php');
+require( MY_THEME_FUNCTIONS_PATH . '/menu/webriti_nav_walker.php');
+require( MY_THEME_FUNCTIONS_PATH . '/meta-box/post-meta.php');
+require( MY_THEME_FUNCTIONS_PATH . '/template-tag.php');
+require( MY_THEME_FUNCTIONS_PATH . '/font/font.php');*/
 require( MY_THEME_FUNCTIONS_PATH . '/widget/custom-sidebar.php');
 require_once( MY_THEME_FUNCTIONS_PATH . '/scripts/scripts.php');
 
@@ -17,14 +22,56 @@ function theme_enqueue_style() {
 	wp_enqueue_script('utility', get_stylesheet_directory_uri() .'/js/utility.js');
 }
 
-function my_bp_core_activated_user(  $user_id, $key, $user ) {
+/*
+wp title tag starts here
+add_filter( 'wp_title', 'my_head', 10, 2);
+function my_head( $title, $sep ) {
+				global $paged, $page;
 
+				if ( is_feed() )
+								return $title;
+
+	 // Add the site name.
+			$title .= get_bloginfo( 'name', 'display' );
+					 Add the site description for the home/front page.
+		$site_description = get_bloginfo( 'description', 'display' );
+				if ( $site_description && ( is_home() || is_front_page() ) )
+							$title = "$title $sep $site_description";
+  Add a page number if necessary.
+			if ( ( $paged >= 2 || $page >= 2 ) && ! is_404() )
+								$title = "$title $sep " . sprintf( __( 'Page %s', 'elitepress' ), max( $paged, $page ) );
+			return $title;
+}
+
+add_action( 'after_setup_theme', 'elitepress_child_setup' );
+function elitepress_child_setup()
+{
+	global $content_width;
+	if ( ! isset( $content_width ) ) $content_width = 600;//In PX
+
+ Load text domain for translation-ready
+	load_theme_textdomain( 'elitepress', MY_THEME_FUNCTIONS_PATH . '/lang' );
+
+	add_theme_support( 'post-thumbnails' ); //supports featured image
+	// This theme uses wp_nav_menu() in one location.
+	register_nav_menu( 'primary', __( 'Primary Menu', 'elitepress' ) ); //Navigation
+	register_nav_menu( 'footer_menu', __( 'Footer Menu', 'elitepress' ) );
+	// theme support
+	$args = array('default-color' => '000000',);
+	add_theme_support( 'custom-background', $args  );
+	add_theme_support( 'automatic-feed-links');
+
+	require_once('theme_setup_data.php');
+	require( MY_THEME_FUNCTIONS_PATH . '/theme_options/option_pannel.php' ); // for Option Panel Settings
+}
+*/
+//Adds a vendor role for the Artist member once they activate their account
+add_action( 'bp_core_activated_user', 'my_bp_core_activated_user', 10, 3 );
+function my_bp_core_activated_user(  $user_id, $key, $user ) {
 	if (in_array('s2member_level1', $user->roles)){
 				$user->add_role('vendor');
 	}
 };
-add_action( 'bp_core_activated_user', 'my_bp_core_activated_user', 10, 3 );
-
 //Filters
 //Functions dealing with manipulating the excerpt of posts
 add_filter('get_the_excerpt','my_post_slider_excerpt');
