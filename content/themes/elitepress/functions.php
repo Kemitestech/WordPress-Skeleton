@@ -15,6 +15,19 @@
 	require( WEBRITI_THEME_FUNCTIONS_PATH . '/template-tag.php');
 	require( WEBRITI_THEME_FUNCTIONS_PATH . '/font/font.php');
 	
+	//Customizer 
+	require( WEBRITI_THEME_FUNCTIONS_PATH . '/customizer/customizer-slider.php');
+	require( WEBRITI_THEME_FUNCTIONS_PATH . '/customizer/customizer-service.php');
+	require( WEBRITI_THEME_FUNCTIONS_PATH . '/customizer/customizer-home.php');
+	require( WEBRITI_THEME_FUNCTIONS_PATH . '/customizer/customizer-project.php');
+	require( WEBRITI_THEME_FUNCTIONS_PATH . '/customizer/customizer-copyright.php');
+	require( WEBRITI_THEME_FUNCTIONS_PATH . '/customizer/customizer-pro.php');
+	require( WEBRITI_THEME_FUNCTIONS_PATH . '/customizer/customizer-homecallout.php');
+	require( WEBRITI_THEME_FUNCTIONS_PATH . '/customizer/customizer_banner.php');
+	
+	
+	
+	
 	//wp title tag starts here
 	function elitepress_head( $title, $sep ) {
 	        global $paged, $page;
@@ -52,9 +65,8 @@
 		$args = array('default-color' => '000000',);
 		add_theme_support( 'custom-background', $args  ); 
 		add_theme_support( 'automatic-feed-links');
-		
+		add_theme_support( "title-tag" );
 		require_once('theme_setup_data.php');
-		require( WEBRITI_THEME_FUNCTIONS_PATH . '/theme_options/option_pannel.php' ); // for Option Panel Settings		
 	}
 	
 	function elitepress_add_gravatar_class($class) {
@@ -92,4 +104,12 @@ function elitepress_get_custom_link($url,$target,$title)
 		}
 	}
 }
+
+// Read more tag to formatting in blog page 	
+	function elitepress_content_more($more)
+	{  global $post;
+		return '<div class="blog-btn-div"><a href="' . get_permalink() . "\" class=\"blog-btn\">Read More</a></div>";
+	}   
+	add_filter( 'the_content_more_link', 'elitepress_content_more' );
+
 ?>

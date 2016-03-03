@@ -12,7 +12,6 @@ function theme_data_setup()
 			
 			
 			//Slider
-			'home_slider_enabled'=>'on',
 			'animation' => 'slide',
 			'animationSpeed' => '1500',
 			'slide_direction' => 'horizontal',
@@ -22,8 +21,7 @@ function theme_data_setup()
 			
 			
 			
-			'home_banner_enabled'=>'on',
-			'home_post_enabled' => 'on',
+			'home_banner_enabled'=>true,
 			'slider_total' => 4,
 			'slider_radio' => 'demo',
 			'slider_options'=> 'slide',
@@ -32,16 +30,16 @@ function theme_data_setup()
 			'featured_slider_post' => '',
 			
 			// Social media links
-			'header_social_media_enabled'=> 'on',
-			'facebook_media_enabled'=> 'on',
-			'twitter_media_enabled'=> 'on',
-			'googleplus_media_enabled'=> 'on',
-			'linkedin_media_enabled'=> 'on',
-			'skype_media_enabled'=> 'on',
-			'dribbble_media_enabled'=> 'on',
-			'youtube_media_enabled'=> 'on',
-			'vimeo_media_enabled'=> 'on',
-			'pagelines_media_enabled'=> 'on',
+			'header_social_media_enabled'=> true,
+			'facebook_media_link_target'=> true,
+			'twitter_media_link_target'=> true,
+			'google_media_link_target'=> true,
+			'linkedin_media_link_target'=> true,
+			'skype_media_link_target'=> true,
+			'dribble_media_link_target'=> true,
+			'youtube_media_link_target'=> true,
+			'viemo_media_link_target'=> true,
+			'pagelines_media_link_target'=> true,
 			'social_media_facebook_link' => "#",
 			'social_media_twitter_link' => "#",
 			'social_media_googleplus_link' => "#",
@@ -53,36 +51,36 @@ function theme_data_setup()
 			'social_media_pagelines_link' => "#",
 			
 			//Contact Address Settings
-			'contact_address_settings' => __('on','elitepress'),
+			'contact_address_settings' => true,
 			'contact_phone_number' => __('+48-0987-654-321','elitepress'),
 			'contact_email' => __('info@elitepresstheme.com','elitepress'),
 			
 			
 			
 			//header logo setting
-			'logo_section_settings' => 'on',
+			'logo_section_settings' => true,
 			'upload_image_logo'=>'',
 			'height'=>'50',
 			'width'=>'250',
-			'text_title'=>'on',
+			'text_title'=>true,
 			
 			//header search Bar setting
-			'header_search_bar_enabled' => 'on',
+			'header_search_bar_enabled' => true,
 			
 			//Home Top Call Out Area
-			'header_call_out_area_enabled' => 'on',
+			'header_call_out_area_enabled' => true,
 			'header_call_out_title'=> __('Want to say Hey or find out more?','elitepress'),
 			'header_call_out_description'=> __('Reprehen derit in voluptate velit cillum dolore eu fugiat nulla pariaturs  sint occaecat proidentse.','elitepress'),
 			'header_call_out_btn_text'=> __('Buy It Now!','elitepress'),
 			'header_call_out_btn_link'=>'',
-			'header_call_out_btn_link_target'=>'on',
+			'header_call_out_btn_link_target'=>true,
 			
 			
 			//Footer Copyright custmization
 			'footer_copyright_text' => __('<p>Copyright 2014 ElitePress <a href="#">WordPress Theme</a>. All rights reserved</p>','elitepress'),
 			
 			//Footer Menu bar Setting			
-			'footer_menu_bar_enabled' => 'on',
+			'footer_menu_bar_enabled' => true,
 			
 			//portfolio
 			'portfolio_section_enabled' => 'on',
@@ -104,7 +102,7 @@ function theme_data_setup()
 			
 			
 			// service
-			'service_section_enabled' => 'on',
+			'service_section_enabled' => true,
 			'service_title' => __('Our Services','elitepress'),
 			'service_description' => __('Duis aute irure dolor in reprehenderit in voluptate velit cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupid non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.','elitepress'),
 			/** Service One Setting **/

@@ -1,10 +1,11 @@
-<?php $current_options = get_option('elitepress_lite_options',theme_data_setup()); ?>
+<?php $elitepress_lite_options=theme_data_setup();
+		$current_options = wp_parse_args(  get_option( 'elitepress_lite_options', array() ), $elitepress_lite_options ); ?>
 <!-- Service Section -->
 
 <div class="service-section">
 	<div class="container">
 <?php
-	if($current_options['service_section_enabled'] == 'on') {
+	if($current_options['service_section_enabled'] == true) {
 	$service_one_title = $current_options['service_one_title'];
 	$service_one_description = $current_options['service_one_description'];
 	$service_two_title = $current_options['service_two_title'];

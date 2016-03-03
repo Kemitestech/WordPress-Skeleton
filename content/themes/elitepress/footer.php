@@ -1,4 +1,5 @@
-<?php $current_options = get_option('elitepress_lite_options',theme_data_setup()); ?>
+<?php $elitepress_lite_options=theme_data_setup();
+		$current_options = wp_parse_args(  get_option( 'elitepress_lite_options', array() ), $elitepress_lite_options );?>
 <!-- Footer Section -->
 
 				<div class="container">
@@ -12,17 +13,6 @@
 			</div>
 		<!-- /Footer Widget -->	
 		</div>
-
-<!-- /Footer Section -->
-<!-- Custom css --->
-<?php
-if($current_options['webrit_custom_css']!='') {  ?>
-<style>
-<?php echo $current_options['webrit_custom_css']; ?>
-</style>
-<?php }  ?>
-
-<!-- Footer Copyright Section -->
 <div class="footer-copyright-section">
 	<div class="container">
 		<div class="row">
@@ -32,7 +22,7 @@ if($current_options['webrit_custom_css']!='') {  ?>
 				</div>
 			</div>
 			<div class="col-md-5">
-			<?php if($current_options['footer_menu_bar_enabled']=='on') { ?>	
+			<?php if($current_options['footer_menu_bar_enabled']==true) { ?>	
 			<?php
 			wp_nav_menu( array(  
 					'theme_location' => 'footer_menu',
@@ -50,7 +40,6 @@ if($current_options['webrit_custom_css']!='') {  ?>
 </div>
 <!-- /Footer Copyright Section -->
 </div><!-- /Close of wrapper -->  
-
 <!--Scroll To Top--> 
 <a href="#" class="hc_scrollup"><i class="fa fa-chevron-up"></i></a>
 <!--/Scroll To Top--> 
