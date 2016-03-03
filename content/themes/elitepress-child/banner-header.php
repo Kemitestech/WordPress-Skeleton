@@ -1,6 +1,6 @@
 <?php
 get_header();
-$current_options = get_option('elitepress_lite_options',theme_data_setup()); 
+$current_options = get_option('elitepress_lite_options',theme_data_setup());
 
  if(is_category()){
   $h1=$current_options['banner_title_category'];
@@ -34,17 +34,17 @@ $current_options = get_option('elitepress_lite_options',theme_data_setup());
   $bd=get_post_meta( $post->ID, 'banner_description', true );
   }
   ?>
-<div class="page-title-section">		
+<div class="page-title-section">
 	<div class="overlay">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
 					<div class="page-title">
-					<h1><?php if($h1!=''){ echo esc_attr($h1); } else{ 
+					<h1><?php if($h1!=''){ echo esc_attr($h1); } else{
 					_e("Title",'elitepress');} ?></h1>
 					<div class="page-title-seprator"></div>
-					 <p><?php if($bd!=''){ echo esc_attr($bd);}  else { 
-					_e('Autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et dolore feugait','elitepress');}?></p>
+					 <p><?php if($bd!=''){ echo esc_attr($bd);}  else {
+					_e('','elitepress');}?></p>
 					</div>
 				</div>
 			</div>

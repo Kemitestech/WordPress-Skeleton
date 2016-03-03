@@ -87,6 +87,35 @@ h1, h2, h3, h4, h5 {
 	margin-bottom: 10px;
   float: left;
 }
+
+.flex-slider-center p{
+  color: white;
+  font-size: 700;
+  font: 28px;
+}
+
+#menu-quick-links a, #menu-quick-links a:hover{
+  color: #123F5A;
+}
+
+.menu a, .menu a:hover {
+    color: #123F5A;
+    font-size: 14px;
+    font-family: inherit;
+    font-weight: 600;
+    border-bottom: 0;
+    display: block;
+    font-size: 14px;
+    line-height: 7px !important;
+    margin: 0 !important;
+    padding: 10px 0 !important;
+    overflow: hidden;
+    transition: all 0.4s ease 0s;
+}
+
+.lsi-social-icons li{
+margin-right: 5px;
+}
 /*header button Css---------------------------------------------------------------------------------------------------*/
 #header-btn-container {
 	margin-right: 56px;
@@ -246,7 +275,7 @@ h1, h2, h3, h4, h5 {
 
 .footer-widget-column > ul > li {
     border-bottom: 0px;
-	margin: 3px ;
+	  margin-right: 7px !important;
 }
 
 .footer-widget-column > .menu-quick-links-container > ul > li > a {
@@ -472,7 +501,7 @@ WooCommerce Styles
 .cat-item a {
     color: #123F5A !important;
 }
-  
+
 .sidebar-widget > ul > li > a:before {
   content: '\f0da';
 	color: black;
